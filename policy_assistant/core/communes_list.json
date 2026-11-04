@@ -1,0 +1,732 @@
+[
+  {
+    "ma_xa":"DL_COMM_046",
+    "ten_xa":"Xã Cuôr KNia",
+    "ten_huyen":"Huyện Buôn Đôn"
+  },
+  {
+    "ma_xa":"DL_COMM_047",
+    "ten_xa":"Xã Ea Bar",
+    "ten_huyen":"Huyện Buôn Đôn"
+  },
+  {
+    "ma_xa":"DL_COMM_043",
+    "ten_xa":"Xã Ea Huar",
+    "ten_huyen":"Huyện Buôn Đôn"
+  },
+  {
+    "ma_xa":"DL_COMM_048",
+    "ten_xa":"Xã Ea Nuôl",
+    "ten_huyen":"Huyện Buôn Đôn"
+  },
+  {
+    "ma_xa":"DL_COMM_044",
+    "ten_xa":"Xã Ea Wer",
+    "ten_huyen":"Huyện Buôn Đôn"
+  },
+  {
+    "ma_xa":"DL_COMM_042",
+    "ten_xa":"Xã Krông Na",
+    "ten_huyen":"Huyện Buôn Đôn"
+  },
+  {
+    "ma_xa":"DL_COMM_045",
+    "ten_xa":"Xã Tân Hoà",
+    "ten_huyen":"Huyện Buôn Đôn"
+  },
+  {
+    "ma_xa":"DL_COMM_140",
+    "ten_xa":"Xã Cư Ê Wi",
+    "ten_huyen":"Huyện Cư Kuin"
+  },
+  {
+    "ma_xa":"DL_COMM_145",
+    "ten_xa":"Xã Dray Bhăng",
+    "ten_huyen":"Huyện Cư Kuin"
+  },
+  {
+    "ma_xa":"DL_COMM_143",
+    "ten_xa":"Xã Ea BHốk",
+    "ten_huyen":"Huyện Cư Kuin"
+  },
+  {
+    "ma_xa":"DL_COMM_144",
+    "ten_xa":"Xã Ea Hu",
+    "ten_huyen":"Huyện Cư Kuin"
+  },
+  {
+    "ma_xa":"DL_COMM_141",
+    "ten_xa":"Xã Ea Ktur",
+    "ten_huyen":"Huyện Cư Kuin"
+  },
+  {
+    "ma_xa":"DL_COMM_139",
+    "ten_xa":"Xã Ea Ning",
+    "ten_huyen":"Huyện Cư Kuin"
+  },
+  {
+    "ma_xa":"DL_COMM_142",
+    "ten_xa":"Xã Ea Tiêu",
+    "ten_huyen":"Huyện Cư Kuin"
+  },
+  {
+    "ma_xa":"DL_COMM_146",
+    "ten_xa":"Xã Hòa Hiệp",
+    "ten_huyen":"Huyện Cư Kuin"
+  },
+  {
+    "ma_xa":"DL_COMM_049",
+    "ten_xa":"Thị trấn Ea Pốk",
+    "ten_huyen":"Huyện Cư M'gar"
+  },
+  {
+    "ma_xa":"DL_COMM_053",
+    "ten_xa":"Xã Cư Dliê M'nông",
+    "ten_huyen":"Huyện Cư M'gar"
+  },
+  {
+    "ma_xa":"DL_COMM_058",
+    "ten_xa":"Xã Cư M'gar",
+    "ten_huyen":"Huyện Cư M'gar"
+  },
+  {
+    "ma_xa":"DL_COMM_061",
+    "ten_xa":"Xã Cư Suê",
+    "ten_huyen":"Huyện Cư M'gar"
+  },
+  {
+    "ma_xa":"DL_COMM_062",
+    "ten_xa":"Xã Cuor Đăng",
+    "ten_huyen":"Huyện Cư M'gar"
+  },
+  {
+    "ma_xa":"DL_COMM_059",
+    "ten_xa":"Xã Ea D'Rơng",
+    "ten_huyen":"Huyện Cư M'gar"
+  },
+  {
+    "ma_xa":"DL_COMM_054",
+    "ten_xa":"Xã Ea H'đinh",
+    "ten_huyen":"Huyện Cư M'gar"
+  },
+  {
+    "ma_xa":"DL_COMM_051",
+    "ten_xa":"Xã Ea Kiết",
+    "ten_huyen":"Huyện Cư M'gar"
+  },
+  {
+    "ma_xa":"DL_COMM_050",
+    "ten_xa":"Xã Ea Kuêh",
+    "ten_huyen":"Huyện Cư M'gar"
+  },
+  {
+    "ma_xa":"DL_COMM_056",
+    "ten_xa":"Xã Ea M'DRóh",
+    "ten_huyen":"Huyện Cư M'gar"
+  },
+  {
+    "ma_xa":"DL_COMM_060",
+    "ten_xa":"Xã Ea M'nang",
+    "ten_huyen":"Huyện Cư M'gar"
+  },
+  {
+    "ma_xa":"DL_COMM_052",
+    "ten_xa":"Xã Ea Tar",
+    "ten_huyen":"Huyện Cư M'gar"
+  },
+  {
+    "ma_xa":"DL_COMM_055",
+    "ten_xa":"Xã Ea Tul",
+    "ten_huyen":"Huyện Cư M'gar"
+  },
+  {
+    "ma_xa":"DL_COMM_057",
+    "ten_xa":"Xã Quảng Hiệp",
+    "ten_huyen":"Huyện Cư M'gar"
+  },
+  {
+    "ma_xa":"DL_COMM_021",
+    "ten_xa":"Thị trấn Ea Drăng",
+    "ten_huyen":"Huyện Ea H'leo"
+  },
+  {
+    "ma_xa":"DL_COMM_026",
+    "ten_xa":"Xã Cư A Mung",
+    "ten_huyen":"Huyện Ea H'leo"
+  },
+  {
+    "ma_xa":"DL_COMM_027",
+    "ten_xa":"Xã Cư Mốt",
+    "ten_huyen":"Huyện Ea H'leo"
+  },
+  {
+    "ma_xa":"DL_COMM_030",
+    "ten_xa":"Xã Dliê Yang",
+    "ten_huyen":"Huyện Ea H'leo"
+  },
+  {
+    "ma_xa":"DL_COMM_022",
+    "ten_xa":"Xã Ea H'leo",
+    "ten_huyen":"Huyện Ea H'leo"
+  },
+  {
+    "ma_xa":"DL_COMM_028",
+    "ten_xa":"Xã Ea Hiao",
+    "ten_huyen":"Huyện Ea H'leo"
+  },
+  {
+    "ma_xa":"DL_COMM_029",
+    "ten_xa":"Xã Ea Khal",
+    "ten_huyen":"Huyện Ea H'leo"
+  },
+  {
+    "ma_xa":"DL_COMM_032",
+    "ten_xa":"Xã Ea Nam",
+    "ten_huyen":"Huyện Ea H'leo"
+  },
+  {
+    "ma_xa":"DL_COMM_024",
+    "ten_xa":"Xã Ea Ral",
+    "ten_huyen":"Huyện Ea H'leo"
+  },
+  {
+    "ma_xa":"DL_COMM_023",
+    "ten_xa":"Xã Ea Sol",
+    "ten_huyen":"Huyện Ea H'leo"
+  },
+  {
+    "ma_xa":"DL_COMM_031",
+    "ten_xa":"Xã Ea Tir",
+    "ten_huyen":"Huyện Ea H'leo"
+  },
+  {
+    "ma_xa":"DL_COMM_025",
+    "ten_xa":"Xã Ea Wy",
+    "ten_huyen":"Huyện Ea H'leo"
+  },
+  {
+    "ma_xa":"DL_COMM_076",
+    "ten_xa":"Thị trấn Ea Kar",
+    "ten_huyen":"Huyện Ea Kar"
+  },
+  {
+    "ma_xa":"DL_COMM_088",
+    "ten_xa":"Xã Cư Bông",
+    "ten_huyen":"Huyện Ea Kar"
+  },
+  {
+    "ma_xa":"DL_COMM_087",
+    "ten_xa":"Xã Cư ELang",
+    "ten_huyen":"Huyện Ea Kar"
+  },
+  {
+    "ma_xa":"DL_COMM_080",
+    "ten_xa":"Xã Cư Huê",
+    "ten_huyen":"Huyện Ea Kar"
+  },
+  {
+    "ma_xa":"DL_COMM_089",
+    "ten_xa":"Xã Cư Jang",
+    "ten_huyen":"Huyện Ea Kar"
+  },
+  {
+    "ma_xa":"DL_COMM_083",
+    "ten_xa":"Xã Cư Ni",
+    "ten_huyen":"Huyện Ea Kar"
+  },
+  {
+    "ma_xa":"DL_COMM_085",
+    "ten_xa":"Xã Cư Prông",
+    "ten_huyen":"Huyện Ea Kar"
+  },
+  {
+    "ma_xa":"DL_COMM_081",
+    "ten_xa":"Xã Ea Đar",
+    "ten_huyen":"Huyện Ea Kar"
+  },
+  {
+    "ma_xa":"DL_COMM_082",
+    "ten_xa":"Xã Ea Kmút",
+    "ten_huyen":"Huyện Ea Kar"
+  },
+  {
+    "ma_xa":"DL_COMM_086",
+    "ten_xa":"Xã Ea Ô",
+    "ten_huyen":"Huyện Ea Kar"
+  },
+  {
+    "ma_xa":"DL_COMM_084",
+    "ten_xa":"Xã Ea Păl",
+    "ten_huyen":"Huyện Ea Kar"
+  },
+  {
+    "ma_xa":"DL_COMM_078",
+    "ten_xa":"Xã Ea Sar",
+    "ten_huyen":"Huyện Ea Kar"
+  },
+  {
+    "ma_xa":"DL_COMM_077",
+    "ten_xa":"Xã Ea Sô",
+    "ten_huyen":"Huyện Ea Kar"
+  },
+  {
+    "ma_xa":"DL_COMM_079",
+    "ten_xa":"Xã Xuân Phú",
+    "ten_huyen":"Huyện Ea Kar"
+  },
+  {
+    "ma_xa":"DL_COMM_033",
+    "ten_xa":"Thị trấn Ea Súp",
+    "ten_huyen":"Huyện Ea Súp"
+  },
+  {
+    "ma_xa":"DL_COMM_040",
+    "ten_xa":"Xã Cư KBang",
+    "ten_huyen":"Huyện Ea Súp"
+  },
+  {
+    "ma_xa":"DL_COMM_041",
+    "ten_xa":"Xã Cư M'Lan",
+    "ten_huyen":"Huyện Ea Súp"
+  },
+  {
+    "ma_xa":"DL_COMM_039",
+    "ten_xa":"Xã Ea Lê",
+    "ten_huyen":"Huyện Ea Súp"
+  },
+  {
+    "ma_xa":"DL_COMM_036",
+    "ten_xa":"Xã Ea Rốk",
+    "ten_huyen":"Huyện Ea Súp"
+  },
+  {
+    "ma_xa":"DL_COMM_035",
+    "ten_xa":"Xã Ia JLơi",
+    "ten_huyen":"Huyện Ea Súp"
+  },
+  {
+    "ma_xa":"DL_COMM_034",
+    "ten_xa":"Xã Ia Lốp",
+    "ten_huyen":"Huyện Ea Súp"
+  },
+  {
+    "ma_xa":"DL_COMM_038",
+    "ten_xa":"Xã Ia RVê",
+    "ten_huyen":"Huyện Ea Súp"
+  },
+  {
+    "ma_xa":"DL_COMM_037",
+    "ten_xa":"Xã Ya Tờ Mốt",
+    "ten_huyen":"Huyện Ea Súp"
+  },
+  {
+    "ma_xa":"DL_COMM_121",
+    "ten_xa":"Thị trấn Buôn Trấp",
+    "ten_huyen":"Huyện Krông A Na"
+  },
+  {
+    "ma_xa":"DL_COMM_125",
+    "ten_xa":"Xã Băng A Drênh",
+    "ten_huyen":"Huyện Krông A Na"
+  },
+  {
+    "ma_xa":"DL_COMM_127",
+    "ten_xa":"Xã Bình Hòa",
+    "ten_huyen":"Huyện Krông A Na"
+  },
+  {
+    "ma_xa":"DL_COMM_122",
+    "ten_xa":"Xã Dray Sáp",
+    "ten_huyen":"Huyện Krông A Na"
+  },
+  {
+    "ma_xa":"DL_COMM_126",
+    "ten_xa":"Xã Dur KMăl",
+    "ten_huyen":"Huyện Krông A Na"
+  },
+  {
+    "ma_xa":"DL_COMM_124",
+    "ten_xa":"Xã Ea Bông",
+    "ten_huyen":"Huyện Krông A Na"
+  },
+  {
+    "ma_xa":"DL_COMM_123",
+    "ten_xa":"Xã Ea Na",
+    "ten_huyen":"Huyện Krông A Na"
+  },
+  {
+    "ma_xa":"DL_COMM_105",
+    "ten_xa":"Xã Cư Drăm",
+    "ten_huyen":"Huyện Krông Bông"
+  },
+  {
+    "ma_xa":"DL_COMM_103",
+    "ten_xa":"Xã Cư Pui",
+    "ten_huyen":"Huyện Krông Bông"
+  },
+  {
+    "ma_xa":"DL_COMM_099",
+    "ten_xa":"Xã Dang Kang",
+    "ten_huyen":"Huyện Krông Bông"
+  },
+  {
+    "ma_xa":"DL_COMM_102",
+    "ten_xa":"Xã Ea Trul",
+    "ten_huyen":"Huyện Krông Bông"
+  },
+  {
+    "ma_xa":"DL_COMM_100",
+    "ten_xa":"Xã Hòa Phong",
+    "ten_huyen":"Huyện Krông Bông"
+  },
+  {
+    "ma_xa":"DL_COMM_104",
+    "ten_xa":"Xã Hòa Sơn",
+    "ten_huyen":"Huyện Krông Bông"
+  },
+  {
+    "ma_xa":"DL_COMM_106",
+    "ten_xa":"Xã Yang Mao",
+    "ten_huyen":"Huyện Krông Bông"
+  },
+  {
+    "ma_xa":"DL_COMM_101",
+    "ten_xa":"Xã Yang Reh",
+    "ten_huyen":"Huyện Krông Bông"
+  },
+  {
+    "ma_xa":"DL_COMM_066",
+    "ten_xa":"Thị trấn Pơng Drang",
+    "ten_huyen":"Huyện Krông Búk"
+  },
+  {
+    "ma_xa":"DL_COMM_063",
+    "ten_xa":"Xã Cư Né",
+    "ten_huyen":"Huyện Krông Búk"
+  },
+  {
+    "ma_xa":"DL_COMM_064",
+    "ten_xa":"Xã Cư Pơng",
+    "ten_huyen":"Huyện Krông Búk"
+  },
+  {
+    "ma_xa":"DL_COMM_065",
+    "ten_xa":"Xã Ea Sin",
+    "ten_huyen":"Huyện Krông Búk"
+  },
+  {
+    "ma_xa":"DL_COMM_067",
+    "ten_xa":"Thị trấn Krông Năng",
+    "ten_huyen":"Huyện Krông Năng"
+  },
+  {
+    "ma_xa":"DL_COMM_074",
+    "ten_xa":"Xã Cư Klông",
+    "ten_huyen":"Huyện Krông Năng"
+  },
+  {
+    "ma_xa":"DL_COMM_068",
+    "ten_xa":"Xã ĐLiê Ya",
+    "ten_huyen":"Huyện Krông Năng"
+  },
+  {
+    "ma_xa":"DL_COMM_072",
+    "ten_xa":"Xã Ea Dăh",
+    "ten_huyen":"Huyện Krông Năng"
+  },
+  {
+    "ma_xa":"DL_COMM_073",
+    "ten_xa":"Xã Ea Hồ",
+    "ten_huyen":"Huyện Krông Năng"
+  },
+  {
+    "ma_xa":"DL_COMM_071",
+    "ten_xa":"Xã Ea Puk",
+    "ten_huyen":"Huyện Krông Năng"
+  },
+  {
+    "ma_xa":"DL_COMM_069",
+    "ten_xa":"Xã Ea Tam",
+    "ten_huyen":"Huyện Krông Năng"
+  },
+  {
+    "ma_xa":"DL_COMM_075",
+    "ten_xa":"Xã Ea Tân",
+    "ten_huyen":"Huyện Krông Năng"
+  },
+  {
+    "ma_xa":"DL_COMM_070",
+    "ten_xa":"Xã Phú Lộc",
+    "ten_huyen":"Huyện Krông Năng"
+  },
+  {
+    "ma_xa":"DL_COMM_116",
+    "ten_xa":"Xã Ea Hiu",
+    "ten_huyen":"Huyện Krông Pắc"
+  },
+  {
+    "ma_xa":"DL_COMM_109",
+    "ten_xa":"Xã Ea Kênh",
+    "ten_huyen":"Huyện Krông Pắc"
+  },
+  {
+    "ma_xa":"DL_COMM_108",
+    "ten_xa":"Xã Ea Kly",
+    "ten_huyen":"Huyện Krông Pắc"
+  },
+  {
+    "ma_xa":"DL_COMM_111",
+    "ten_xa":"Xã Ea KNuec",
+    "ten_huyen":"Huyện Krông Pắc"
+  },
+  {
+    "ma_xa":"DL_COMM_114",
+    "ten_xa":"Xã Ea Kuăng",
+    "ten_huyen":"Huyện Krông Pắc"
+  },
+  {
+    "ma_xa":"DL_COMM_110",
+    "ten_xa":"Xã Ea Phê",
+    "ten_huyen":"Huyện Krông Pắc"
+  },
+  {
+    "ma_xa":"DL_COMM_119",
+    "ten_xa":"Xã Ea Uy",
+    "ten_huyen":"Huyện Krông Pắc"
+  },
+  {
+    "ma_xa":"DL_COMM_120",
+    "ten_xa":"Xã Ea Yiêng",
+    "ten_huyen":"Huyện Krông Pắc"
+  },
+  {
+    "ma_xa":"DL_COMM_112",
+    "ten_xa":"Xã Ea Yông",
+    "ten_huyen":"Huyện Krông Pắc"
+  },
+  {
+    "ma_xa":"DL_COMM_113",
+    "ten_xa":"Xã Hòa An",
+    "ten_huyen":"Huyện Krông Pắc"
+  },
+  {
+    "ma_xa":"DL_COMM_115",
+    "ten_xa":"Xã Hòa Đông",
+    "ten_huyen":"Huyện Krông Pắc"
+  },
+  {
+    "ma_xa":"DL_COMM_107",
+    "ten_xa":"Xã KRông Búk",
+    "ten_huyen":"Huyện Krông Pắc"
+  },
+  {
+    "ma_xa":"DL_COMM_117",
+    "ten_xa":"Xã Tân Tiến",
+    "ten_huyen":"Huyện Krông Pắc"
+  },
+  {
+    "ma_xa":"DL_COMM_118",
+    "ten_xa":"Xã Vụ Bổn",
+    "ten_huyen":"Huyện Krông Pắc"
+  },
+  {
+    "ma_xa":"DL_COMM_128",
+    "ten_xa":"Thị trấn Liên Sơn",
+    "ten_huyen":"Huyện Lắk"
+  },
+  {
+    "ma_xa":"DL_COMM_130",
+    "ten_xa":"Xã Bông Krang",
+    "ten_huyen":"Huyện Lắk"
+  },
+  {
+    "ma_xa":"DL_COMM_133",
+    "ten_xa":"Xã Buôn Tría",
+    "ten_huyen":"Huyện Lắk"
+  },
+  {
+    "ma_xa":"DL_COMM_132",
+    "ten_xa":"Xã Buôn Triết",
+    "ten_huyen":"Huyện Lắk"
+  },
+  {
+    "ma_xa":"DL_COMM_131",
+    "ten_xa":"Xã Đắk Liêng",
+    "ten_huyen":"Huyện Lắk"
+  },
+  {
+    "ma_xa":"DL_COMM_135",
+    "ten_xa":"Xã Đắk Nuê",
+    "ten_huyen":"Huyện Lắk"
+  },
+  {
+    "ma_xa":"DL_COMM_134",
+    "ten_xa":"Xã Đắk Phơi",
+    "ten_huyen":"Huyện Lắk"
+  },
+  {
+    "ma_xa":"DL_COMM_138",
+    "ten_xa":"Xã Ea R'Bin",
+    "ten_huyen":"Huyện Lắk"
+  },
+  {
+    "ma_xa":"DL_COMM_136",
+    "ten_xa":"Xã Krông Nô",
+    "ten_huyen":"Huyện Lắk"
+  },
+  {
+    "ma_xa":"DL_COMM_137",
+    "ten_xa":"Xã Nam Ka",
+    "ten_huyen":"Huyện Lắk"
+  },
+  {
+    "ma_xa":"DL_COMM_129",
+    "ten_xa":"Xã Yang Tao",
+    "ten_huyen":"Huyện Lắk"
+  },
+  {
+    "ma_xa":"DL_COMM_095",
+    "ten_xa":"Xã Cư K Róa",
+    "ten_huyen":"Huyện M'Đrắk"
+  },
+  {
+    "ma_xa":"DL_COMM_094",
+    "ten_xa":"Xã Cư M'ta",
+    "ten_huyen":"Huyện M'Đrắk"
+  },
+  {
+    "ma_xa":"DL_COMM_090",
+    "ten_xa":"Xã Cư Prao",
+    "ten_huyen":"Huyện M'Đrắk"
+  },
+  {
+    "ma_xa":"DL_COMM_097",
+    "ten_xa":"Xã Cư San",
+    "ten_huyen":"Huyện M'Đrắk"
+  },
+  {
+    "ma_xa":"DL_COMM_093",
+    "ten_xa":"Xã Ea M' Doal",
+    "ten_huyen":"Huyện M'Đrắk"
+  },
+  {
+    "ma_xa":"DL_COMM_091",
+    "ten_xa":"Xã Ea Pil",
+    "ten_huyen":"Huyện M'Đrắk"
+  },
+  {
+    "ma_xa":"DL_COMM_098",
+    "ten_xa":"Xã Ea Trang",
+    "ten_huyen":"Huyện M'Đrắk"
+  },
+  {
+    "ma_xa":"DL_COMM_096",
+    "ten_xa":"Xã Krông Á",
+    "ten_huyen":"Huyện M'Đrắk"
+  },
+  {
+    "ma_xa":"DL_COMM_092",
+    "ten_xa":"Xã Krông Jing",
+    "ten_huyen":"Huyện M'Đrắk"
+  },
+  {
+    "ma_xa":"DL_COMM_004",
+    "ten_xa":"Phường Ea Tam",
+    "ten_huyen":"Thành phố Buôn Ma Thuột"
+  },
+  {
+    "ma_xa":"DL_COMM_005",
+    "ten_xa":"Phường Khánh Xuân",
+    "ten_huyen":"Thành phố Buôn Ma Thuột"
+  },
+  {
+    "ma_xa":"DL_COMM_001",
+    "ten_xa":"Phường Tân Lập",
+    "ten_huyen":"Thành phố Buôn Ma Thuột"
+  },
+  {
+    "ma_xa":"DL_COMM_002",
+    "ten_xa":"Phường Thành Nhất",
+    "ten_huyen":"Thành phố Buôn Ma Thuột"
+  },
+  {
+    "ma_xa":"DL_COMM_003",
+    "ten_xa":"Phường Tự An",
+    "ten_huyen":"Thành phố Buôn Ma Thuột"
+  },
+  {
+    "ma_xa":"DL_COMM_006",
+    "ten_xa":"Xã Cư ÊBur",
+    "ten_huyen":"Thành phố Buôn Ma Thuột"
+  },
+  {
+    "ma_xa":"DL_COMM_009",
+    "ten_xa":"Xã Ea Kao",
+    "ten_huyen":"Thành phố Buôn Ma Thuột"
+  },
+  {
+    "ma_xa":"DL_COMM_007",
+    "ten_xa":"Xã Ea Tu",
+    "ten_huyen":"Thành phố Buôn Ma Thuột"
+  },
+  {
+    "ma_xa":"DL_COMM_011",
+    "ten_xa":"Xã Hòa Khánh",
+    "ten_huyen":"Thành phố Buôn Ma Thuột"
+  },
+  {
+    "ma_xa":"DL_COMM_010",
+    "ten_xa":"Xã Hòa Phú",
+    "ten_huyen":"Thành phố Buôn Ma Thuột"
+  },
+  {
+    "ma_xa":"DL_COMM_008",
+    "ten_xa":"Xã Hòa Thắng",
+    "ten_huyen":"Thành phố Buôn Ma Thuột"
+  },
+  {
+    "ma_xa":"DL_COMM_012",
+    "ten_xa":"Xã Hòa Xuân",
+    "ten_huyen":"Thành phố Buôn Ma Thuột"
+  },
+  {
+    "ma_xa":"DL_COMM_013",
+    "ten_xa":"Phường An Lạc",
+    "ten_huyen":"Thị Xã Buôn Hồ"
+  },
+  {
+    "ma_xa":"DL_COMM_014",
+    "ten_xa":"Phường Đạt Hiếu",
+    "ten_huyen":"Thị Xã Buôn Hồ"
+  },
+  {
+    "ma_xa":"DL_COMM_017",
+    "ten_xa":"Phường Thống Nhất",
+    "ten_huyen":"Thị Xã Buôn Hồ"
+  },
+  {
+    "ma_xa":"DL_COMM_019",
+    "ten_xa":"Xã Bình Thuận",
+    "ten_huyen":"Thị Xã Buôn Hồ"
+  },
+  {
+    "ma_xa":"DL_COMM_020",
+    "ten_xa":"Xã Cư Bao",
+    "ten_huyen":"Thị Xã Buôn Hồ"
+  },
+  {
+    "ma_xa":"DL_COMM_015",
+    "ten_xa":"Xã Ea Blang",
+    "ten_huyen":"Thị Xã Buôn Hồ"
+  },
+  {
+    "ma_xa":"DL_COMM_016",
+    "ten_xa":"Xã Ea Drông",
+    "ten_huyen":"Thị Xã Buôn Hồ"
+  },
+  {
+    "ma_xa":"DL_COMM_018",
+    "ten_xa":"Xã Ea Siên",
+    "ten_huyen":"Thị Xã Buôn Hồ"
+  }
+]

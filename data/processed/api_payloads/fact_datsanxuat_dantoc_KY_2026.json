@@ -1,0 +1,426 @@
+[
+  {
+    "ma_ky":"KY_2026",
+    "ma_dantoc":"DT_01",
+    "ten_dantoc":"Tày",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc",
+    "dien_tich_dat_sx_bq_m2":11700.0,
+    "dien_tich_dat_sx_bq_ha":1.17
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_dantoc":"DT_02",
+    "ten_dantoc":"Thái",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc",
+    "dien_tich_dat_sx_bq_m2":5400.0,
+    "dien_tich_dat_sx_bq_ha":0.54
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_dantoc":"DT_03",
+    "ten_dantoc":"Hoa",
+    "nhom_nguon_goc":"Nam Bộ & Duyên hải",
+    "dien_tich_dat_sx_bq_m2":7600.0,
+    "dien_tich_dat_sx_bq_ha":0.76
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_dantoc":"DT_04",
+    "ten_dantoc":"Khmer",
+    "nhom_nguon_goc":"Nam Bộ & Duyên hải",
+    "dien_tich_dat_sx_bq_m2":5200.0,
+    "dien_tich_dat_sx_bq_ha":0.52
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_dantoc":"DT_05",
+    "ten_dantoc":"Mường",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc",
+    "dien_tich_dat_sx_bq_m2":10200.0,
+    "dien_tich_dat_sx_bq_ha":1.02
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_dantoc":"DT_06",
+    "ten_dantoc":"Nùng",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc",
+    "dien_tich_dat_sx_bq_m2":13500.0,
+    "dien_tich_dat_sx_bq_ha":1.35
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_dantoc":"DT_07",
+    "ten_dantoc":"Mông",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc",
+    "dien_tich_dat_sx_bq_m2":19700.0,
+    "dien_tich_dat_sx_bq_ha":1.97
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_dantoc":"DT_08",
+    "ten_dantoc":"Dao",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc",
+    "dien_tich_dat_sx_bq_m2":20500.0,
+    "dien_tich_dat_sx_bq_ha":2.05
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_dantoc":"DT_09",
+    "ten_dantoc":"Gia Rai",
+    "nhom_nguon_goc":"Bản địa Tây Nguyên",
+    "dien_tich_dat_sx_bq_m2":11900.0,
+    "dien_tich_dat_sx_bq_ha":1.19
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_dantoc":"DT_10",
+    "ten_dantoc":"Ngái",
+    "nhom_nguon_goc":"Khác",
+    "dien_tich_dat_sx_bq_m2":8400.0,
+    "dien_tich_dat_sx_bq_ha":0.84
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_dantoc":"DT_11",
+    "ten_dantoc":"Ê đê",
+    "nhom_nguon_goc":"Bản địa Tây Nguyên",
+    "dien_tich_dat_sx_bq_m2":8200.0,
+    "dien_tich_dat_sx_bq_ha":0.82
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_dantoc":"DT_12",
+    "ten_dantoc":"Ba Na",
+    "nhom_nguon_goc":"Bản địa Tây Nguyên",
+    "dien_tich_dat_sx_bq_m2":20300.0,
+    "dien_tich_dat_sx_bq_ha":2.03
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_dantoc":"DT_13",
+    "ten_dantoc":"Xơ Đăng",
+    "nhom_nguon_goc":"Bản địa Tây Nguyên",
+    "dien_tich_dat_sx_bq_m2":7400.0,
+    "dien_tich_dat_sx_bq_ha":0.74
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_dantoc":"DT_14",
+    "ten_dantoc":"Sán Chay",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc",
+    "dien_tich_dat_sx_bq_m2":17700.0,
+    "dien_tich_dat_sx_bq_ha":1.77
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_dantoc":"DT_15",
+    "ten_dantoc":"Cơ Ho",
+    "nhom_nguon_goc":"Bản địa Tây Nguyên",
+    "dien_tich_dat_sx_bq_m2":33500.0,
+    "dien_tich_dat_sx_bq_ha":3.35
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_dantoc":"DT_16",
+    "ten_dantoc":"Chăm",
+    "nhom_nguon_goc":"Nam Bộ & Duyên hải",
+    "dien_tich_dat_sx_bq_m2":2400.0,
+    "dien_tich_dat_sx_bq_ha":0.24
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_dantoc":"DT_17",
+    "ten_dantoc":"Sán Dìu",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc",
+    "dien_tich_dat_sx_bq_m2":8200.0,
+    "dien_tich_dat_sx_bq_ha":0.82
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_dantoc":"DT_18",
+    "ten_dantoc":"Hrê",
+    "nhom_nguon_goc":"Khác",
+    "dien_tich_dat_sx_bq_m2":5900.0,
+    "dien_tich_dat_sx_bq_ha":0.59
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_dantoc":"DT_19",
+    "ten_dantoc":"Mnông",
+    "nhom_nguon_goc":"Bản địa Tây Nguyên",
+    "dien_tich_dat_sx_bq_m2":10100.0,
+    "dien_tich_dat_sx_bq_ha":1.01
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_dantoc":"DT_20",
+    "ten_dantoc":"Raglay",
+    "nhom_nguon_goc":"Khác",
+    "dien_tich_dat_sx_bq_m2":5600.0,
+    "dien_tich_dat_sx_bq_ha":0.56
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_dantoc":"DT_21",
+    "ten_dantoc":"Xtiêng",
+    "nhom_nguon_goc":"Khác",
+    "dien_tich_dat_sx_bq_m2":0.0,
+    "dien_tich_dat_sx_bq_ha":0.0
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_dantoc":"DT_22",
+    "ten_dantoc":"Bru Vân Kiều",
+    "nhom_nguon_goc":"Khác",
+    "dien_tich_dat_sx_bq_m2":4800.0,
+    "dien_tich_dat_sx_bq_ha":0.48
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_dantoc":"DT_23",
+    "ten_dantoc":"Thổ",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc",
+    "dien_tich_dat_sx_bq_m2":3200.0,
+    "dien_tich_dat_sx_bq_ha":0.32
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_dantoc":"DT_25",
+    "ten_dantoc":"Mạ",
+    "nhom_nguon_goc":"Bản địa Tây Nguyên",
+    "dien_tich_dat_sx_bq_m2":6700.0,
+    "dien_tich_dat_sx_bq_ha":0.67
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_dantoc":"DT_26",
+    "ten_dantoc":"Co",
+    "nhom_nguon_goc":"Khác",
+    "dien_tich_dat_sx_bq_m2":3900.0,
+    "dien_tich_dat_sx_bq_ha":0.39
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_dantoc":"DT_27",
+    "ten_dantoc":"Chơ Ro",
+    "nhom_nguon_goc":"Khác",
+    "dien_tich_dat_sx_bq_m2":6500.0,
+    "dien_tich_dat_sx_bq_ha":0.65
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_dantoc":"DT_28",
+    "ten_dantoc":"Chu Ru",
+    "nhom_nguon_goc":"Bản địa Tây Nguyên",
+    "dien_tich_dat_sx_bq_m2":43900.0,
+    "dien_tich_dat_sx_bq_ha":4.39
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_dantoc":"DT_29",
+    "ten_dantoc":"Lào",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc",
+    "dien_tich_dat_sx_bq_m2":13200.0,
+    "dien_tich_dat_sx_bq_ha":1.32
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_dantoc":"DT_30",
+    "ten_dantoc":"Phù Lá",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc",
+    "dien_tich_dat_sx_bq_m2":32100.0,
+    "dien_tich_dat_sx_bq_ha":3.21
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_dantoc":"DT_31",
+    "ten_dantoc":"Chứt",
+    "nhom_nguon_goc":"Khác",
+    "dien_tich_dat_sx_bq_m2":5600.0,
+    "dien_tich_dat_sx_bq_ha":0.56
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_dantoc":"DT_32",
+    "ten_dantoc":"Mảng",
+    "nhom_nguon_goc":"Khác",
+    "dien_tich_dat_sx_bq_m2":4400.0,
+    "dien_tich_dat_sx_bq_ha":0.44
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_dantoc":"DT_33",
+    "ten_dantoc":"Giáy",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc",
+    "dien_tich_dat_sx_bq_m2":0.0,
+    "dien_tich_dat_sx_bq_ha":0.0
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_dantoc":"DT_24",
+    "ten_dantoc":"Cơ Tu",
+    "nhom_nguon_goc":"Khác",
+    "dien_tich_dat_sx_bq_m2":0.0,
+    "dien_tich_dat_sx_bq_ha":0.0
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_dantoc":"DT_34",
+    "ten_dantoc":"Gié Triêng",
+    "nhom_nguon_goc":"Bản địa Tây Nguyên",
+    "dien_tich_dat_sx_bq_m2":0.0,
+    "dien_tich_dat_sx_bq_ha":0.0
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_dantoc":"DT_35",
+    "ten_dantoc":"Khơ mú",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc",
+    "dien_tich_dat_sx_bq_m2":0.0,
+    "dien_tich_dat_sx_bq_ha":0.0
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_dantoc":"DT_36",
+    "ten_dantoc":"Tà Ôi",
+    "nhom_nguon_goc":"Khác",
+    "dien_tich_dat_sx_bq_m2":0.0,
+    "dien_tich_dat_sx_bq_ha":0.0
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_dantoc":"DT_37",
+    "ten_dantoc":"Kháng",
+    "nhom_nguon_goc":"Khác",
+    "dien_tich_dat_sx_bq_m2":0.0,
+    "dien_tich_dat_sx_bq_ha":0.0
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_dantoc":"DT_38",
+    "ten_dantoc":"Xinh Mun",
+    "nhom_nguon_goc":"Khác",
+    "dien_tich_dat_sx_bq_m2":0.0,
+    "dien_tich_dat_sx_bq_ha":0.0
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_dantoc":"DT_39",
+    "ten_dantoc":"Hà Nhì",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc",
+    "dien_tich_dat_sx_bq_m2":0.0,
+    "dien_tich_dat_sx_bq_ha":0.0
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_dantoc":"DT_40",
+    "ten_dantoc":"La Chí",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc",
+    "dien_tich_dat_sx_bq_m2":0.0,
+    "dien_tich_dat_sx_bq_ha":0.0
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_dantoc":"DT_41",
+    "ten_dantoc":"La Ha",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc",
+    "dien_tich_dat_sx_bq_m2":0.0,
+    "dien_tich_dat_sx_bq_ha":0.0
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_dantoc":"DT_42",
+    "ten_dantoc":"La Hủ",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc",
+    "dien_tich_dat_sx_bq_m2":0.0,
+    "dien_tich_dat_sx_bq_ha":0.0
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_dantoc":"DT_43",
+    "ten_dantoc":"Lự",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc",
+    "dien_tich_dat_sx_bq_m2":0.0,
+    "dien_tich_dat_sx_bq_ha":0.0
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_dantoc":"DT_44",
+    "ten_dantoc":"Lô Lô",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc",
+    "dien_tich_dat_sx_bq_m2":0.0,
+    "dien_tich_dat_sx_bq_ha":0.0
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_dantoc":"DT_45",
+    "ten_dantoc":"Pà Thẻn",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc",
+    "dien_tich_dat_sx_bq_m2":0.0,
+    "dien_tich_dat_sx_bq_ha":0.0
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_dantoc":"DT_46",
+    "ten_dantoc":"Cơ Lao",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc",
+    "dien_tich_dat_sx_bq_m2":0.0,
+    "dien_tich_dat_sx_bq_ha":0.0
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_dantoc":"DT_47",
+    "ten_dantoc":"Cống",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc",
+    "dien_tich_dat_sx_bq_m2":0.0,
+    "dien_tich_dat_sx_bq_ha":0.0
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_dantoc":"DT_48",
+    "ten_dantoc":"Bố Y",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc",
+    "dien_tich_dat_sx_bq_m2":0.0,
+    "dien_tich_dat_sx_bq_ha":0.0
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_dantoc":"DT_49",
+    "ten_dantoc":"Si La",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc",
+    "dien_tich_dat_sx_bq_m2":0.0,
+    "dien_tich_dat_sx_bq_ha":0.0
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_dantoc":"DT_50",
+    "ten_dantoc":"Pu Péo",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc",
+    "dien_tich_dat_sx_bq_m2":0.0,
+    "dien_tich_dat_sx_bq_ha":0.0
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_dantoc":"DT_51",
+    "ten_dantoc":"Brâu",
+    "nhom_nguon_goc":"Bản địa Tây Nguyên",
+    "dien_tich_dat_sx_bq_m2":0.0,
+    "dien_tich_dat_sx_bq_ha":0.0
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_dantoc":"DT_52",
+    "ten_dantoc":"Ơ Đu",
+    "nhom_nguon_goc":"Khác",
+    "dien_tich_dat_sx_bq_m2":0.0,
+    "dien_tich_dat_sx_bq_ha":0.0
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_dantoc":"DT_53",
+    "ten_dantoc":"Rơ Măm",
+    "nhom_nguon_goc":"Bản địa Tây Nguyên",
+    "dien_tich_dat_sx_bq_m2":0.0,
+    "dien_tich_dat_sx_bq_ha":0.0
+  }
+]

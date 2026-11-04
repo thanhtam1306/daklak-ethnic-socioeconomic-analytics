@@ -1,0 +1,1 @@
+{"$schema":"https://developer.microsoft.com/json-schemas/fabric/item/report/definition/page/2.1.0/schema.json","name":"2afa7956dcc9ca42eedb","displayName":"Dân số & Địa bàn","displayOption":"FitToPage","height":1080,"width":1920,"objects":{"background":[{"properties":{"color":{"solid":{"color":{"expr":{"ThemeDataColor":{"ColorId":0,"Percent":0}}}}}}}]}}

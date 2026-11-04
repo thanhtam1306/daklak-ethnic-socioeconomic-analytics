@@ -1,0 +1,238 @@
+table v_dtts_tong_hop_dantoc
+	lineageTag: 20ee471f-92cd-41b3-afcd-8265ee060cdc
+
+	column ma_ky
+		dataType: string
+		lineageTag: 52bc547f-674b-4631-b1df-8b3130fd6ed0
+		summarizeBy: none
+		sourceColumn: ma_ky
+
+		annotation SummarizationSetBy = Automatic
+
+	column thu_tu_ky
+		dataType: int64
+		formatString: 0
+		lineageTag: 98f15f25-f00d-4f5c-9e8e-164a35bf6ef2
+		summarizeBy: none
+		sourceColumn: thu_tu_ky
+
+		annotation SummarizationSetBy = Automatic
+
+	column ten_ky
+		dataType: string
+		lineageTag: a7a9c775-7aef-4715-a438-f5c0e0e136d6
+		summarizeBy: none
+		sourceColumn: ten_ky
+
+		annotation SummarizationSetBy = Automatic
+
+	column nam_moc
+		dataType: int64
+		formatString: 0
+		lineageTag: 7cd9ea33-221c-4778-a1a7-48d490922482
+		summarizeBy: none
+		sourceColumn: nam_moc
+
+		annotation SummarizationSetBy = Automatic
+
+	column giai_doan_chinh_sach
+		dataType: string
+		lineageTag: e419559a-c779-4c94-8e7f-90d51d1427ef
+		summarizeBy: none
+		sourceColumn: giai_doan_chinh_sach
+
+		annotation SummarizationSetBy = Automatic
+
+	column is_latest
+		dataType: boolean
+		lineageTag: 2953ae85-b06c-44bc-b7ca-27b5b00aed52
+		summarizeBy: none
+		sourceColumn: is_latest
+
+		annotation SummarizationSetBy = Automatic
+
+	column ma_dantoc
+		dataType: string
+		lineageTag: 3eba7c66-1e3b-43b3-9d05-66dc952bf287
+		summarizeBy: none
+		sourceColumn: ma_dantoc
+
+		annotation SummarizationSetBy = Automatic
+
+	column ten_dantoc
+		dataType: string
+		lineageTag: 27f5d88d-da3a-4747-935f-e31be4f7ef55
+		summarizeBy: none
+		sourceColumn: ten_dantoc
+
+		annotation SummarizationSetBy = Automatic
+
+	column nhom_nguon_goc
+		dataType: string
+		lineageTag: 01b5676e-7f0d-4661-afde-5d1b67825bd5
+		summarizeBy: none
+		sourceColumn: nhom_nguon_goc
+
+		annotation SummarizationSetBy = Automatic
+
+	column la_dtts_it_nguoi
+		dataType: int64
+		formatString: 0
+		lineageTag: e0e096bf-7e15-4c3e-bde6-6cd1073600af
+		summarizeBy: sum
+		sourceColumn: la_dtts_it_nguoi
+
+		annotation SummarizationSetBy = Automatic
+
+	column tong_dan_so
+		dataType: double
+		lineageTag: 2f9c0e6a-f9bf-4a6e-861d-7296b297d320
+		summarizeBy: sum
+		sourceColumn: tong_dan_so
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column tong_nguoi_biet_chu
+		dataType: double
+		lineageTag: c9972152-14d3-4365-9a2c-da7e657e6d4b
+		summarizeBy: sum
+		sourceColumn: tong_nguoi_biet_chu
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column ty_le_nu_biet_chu_pct
+		dataType: double
+		lineageTag: b2a67a05-e843-4979-80ba-e1bd12c20e64
+		summarizeBy: sum
+		sourceColumn: ty_le_nu_biet_chu_pct
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column tong_lao_dong
+		dataType: double
+		lineageTag: e81878bd-edbe-4d58-adc8-c58d790d59b2
+		summarizeBy: sum
+		sourceColumn: tong_lao_dong
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column lao_dong_nong_nghiep
+		dataType: double
+		lineageTag: b863d230-d247-4a97-9d7c-be8bbb32e21c
+		summarizeBy: sum
+		sourceColumn: lao_dong_nong_nghiep
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column ty_le_nong_nghiep_pct
+		dataType: double
+		lineageTag: 61c1ec62-da00-4139-a598-024bf5541b38
+		summarizeBy: sum
+		sourceColumn: ty_le_nong_nghiep_pct
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column lao_dong_khong_cmkt
+		dataType: double
+		lineageTag: ce3d9b60-af13-463a-8f66-66dc23c5a744
+		summarizeBy: sum
+		sourceColumn: lao_dong_khong_cmkt
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column ty_le_khong_cmkt_pct
+		dataType: double
+		lineageTag: e655f3cd-4f95-4ff3-84dc-c77a126cc947
+		summarizeBy: sum
+		sourceColumn: ty_le_khong_cmkt_pct
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column tong_ho_co_nha
+		dataType: double
+		lineageTag: 4e67ff32-cced-4797-82c8-9dd32358d3b0
+		summarizeBy: sum
+		sourceColumn: tong_ho_co_nha
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column so_ho_nha_tam_don_so
+		dataType: double
+		lineageTag: b30fab50-188a-4840-b39e-9329a8fa8360
+		summarizeBy: sum
+		sourceColumn: so_ho_nha_tam_don_so
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column ty_le_nha_tam_pct
+		dataType: double
+		lineageTag: 241620bf-566e-4c57-94c4-fad1305abac8
+		summarizeBy: sum
+		sourceColumn: ty_le_nha_tam_pct
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column dien_tich_dat_sx_bq_ha
+		dataType: double
+		lineageTag: 66c32a14-7f81-4fe3-b88b-aecb46eef493
+		summarizeBy: sum
+		sourceColumn: dien_tich_dat_sx_bq_ha
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column so_ho_khat_von
+		dataType: double
+		lineageTag: ebee5636-ce1f-45e4-92ad-a544749d15b4
+		summarizeBy: sum
+		sourceColumn: so_ho_khat_von
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column khoang_trong_tin_dung_pct
+		dataType: double
+		lineageTag: 8976895f-ff92-40c1-bd02-84a3f82cc950
+		summarizeBy: sum
+		sourceColumn: khoang_trong_tin_dung_pct
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	partition v_dtts_tong_hop_dantoc = m
+		mode: import
+		source =
+				let
+				    Source = PostgreSQL.Database("localhost:5432", "daklak_socioeconomic"),
+				    daklak_analytics_v_dtts_tong_hop_dantoc = Source{[Schema="daklak_analytics",Item="v_dtts_tong_hop_dantoc"]}[Data]
+				in
+				    daklak_analytics_v_dtts_tong_hop_dantoc
+
+	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Navigation

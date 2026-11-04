@@ -1,0 +1,88 @@
+table fact_nhao_dantoc
+	lineageTag: 20318d43-eadd-4a10-bcfe-e6f5db607a9b
+
+	column ma_dantoc
+		dataType: string
+		lineageTag: cc9e9079-a86a-4602-a417-daf7d9a5f9c2
+		summarizeBy: none
+		sourceColumn: ma_dantoc
+
+		annotation SummarizationSetBy = Automatic
+
+	column tong_so_ho_co_nha
+		dataType: double
+		lineageTag: 055988c1-63df-4074-9266-50707c36f92d
+		summarizeBy: sum
+		sourceColumn: tong_so_ho_co_nha
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column nha_kien_co_ban_kien_co
+		dataType: double
+		lineageTag: 0f70c261-3c20-4fd9-b1ca-2da39f91405e
+		summarizeBy: sum
+		sourceColumn: nha_kien_co_ban_kien_co
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column nha_thieu_kien_co_don_so
+		dataType: double
+		lineageTag: 92351ed9-5f2e-4ede-81c0-7917021b78fd
+		summarizeBy: sum
+		sourceColumn: nha_thieu_kien_co_don_so
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column ten_dantoc
+		dataType: string
+		lineageTag: 7003f810-01e0-44e8-9c0b-bd89201d1e44
+		summarizeBy: none
+		sourceColumn: ten_dantoc
+
+		annotation SummarizationSetBy = Automatic
+
+	column nhom_nguon_goc
+		dataType: string
+		lineageTag: bb2751af-d2e7-44e3-8cb5-1d97c0d3e2c5
+		summarizeBy: none
+		sourceColumn: nhom_nguon_goc
+
+		annotation SummarizationSetBy = Automatic
+
+	column ty_le_nha_tam_don_so_pct
+		dataType: double
+		lineageTag: c36a671d-38ae-4d63-95c5-bdff5d951931
+		summarizeBy: sum
+		sourceColumn: ty_le_nha_tam_don_so_pct
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column ma_ky
+		dataType: string
+		lineageTag: 3c55a756-bbfa-416c-a6f0-8f2f3f8e81f8
+		summarizeBy: none
+		sourceColumn: ma_ky
+
+		annotation SummarizationSetBy = Automatic
+
+	partition fact_nhao_dantoc = m
+		mode: import
+		source =
+				let
+				    Source = PostgreSQL.Database("localhost:5432", "daklak_socioeconomic"),
+				    daklak_analytics_fact_nhao_dantoc = Source{[Schema="daklak_analytics",Item="fact_nhao_dantoc"]}[Data]
+				in
+				    daklak_analytics_fact_nhao_dantoc
+
+	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Navigation
+

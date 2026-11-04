@@ -1,0 +1,416 @@
+table v_dantoc_chuyen_dich_da_ky
+	lineageTag: d2b3e0d3-b306-5336-8d06-6b7c2041866c
+
+	column ma_ky
+		dataType: string
+		lineageTag: ba6da0f3-9306-5408-80ce-14d165742a9f
+		summarizeBy: none
+		sourceColumn: ma_ky
+
+		annotation SummarizationSetBy = Automatic
+
+	column thu_tu_ky
+		dataType: int64
+		formatString: 0
+		lineageTag: e07e1b2c-9dae-5fbe-9193-7545c59ffc46
+		summarizeBy: none
+		sourceColumn: thu_tu_ky
+
+		annotation SummarizationSetBy = Automatic
+
+	column ten_ky
+		dataType: string
+		lineageTag: 1f8cdc5e-d82c-5d1f-84b6-bf17437f880e
+		summarizeBy: none
+		sourceColumn: ten_ky
+
+		annotation SummarizationSetBy = Automatic
+
+	column nam_moc
+		dataType: int64
+		formatString: 0
+		lineageTag: 94d006da-b399-57ba-a036-f5b53cf8c1f9
+		summarizeBy: none
+		sourceColumn: nam_moc
+
+		annotation SummarizationSetBy = Automatic
+
+	column giai_doan_chinh_sach
+		dataType: string
+		lineageTag: c7f549db-e228-55c7-86bb-d5cf3fcc3f10
+		summarizeBy: none
+		sourceColumn: giai_doan_chinh_sach
+
+		annotation SummarizationSetBy = Automatic
+
+	column is_latest
+		dataType: boolean
+		lineageTag: de69ca9a-9243-59c3-a847-5e90c2ab4501
+		summarizeBy: none
+		sourceColumn: is_latest
+
+		annotation SummarizationSetBy = Automatic
+
+	column ma_dantoc
+		dataType: string
+		lineageTag: 6edbb287-ddbd-54c5-a730-bea5f996d91b
+		summarizeBy: none
+		sourceColumn: ma_dantoc
+
+		annotation SummarizationSetBy = Automatic
+
+	column ten_dantoc
+		dataType: string
+		lineageTag: 6dd808d7-f839-5426-8013-02d3f4539b6c
+		summarizeBy: none
+		sourceColumn: ten_dantoc
+
+		annotation SummarizationSetBy = Automatic
+
+	column nhom_nguon_goc
+		dataType: string
+		lineageTag: e878a238-5111-5d65-b4b3-a28080e8069c
+		summarizeBy: none
+		sourceColumn: nhom_nguon_goc
+
+		annotation SummarizationSetBy = Automatic
+
+	column la_dtts_it_nguoi
+		dataType: int64
+		formatString: 0
+		lineageTag: 3d5ba8ad-3d92-5086-8ec2-3c9dbc4f060b
+		summarizeBy: sum
+		sourceColumn: la_dtts_it_nguoi
+
+		annotation SummarizationSetBy = Automatic
+
+	column tong_dan_so
+		dataType: double
+		lineageTag: 55f8192d-ba02-5aaf-821a-7dffd7dd092f
+		summarizeBy: sum
+		sourceColumn: tong_dan_so
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column tong_nguoi_biet_chu
+		dataType: double
+		lineageTag: 9d717082-733c-559c-a675-d83df2a9499a
+		summarizeBy: sum
+		sourceColumn: tong_nguoi_biet_chu
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column ty_le_nu_biet_chu_pct
+		dataType: double
+		lineageTag: 75998807-f116-5670-b578-2043b8780290
+		summarizeBy: sum
+		sourceColumn: ty_le_nu_biet_chu_pct
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column tong_lao_dong
+		dataType: double
+		lineageTag: 9643b172-ea66-58e3-a31c-3ce9cc5e5988
+		summarizeBy: sum
+		sourceColumn: tong_lao_dong
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column lao_dong_nong_nghiep
+		dataType: double
+		lineageTag: 311f994e-63ca-54af-a609-5820683e88f9
+		summarizeBy: sum
+		sourceColumn: lao_dong_nong_nghiep
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column ty_le_nong_nghiep_pct
+		dataType: double
+		lineageTag: 48def5bd-ec7d-5fc6-8946-1a31acb5ddc7
+		summarizeBy: sum
+		sourceColumn: ty_le_nong_nghiep_pct
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column lao_dong_khong_cmkt
+		dataType: double
+		lineageTag: 7e037ceb-a8a9-5bb5-bec9-d8e186850d93
+		summarizeBy: sum
+		sourceColumn: lao_dong_khong_cmkt
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column ty_le_khong_cmkt_pct
+		dataType: double
+		lineageTag: 5bac9c90-77c2-58eb-a5cd-fd6139e56475
+		summarizeBy: sum
+		sourceColumn: ty_le_khong_cmkt_pct
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column tong_ho_co_nha
+		dataType: double
+		lineageTag: 6fe65abd-18f3-524c-a2ce-8ef056920011
+		summarizeBy: sum
+		sourceColumn: tong_ho_co_nha
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column so_ho_nha_tam_don_so
+		dataType: double
+		lineageTag: cf5b2de0-2895-58be-9a3f-6ddc8b1ead3e
+		summarizeBy: sum
+		sourceColumn: so_ho_nha_tam_don_so
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column ty_le_nha_tam_pct
+		dataType: double
+		lineageTag: c23c6e94-d28e-54d9-87bd-bafa82c378ea
+		summarizeBy: sum
+		sourceColumn: ty_le_nha_tam_pct
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column dien_tich_dat_sx_bq_ha
+		dataType: double
+		lineageTag: 3ef0dc64-bc04-506e-81b7-3ae1a0eb187c
+		summarizeBy: sum
+		sourceColumn: dien_tich_dat_sx_bq_ha
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column so_ho_khat_von
+		dataType: double
+		lineageTag: 66ed7893-bdca-549c-b8a9-f9cd70d41488
+		summarizeBy: sum
+		sourceColumn: so_ho_khat_von
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column khoang_trong_tin_dung_pct
+		dataType: double
+		lineageTag: 9fa1c0fb-ec0a-5031-95f3-55743f893a3d
+		summarizeBy: sum
+		sourceColumn: khoang_trong_tin_dung_pct
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column so_ho_nha_tam_ky_truoc
+		dataType: double
+		lineageTag: 306bbb7c-e1b6-51d3-8690-b1f24ce24ebd
+		summarizeBy: sum
+		sourceColumn: so_ho_nha_tam_ky_truoc
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column ty_le_nha_tam_ky_truoc
+		dataType: double
+		lineageTag: 4edc76f4-cccb-518d-8655-18f2895f8204
+		summarizeBy: sum
+		sourceColumn: ty_le_nha_tam_ky_truoc
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column ty_le_khong_cmkt_ky_truoc
+		dataType: double
+		lineageTag: 31c7d580-fac8-5974-b6f4-dd807b660c23
+		summarizeBy: sum
+		sourceColumn: ty_le_khong_cmkt_ky_truoc
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column so_ho_khat_von_ky_truoc
+		dataType: double
+		lineageTag: a69a70c1-edf8-5b8a-af5f-882788f7ad3a
+		summarizeBy: sum
+		sourceColumn: so_ho_khat_von_ky_truoc
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column khoang_trong_tin_dung_ky_truoc
+		dataType: double
+		lineageTag: 051ebb55-f10b-53d9-8ce0-bd00917d87e4
+		summarizeBy: sum
+		sourceColumn: khoang_trong_tin_dung_ky_truoc
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column ty_le_nu_biet_chu_ky_truoc
+		dataType: double
+		lineageTag: e22d246d-9b12-5e20-a2aa-a0ab6a44c6f9
+		summarizeBy: sum
+		sourceColumn: ty_le_nu_biet_chu_ky_truoc
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column ty_le_nong_nghiep_ky_truoc
+		dataType: double
+		lineageTag: 01d2804b-6d73-5747-b996-e7140056dc9a
+		summarizeBy: sum
+		sourceColumn: ty_le_nong_nghiep_ky_truoc
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column dien_tich_dat_sx_ky_truoc
+		dataType: double
+		lineageTag: 18f95a33-27f6-56ec-b3eb-ca2a8565d637
+		summarizeBy: sum
+		sourceColumn: dien_tich_dat_sx_ky_truoc
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column chenh_lech_nha_tam
+		dataType: double
+		lineageTag: 9efb35ba-cdeb-5e7c-829b-532be1cc6bb4
+		summarizeBy: sum
+		sourceColumn: chenh_lech_nha_tam
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column bien_dong_nha_tam_pct
+		dataType: double
+		lineageTag: 76ce73fb-cebc-5033-aa45-0433f1897cec
+		summarizeBy: sum
+		sourceColumn: bien_dong_nha_tam_pct
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column bien_dong_khong_cmkt_pct
+		dataType: double
+		lineageTag: aff443f5-025b-57f3-a43f-2b7deb1675be
+		summarizeBy: sum
+		sourceColumn: bien_dong_khong_cmkt_pct
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column chenh_lech_ho_khat_von
+		dataType: double
+		lineageTag: 7dc2eaff-bc51-5f66-a767-1b1bed5ffb89
+		summarizeBy: sum
+		sourceColumn: chenh_lech_ho_khat_von
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column bien_dong_tin_dung_pct
+		dataType: double
+		lineageTag: a5ce382e-68fc-5063-bbb8-d83750751dac
+		summarizeBy: sum
+		sourceColumn: bien_dong_tin_dung_pct
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column bien_dong_nu_biet_chu_pct
+		dataType: double
+		lineageTag: 7095e9ac-aa26-5bd9-b114-bb32a21219f4
+		summarizeBy: sum
+		sourceColumn: bien_dong_nu_biet_chu_pct
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column bien_dong_nong_nghiep_pct
+		dataType: double
+		lineageTag: 05794dd5-24de-5bb3-a5ea-ca8b6f0cce74
+		summarizeBy: sum
+		sourceColumn: bien_dong_nong_nghiep_pct
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column bien_dong_dat_sx_ha
+		dataType: double
+		lineageTag: 1d92e924-049c-5de3-8454-8e8d54938e00
+		summarizeBy: sum
+		sourceColumn: bien_dong_dat_sx_ha
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column xep_hang_nha_tam_ky
+		dataType: int64
+		formatString: 0
+		lineageTag: 7126001f-f718-5028-998a-6af471a2edf4
+		summarizeBy: sum
+		sourceColumn: xep_hang_nha_tam_ky
+
+		annotation SummarizationSetBy = Automatic
+
+	column xep_hang_khat_von_ky
+		dataType: int64
+		formatString: 0
+		lineageTag: 8e0ae9ba-6c5a-5226-ac09-5234a65370ad
+		summarizeBy: sum
+		sourceColumn: xep_hang_khat_von_ky
+
+		annotation SummarizationSetBy = Automatic
+
+	partition v_dantoc_chuyen_dich_da_ky = m
+		mode: import
+		source =
+				let
+				    Source = PostgreSQL.Database("localhost:5432", "daklak_socioeconomic"),
+				    daklak_analytics_v_dantoc_chuyen_dich_da_ky = Source{[Schema="daklak_analytics",Item="v_dantoc_chuyen_dich_da_ky"]}[Data]
+				in
+				    daklak_analytics_v_dantoc_chuyen_dich_da_ky
+
+	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Navigation

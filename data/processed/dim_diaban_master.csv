@@ -1,0 +1,147 @@
+﻿ma_xa,ten_xa,loai_hinh,ma_huyen,ten_huyen,so_thon,tinh
+DL_COMM_001,Phường Tân Lập,Phường,DL_DIST_01,Thành phố Buôn Ma Thuột,12,Đắk Lắk
+DL_COMM_002,Phường Thành Nhất,Phường,DL_DIST_01,Thành phố Buôn Ma Thuột,8,Đắk Lắk
+DL_COMM_003,Phường Tự An,Phường,DL_DIST_01,Thành phố Buôn Ma Thuột,12,Đắk Lắk
+DL_COMM_004,Phường Ea Tam,Phường,DL_DIST_01,Thành phố Buôn Ma Thuột,11,Đắk Lắk
+DL_COMM_005,Phường Khánh Xuân,Phường,DL_DIST_01,Thành phố Buôn Ma Thuột,16,Đắk Lắk
+DL_COMM_006,Xã Cư ÊBur,Xã,DL_DIST_01,Thành phố Buôn Ma Thuột,7,Đắk Lắk
+DL_COMM_007,Xã Ea Tu,Xã,DL_DIST_01,Thành phố Buôn Ma Thuột,12,Đắk Lắk
+DL_COMM_008,Xã Hòa Thắng,Xã,DL_DIST_01,Thành phố Buôn Ma Thuột,11,Đắk Lắk
+DL_COMM_009,Xã Ea Kao,Xã,DL_DIST_01,Thành phố Buôn Ma Thuột,14,Đắk Lắk
+DL_COMM_010,Xã Hòa Phú,Xã,DL_DIST_01,Thành phố Buôn Ma Thuột,15,Đắk Lắk
+DL_COMM_011,Xã Hòa Khánh,Xã,DL_DIST_01,Thành phố Buôn Ma Thuột,20,Đắk Lắk
+DL_COMM_012,Xã Hòa Xuân,Xã,DL_DIST_01,Thành phố Buôn Ma Thuột,8,Đắk Lắk
+DL_COMM_013,Phường An Lạc,Phường,DL_DIST_02,Thị Xã Buôn Hồ,9,Đắk Lắk
+DL_COMM_014,Phường Đạt Hiếu,Phường,DL_DIST_02,Thị Xã Buôn Hồ,7,Đắk Lắk
+DL_COMM_015,Xã Ea Blang,Xã,DL_DIST_02,Thị Xã Buôn Hồ,5,Đắk Lắk
+DL_COMM_016,Xã Ea Drông,Xã,DL_DIST_02,Thị Xã Buôn Hồ,19,Đắk Lắk
+DL_COMM_017,Phường Thống Nhất,Phường,DL_DIST_02,Thị Xã Buôn Hồ,10,Đắk Lắk
+DL_COMM_018,Xã Ea Siên,Xã,DL_DIST_02,Thị Xã Buôn Hồ,8,Đắk Lắk
+DL_COMM_019,Xã Bình Thuận,Xã,DL_DIST_02,Thị Xã Buôn Hồ,22,Đắk Lắk
+DL_COMM_020,Xã Cư Bao,Xã,DL_DIST_02,Thị Xã Buôn Hồ,18,Đắk Lắk
+DL_COMM_021,Thị trấn Ea Drăng,Thị trấn,DL_DIST_03,Huyện Ea H'leo,16,Đắk Lắk
+DL_COMM_022,Xã Ea H'leo,Xã,DL_DIST_03,Huyện Ea H'leo,15,Đắk Lắk
+DL_COMM_023,Xã Ea Sol,Xã,DL_DIST_03,Huyện Ea H'leo,19,Đắk Lắk
+DL_COMM_024,Xã Ea Ral,Xã,DL_DIST_03,Huyện Ea H'leo,14,Đắk Lắk
+DL_COMM_025,Xã Ea Wy,Xã,DL_DIST_03,Huyện Ea H'leo,18,Đắk Lắk
+DL_COMM_026,Xã Cư A Mung,Xã,DL_DIST_03,Huyện Ea H'leo,7,Đắk Lắk
+DL_COMM_027,Xã Cư Mốt,Xã,DL_DIST_03,Huyện Ea H'leo,11,Đắk Lắk
+DL_COMM_028,Xã Ea Hiao,Xã,DL_DIST_03,Huyện Ea H'leo,21,Đắk Lắk
+DL_COMM_029,Xã Ea Khal,Xã,DL_DIST_03,Huyện Ea H'leo,12,Đắk Lắk
+DL_COMM_030,Xã Dliê Yang,Xã,DL_DIST_03,Huyện Ea H'leo,16,Đắk Lắk
+DL_COMM_031,Xã Ea Tir,Xã,DL_DIST_03,Huyện Ea H'leo,8,Đắk Lắk
+DL_COMM_032,Xã Ea Nam,Xã,DL_DIST_03,Huyện Ea H'leo,19,Đắk Lắk
+DL_COMM_033,Thị trấn Ea Súp,Thị trấn,DL_DIST_04,Huyện Ea Súp,19,Đắk Lắk
+DL_COMM_034,Xã Ia Lốp,Xã,DL_DIST_04,Huyện Ea Súp,12,Đắk Lắk
+DL_COMM_035,Xã Ia JLơi,Xã,DL_DIST_04,Huyện Ea Súp,8,Đắk Lắk
+DL_COMM_036,Xã Ea Rốk,Xã,DL_DIST_04,Huyện Ea Súp,15,Đắk Lắk
+DL_COMM_037,Xã Ya Tờ Mốt,Xã,DL_DIST_04,Huyện Ea Súp,6,Đắk Lắk
+DL_COMM_038,Xã Ia RVê,Xã,DL_DIST_04,Huyện Ea Súp,12,Đắk Lắk
+DL_COMM_039,Xã Ea Lê,Xã,DL_DIST_04,Huyện Ea Súp,20,Đắk Lắk
+DL_COMM_040,Xã Cư KBang,Xã,DL_DIST_04,Huyện Ea Súp,11,Đắk Lắk
+DL_COMM_041,Xã Cư M'Lan,Xã,DL_DIST_04,Huyện Ea Súp,8,Đắk Lắk
+DL_COMM_042,Xã Krông Na,Xã,DL_DIST_05,Huyện Buôn Đôn,8,Đắk Lắk
+DL_COMM_043,Xã Ea Huar,Xã,DL_DIST_05,Huyện Buôn Đôn,7,Đắk Lắk
+DL_COMM_044,Xã Ea Wer,Xã,DL_DIST_05,Huyện Buôn Đôn,11,Đắk Lắk
+DL_COMM_045,Xã Tân Hoà,Xã,DL_DIST_05,Huyện Buôn Đôn,15,Đắk Lắk
+DL_COMM_046,Xã Cuôr KNia,Xã,DL_DIST_05,Huyện Buôn Đôn,13,Đắk Lắk
+DL_COMM_047,Xã Ea Bar,Xã,DL_DIST_05,Huyện Buôn Đôn,19,Đắk Lắk
+DL_COMM_048,Xã Ea Nuôl,Xã,DL_DIST_05,Huyện Buôn Đôn,14,Đắk Lắk
+DL_COMM_049,Thị trấn Ea Pốk,Thị trấn,DL_DIST_06,Huyện Cư M'gar,12,Đắk Lắk
+DL_COMM_050,Xã Ea Kuêh,Xã,DL_DIST_06,Huyện Cư M'gar,11,Đắk Lắk
+DL_COMM_051,Xã Ea Kiết,Xã,DL_DIST_06,Huyện Cư M'gar,13,Đắk Lắk
+DL_COMM_052,Xã Ea Tar,Xã,DL_DIST_06,Huyện Cư M'gar,10,Đắk Lắk
+DL_COMM_053,Xã Cư Dliê M'nông,Xã,DL_DIST_06,Huyện Cư M'gar,14,Đắk Lắk
+DL_COMM_054,Xã Ea H'đinh,Xã,DL_DIST_06,Huyện Cư M'gar,8,Đắk Lắk
+DL_COMM_055,Xã Ea Tul,Xã,DL_DIST_06,Huyện Cư M'gar,11,Đắk Lắk
+DL_COMM_056,Xã Ea M'DRóh,Xã,DL_DIST_06,Huyện Cư M'gar,10,Đắk Lắk
+DL_COMM_057,Xã Quảng Hiệp,Xã,DL_DIST_06,Huyện Cư M'gar,12,Đắk Lắk
+DL_COMM_058,Xã Cư M'gar,Xã,DL_DIST_06,Huyện Cư M'gar,11,Đắk Lắk
+DL_COMM_059,Xã Ea D'Rơng,Xã,DL_DIST_06,Huyện Cư M'gar,13,Đắk Lắk
+DL_COMM_060,Xã Ea M'nang,Xã,DL_DIST_06,Huyện Cư M'gar,8,Đắk Lắk
+DL_COMM_061,Xã Cư Suê,Xã,DL_DIST_06,Huyện Cư M'gar,10,Đắk Lắk
+DL_COMM_062,Xã Cuor Đăng,Xã,DL_DIST_06,Huyện Cư M'gar,6,Đắk Lắk
+DL_COMM_063,Xã Cư Né,Xã,DL_DIST_07,Huyện Krông Búk,21,Đắk Lắk
+DL_COMM_064,Xã Cư Pơng,Xã,DL_DIST_07,Huyện Krông Búk,17,Đắk Lắk
+DL_COMM_065,Xã Ea Sin,Xã,DL_DIST_07,Huyện Krông Búk,7,Đắk Lắk
+DL_COMM_066,Thị trấn Pơng Drang,Thị trấn,DL_DIST_07,Huyện Krông Búk,20,Đắk Lắk
+DL_COMM_067,Thị trấn Krông Năng,Thị trấn,DL_DIST_08,Huyện Krông Năng,11,Đắk Lắk
+DL_COMM_068,Xã ĐLiê Ya,Xã,DL_DIST_08,Huyện Krông Năng,23,Đắk Lắk
+DL_COMM_069,Xã Ea Tam,Xã,DL_DIST_08,Huyện Krông Năng,16,Đắk Lắk
+DL_COMM_070,Xã Phú Lộc,Xã,DL_DIST_08,Huyện Krông Năng,15,Đắk Lắk
+DL_COMM_071,Xã Ea Puk,Xã,DL_DIST_08,Huyện Krông Năng,7,Đắk Lắk
+DL_COMM_072,Xã Ea Dăh,Xã,DL_DIST_08,Huyện Krông Năng,11,Đắk Lắk
+DL_COMM_073,Xã Ea Hồ,Xã,DL_DIST_08,Huyện Krông Năng,14,Đắk Lắk
+DL_COMM_074,Xã Cư Klông,Xã,DL_DIST_08,Huyện Krông Năng,8,Đắk Lắk
+DL_COMM_075,Xã Ea Tân,Xã,DL_DIST_08,Huyện Krông Năng,16,Đắk Lắk
+DL_COMM_076,Thị trấn Ea Kar,Thị trấn,DL_DIST_09,Huyện Ea Kar,16,Đắk Lắk
+DL_COMM_077,Xã Ea Sô,Xã,DL_DIST_09,Huyện Ea Kar,7,Đắk Lắk
+DL_COMM_078,Xã Ea Sar,Xã,DL_DIST_09,Huyện Ea Kar,13,Đắk Lắk
+DL_COMM_079,Xã Xuân Phú,Xã,DL_DIST_09,Huyện Ea Kar,10,Đắk Lắk
+DL_COMM_080,Xã Cư Huê,Xã,DL_DIST_09,Huyện Ea Kar,16,Đắk Lắk
+DL_COMM_081,Xã Ea Đar,Xã,DL_DIST_09,Huyện Ea Kar,19,Đắk Lắk
+DL_COMM_082,Xã Ea Kmút,Xã,DL_DIST_09,Huyện Ea Kar,15,Đắk Lắk
+DL_COMM_083,Xã Cư Ni,Xã,DL_DIST_09,Huyện Ea Kar,22,Đắk Lắk
+DL_COMM_084,Xã Ea Păl,Xã,DL_DIST_09,Huyện Ea Kar,12,Đắk Lắk
+DL_COMM_085,Xã Cư Prông,Xã,DL_DIST_09,Huyện Ea Kar,9,Đắk Lắk
+DL_COMM_086,Xã Ea Ô,Xã,DL_DIST_09,Huyện Ea Kar,19,Đắk Lắk
+DL_COMM_087,Xã Cư ELang,Xã,DL_DIST_09,Huyện Ea Kar,11,Đắk Lắk
+DL_COMM_088,Xã Cư Bông,Xã,DL_DIST_09,Huyện Ea Kar,12,Đắk Lắk
+DL_COMM_089,Xã Cư Jang,Xã,DL_DIST_09,Huyện Ea Kar,14,Đắk Lắk
+DL_COMM_090,Xã Cư Prao,Xã,DL_DIST_10,Huyện M'Đrắk,12,Đắk Lắk
+DL_COMM_091,Xã Ea Pil,Xã,DL_DIST_10,Huyện M'Đrắk,8,Đắk Lắk
+DL_COMM_092,Xã Krông Jing,Xã,DL_DIST_10,Huyện M'Đrắk,17,Đắk Lắk
+DL_COMM_093,Xã Ea M' Doal,Xã,DL_DIST_10,Huyện M'Đrắk,8,Đắk Lắk
+DL_COMM_094,Xã Cư M'ta,Xã,DL_DIST_10,Huyện M'Đrắk,11,Đắk Lắk
+DL_COMM_095,Xã Cư K Róa,Xã,DL_DIST_10,Huyện M'Đrắk,5,Đắk Lắk
+DL_COMM_096,Xã Krông Á,Xã,DL_DIST_10,Huyện M'Đrắk,7,Đắk Lắk
+DL_COMM_097,Xã Cư San,Xã,DL_DIST_10,Huyện M'Đrắk,12,Đắk Lắk
+DL_COMM_098,Xã Ea Trang,Xã,DL_DIST_10,Huyện M'Đrắk,10,Đắk Lắk
+DL_COMM_099,Xã Dang Kang,Xã,DL_DIST_11,Huyện Krông Bông,8,Đắk Lắk
+DL_COMM_100,Xã Hòa Phong,Xã,DL_DIST_11,Huyện Krông Bông,12,Đắk Lắk
+DL_COMM_101,Xã Yang Reh,Xã,DL_DIST_11,Huyện Krông Bông,7,Đắk Lắk
+DL_COMM_102,Xã Ea Trul,Xã,DL_DIST_11,Huyện Krông Bông,9,Đắk Lắk
+DL_COMM_103,Xã Cư Pui,Xã,DL_DIST_11,Huyện Krông Bông,13,Đắk Lắk
+DL_COMM_104,Xã Hòa Sơn,Xã,DL_DIST_11,Huyện Krông Bông,15,Đắk Lắk
+DL_COMM_105,Xã Cư Drăm,Xã,DL_DIST_11,Huyện Krông Bông,12,Đắk Lắk
+DL_COMM_106,Xã Yang Mao,Xã,DL_DIST_11,Huyện Krông Bông,7,Đắk Lắk
+DL_COMM_107,Xã KRông Búk,Xã,DL_DIST_12,Huyện Krông Pắc,24,Đắk Lắk
+DL_COMM_108,Xã Ea Kly,Xã,DL_DIST_12,Huyện Krông Pắc,24,Đắk Lắk
+DL_COMM_109,Xã Ea Kênh,Xã,DL_DIST_12,Huyện Krông Pắc,14,Đắk Lắk
+DL_COMM_110,Xã Ea Phê,Xã,DL_DIST_12,Huyện Krông Pắc,29,Đắk Lắk
+DL_COMM_111,Xã Ea KNuec,Xã,DL_DIST_12,Huyện Krông Pắc,14,Đắk Lắk
+DL_COMM_112,Xã Ea Yông,Xã,DL_DIST_12,Huyện Krông Pắc,20,Đắk Lắk
+DL_COMM_113,Xã Hòa An,Xã,DL_DIST_12,Huyện Krông Pắc,18,Đắk Lắk
+DL_COMM_114,Xã Ea Kuăng,Xã,DL_DIST_12,Huyện Krông Pắc,13,Đắk Lắk
+DL_COMM_115,Xã Hòa Đông,Xã,DL_DIST_12,Huyện Krông Pắc,18,Đắk Lắk
+DL_COMM_116,Xã Ea Hiu,Xã,DL_DIST_12,Huyện Krông Pắc,11,Đắk Lắk
+DL_COMM_117,Xã Tân Tiến,Xã,DL_DIST_12,Huyện Krông Pắc,11,Đắk Lắk
+DL_COMM_118,Xã Vụ Bổn,Xã,DL_DIST_12,Huyện Krông Pắc,19,Đắk Lắk
+DL_COMM_119,Xã Ea Uy,Xã,DL_DIST_12,Huyện Krông Pắc,9,Đắk Lắk
+DL_COMM_120,Xã Ea Yiêng,Xã,DL_DIST_12,Huyện Krông Pắc,5,Đắk Lắk
+DL_COMM_121,Thị trấn Buôn Trấp,Thị trấn,DL_DIST_13,Huyện Krông A Na,15,Đắk Lắk
+DL_COMM_122,Xã Dray Sáp,Xã,DL_DIST_13,Huyện Krông A Na,8,Đắk Lắk
+DL_COMM_123,Xã Ea Na,Xã,DL_DIST_13,Huyện Krông A Na,12,Đắk Lắk
+DL_COMM_124,Xã Ea Bông,Xã,DL_DIST_13,Huyện Krông A Na,13,Đắk Lắk
+DL_COMM_125,Xã Băng A Drênh,Xã,DL_DIST_13,Huyện Krông A Na,6,Đắk Lắk
+DL_COMM_126,Xã Dur KMăl,Xã,DL_DIST_13,Huyện Krông A Na,7,Đắk Lắk
+DL_COMM_127,Xã Bình Hòa,Xã,DL_DIST_13,Huyện Krông A Na,7,Đắk Lắk
+DL_COMM_128,Thị trấn Liên Sơn,Thị trấn,DL_DIST_14,Huyện Lắk,10,Đắk Lắk
+DL_COMM_129,Xã Yang Tao,Xã,DL_DIST_14,Huyện Lắk,10,Đắk Lắk
+DL_COMM_130,Xã Bông Krang,Xã,DL_DIST_14,Huyện Lắk,11,Đắk Lắk
+DL_COMM_131,Xã Đắk Liêng,Xã,DL_DIST_14,Huyện Lắk,18,Đắk Lắk
+DL_COMM_132,Xã Buôn Triết,Xã,DL_DIST_14,Huyện Lắk,12,Đắk Lắk
+DL_COMM_133,Xã Buôn Tría,Xã,DL_DIST_14,Huyện Lắk,8,Đắk Lắk
+DL_COMM_134,Xã Đắk Phơi,Xã,DL_DIST_14,Huyện Lắk,9,Đắk Lắk
+DL_COMM_135,Xã Đắk Nuê,Xã,DL_DIST_14,Huyện Lắk,10,Đắk Lắk
+DL_COMM_136,Xã Krông Nô,Xã,DL_DIST_14,Huyện Lắk,13,Đắk Lắk
+DL_COMM_137,Xã Nam Ka,Xã,DL_DIST_14,Huyện Lắk,4,Đắk Lắk
+DL_COMM_138,Xã Ea R'Bin,Xã,DL_DIST_14,Huyện Lắk,4,Đắk Lắk
+DL_COMM_139,Xã Ea Ning,Xã,DL_DIST_15,Huyện Cư Kuin,15,Đắk Lắk
+DL_COMM_140,Xã Cư Ê Wi,Xã,DL_DIST_15,Huyện Cư Kuin,9,Đắk Lắk
+DL_COMM_141,Xã Ea Ktur,Xã,DL_DIST_15,Huyện Cư Kuin,19,Đắk Lắk
+DL_COMM_142,Xã Ea Tiêu,Xã,DL_DIST_15,Huyện Cư Kuin,21,Đắk Lắk
+DL_COMM_143,Xã Ea BHốk,Xã,DL_DIST_15,Huyện Cư Kuin,17,Đắk Lắk
+DL_COMM_144,Xã Ea Hu,Xã,DL_DIST_15,Huyện Cư Kuin,8,Đắk Lắk
+DL_COMM_145,Xã Dray Bhăng,Xã,DL_DIST_15,Huyện Cư Kuin,5,Đắk Lắk
+DL_COMM_146,Xã Hòa Hiệp,Xã,DL_DIST_15,Huyện Cư Kuin,8,Đắk Lắk

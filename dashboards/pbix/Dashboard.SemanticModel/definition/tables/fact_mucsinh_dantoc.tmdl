@@ -1,0 +1,108 @@
+table fact_mucsinh_dantoc
+	lineageTag: 462de3a8-90ed-4f9d-bfd6-a91b0152e382
+
+	column ma_dantoc
+		dataType: string
+		lineageTag: e8437388-6ce0-491e-8b9e-cc5706f97557
+		summarizeBy: none
+		sourceColumn: ma_dantoc
+
+		annotation SummarizationSetBy = Automatic
+
+	column ten_dantoc
+		dataType: string
+		lineageTag: d350bc15-8f82-4a5c-9843-8999ebd0217d
+		summarizeBy: none
+		sourceColumn: ten_dantoc
+
+		annotation SummarizationSetBy = Automatic
+
+	column nhom_nguon_goc
+		dataType: string
+		lineageTag: 3f6abdeb-6b1a-404b-9141-c0ed43807a7c
+		summarizeBy: none
+		sourceColumn: nhom_nguon_goc
+
+		annotation SummarizationSetBy = Automatic
+
+	column sinh_con_thu_3_tro_len
+		dataType: double
+		lineageTag: 24a4a749-d24b-4243-bf97-36268e6d5432
+		summarizeBy: sum
+		sourceColumn: sinh_con_thu_3_tro_len
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column sinh_con_thu_3_thanh_thi
+		dataType: double
+		lineageTag: 74b3e68b-29ae-4708-8074-42fec6d67006
+		summarizeBy: sum
+		sourceColumn: sinh_con_thu_3_thanh_thi
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column sinh_con_thu_3_nong_thon
+		dataType: double
+		lineageTag: 0fb23435-f9f4-4866-b34b-0fe48d009297
+		summarizeBy: sum
+		sourceColumn: sinh_con_thu_3_nong_thon
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column sinh_tai_nha_tong
+		dataType: double
+		lineageTag: e32a591b-bb7e-4e24-a2c9-d98872c118b4
+		summarizeBy: sum
+		sourceColumn: sinh_tai_nha_tong
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column sinh_tai_nha_co_ba_do
+		dataType: double
+		lineageTag: 75c05083-15e9-4bcd-9fd2-9b13691a8195
+		summarizeBy: sum
+		sourceColumn: sinh_tai_nha_co_ba_do
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column sinh_tai_nha_khong_ba_do
+		dataType: double
+		lineageTag: 4c99bd77-3ef1-457d-8183-f255561652ea
+		summarizeBy: sum
+		sourceColumn: sinh_tai_nha_khong_ba_do
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column ma_ky
+		dataType: string
+		lineageTag: f522d02d-799c-42f1-b0a1-802d5889b1fc
+		summarizeBy: none
+		sourceColumn: ma_ky
+
+		annotation SummarizationSetBy = Automatic
+
+	partition fact_mucsinh_dantoc = m
+		mode: import
+		source =
+				let
+				    Source = PostgreSQL.Database("localhost:5432", "daklak_socioeconomic"),
+				    daklak_analytics_fact_mucsinh_dantoc = Source{[Schema="daklak_analytics",Item="fact_mucsinh_dantoc"]}[Data]
+				in
+				    daklak_analytics_fact_mucsinh_dantoc
+
+	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Navigation
+

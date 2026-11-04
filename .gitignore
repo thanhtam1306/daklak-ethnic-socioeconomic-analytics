@@ -1,0 +1,80 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extension files
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# DuckDB lock & WAL files
+warehouse/*.duckdb.wal
+warehouse/*.duckdb.tmp
+warehouse/*.duckdb.lock
+
+# Power BI temp & backup files
+*.tmp
+*.bak
+.pytest_cache/
+dashboards/pbix/*.tmp
+dashboards/pbix/*.pbit.zip
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs & temp
+*.log
+
+# Environment variables & secrets
+.env
+.env.*
+!.env.example
+
+# Private certificates & keys (Local SSL)
+certs/
+*.pem
+*.key
+*.crt
+
+# Internal Agent configurations & memory (Keep strictly local, never push)
+.agents/
+Gemini.md
+GEMINI.md
+
+# Universal Data Analyst Template (Strictly local, never push to GitHub/Internet)
+templates/
+
+# Private Master Playbook & Interview Guide (Strictly Local - Never Publish)
+CONFIDENTIAL_*.md
+*CONFIDENTIAL*
+docs/private/
+reports/private/

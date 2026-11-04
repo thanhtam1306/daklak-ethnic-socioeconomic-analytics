@@ -1,0 +1,127 @@
+table fact_giaoduc_dantoc
+	lineageTag: 8daec509-e604-4685-955f-fa7e0eb26407
+
+	column ma_dantoc
+		dataType: string
+		lineageTag: d0e9b458-cfe9-42c6-8169-544932a2324c
+		summarizeBy: none
+		sourceColumn: ma_dantoc
+
+		annotation SummarizationSetBy = Automatic
+
+	column biet_chu_tong
+		dataType: double
+		lineageTag: 5e7d6672-109b-475c-a8d0-5bab93b32d4d
+		summarizeBy: sum
+		sourceColumn: biet_chu_tong
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column biet_chu_nam
+		dataType: double
+		lineageTag: fa1b155a-ab7c-444d-971d-eb539965244d
+		summarizeBy: sum
+		sourceColumn: biet_chu_nam
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column biet_chu_nu
+		dataType: double
+		lineageTag: e2424741-b190-4009-b0aa-2df7e6110c54
+		summarizeBy: sum
+		sourceColumn: biet_chu_nu
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column biet_chu_thanh_thi
+		dataType: double
+		lineageTag: 5fa7c8c8-b396-4557-8a58-553f55b23ab1
+		summarizeBy: sum
+		sourceColumn: biet_chu_thanh_thi
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column biet_chu_nong_thon
+		dataType: double
+		lineageTag: 9a2a32b1-abb5-4f1d-a0bd-f30314cebc42
+		summarizeBy: sum
+		sourceColumn: biet_chu_nong_thon
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column ten_dantoc
+		dataType: string
+		lineageTag: 84352448-ad16-4cce-ba4c-f12242a6de1e
+		summarizeBy: none
+		sourceColumn: ten_dantoc
+
+		annotation SummarizationSetBy = Automatic
+
+	column nhom_nguon_goc
+		dataType: string
+		lineageTag: e1ca8885-1b91-4be6-aa70-f4b163acbdc0
+		summarizeBy: none
+		sourceColumn: nhom_nguon_goc
+
+		annotation SummarizationSetBy = Automatic
+
+	column la_dtts_it_nguoi
+		dataType: int64
+		formatString: 0
+		lineageTag: b09fb186-c5e4-42f6-8afd-d7c114f1ecdc
+		summarizeBy: sum
+		sourceColumn: la_dtts_it_nguoi
+
+		annotation SummarizationSetBy = Automatic
+
+	column ty_le_nu_biet_chu_pct
+		dataType: double
+		lineageTag: d77dd077-1bb2-40d8-8c00-18005b97df06
+		summarizeBy: sum
+		sourceColumn: ty_le_nu_biet_chu_pct
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column ty_le_nong_thon_biet_chu_pct
+		dataType: double
+		lineageTag: cbc0258c-4e80-4af1-a761-a81ab89da7d5
+		summarizeBy: sum
+		sourceColumn: ty_le_nong_thon_biet_chu_pct
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column ma_ky
+		dataType: string
+		lineageTag: 15125e41-21c6-41b2-a289-c0a78bfb31ce
+		summarizeBy: none
+		sourceColumn: ma_ky
+
+		annotation SummarizationSetBy = Automatic
+
+	partition fact_giaoduc_dantoc = m
+		mode: import
+		source =
+				let
+				    Source = PostgreSQL.Database("localhost:5432", "daklak_socioeconomic"),
+				    daklak_analytics_fact_giaoduc_dantoc = Source{[Schema="daklak_analytics",Item="fact_giaoduc_dantoc"]}[Data]
+				in
+				    daklak_analytics_fact_giaoduc_dantoc
+
+	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Navigation
+

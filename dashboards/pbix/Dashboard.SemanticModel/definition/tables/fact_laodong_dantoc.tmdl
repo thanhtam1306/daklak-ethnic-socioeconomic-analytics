@@ -1,0 +1,118 @@
+table fact_laodong_dantoc
+	lineageTag: 69a66145-5b48-4d24-878e-70fb30914284
+
+	column ma_dantoc
+		dataType: string
+		lineageTag: b4485539-e753-4595-af41-09f9b028e532
+		summarizeBy: none
+		sourceColumn: ma_dantoc
+
+		annotation SummarizationSetBy = Automatic
+
+	column tong_lao_dong_co_viec_lam
+		dataType: double
+		lineageTag: 5bd50afa-c2e1-45b3-b325-ac88388ec6ae
+		summarizeBy: sum
+		sourceColumn: tong_lao_dong_co_viec_lam
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column lao_dong_nong_nghiep
+		dataType: double
+		lineageTag: 0a6bff89-e088-4111-a977-35ca9712b1c8
+		summarizeBy: sum
+		sourceColumn: lao_dong_nong_nghiep
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column lao_dong_cong_nghiep_xaydung
+		dataType: double
+		lineageTag: f9024769-3f08-4992-8df9-2cdfbe2fa240
+		summarizeBy: sum
+		sourceColumn: lao_dong_cong_nghiep_xaydung
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column lao_dong_dich_vu
+		dataType: double
+		lineageTag: 4e155d96-0ccf-4e41-aee6-92bf35b71998
+		summarizeBy: sum
+		sourceColumn: lao_dong_dich_vu
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column lao_dong_nam
+		dataType: double
+		lineageTag: 04b12ca8-fe27-4b25-aeb7-751d43260c67
+		summarizeBy: sum
+		sourceColumn: lao_dong_nam
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column lao_dong_nu
+		dataType: double
+		lineageTag: 273a010d-f0c9-4a2c-88fa-971b3143b6d7
+		summarizeBy: sum
+		sourceColumn: lao_dong_nu
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column ten_dantoc
+		dataType: string
+		lineageTag: 854bcbd7-5a2a-42fe-aaa0-d6ffc2c66769
+		summarizeBy: none
+		sourceColumn: ten_dantoc
+
+		annotation SummarizationSetBy = Automatic
+
+	column nhom_nguon_goc
+		dataType: string
+		lineageTag: ff86b8b4-2517-4f3c-8929-30da7b8cebde
+		summarizeBy: none
+		sourceColumn: nhom_nguon_goc
+
+		annotation SummarizationSetBy = Automatic
+
+	column ty_le_nong_nghiep_pct
+		dataType: double
+		lineageTag: bd9e9ac8-2e89-4ef2-b4c8-90d07466af4f
+		summarizeBy: sum
+		sourceColumn: ty_le_nong_nghiep_pct
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column ma_ky
+		dataType: string
+		lineageTag: 20b7d83e-7c05-4cb3-a6a3-50fe9867e80a
+		summarizeBy: none
+		sourceColumn: ma_ky
+
+		annotation SummarizationSetBy = Automatic
+
+	partition fact_laodong_dantoc = m
+		mode: import
+		source =
+				let
+				    Source = PostgreSQL.Database("localhost:5432", "daklak_socioeconomic"),
+				    daklak_analytics_fact_laodong_dantoc = Source{[Schema="daklak_analytics",Item="fact_laodong_dantoc"]}[Data]
+				in
+				    daklak_analytics_fact_laodong_dantoc
+
+	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Navigation
+

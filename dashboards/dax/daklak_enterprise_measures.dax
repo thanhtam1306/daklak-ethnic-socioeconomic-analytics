@@ -1,0 +1,1339 @@
+/* ==============================================================================
+   DAX MEASURES SUITE - BỘ CÔNG THỨC DAX ĐỘNG ĐA KỲ & DỰ TOÁN NGÂN SÁCH (PHASE 2)
+   DỰ ÁN: PHÂN TÍCH THỰC TRẠNG KINH TẾ - XÃ HỘI 53 DÂN TỘC THIỂU SỐ ĐẮK LẮK
+   KIẾN TRÚC: Dynamic Multi-Period Star Schema (KY_2019 -> KY_2024 -> KY_2026...)
+   CSDL: PostgreSQL 18 / Schema daklak_analytics (5 Dims + 12 Facts + 6 Views)
+   QUY CHUẨN:
+     1. Context-Aware Anti-Double-Counting: Tự động khóa vào kỳ đang chọn hoặc
+        kỳ mới nhất (is_latest = TRUE) khi người dùng không chọn Slicer.
+     2. Custom Time Intelligence: Lùi kỳ tự động bằng `thu_tu_ky - 1` (không phụ
+        thuộc khoảng cách năm 5 năm hay 2 năm).
+     3. Dynamic Policy Budgeting Engine: Đọc động đơn giá định mức (VNĐ/Triệu VNĐ)
+        và chỉ tiêu kế hoạch từ `dim_chitieu_kehoach_ngansach` theo từng giai đoạn.
+   ============================================================================== */
+
+
+// ==============================================================================
+// 0. DISPLAY FOLDER: 00_Time_Intelligence_Context
+// Bộ điều khiển ngữ cảnh chu kỳ điều tra, chống cộng dồn sai (Anti-Triple Counting)
+// ==============================================================================
+
+// Thứ tự kỳ báo cáo đang xét (Nếu không chọn Slicer -> tự động lấy kỳ mới nhất is_latest = TRUE)
+[Selected Period Order] = 
+VAR ExplicitOrder = SELECTEDVALUE(dim_ky_baocao[thu_tu_ky])
+VAR LatestOrder = 
+    CALCULATE(
+        MAX(dim_ky_baocao[thu_tu_ky]),
+        REMOVEFILTERS(dim_ky_baocao),
+        dim_ky_baocao[is_latest] = TRUE()
+    )
+VAR FallbackMax = 
+    CALCULATE(
+        MAX(dim_ky_baocao[thu_tu_ky]),
+        REMOVEFILTERS(dim_ky_baocao)
+    )
+RETURN
+    COALESCE(ExplicitOrder, LatestOrder, FallbackMax, 3)
+/* Format String: 0 */
+
+// Thứ tự kỳ báo cáo liền trước (Tự động co giãn thu_tu_ky - 1)
+[Previous Period Order] = 
+VAR CurOrder = [Selected Period Order]
+RETURN
+    IF(CurOrder > 1, CurOrder - 1, BLANK())
+/* Format String: 0 */
+
+// Mã kỳ báo cáo đang xét (KY_2019 | KY_2024 | KY_2026)
+[Selected Period Code] = 
+VAR CurOrder = [Selected Period Order]
+RETURN
+    CALCULATE(
+        MAX(dim_ky_baocao[ma_ky]),
+        REMOVEFILTERS(dim_ky_baocao),
+        dim_ky_baocao[thu_tu_ky] = CurOrder
+    )
+
+// Tên kỳ báo cáo đang xét
+[Selected Period Name] = 
+VAR CurOrder = [Selected Period Order]
+RETURN
+    CALCULATE(
+        MAX(dim_ky_baocao[ten_ky]),
+        REMOVEFILTERS(dim_ky_baocao),
+        dim_ky_baocao[thu_tu_ky] = CurOrder
+    )
+
+// Tên kỳ báo cáo liền trước
+[Previous Period Name] = 
+VAR PrevOrder = [Previous Period Order]
+RETURN
+    IF(
+        ISBLANK(PrevOrder),
+        "Kỳ gốc (Baseline 2019)",
+        CALCULATE(
+            MAX(dim_ky_baocao[ten_ky]),
+            REMOVEFILTERS(dim_ky_baocao),
+            dim_ky_baocao[thu_tu_ky] = PrevOrder
+        )
+    )
+
+// Giai đoạn chính sách tương ứng với kỳ đang xét (2016-2020 | 2021-2025 | 2026-2030)
+[Selected Policy Stage] = 
+VAR CurOrder = [Selected Period Order]
+RETURN
+    CALCULATE(
+        MAX(dim_ky_baocao[giai_doan_chinh_sach]),
+        REMOVEFILTERS(dim_ky_baocao),
+        dim_ky_baocao[thu_tu_ky] = CurOrder
+    )
+
+// Năm mốc của kỳ điều tra đang xét
+[Selected Period Year] = 
+VAR CurOrder = [Selected Period Order]
+RETURN
+    CALCULATE(
+        MAX(dim_ky_baocao[nam_moc]),
+        REMOVEFILTERS(dim_ky_baocao),
+        dim_ky_baocao[thu_tu_ky] = CurOrder
+    )
+/* Format String: 0 */
+
+// Tiêu đề Banner Động hiển thị Kỳ báo cáo & Giai đoạn chính sách trên Header
+[Active Period Header Title] = 
+"📌 KỲ DỮ LIỆU ĐANG XEM: " & UPPER([Selected Period Name]) & 
+" | GIAI ĐOẠN CHÍNH SÁCH: " & [Selected Policy Stage] & 
+" (So sánh với: " & [Previous Period Name] & ")"
+
+
+// ==============================================================================
+// 1. DISPLAY FOLDER: 01_Executive_KPIs
+// Thước đo tổng quan cấp tỉnh, huyện và dân tộc (Context-Aware theo Kỳ đang chọn)
+// ==============================================================================
+
+// Tổng dân số DTTS toàn tỉnh (tính từ fact_nhankhau_dantoc theo kỳ đang chọn)
+[Total DTTS Population] = 
+VAR CurOrder = [Selected Period Order]
+RETURN
+    CALCULATE(
+        SUM(fact_nhankhau_dantoc[tong_dan_so]),
+        REMOVEFILTERS(dim_ky_baocao),
+        dim_ky_baocao[thu_tu_ky] = CurOrder
+    )
+/* Format String: #,##0 "người" */
+
+// Tổng số hộ DTTS toàn tỉnh (tính từ fact_nhao_dantoc theo kỳ đang chọn)
+[Total DTTS Households] = 
+VAR CurOrder = [Selected Period Order]
+RETURN
+    CALCULATE(
+        SUM(fact_nhao_dantoc[tong_so_ho_co_nha]),
+        REMOVEFILTERS(dim_ky_baocao),
+        dim_ky_baocao[thu_tu_ky] = CurOrder
+    )
+/* Format String: #,##0 "hộ" */
+
+// Tổng số hộ DTTS phân bổ theo địa bàn Huyện/Xã (từ fact_hatang_xa theo kỳ đang chọn - phục vụ Treemap Trang 1)
+[Total Households District] = 
+VAR CurOrder = [Selected Period Order]
+RETURN
+    CALCULATE(
+        SUM(fact_hatang_xa[tong_ho_dtts]),
+        REMOVEFILTERS(dim_ky_baocao),
+        dim_ky_baocao[thu_tu_ky] = CurOrder
+    )
+/* Format String: #,##0 "hộ" */
+
+// Tổng số hộ DTTS nghèo toàn tỉnh (từ fact_hatang_xa theo kỳ đang chọn)
+[Total Poor Households] = 
+VAR CurOrder = [Selected Period Order]
+RETURN
+    CALCULATE(
+        SUM(fact_hatang_xa[so_ho_ngheo]),
+        REMOVEFILTERS(dim_ky_baocao),
+        dim_ky_baocao[thu_tu_ky] = CurOrder
+    )
+/* Format String: #,##0 "hộ" */
+
+// Tổng số hộ DTTS cận nghèo toàn tỉnh (từ fact_hatang_xa theo kỳ đang chọn)
+[Total Near Poor Households] = 
+VAR CurOrder = [Selected Period Order]
+RETURN
+    CALCULATE(
+        SUM(fact_hatang_xa[so_ho_can_ngheo]),
+        REMOVEFILTERS(dim_ky_baocao),
+        dim_ky_baocao[thu_tu_ky] = CurOrder
+    )
+/* Format String: #,##0 "hộ" */
+
+// Tỷ lệ hộ nghèo bình quân cấp xã (%)
+[Average Poverty Rate %] = 
+VAR CurOrder = [Selected Period Order]
+RETURN
+    CALCULATE(
+        AVERAGE(fact_hatang_xa[ty_le_ngheo_pct]) / 100,
+        REMOVEFILTERS(dim_ky_baocao),
+        dim_ky_baocao[thu_tu_ky] = CurOrder
+    )
+/* Format String: 0.0% */
+
+// Tỷ lệ hộ cận nghèo bình quân cấp xã (%)
+[Average Near Poverty Rate %] = 
+VAR CurOrder = [Selected Period Order]
+RETURN
+    CALCULATE(
+        AVERAGE(fact_hatang_xa[ty_le_can_ngheo_pct]) / 100,
+        REMOVEFILTERS(dim_ky_baocao),
+        dim_ky_baocao[thu_tu_ky] = CurOrder
+    )
+/* Format String: 0.0% */
+
+// Số lượng dân tộc thiểu số cùng sinh sống
+[Total Ethnic Groups Count] = 
+DISTINCTCOUNT(dim_dantoc[ma_dantoc])
+/* Format String: #,##0 "dân tộc" */
+
+// Tổng số xã / phường khảo sát
+[Total Communes Count] = 
+DISTINCTCOUNT(dim_diaban[ma_xa])
+/* Format String: #,##0 "xã" */
+
+// Tổng số huyện / thị xã / thành phố
+[Total Districts Count] = 
+DISTINCTCOUNT(dim_diaban[ma_huyen])
+/* Format String: #,##0 "huyện/thị" */
+
+
+// ==============================================================================
+// 2. DISPLAY FOLDER: 02_Demographics_Dependency
+// Thước đo nhân khẩu học, cơ cấu 3 nhóm tuổi và gánh nặng phụ thuộc (Context-Aware)
+// ==============================================================================
+
+// Dân số Nam giới DTTS
+[Population Male] = 
+VAR CurOrder = [Selected Period Order]
+RETURN
+    CALCULATE(
+        SUM(fact_nhankhau_dantoc[dan_so_nam]),
+        REMOVEFILTERS(dim_ky_baocao),
+        dim_ky_baocao[thu_tu_ky] = CurOrder
+    )
+/* Format String: #,##0 "người" */
+
+// Dân số Nữ giới DTTS
+[Population Female] = 
+VAR CurOrder = [Selected Period Order]
+RETURN
+    CALCULATE(
+        SUM(fact_nhankhau_dantoc[dan_so_nu]),
+        REMOVEFILTERS(dim_ky_baocao),
+        dim_ky_baocao[thu_tu_ky] = CurOrder
+    )
+/* Format String: #,##0 "người" */
+
+// Tỷ số giới tính (Số Nam trên 100 Nữ)
+[Sex Ratio] = 
+DIVIDE([Population Male], [Population Female], 0) * 100
+/* Format String: 0.0 */
+
+// Trẻ em dưới 15 tuổi (0 - 14 tuổi)
+[Population Age 0-14] = 
+VAR CurOrder = [Selected Period Order]
+RETURN
+    CALCULATE(
+        SUM(fact_nhankhau_dantoc[dan_so_0_14]),
+        REMOVEFILTERS(dim_ky_baocao),
+        dim_ky_baocao[thu_tu_ky] = CurOrder
+    )
+/* Format String: #,##0 "người" */
+
+// Dân số trong độ tuổi lao động (15 - 59 tuổi)
+[Population Age 15-59] = 
+VAR CurOrder = [Selected Period Order]
+RETURN
+    CALCULATE(
+        SUM(fact_nhankhau_dantoc[dan_so_15_59]),
+        REMOVEFILTERS(dim_ky_baocao),
+        dim_ky_baocao[thu_tu_ky] = CurOrder
+    )
+/* Format String: #,##0 "người" */
+
+// Dân số người cao tuổi (60 tuổi trở lên)
+[Population Age 60Plus] = 
+VAR CurOrder = [Selected Period Order]
+RETURN
+    CALCULATE(
+        SUM(fact_nhankhau_dantoc[dan_so_60_plus]),
+        REMOVEFILTERS(dim_ky_baocao),
+        dim_ky_baocao[thu_tu_ky] = CurOrder
+    )
+/* Format String: #,##0 "người" */
+
+// Tỷ số phụ thuộc trẻ em (%): Trẻ em (0-14) / Lao động (15-59)
+[Youth Dependency Ratio %] = 
+DIVIDE([Population Age 0-14], [Population Age 15-59], 0)
+/* Format String: 0.0% */
+
+// Tỷ số phụ thuộc người già (%): Người già (60+) / Lao động (15-59)
+[Old Age Dependency Ratio %] = 
+DIVIDE([Population Age 60Plus], [Population Age 15-59], 0)
+/* Format String: 0.0% */
+
+// Tổng tỷ số phụ thuộc (%): (0-14 + 60+) / 15-59
+[Total Dependency Ratio %] = 
+DIVIDE([Population Age 0-14] + [Population Age 60Plus], [Population Age 15-59], 0)
+/* Format String: 0.0% */
+
+// Chỉ số già hóa (%): Người già (60+) trên 100 trẻ em (0-14)
+[Aging Index %] = 
+DIVIDE([Population Age 60Plus], [Population Age 0-14], 0) * 100
+/* Format String: 0.0% */
+
+
+// ==============================================================================
+// 3. DISPLAY FOLDER: 03_Education_Human_Capital
+// Thước đo chất lượng nguồn nhân lực, biết chữ và đào tạo CMKT (Context-Aware)
+// ==============================================================================
+
+// Tổng số người biết chữ
+[Literate Population] = 
+VAR CurOrder = [Selected Period Order]
+RETURN
+    CALCULATE(
+        SUM(fact_giaoduc_dantoc[biet_chu_tong]),
+        REMOVEFILTERS(dim_ky_baocao),
+        dim_ky_baocao[thu_tu_ky] = CurOrder
+    )
+/* Format String: #,##0 "người" */
+
+// Tỷ lệ biết chữ Nữ giới bình quân (%)
+[Female Literacy Rate %] = 
+VAR CurOrder = [Selected Period Order]
+RETURN
+    CALCULATE(
+        AVERAGE(fact_giaoduc_dantoc[ty_le_nu_biet_chu_pct]) / 100,
+        REMOVEFILTERS(dim_ky_baocao),
+        dim_ky_baocao[thu_tu_ky] = CurOrder
+    )
+/* Format String: 0.0% */
+
+// Tỷ số biết chữ Nam / Nữ (Bóc tách khoảng cách giới Mẫu hệ vs Phụ hệ)
+[Gender Literacy Ratio] = 
+VAR CurOrder = [Selected Period Order]
+VAR MaleLit = 
+    CALCULATE(
+        SUM(fact_giaoduc_dantoc[biet_chu_nam]),
+        REMOVEFILTERS(dim_ky_baocao),
+        dim_ky_baocao[thu_tu_ky] = CurOrder
+    )
+VAR FemaleLit = 
+    CALCULATE(
+        SUM(fact_giaoduc_dantoc[biet_chu_nu]),
+        REMOVEFILTERS(dim_ky_baocao),
+        dim_ky_baocao[thu_tu_ky] = CurOrder
+    )
+RETURN
+    DIVIDE(MaleLit, FemaleLit, 0)
+/* Format String: 0.00 */
+
+// Tổng số lao động DTTS (từ bảng fact_trinhdo_cmkt_dantoc)
+[Total Labor Force CMKT] = 
+VAR CurOrder = [Selected Period Order]
+RETURN
+    CALCULATE(
+        SUM(fact_trinhdo_cmkt_dantoc[tong_lao_dong]),
+        REMOVEFILTERS(dim_ky_baocao),
+        dim_ky_baocao[thu_tu_ky] = CurOrder
+    )
+/* Format String: #,##0 "người" */
+
+// Số lao động chưa qua đào tạo CMKT (Không bằng cấp/chứng chỉ)
+[Untrained Labor Force] = 
+VAR CurOrder = [Selected Period Order]
+RETURN
+    CALCULATE(
+        SUM(fact_trinhdo_cmkt_dantoc[khong_co_cmkt]),
+        REMOVEFILTERS(dim_ky_baocao),
+        dim_ky_baocao[thu_tu_ky] = CurOrder
+    )
+/* Format String: #,##0 "người" */
+
+// Tỷ lệ lao động chưa qua đào tạo CMKT (%)
+[Untrained Labor Rate %] = 
+DIVIDE([Untrained Labor Force], [Total Labor Force CMKT], 0)
+/* Format String: 0.0% */
+
+// Tỷ lệ lao động đã qua đào tạo CMKT (%)
+[Trained Labor Rate %] = 
+1 - [Untrained Labor Rate %]
+/* Format String: 0.0% */
+
+// Số lao động có trình độ Cao đẳng, Đại học trở lên
+[Higher Education Labor Force] = 
+VAR CurOrder = [Selected Period Order]
+RETURN
+    CALCULATE(
+        SUM(fact_trinhdo_cmkt_dantoc[cao_dang_dai_hoc]),
+        REMOVEFILTERS(dim_ky_baocao),
+        dim_ky_baocao[thu_tu_ky] = CurOrder
+    )
+/* Format String: #,##0 "người" */
+
+
+// ==============================================================================
+// 4. DISPLAY FOLDER: 04_Labor_Economy
+// Thước đo cơ cấu việc làm, phân bổ ngành nghề và bẫy nông nghiệp (Context-Aware)
+// ==============================================================================
+
+// Tổng số lao động có việc làm (từ fact_laodong_dantoc)
+[Total Employed Labor Force] = 
+VAR CurOrder = [Selected Period Order]
+RETURN
+    CALCULATE(
+        SUM(fact_laodong_dantoc[tong_lao_dong_co_viec_lam]),
+        REMOVEFILTERS(dim_ky_baocao),
+        dim_ky_baocao[thu_tu_ky] = CurOrder
+    )
+/* Format String: #,##0 "người" */
+
+// Số lao động làm trong ngành Nông, Lâm, Thủy sản
+[Agricultural Labor Force] = 
+VAR CurOrder = [Selected Period Order]
+RETURN
+    CALCULATE(
+        SUM(fact_laodong_dantoc[lao_dong_nong_nghiep]),
+        REMOVEFILTERS(dim_ky_baocao),
+        dim_ky_baocao[thu_tu_ky] = CurOrder
+    )
+/* Format String: #,##0 "người" */
+
+// Tỷ lệ lao động nông nghiệp thuần túy (%)
+[Agricultural Labor Rate %] = 
+DIVIDE([Agricultural Labor Force], [Total Employed Labor Force], 0)
+/* Format String: 0.0% */
+
+// Lao động Công nghiệp & Xây dựng
+[Industrial Labor Force] = 
+VAR CurOrder = [Selected Period Order]
+RETURN
+    CALCULATE(
+        SUM(fact_laodong_dantoc[lao_dong_cong_nghiep_xaydung]),
+        REMOVEFILTERS(dim_ky_baocao),
+        dim_ky_baocao[thu_tu_ky] = CurOrder
+    )
+/* Format String: #,##0 "người" */
+
+// Lao động Thương mại & Dịch vụ
+[Services Labor Force] = 
+VAR CurOrder = [Selected Period Order]
+RETURN
+    CALCULATE(
+        SUM(fact_laodong_dantoc[lao_dong_dich_vu]),
+        REMOVEFILTERS(dim_ky_baocao),
+        dim_ky_baocao[thu_tu_ky] = CurOrder
+    )
+/* Format String: #,##0 "người" */
+
+// Tỷ lệ lao động phi nông nghiệp (%)
+[Non-Agri Labor Rate %] = 
+1 - [Agricultural Labor Rate %]
+/* Format String: 0.0% */
+
+// Tỷ trọng đóng góp lao động của người Ê Đê trên toàn tỉnh
+[Ede Labor Contribution %] = 
+VAR CurOrder = [Selected Period Order]
+VAR EdeLabor = 
+    CALCULATE(
+        SUM(fact_laodong_dantoc[tong_lao_dong_co_viec_lam]),
+        REMOVEFILTERS(dim_ky_baocao),
+        dim_ky_baocao[thu_tu_ky] = CurOrder,
+        dim_dantoc[ten_dantoc] = "Ê Đê"
+    )
+VAR AllLabor = 
+    CALCULATE(
+        SUM(fact_laodong_dantoc[tong_lao_dong_co_viec_lam]),
+        REMOVEFILTERS(dim_ky_baocao),
+        dim_ky_baocao[thu_tu_ky] = CurOrder,
+        ALL(dim_dantoc)
+    )
+RETURN
+    DIVIDE(EdeLabor, AllLabor, 0)
+/* Format String: 0.0% */
+
+
+// ==============================================================================
+// 5. DISPLAY FOLDER: 05_Living_Conditions_Sanitation
+// Thước đo chất lượng nhà ở, nước sạch, hố xí, internet và hạ tầng (Context-Aware)
+// ==============================================================================
+
+// Số hộ có nhà Kiên cố hoặc Bán kiên cố
+[Permanent House Count] = 
+VAR CurOrder = [Selected Period Order]
+RETURN
+    CALCULATE(
+        SUM(fact_nhao_dantoc[nha_kien_co_ban_kien_co]),
+        REMOVEFILTERS(dim_ky_baocao),
+        dim_ky_baocao[thu_tu_ky] = CurOrder
+    )
+/* Format String: #,##0 "hộ" */
+
+// Số hộ có nhà tạm bợ, thiếu kiên cố, đơn sơ
+[Temporary House Count] = 
+VAR CurOrder = [Selected Period Order]
+RETURN
+    CALCULATE(
+        SUM(fact_nhao_dantoc[nha_thieu_kien_co_don_so]),
+        REMOVEFILTERS(dim_ky_baocao),
+        dim_ky_baocao[thu_tu_ky] = CurOrder
+    )
+/* Format String: #,##0 "hộ" */
+
+// Tỷ lệ nhà tạm bợ, dột nát (%)
+[Temporary House Rate %] = 
+DIVIDE([Temporary House Count], [Total DTTS Households], 0)
+/* Format String: 0.0% */
+
+// Tỷ lệ nhà kiên cố & bán kiên cố (%)
+[Permanent House Rate %] = 
+1 - [Temporary House Rate %]
+/* Format String: 0.0% */
+
+// Tỷ lệ hộ có hố xí hợp vệ sinh bình quân (%) (Hỗ trợ lọc chéo từ dim_diaban & Đa kỳ)
+[Hygienic Latrine Rate %] = 
+VAR CurOrder = [Selected Period Order]
+RETURN
+    IF(
+        ISFILTERED(dim_diaban[ten_huyen]) || ISFILTERED(dim_diaban[ma_huyen]),
+        CALCULATE(
+            AVERAGE(fact_dantocthiet_yeu_huyen[ty_le_ho_xi_hop_ve_sinh_pct]) / 100,
+            REMOVEFILTERS(dim_ky_baocao),
+            dim_ky_baocao[thu_tu_ky] = CurOrder,
+            TREATAS(VALUES(dim_diaban[ma_huyen]), fact_dantocthiet_yeu_huyen[ma_huyen])
+        ),
+        CALCULATE(
+            AVERAGE(fact_dantocthiet_yeu_huyen[ty_le_ho_xi_hop_ve_sinh_pct]) / 100,
+            REMOVEFILTERS(dim_ky_baocao),
+            dim_ky_baocao[thu_tu_ky] = CurOrder
+        )
+    )
+/* Format String: 0.0% */
+
+// Tỷ lệ hộ dùng nước sinh hoạt hợp vệ sinh bình quân (%) (Hỗ trợ lọc chéo từ dim_diaban & Đa kỳ)
+[Clean Water Rate %] = 
+VAR CurOrder = [Selected Period Order]
+RETURN
+    IF(
+        ISFILTERED(dim_diaban[ten_huyen]) || ISFILTERED(dim_diaban[ma_huyen]),
+        CALCULATE(
+            AVERAGE(fact_dantocthiet_yeu_huyen[ty_le_nuoc_hop_ve_sinh_pct]) / 100,
+            REMOVEFILTERS(dim_ky_baocao),
+            dim_ky_baocao[thu_tu_ky] = CurOrder,
+            TREATAS(VALUES(dim_diaban[ma_huyen]), fact_dantocthiet_yeu_huyen[ma_huyen])
+        ),
+        CALCULATE(
+            AVERAGE(fact_dantocthiet_yeu_huyen[ty_le_nuoc_hop_ve_sinh_pct]) / 100,
+            REMOVEFILTERS(dim_ky_baocao),
+            dim_ky_baocao[thu_tu_ky] = CurOrder
+        )
+    )
+/* Format String: 0.0% */
+
+// Số hộ DTTS có kết nối Internet (Hỗ trợ lọc chéo từ dim_diaban & Đa kỳ)
+[Internet Access Households] = 
+VAR CurOrder = [Selected Period Order]
+RETURN
+    IF(
+        ISFILTERED(dim_diaban[ten_huyen]) || ISFILTERED(dim_diaban[ma_huyen]),
+        CALCULATE(
+            SUM(fact_dantocthiet_yeu_huyen[so_ho_co_internet]),
+            REMOVEFILTERS(dim_ky_baocao),
+            dim_ky_baocao[thu_tu_ky] = CurOrder,
+            TREATAS(VALUES(dim_diaban[ma_huyen]), fact_dantocthiet_yeu_huyen[ma_huyen])
+        ),
+        CALCULATE(
+            SUM(fact_dantocthiet_yeu_huyen[so_ho_co_internet]),
+            REMOVEFILTERS(dim_ky_baocao),
+            dim_ky_baocao[thu_tu_ky] = CurOrder
+        )
+    )
+/* Format String: #,##0 "hộ" */
+
+// Số hộ DTTS sử dụng điện lưới quốc gia
+[National Grid Electricity Households] = 
+VAR CurOrder = [Selected Period Order]
+RETURN
+    IF(
+        ISFILTERED(dim_diaban[ten_huyen]) || ISFILTERED(dim_diaban[ma_huyen]),
+        CALCULATE(
+            SUM(fact_dantocthiet_yeu_huyen[so_ho_co_dien_luoi]),
+            REMOVEFILTERS(dim_ky_baocao),
+            dim_ky_baocao[thu_tu_ky] = CurOrder,
+            TREATAS(VALUES(dim_diaban[ma_huyen]), fact_dantocthiet_yeu_huyen[ma_huyen])
+        ),
+        CALCULATE(
+            SUM(fact_dantocthiet_yeu_huyen[so_ho_co_dien_luoi]),
+            REMOVEFILTERS(dim_ky_baocao),
+            dim_ky_baocao[thu_tu_ky] = CurOrder
+        )
+    )
+/* Format String: #,##0 "hộ" */
+
+
+// ==============================================================================
+// 6. DISPLAY FOLDER: 06_Productive_Assets_Land_Credit
+// Thước đo đất canh tác và khoảng trống tín dụng ưu đãi NHCSXH (Context-Aware)
+// ==============================================================================
+
+// Diện tích đất sản xuất nông nghiệp bình quân (ha/hộ)
+[Average Farmland per Household (ha)] = 
+VAR CurOrder = [Selected Period Order]
+RETURN
+    CALCULATE(
+        AVERAGE(fact_datsanxuat_dantoc[dien_tich_dat_sx_bq_ha]),
+        REMOVEFILTERS(dim_ky_baocao),
+        dim_ky_baocao[thu_tu_ky] = CurOrder
+    )
+/* Format String: 0.00 "ha/hộ" */
+
+// Cảnh báo đỏ: Dân tộc thiếu đất canh tác nghiêm trọng (< 0.5 ha/hộ)
+[Severe Land Scarcity Alert] = 
+IF(
+    [Average Farmland per Household (ha)] > 0 && [Average Farmland per Household (ha)] < 0.5,
+    "BÁO ĐỘNG ĐỎ: THIẾU ĐẤT CANH TÁC (< 0.5 ha/hộ)",
+    "Bình thường"
+)
+
+// Tổng số hộ DTTS có nhu cầu vay vốn chính sách
+[Households Needing Credit] = 
+VAR CurOrder = [Selected Period Order]
+RETURN
+    CALCULATE(
+        SUM(fact_tindung_dantoc[tong_nhu_cau_ho]),
+        REMOVEFILTERS(dim_ky_baocao),
+        dim_ky_baocao[thu_tu_ky] = CurOrder
+    )
+/* Format String: #,##0 "hộ" */
+
+// Số hộ DTTS đã được vay vốn ưu đãi
+[Borrowing Households] = 
+VAR CurOrder = [Selected Period Order]
+RETURN
+    CALCULATE(
+        SUM(fact_tindung_dantoc[so_ho_da_vay_von]),
+        REMOVEFILTERS(dim_ky_baocao),
+        dim_ky_baocao[thu_tu_ky] = CurOrder
+    )
+/* Format String: #,##0 "hộ" */
+
+// Khoảng trống tín dụng (Số hộ đang cần vay mà chưa được tiếp cận)
+[Unmet Credit Households Gap] = 
+VAR CurOrder = [Selected Period Order]
+RETURN
+    CALCULATE(
+        SUM(fact_tindung_dantoc[so_ho_co_nhu_cau_vay]),
+        REMOVEFILTERS(dim_ky_baocao),
+        dim_ky_baocao[thu_tu_ky] = CurOrder
+    )
+/* Format String: #,##0 "hộ" */
+
+// Tỷ lệ khoảng trống tín dụng (% hộ khát vốn chưa được giải ngân)
+[Credit Gap Rate %] = 
+DIVIDE([Unmet Credit Households Gap], [Households Needing Credit], 0)
+/* Format String: 0.0% */
+
+
+// ==============================================================================
+// 7. DISPLAY FOLDER: 07_Social_Vulnerabilities_Healthcare
+// Thước đo ma túy, HIV và y tế sinh sản (Context-Aware)
+// ==============================================================================
+
+// Số người DTTS nghiện ma túy có hồ sơ quản lý
+[Substance Abuse Count] = 
+VAR CurOrder = [Selected Period Order]
+RETURN
+    CALCULATE(
+        SUM(fact_matuy_hiv_xa[nguoi_dtts_nghien_ma_tuy]),
+        REMOVEFILTERS(dim_ky_baocao),
+        dim_ky_baocao[thu_tu_ky] = CurOrder
+    )
+/* Format String: #,##0 "người" */
+
+// Số người DTTS nhiễm HIV/AIDS
+[HIV Infection Count] = 
+VAR CurOrder = [Selected Period Order]
+RETURN
+    CALCULATE(
+        SUM(fact_matuy_hiv_xa[nguoi_dtts_nhiem_hiv]),
+        REMOVEFILTERS(dim_ky_baocao),
+        dim_ky_baocao[thu_tu_ky] = CurOrder
+    )
+/* Format String: #,##0 "người" */
+
+// Tổng số người nghiện toàn xã hội trên địa bàn
+[Total Substance Abuse Commune] = 
+VAR CurOrder = [Selected Period Order]
+RETURN
+    CALCULATE(
+        SUM(fact_matuy_hiv_xa[nguoi_nghien_ma_tuy_tong]),
+        REMOVEFILTERS(dim_ky_baocao),
+        dim_ky_baocao[thu_tu_ky] = CurOrder
+    )
+/* Format String: #,##0 "người" */
+
+// Số phụ nữ sinh con thứ 3 trở lên
+[3rd Child Plus Mothers Count] = 
+VAR CurOrder = [Selected Period Order]
+RETURN
+    CALCULATE(
+        SUM(fact_mucsinh_dantoc[sinh_con_thu_3_tro_len]),
+        REMOVEFILTERS(dim_ky_baocao),
+        dim_ky_baocao[thu_tu_ky] = CurOrder
+    )
+/* Format String: #,##0 "người" */
+
+// Tổng số ca sinh con tại nhà (nguy cơ tử vong sản khoa)
+[Home Births Count] = 
+VAR CurOrder = [Selected Period Order]
+RETURN
+    CALCULATE(
+        SUM(fact_mucsinh_dantoc[sinh_tai_nha_tong]),
+        REMOVEFILTERS(dim_ky_baocao),
+        dim_ky_baocao[thu_tu_ky] = CurOrder
+    )
+/* Format String: #,##0 "ca" */
+
+// Số ca sinh tại nhà không có cán bộ y tế / cô đỡ thôn bản
+[Home Births Without Attendant] = 
+VAR CurOrder = [Selected Period Order]
+RETURN
+    CALCULATE(
+        SUM(fact_mucsinh_dantoc[sinh_tai_nha_khong_ba_do]),
+        REMOVEFILTERS(dim_ky_baocao),
+        dim_ky_baocao[thu_tu_ky] = CurOrder
+    )
+/* Format String: #,##0 "ca" */
+
+
+// ==============================================================================
+// 8. DISPLAY FOLDER: 08_Policy_Intervention_Allocation
+// Động cơ Dự toán Ngân sách Động theo Đơn giá Định mức Giai đoạn & Khuyến nghị Đa Kỳ
+// ==============================================================================
+
+// Đơn giá định mức hỗ trợ xóa nhà tạm theo giai đoạn (Triệu VNĐ/hộ: 60tr -> 80tr -> 90tr)
+[Unit Cost Housing (Million VND)] = 
+VAR CurStage = [Selected Policy Stage]
+VAR CostVal = 
+    CALCULATE(
+        MAX(dim_chitieu_kehoach_ngansach[don_gia_trieu_vnd]),
+        REMOVEFILTERS(dim_chitieu_kehoach_ngansach),
+        dim_chitieu_kehoach_ngansach[giai_doan_chinh_sach] = CurStage,
+        dim_chitieu_kehoach_ngansach[ma_chitieu] = "TY_LE_NHA_TAM"
+    )
+RETURN
+    COALESCE(CostVal, 80.0)
+/* Format String: #,##0.0 "tr.đ/hộ" */
+
+// Dự toán Ngân sách xóa Nhà tạm Dột nát (Tỷ đồng) - Tự động tính theo đơn giá giai đoạn
+[Recommended Housing Budget (Billion VND)] = 
+ROUND(DIVIDE([Temporary House Count] * [Unit Cost Housing (Million VND)], 1000, 0), 2)
+/* Format String: #,##0.00 "tỷ đồng" */
+
+// Đơn giá định mức vốn vay Tín dụng chính sách theo giai đoạn (Triệu VNĐ/hộ: 40tr -> 50tr -> 65tr)
+[Unit Cost Credit (Million VND)] = 
+VAR CurStage = [Selected Policy Stage]
+VAR CostVal = 
+    CALCULATE(
+        MAX(dim_chitieu_kehoach_ngansach[don_gia_trieu_vnd]),
+        REMOVEFILTERS(dim_chitieu_kehoach_ngansach),
+        dim_chitieu_kehoach_ngansach[giai_doan_chinh_sach] = CurStage,
+        dim_chitieu_kehoach_ngansach[ma_chitieu] = "KHOANG_TRONG_TIN_DUNG"
+    )
+RETURN
+    COALESCE(CostVal, 50.0)
+/* Format String: #,##0.0 "tr.đ/hộ" */
+
+// Dự toán Nhu cầu Vốn vay Tín dụng Chính sách (Tỷ đồng) - Tự động tính theo đơn giá giai đoạn
+[Recommended Credit Fund (Billion VND)] = 
+ROUND(DIVIDE([Unmet Credit Households Gap] * [Unit Cost Credit (Million VND)], 1000, 0), 2)
+/* Format String: #,##0.00 "tỷ đồng" */
+
+// Đơn giá định mức hỗ trợ sinh kế hộ nghèo Dự án 3 MTQG 1719 (Triệu VNĐ/hộ: 15tr -> 25tr -> 30tr)
+[Unit Cost Livelihood Poor HH (Million VND)] = 
+VAR CurStage = [Selected Policy Stage]
+VAR CostVal = 
+    CALCULATE(
+        MAX(dim_chitieu_kehoach_ngansach[don_gia_trieu_vnd]),
+        REMOVEFILTERS(dim_chitieu_kehoach_ngansach),
+        dim_chitieu_kehoach_ngansach[giai_doan_chinh_sach] = CurStage,
+        dim_chitieu_kehoach_ngansach[ma_chitieu] = "TY_LE_HO_NGHEO"
+    )
+RETURN
+    COALESCE(CostVal, 25.0)
+/* Format String: #,##0.0 "tr.đ/hộ" */
+
+// Dự toán Ngân sách Hỗ trợ Sinh kế Hộ nghèo (Tỷ đồng)
+[Recommended Livelihood Budget (Billion VND)] = 
+ROUND(DIVIDE([Total Poor Households] * [Unit Cost Livelihood Poor HH (Million VND)], 1000, 0), 2)
+/* Format String: #,##0.00 "tỷ đồng" */
+
+// Đơn giá định mức đào tạo nghề sơ cấp Dự án 5 MTQG 1719 (Triệu VNĐ/người: 3.5tr -> 4.5tr -> 6.0tr)
+[Unit Cost Vocational CMKT (Million VND)] = 
+VAR CurStage = [Selected Policy Stage]
+VAR CostVal = 
+    CALCULATE(
+        MAX(dim_chitieu_kehoach_ngansach[don_gia_trieu_vnd]),
+        REMOVEFILTERS(dim_chitieu_kehoach_ngansach),
+        dim_chitieu_kehoach_ngansach[giai_doan_chinh_sach] = CurStage,
+        dim_chitieu_kehoach_ngansach[ma_chitieu] = "TY_LE_CHUA_DAO_TAO_CMKT"
+    )
+RETURN
+    COALESCE(CostVal, 4.5)
+/* Format String: #,##0.0 "tr.đ/người" */
+
+// Dự toán Ngân sách Đào tạo nghề CMKT (Tỷ đồng)
+[Recommended Vocational Budget (Billion VND)] = 
+ROUND(DIVIDE([Untrained Labor Force] * [Unit Cost Vocational CMKT (Million VND)], 1000, 0), 2)
+/* Format String: #,##0.00 "tỷ đồng" */
+
+// Đơn giá định mức gói Làm mẹ an toàn Dự án 7 MTQG 1719 (Triệu VNĐ/ca: 2.0tr -> 3.0tr -> 4.5tr)
+[Unit Cost Safe Motherhood (Million VND)] = 
+VAR CurStage = [Selected Policy Stage]
+VAR CostVal = 
+    CALCULATE(
+        MAX(dim_chitieu_kehoach_ngansach[don_gia_trieu_vnd]),
+        REMOVEFILTERS(dim_chitieu_kehoach_ngansach),
+        dim_chitieu_kehoach_ngansach[giai_doan_chinh_sach] = CurStage,
+        dim_chitieu_kehoach_ngansach[ma_chitieu] = "CA_SINH_TAI_NHA"
+    )
+RETURN
+    COALESCE(CostVal, 3.0)
+/* Format String: #,##0.0 "tr.đ/ca" */
+
+// Dự toán Ngân sách Y tế Làm mẹ an toàn (Tỷ đồng)
+[Recommended Healthcare Budget (Billion VND)] = 
+ROUND(DIVIDE([Home Births Count] * [Unit Cost Safe Motherhood (Million VND)], 1000, 0), 2)
+/* Format String: #,##0.00 "tỷ đồng" */
+
+// Tổng Dự toán Ngân sách 5 Chương trình Mục tiêu Trọng điểm (Tỷ đồng) - Khớp 100% View SQL
+[Total Policy Budget Needed (Billion VND)] = 
+[Recommended Housing Budget (Billion VND)] +
+[Recommended Credit Fund (Billion VND)] +
+[Recommended Livelihood Budget (Billion VND)] +
+[Recommended Vocational Budget (Billion VND)] +
+[Recommended Healthcare Budget (Billion VND)]
+/* Format String: #,##0.00 "tỷ đồng" */
+
+// Tổng Dự toán Ngân sách Kỳ liền trước (Tỷ đồng)
+[Prev Total Policy Budget (Billion VND)] = 
+VAR PrevOrder = [Previous Period Order]
+VAR PrevStage = 
+    CALCULATE(
+        MAX(dim_ky_baocao[giai_doan_chinh_sach]),
+        REMOVEFILTERS(dim_ky_baocao),
+        dim_ky_baocao[thu_tu_ky] = PrevOrder
+    )
+VAR PrevTempHouse = CALCULATE(SUM(fact_nhao_dantoc[nha_thieu_kien_co_don_so]), REMOVEFILTERS(dim_ky_baocao), dim_ky_baocao[thu_tu_ky] = PrevOrder)
+VAR PrevCreditGap = CALCULATE(SUM(fact_tindung_dantoc[so_ho_co_nhu_cau_vay]), REMOVEFILTERS(dim_ky_baocao), dim_ky_baocao[thu_tu_ky] = PrevOrder)
+VAR PrevPoorHH    = CALCULATE(SUM(fact_hatang_xa[so_ho_ngheo]), REMOVEFILTERS(dim_ky_baocao), dim_ky_baocao[thu_tu_ky] = PrevOrder)
+VAR PrevUntrained = CALCULATE(SUM(fact_trinhdo_cmkt_dantoc[khong_co_cmkt]), REMOVEFILTERS(dim_ky_baocao), dim_ky_baocao[thu_tu_ky] = PrevOrder)
+VAR PrevHomeBirth = CALCULATE(SUM(fact_mucsinh_dantoc[sinh_tai_nha_tong]), REMOVEFILTERS(dim_ky_baocao), dim_ky_baocao[thu_tu_ky] = PrevOrder)
+VAR CostHouse     = CALCULATE(MAX(dim_chitieu_kehoach_ngansach[don_gia_trieu_vnd]), REMOVEFILTERS(dim_chitieu_kehoach_ngansach), dim_chitieu_kehoach_ngansach[giai_doan_chinh_sach] = PrevStage, dim_chitieu_kehoach_ngansach[ma_chitieu] = "TY_LE_NHA_TAM")
+VAR CostCredit    = CALCULATE(MAX(dim_chitieu_kehoach_ngansach[don_gia_trieu_vnd]), REMOVEFILTERS(dim_chitieu_kehoach_ngansach), dim_chitieu_kehoach_ngansach[giai_doan_chinh_sach] = PrevStage, dim_chitieu_kehoach_ngansach[ma_chitieu] = "KHOANG_TRONG_TIN_DUNG")
+VAR CostPoor      = CALCULATE(MAX(dim_chitieu_kehoach_ngansach[don_gia_trieu_vnd]), REMOVEFILTERS(dim_chitieu_kehoach_ngansach), dim_chitieu_kehoach_ngansach[giai_doan_chinh_sach] = PrevStage, dim_chitieu_kehoach_ngansach[ma_chitieu] = "TY_LE_HO_NGHEO")
+VAR CostVoc       = CALCULATE(MAX(dim_chitieu_kehoach_ngansach[don_gia_trieu_vnd]), REMOVEFILTERS(dim_chitieu_kehoach_ngansach), dim_chitieu_kehoach_ngansach[giai_doan_chinh_sach] = PrevStage, dim_chitieu_kehoach_ngansach[ma_chitieu] = "TY_LE_CHUA_DAO_TAO_CMKT")
+VAR CostBirth     = CALCULATE(MAX(dim_chitieu_kehoach_ngansach[don_gia_trieu_vnd]), REMOVEFILTERS(dim_chitieu_kehoach_ngansach), dim_chitieu_kehoach_ngansach[giai_doan_chinh_sach] = PrevStage, dim_chitieu_kehoach_ngansach[ma_chitieu] = "CA_SINH_TAI_NHA")
+RETURN
+    IF(
+        ISBLANK(PrevOrder),
+        BLANK(),
+        ROUND(DIVIDE(PrevTempHouse * CostHouse, 1000, 0), 2) +
+        ROUND(DIVIDE(PrevCreditGap * CostCredit, 1000, 0), 2) +
+        ROUND(DIVIDE(PrevPoorHH * CostPoor, 1000, 0), 2) +
+        ROUND(DIVIDE(PrevUntrained * CostVoc, 1000, 0), 2) +
+        ROUND(DIVIDE(PrevHomeBirth * CostBirth, 1000, 0), 2)
+    )
+/* Format String: #,##0.00 "tỷ đồng" */
+
+// Số xã thuộc diện "Khó khăn kép" (Tỷ lệ nghèo > 30% và Khoảng cách > 20km) theo kỳ đang chọn
+[Double Hardship Communes Count] = 
+VAR CurOrder = [Selected Period Order]
+RETURN
+    CALCULATE(
+        DISTINCTCOUNT(fact_hatang_xa[ma_xa]),
+        REMOVEFILTERS(dim_ky_baocao),
+        dim_ky_baocao[thu_tu_ky] = CurOrder,
+        fact_hatang_xa[ty_le_ngheo_pct] > 30,
+        fact_hatang_xa[km_den_trung_tam_huyen] > 20
+    )
+/* Format String: #,##0 "xã" */
+
+
+// ==============================================================================
+// 9. DISPLAY FOLDER: 09_Multi_Period_Variance_Targets
+// Bộ thước đo Biến động Đa kỳ (thu_tu_ky - 1), Mục tiêu Kế hoạch & KPI Card Badges
+// ==============================================================================
+
+// --- 9.1. NHÓM HỘ NGHÈO & TỶ LỆ NGHÈO ---
+[Prev Average Poverty Rate %] = 
+VAR PrevOrder = [Previous Period Order]
+RETURN
+    IF(
+        ISBLANK(PrevOrder),
+        BLANK(),
+        CALCULATE(
+            AVERAGE(fact_hatang_xa[ty_le_ngheo_pct]) / 100,
+            REMOVEFILTERS(dim_ky_baocao),
+            dim_ky_baocao[thu_tu_ky] = PrevOrder
+        )
+    )
+/* Format String: 0.0% */
+
+[Poverty Rate Variance (pp)] = 
+VAR CurVal  = [Average Poverty Rate %]
+VAR PrevVal = [Prev Average Poverty Rate %]
+RETURN
+    IF(ISBLANK(PrevVal), BLANK(), CurVal - PrevVal)
+/* Format String: +0.00%;-0.00%;0.00% */
+
+[Stage Target Poverty Rate %] = 
+VAR CurStage = [Selected Policy Stage]
+RETURN
+    DIVIDE(
+        CALCULATE(
+            MAX(dim_chitieu_kehoach_ngansach[chi_tieu_muc_tieu]),
+            REMOVEFILTERS(dim_chitieu_kehoach_ngansach),
+            dim_chitieu_kehoach_ngansach[giai_doan_chinh_sach] = CurStage,
+            dim_chitieu_kehoach_ngansach[ma_chitieu] = "TY_LE_HO_NGHEO"
+        ),
+        100,
+        0.15
+    )
+/* Format String: 0.0% */
+
+[Poverty Rate Trend & Target Badge] = 
+VAR CurVal    = [Average Poverty Rate %]
+VAR DiffPP    = [Poverty Rate Variance (pp)]
+VAR TargetVal = [Stage Target Poverty Rate %]
+VAR TrendStr  = 
+    IF(
+        ISBLANK(DiffPP),
+        "Kỳ gốc 2019",
+        IF(DiffPP <= 0, "▼ " & FORMAT(DiffPP * 100, "0.00") & " điểm % (Giảm tốt)", "▲ +" & FORMAT(DiffPP * 100, "0.00") & " điểm % (Tăng)")
+    )
+VAR StatusStr = 
+    IF(CurVal <= TargetVal, "✅ Đạt KH (" & FORMAT(TargetVal, "0.0%") & ")", "⚠️ Trượt KH (Mục tiêu " & FORMAT(TargetVal, "0.0%") & ")")
+RETURN
+    TrendStr & " | " & StatusStr
+
+// --- 9.2. NHÓM DÂN SỐ & SỐ HỘ DTTS ---
+[Prev DTTS Population] = 
+VAR PrevOrder = [Previous Period Order]
+RETURN
+    IF(
+        ISBLANK(PrevOrder),
+        BLANK(),
+        CALCULATE(
+            SUM(fact_nhankhau_dantoc[tong_dan_so]),
+            REMOVEFILTERS(dim_ky_baocao),
+            dim_ky_baocao[thu_tu_ky] = PrevOrder
+        )
+    )
+/* Format String: #,##0 "người" */
+
+[Prev DTTS Households] = 
+VAR PrevOrder = [Previous Period Order]
+RETURN
+    IF(
+        ISBLANK(PrevOrder),
+        BLANK(),
+        CALCULATE(
+            SUM(fact_nhao_dantoc[tong_so_ho_co_nha]),
+            REMOVEFILTERS(dim_ky_baocao),
+            dim_ky_baocao[thu_tu_ky] = PrevOrder
+        )
+    )
+/* Format String: #,##0 "hộ" */
+
+[DTTS Households Variance] = 
+VAR PrevVal = [Prev DTTS Households]
+RETURN
+    IF(ISBLANK(PrevVal), BLANK(), [Total DTTS Households] - PrevVal)
+/* Format String: +#,##0;-#,##0;0 */
+
+// --- 9.3. NHÓM ĐÀO TẠO NGHỀ CMKT & VIỆC LÀM ---
+[Prev Untrained Labor Rate %] = 
+VAR PrevOrder = [Previous Period Order]
+VAR PrevUntrained = CALCULATE(SUM(fact_trinhdo_cmkt_dantoc[khong_co_cmkt]), REMOVEFILTERS(dim_ky_baocao), dim_ky_baocao[thu_tu_ky] = PrevOrder)
+VAR PrevTotal     = CALCULATE(SUM(fact_trinhdo_cmkt_dantoc[tong_lao_dong]), REMOVEFILTERS(dim_ky_baocao), dim_ky_baocao[thu_tu_ky] = PrevOrder)
+RETURN
+    IF(ISBLANK(PrevOrder), BLANK(), DIVIDE(PrevUntrained, PrevTotal, 0))
+/* Format String: 0.0% */
+
+[Untrained Labor Rate Variance (pp)] = 
+VAR PrevVal = [Prev Untrained Labor Rate %]
+RETURN
+    IF(ISBLANK(PrevVal), BLANK(), [Untrained Labor Rate %] - PrevVal)
+/* Format String: +0.00%;-0.00%;0.00% */
+
+[Stage Target Untrained Rate %] = 
+VAR CurStage = [Selected Policy Stage]
+RETURN
+    DIVIDE(
+        CALCULATE(
+            MAX(dim_chitieu_kehoach_ngansach[chi_tieu_muc_tieu]),
+            REMOVEFILTERS(dim_chitieu_kehoach_ngansach),
+            dim_chitieu_kehoach_ngansach[giai_doan_chinh_sach] = CurStage,
+            dim_chitieu_kehoach_ngansach[ma_chitieu] = "TY_LE_CHUA_DAO_TAO_CMKT"
+        ),
+        100,
+        0.75
+    )
+/* Format String: 0.0% */
+
+// --- 9.4. NHÓM NHÀ TẠM, VỆ SINH NTM & TÍN DỤNG ---
+[Prev Temporary House Count] = 
+VAR PrevOrder = [Previous Period Order]
+RETURN
+    IF(
+        ISBLANK(PrevOrder),
+        BLANK(),
+        CALCULATE(
+            SUM(fact_nhao_dantoc[nha_thieu_kien_co_don_so]),
+            REMOVEFILTERS(dim_ky_baocao),
+            dim_ky_baocao[thu_tu_ky] = PrevOrder
+        )
+    )
+/* Format String: #,##0 "hộ" */
+
+[Temporary House Variance] = 
+VAR PrevVal = [Prev Temporary House Count]
+RETURN
+    IF(ISBLANK(PrevVal), BLANK(), [Temporary House Count] - PrevVal)
+/* Format String: +#,##0;-#,##0;0 */
+
+[Temporary House % Change] = 
+VAR PrevVal = [Prev Temporary House Count]
+RETURN
+    IF(ISBLANK(PrevVal), BLANK(), DIVIDE([Temporary House Count] - PrevVal, PrevVal, 0))
+/* Format String: +0.0%;-0.0%;0.0% */
+
+[Prev Unmet Credit Households Gap] = 
+VAR PrevOrder = [Previous Period Order]
+RETURN
+    IF(
+        ISBLANK(PrevOrder),
+        BLANK(),
+        CALCULATE(
+            SUM(fact_tindung_dantoc[so_ho_co_nhu_cau_vay]),
+            REMOVEFILTERS(dim_ky_baocao),
+            dim_ky_baocao[thu_tu_ky] = PrevOrder
+        )
+    )
+/* Format String: #,##0 "hộ" */
+
+[Unmet Credit Variance] = 
+VAR PrevVal = [Prev Unmet Credit Households Gap]
+RETURN
+    IF(ISBLANK(PrevVal), BLANK(), [Unmet Credit Households Gap] - PrevVal)
+/* Format String: +#,##0;-#,##0;0 */
+
+[Prev Home Births Count] = 
+VAR PrevOrder = [Previous Period Order]
+RETURN
+    IF(
+        ISBLANK(PrevOrder),
+        BLANK(),
+        CALCULATE(
+            SUM(fact_mucsinh_dantoc[sinh_tai_nha_tong]),
+            REMOVEFILTERS(dim_ky_baocao),
+            dim_ky_baocao[thu_tu_ky] = PrevOrder
+        )
+    )
+/* Format String: #,##0 "ca" */
+
+// --- 9.5. BỘ KPI CARD SUBTITLE / REFERENCE BADGES CHO 4 TRANG DASHBOARD ---
+
+// Trang 1 - Card 1 Badge: Biến động Dân số DTTS so với kỳ trước
+[Population Trend Badge] = 
+VAR PrevPop = [Prev DTTS Population]
+VAR Diff    = [Total DTTS Population] - PrevPop
+VAR Pct     = DIVIDE(Diff, PrevPop, 0)
+RETURN
+    IF(
+        ISBLANK(PrevPop),
+        "Kỳ gốc Baseline 2019",
+        IF(Diff >= 0, "▲ +" & FORMAT(Diff, "#,##0") & " người (+" & FORMAT(Pct, "0.0%") & " vs kỳ trước)", "▼ " & FORMAT(Diff, "#,##0") & " người (" & FORMAT(Pct, "0.0%") & ")")
+    )
+
+// Trang 1 - Card 2 Badge: Biến động Số hộ DTTS so với kỳ trước
+[Households Trend Badge] = 
+VAR PrevHH = [Prev DTTS Households]
+VAR Diff   = [DTTS Households Variance]
+VAR Pct    = DIVIDE(Diff, PrevHH, 0)
+RETURN
+    IF(
+        ISBLANK(PrevHH),
+        "Kỳ gốc Baseline 2019",
+        IF(Diff >= 0, "▲ +" & FORMAT(Diff, "#,##0") & " hộ (+" & FORMAT(Pct, "0.0%") & " vs kỳ trước)", "▼ " & FORMAT(Diff, "#,##0") & " hộ (" & FORMAT(Pct, "0.0%") & ")")
+    )
+
+// Trang 2 - Card 3 Badge: Lao động chưa qua đào tạo CMKT vs Kỳ trước & Mục tiêu
+[Untrained Labor Trend & Target Badge] = 
+VAR CurVal    = [Untrained Labor Rate %]
+VAR DiffPP    = [Untrained Labor Rate Variance (pp)]
+VAR TargetVal = [Stage Target Untrained Rate %]
+VAR TrendStr  = 
+    IF(
+        ISBLANK(DiffPP),
+        "Kỳ gốc 2019",
+        IF(DiffPP <= 0, "▼ " & FORMAT(DiffPP * 100, "0.00") & "% vs kỳ trước", "▲ +" & FORMAT(DiffPP * 100, "0.00") & "% vs kỳ trước")
+    )
+VAR StatusStr = IF(CurVal <= TargetVal, "✅ Đạt KH (" & FORMAT(TargetVal, "0%") & ")", "⚠️ Mục tiêu <= " & FORMAT(TargetVal, "0%"))
+RETURN
+    TrendStr & " | " & StatusStr
+
+// Trang 3 - Card 1 Badge: Xóa nhà tạm so với kỳ trước & Mục tiêu Dự án 1 MTQG 1719
+[Housing Trend & Target Badge] = 
+VAR TempHH   = [Temporary House Count]
+VAR DiffHH   = [Temporary House Variance]
+VAR PctChg   = [Temporary House % Change]
+RETURN
+    IF(
+        ISBLANK(DiffHH),
+        "Còn " & FORMAT(TempHH, "#,##0") & " nhà tạm (Kỳ gốc 2019)",
+        "Nhà tạm: " & FORMAT(TempHH, "#,##0") & " hộ (" & IF(DiffHH <= 0, "▼ " & FORMAT(DiffHH, "#,##0") & " hộ | " & FORMAT(PctChg, "0.0%"), "▲ +" & FORMAT(DiffHH, "#,##0") & " hộ") & ")"
+    )
+
+// Trang 3 - Card 2 Badge: Hố xí hợp vệ sinh vs Chuẩn NTM (Tiêu chí 17 QĐ 318)
+[Latrine Trend & Target Badge] = 
+VAR CurVal  = [Hygienic Latrine Rate %]
+VAR CurStage = [Selected Policy Stage]
+VAR TargetVal = 
+    DIVIDE(
+        CALCULATE(
+            MAX(dim_chitieu_kehoach_ngansach[chi_tieu_muc_tieu]),
+            REMOVEFILTERS(dim_chitieu_kehoach_ngansach),
+            dim_chitieu_kehoach_ngansach[giai_doan_chinh_sach] = CurStage,
+            dim_chitieu_kehoach_ngansach[ma_chitieu] = "TY_LE_HO_XI_HVS"
+        ),
+        100,
+        0.70
+    )
+RETURN
+    IF(CurVal >= TargetVal, "✅ Đạt chuẩn TC17 NTM (>=" & FORMAT(TargetVal, "0%") & ")", "⚠️ Chưa đạt TC17 NTM (Mục tiêu " & FORMAT(TargetVal, "0%") & ")")
+
+// Trang 3 - Card 4 Badge: Khoảng trống tín dụng NHCSXH vs Kỳ trước & Mục tiêu NĐ 28
+[Credit Gap Trend & Target Badge] = 
+VAR GapHH  = [Unmet Credit Households Gap]
+VAR DiffHH = [Unmet Credit Variance]
+RETURN
+    IF(
+        ISBLANK(DiffHH),
+        FORMAT(GapHH, "#,##0") & " hộ chờ vay (Kỳ gốc 2019)",
+        FORMAT(GapHH, "#,##0") & " hộ chờ vay (" & IF(DiffHH <= 0, "▼ " & FORMAT(DiffHH, "#,##0") & " hộ vs kỳ trước", "▲ +" & FORMAT(DiffHH, "#,##0") & " hộ") & ")"
+    )
+
+// Trang 4 - Card 4 Badge: Số ca sinh con tại nhà vs Kỳ trước & Mục tiêu Dự án 7
+[Home Births Trend & Target Badge] = 
+VAR CurCa  = [Home Births Count]
+VAR PrevCa = [Prev Home Births Count]
+VAR DiffCa = CurCa - PrevCa
+VAR PctChg = DIVIDE(DiffCa, PrevCa, 0)
+RETURN
+    IF(
+        ISBLANK(PrevCa),
+        "Kỳ gốc 2019 (" & FORMAT([Home Births Without Attendant], "#,##0") & " ca không cô đỡ)",
+        IF(DiffCa <= 0, "▼ " & FORMAT(DiffCa, "#,##0") & " ca (" & FORMAT(PctChg, "0.0%") & " vs kỳ trước)", "▲ +" & FORMAT(DiffCa, "#,##0") & " ca") & " | " & FORMAT([Home Births Without Attendant], "#,##0") & " ca ko cô đỡ"
+    )
+
+
+// ==============================================================================
+// 10. SIÊU CÔNG THỨC KHUYẾN NGHỊ CHÍNH SÁCH ĐỘNG ĐA KỲ & DỰ TOÁN NGÂN SÁCH
+// Tự động biến đổi theo: (1) Kỳ báo cáo, (2) Huyện, (3) Dân tộc, (4) Huyện x Dân tộc
+// ==============================================================================
+
+[Dynamic Policy Recommendation Text] = 
+VAR CurOrder           = [Selected Period Order]
+VAR PeriodName         = [Selected Period Name]
+VAR PrevPeriodName     = [Previous Period Name]
+VAR PolicyStage        = [Selected Policy Stage]
+VAR IsDistrictFiltered = ISFILTERED(dim_diaban[ten_huyen])
+VAR IsEthnicFiltered   = ISFILTERED(dim_dantoc[ten_dantoc])
+VAR SelectedDistrict   = SELECTEDVALUE(dim_diaban[ten_huyen], "Toàn tỉnh Đắk Lắk")
+VAR SelectedEthnic     = SELECTEDVALUE(dim_dantoc[ten_dantoc], "53 Dân tộc thiểu số")
+
+// --- 1. CHỈ SỐ CẤP HUYỆN THEO KỲ ĐANG CHỌN ---
+VAR DistHH = 
+    CALCULATE(
+        SUM(fact_hatang_xa[tong_ho_dtts]),
+        REMOVEFILTERS(dim_ky_baocao),
+        dim_ky_baocao[thu_tu_ky] = CurOrder
+    )
+VAR DistPoorHH = [Total Poor Households]
+VAR DistNearPoorHH = [Total Near Poor Households]
+VAR DistPovertyRate = [Average Poverty Rate %]
+VAR DistPrevPovertyRate = [Prev Average Poverty Rate %]
+VAR DistPovDiffPP = [Poverty Rate Variance (pp)]
+VAR DistDoubleHardship = [Double Hardship Communes Count]
+VAR DistMaxKm = 
+    CALCULATE(
+        MAX(fact_hatang_xa[km_den_trung_tam_huyen]),
+        REMOVEFILTERS(dim_ky_baocao),
+        dim_ky_baocao[thu_tu_ky] = CurOrder
+    )
+VAR DistDrugs = [Substance Abuse Count]
+VAR DistHIV   = [HIV Infection Count]
+VAR DistLatrineRate  = [Hygienic Latrine Rate %]
+VAR DistWaterRate    = [Clean Water Rate %]
+VAR DistInternetHH   = [Internet Access Households]
+VAR DistInternetRate = DIVIDE(DistInternetHH, DistHH, 0)
+VAR DistLivelihoodBudget = [Recommended Livelihood Budget (Billion VND)]
+
+// --- 2. CHỈ SỐ CẤP DÂN TỘC THEO KỲ ĐANG CHỌN ---
+VAR EthnicHH           = [Total DTTS Households]
+VAR EthnicPop          = [Total DTTS Population]
+VAR IsSmallEthnic      = SELECTEDVALUE(dim_dantoc[la_dtts_it_nguoi], 0)
+VAR TempHouse          = [Temporary House Count]
+VAR PrevTempHouse      = [Prev Temporary House Count]
+VAR TempHouseDiff      = [Temporary House Variance]
+VAR TempHouseRate      = [Temporary House Rate %]
+VAR HousingUnitCost    = [Unit Cost Housing (Million VND)]
+VAR HousingBudget      = [Recommended Housing Budget (Billion VND)]
+VAR Farmland           = [Average Farmland per Household (ha)]
+VAR CreditGapHH        = [Unmet Credit Households Gap]
+VAR PrevCreditGapHH    = [Prev Unmet Credit Households Gap]
+VAR CreditGapDiff      = [Unmet Credit Variance]
+VAR CreditGapRate      = [Credit Gap Rate %]
+VAR CreditUnitCost     = [Unit Cost Credit (Million VND)]
+VAR CreditBudget       = [Recommended Credit Fund (Billion VND)]
+VAR UntrainedRate      = [Untrained Labor Rate %]
+VAR PrevUntrainedRate  = [Prev Untrained Labor Rate %]
+VAR VocationalBudget   = [Recommended Vocational Budget (Billion VND)]
+VAR AgriRate           = [Agricultural Labor Rate %]
+VAR HomeBirths         = [Home Births Count]
+VAR PrevHomeBirths     = [Prev Home Births Count]
+VAR NoAttendantBirths  = [Home Births Without Attendant]
+VAR TotalBudget5Prog   = [Total Policy Budget Needed (Billion VND)]
+
+// --- 3. CHỈ SỐ GIAO THOA (HUYỆN x DÂN TỘC) THEO KỲ ĐANG CHỌN ---
+VAR CrossHH = 
+    CALCULATE(
+        SUM(fact_danso_huyen_dantoc[so_ho]),
+        REMOVEFILTERS(dim_ky_baocao),
+        dim_ky_baocao[thu_tu_ky] = CurOrder,
+        TREATAS(VALUES(dim_diaban[ma_huyen]), fact_danso_huyen_dantoc[ma_huyen])
+    )
+
+// --- 4. CHUỖI SO SÁNH ĐA KỲ TỰ ĐỘNG ---
+VAR PovDeltaText = 
+    IF(
+        ISBLANK(DistPovDiffPP),
+        "(Kỳ gốc Baseline)",
+        "(" & IF(DistPovDiffPP <= 0, "▼ " & FORMAT(DistPovDiffPP * 100, "0.00"), "▲ +" & FORMAT(DistPovDiffPP * 100, "0.00")) & " điểm % so với " & PrevPeriodName & ")"
+    )
+VAR TempHouseDeltaText = 
+    IF(
+        ISBLANK(TempHouseDiff),
+        "(Kỳ gốc Baseline)",
+        "(" & IF(TempHouseDiff <= 0, "▼ " & FORMAT(TempHouseDiff, "#,##0"), "▲ +" & FORMAT(TempHouseDiff, "#,##0")) & " hộ so với " & PrevPeriodName & ")"
+    )
+VAR CreditDeltaText = 
+    IF(
+        ISBLANK(CreditGapDiff),
+        "(Kỳ gốc Baseline)",
+        "(" & IF(CreditGapDiff <= 0, "▼ " & FORMAT(CreditGapDiff, "#,##0"), "▲ +" & FORMAT(CreditGapDiff, "#,##0")) & " hộ so với " & PrevPeriodName & ")"
+    )
+
+RETURN
+SWITCH(
+    TRUE(),
+
+    // =========================================================================
+    // TRƯỜNG HỢP 1: CHỌN CẢ HUYỆN VÀ DÂN TỘC (GIAO THOA ĐỊA BÀN x DÂN TỘC)
+    // =========================================================================
+    IsDistrictFiltered && IsEthnicFiltered,
+        IF(
+            ISBLANK(CrossHH) || CrossHH = 0,
+            "📌 [" & UPPER(PeriodName) & " | GĐ " & PolicyStage & "] - ĐỊA BÀN [" & UPPER(SelectedDistrict) & "] x DÂN TỘC [" & UPPER(SelectedEthnic) & "]:" & UNICHAR(10) &
+            "• Hiện không có hộ dân tộc " & SelectedEthnic & " cư trú tập trung tại " & SelectedDistrict & " trong kỳ điều tra này." & UNICHAR(10) &
+            "• Khuyến nghị: Vui lòng chọn địa bàn khác có đồng bào " & SelectedEthnic & " sinh sống hoặc bỏ lọc Huyện để xem tổng thể dân tộc toàn tỉnh.",
+            "🎯 CHẨN ĐOÁN KÉP [" & UPPER(PeriodName) & " | " & UPPER(SelectedDistrict) & " x DÂN TỘC " & UPPER(SelectedEthnic) & " - Quy mô: " & FORMAT(CrossHH, "#,##0") & " hộ]:" & UNICHAR(10) &
+            "1. Giảm nghèo & Vệ sinh tại " & SelectedDistrict & " (QĐ 318/NTM): Tỷ lệ nghèo địa bàn đạt " & FORMAT(DistPovertyRate, "0.0%") & " " & PovDeltaText & "; Hố xí hợp vệ sinh của người " & SelectedEthnic & " tại huyện đạt " & FORMAT(DistLatrineRate, "0.0%") & ", nước hợp vệ sinh đạt " & FORMAT(DistWaterRate, "0.0%") & "." & UNICHAR(10) &
+            "2. Nhà ở & Đất sản xuất (Dự án 1 MTQG 1719): Toàn tỉnh dân tộc " & SelectedEthnic & " còn " & FORMAT(TempHouse, "#,##0") & " nhà tạm (" & FORMAT(TempHouseRate, "0.0%") & " - " & TempHouseDeltaText & "), dự toán " & FORMAT(HousingBudget, "#,##0.00") & " tỷ đồng (định mức " & FORMAT(HousingUnitCost, "0") & " tr/hộ); đất canh tác " & FORMAT(Farmland, "0.00") & " ha/hộ." & UNICHAR(10) &
+            "3. Tín dụng & Đào tạo nghề (NĐ 28/CP & Dự án 5): Khoảng trống vốn của người " & SelectedEthnic & " là " & FORMAT(CreditGapRate, "0.0%") & " (" & FORMAT(CreditGapHH, "#,##0") & " hộ chờ vay " & CreditDeltaText & ", cần " & FORMAT(CreditBudget, "#,##0.00") & " tỷ đồng); chưa đào tạo nghề chiếm " & FORMAT(UntrainedRate, "0.0%") & "." & UNICHAR(10) &
+            "4. Y tế & An ninh (Dự án 7): Ghi nhận " & FORMAT(HomeBirths, "#,##0") & " ca sinh tại nhà của dân tộc " & SelectedEthnic & " và " & FORMAT(DistDrugs, "#,##0") & " người nghiện ma túy trên địa bàn " & SelectedDistrict & "."
+        ),
+
+    // =========================================================================
+    // TRƯỜNG HỢP 2: CHỈ CHỌN HUYỆN (THAM MƯU CHÍNH SÁCH ĐẶC THÙ TỪNG HUYỆN)
+    // =========================================================================
+    IsDistrictFiltered && NOT(IsEthnicFiltered),
+        "🏛️ THAM MƯU ĐỊA BÀN [" & UPPER(SelectedDistrict) & "] - " & UPPER(PeriodName) & " (GĐ " & PolicyStage & " | " & FORMAT(DistHH, "#,##0") & " hộ DTTS):" & UNICHAR(10) &
+        "1. Giao thông & Giảm nghèo (Dự án 3 & 4 MTQG 1719): Tỷ lệ nghèo hiện tại " & FORMAT(DistPovertyRate, "0.0%") & " " & PovDeltaText & " với " & FORMAT(DistPoorHH, "#,##0") & " hộ nghèo (dự toán sinh kế " & FORMAT(DistLivelihoodBudget, "#,##0.00") & " tỷ đồng). " &
+            IF(DistDoubleHardship > 0,
+                "CẢNH BÁO ĐỎ - Còn " & DistDoubleHardship & " xã khó khăn kép (xa tới " & FORMAT(DistMaxKm, "0.0") & "km, nghèo >30%). Ưu tiên vốn cứng hóa đường liên xã.",
+                "Địa bàn không còn xã cô lập >20km & nghèo >30%, tập trung hỗ trợ thoát nghèo bền vững cho " & FORMAT(DistNearPoorHH, "#,##0") & " hộ cận nghèo."
+            ) & UNICHAR(10) &
+        "2. Vệ sinh môi trường & Nước sạch (Tiêu chí 17 NTM - QĐ 318): " & 
+            IF(DistLatrineRate < 0.30,
+                "BÁO ĐỘNG ĐỎ VÙNG TRŨNG - Hố xí hợp vệ sinh chỉ đạt " & FORMAT(DistLatrineRate, "0.0%") & ", nước hợp vệ sinh " & FORMAT(DistWaterRate, "0.0%") & ". Cần cấp tốc gói hỗ trợ xây nhà tiêu hợp vệ sinh.",
+                IF(DistLatrineRate < [Stage Target Poverty Rate %] + 0.55,
+                    "TIỆM CẬN CHUẨN NTM - Hố xí hợp vệ sinh đạt " & FORMAT(DistLatrineRate, "0.0%") & ", nước sạch " & FORMAT(DistWaterRate, "0.0%") & ". Cần mở rộng tín dụng Nước sạch & VSMT nông thôn.",
+                    "ĐẠT CHUẨN NTM - Hố xí hợp vệ sinh đạt " & FORMAT(DistLatrineRate, "0.0%") & ", nước hợp vệ sinh đạt " & FORMAT(DistWaterRate, "0.0%") & "."
+                )
+            ) & UNICHAR(10) &
+        "3. An ninh trật tự & Phòng chống Ma túy/HIV: " & 
+            IF(DistDrugs >= 20 || DistHIV >= 10,
+                "ĐIỂM NÓNG ĐỎ - Ghi nhận " & FORMAT(DistDrugs, "#,##0") & " người DTTS nghiện ma túy và " & FORMAT(DistHIV, "#,##0") & " ca nhiễm HIV. Duy trì điểm cấp phát Methadone lưu động và cai nghiện cộng đồng.",
+                "Ghi nhận " & FORMAT(DistDrugs, "#,##0") & " người DTTS nghiện ma túy và " & FORMAT(DistHIV, "#,##0") & " ca HIV trên địa bàn huyện."
+            ) & UNICHAR(10) &
+        "4. Chuyển đổi số & Đề án 06/CP: Đã có " & FORMAT(DistInternetHH, "#,##0") & "/" & FORMAT(DistHH, "#,##0") & " hộ DTTS kết nối Internet (" & FORMAT(DistInternetRate, "0.0%") & ").",
+
+    // =========================================================================
+    // TRƯỜNG HỢP 3: CHỈ CHỌN DÂN TỘC (THAM MƯU CHÍNH SÁCH ĐẶC THÙ TỪNG DÂN TỘC)
+    // =========================================================================
+    NOT(IsDistrictFiltered) && IsEthnicFiltered,
+        "👥 THAM MƯU DÂN TỘC [" & UPPER(SelectedEthnic) & "] - " & UPPER(PeriodName) & " (GĐ " & PolicyStage & " | " & FORMAT(EthnicHH, "#,##0") & " hộ - " & FORMAT(EthnicPop, "#,##0") & " người):" & UNICHAR(10) &
+        "1. Nhà ở & Đất sản xuất (Dự án 1 & Dự án 9 MTQG 1719): " & 
+            IF(TempHouse = 0,
+                "🎉 THÀNH TỰU ĐỘT PHÁ - Đã xóa 100% nhà tạm (về 0 hộ, " & TempHouseDeltaText & ")! Quỹ đất canh tác đạt " & FORMAT(Farmland, "0.00") & " ha/hộ.",
+                "Còn " & FORMAT(TempHouse, "#,##0") & " hộ nhà tạm (" & FORMAT(TempHouseRate, "0.0%") & " - " & TempHouseDeltaText & "). Theo định mức GĐ " & PolicyStage & " (" & FORMAT(HousingUnitCost, "0") & " tr/hộ), cần phân bổ " & FORMAT(HousingBudget, "#,##0.00") & " tỷ đồng. Đất SX bình quân: " & FORMAT(Farmland, "0.00") & " ha/hộ."
+            ) & UNICHAR(10) &
+        "2. Tín dụng chính sách ưu đãi (Nghị định 28/2022/NĐ-CP): Khoảng trống vốn hiện ở mức " & FORMAT(CreditGapRate, "0.0%") & " với " & FORMAT(CreditGapHH, "#,##0") & " hộ chờ vay " & CreditDeltaText & ". Cần NHCSXH giải ngân " & FORMAT(CreditBudget, "#,##0.00") & " tỷ đồng (định mức " & FORMAT(CreditUnitCost, "0") & " tr/hộ)." & UNICHAR(10) &
+        "3. Đào tạo nghề & Cơ cấu việc làm (Dự án 5 MTQG 1719): Tỷ lệ chưa qua đào tạo CMKT là " & FORMAT(UntrainedRate, "0.0%") & " (so với kỳ trước: " & IF(ISBLANK(PrevUntrainedRate), "Kỳ gốc", FORMAT(PrevUntrainedRate, "0.0%")) & "), lao động nông nghiệp chiếm " & FORMAT(AgriRate, "0.0%") & ". Dự toán kinh phí đào tạo nghề: " & FORMAT(VocationalBudget, "#,##0.00") & " tỷ đồng." & UNICHAR(10) &
+        "4. Y tế sinh sản (Dự án 7 MTQG 1719): Ghi nhận " & FORMAT(HomeBirths, "#,##0") & " ca sinh con tại nhà (kỳ trước: " & IF(ISBLANK(PrevHomeBirths), "Kỳ gốc", FORMAT(PrevHomeBirths, "#,##0") & " ca") & "; trong đó " & FORMAT(NoAttendantBirths, "#,##0") & " ca không có cô đỡ).",
+
+    // =========================================================================
+    // TRƯỜNG HỢP 4: MẶC ĐỊNH TOÀN TỈNH ĐẮK LẮK THEO KỲ ĐANG CHỌN
+    // =========================================================================
+    "📊 TỔNG HỢP CHIẾN LƯỢC TOÀN TỈNH ĐẮK LẮK - " & UPPER(PeriodName) & " [GĐ " & PolicyStage & " | " & FORMAT(EthnicHH, "#,##0") & " HỘ - TỔNG DỰ TOÁN 5 CTMT: " & FORMAT(TotalBudget5Prog, "#,##0.00") & " TỶ VNĐ]:" & UNICHAR(10) &
+    "1. Dự án 1 MTQG 1719 (Xóa nhà tạm & Đất sản xuất): Toàn tỉnh còn " & FORMAT(TempHouse, "#,##0") & " hộ nhà tạm (" & FORMAT(TempHouseRate, "0.0%") & " - " & TempHouseDeltaText & "). Theo đơn giá GĐ " & PolicyStage & " (" & FORMAT(HousingUnitCost, "0") & " tr.đ/hộ), cần bố trí " & FORMAT(HousingBudget, "#,##0.00") & " tỷ đồng." & UNICHAR(10) &
+    "2. Nghị định 28/2022/NĐ-CP (Tín dụng ưu đãi NHCSXH): Khoảng trống tín dụng đạt " & FORMAT(CreditGapRate, "0.0%") & " với " & FORMAT(CreditGapHH, "#,##0") & " hộ khát vốn " & CreditDeltaText & ". Cần bổ sung " & FORMAT(CreditBudget, "#,##0.00") & " tỷ đồng nguồn vốn vay (định mức " & FORMAT(CreditUnitCost, "0") & " tr.đ/hộ)." & UNICHAR(10) &
+    "3. Dự án 3 & 4 MTQG 1719 (Giảm nghèo & Hạ tầng): Tỷ lệ nghèo bình quân xã ở mức " & FORMAT(DistPovertyRate, "0.0%") & " " & PovDeltaText & " với " & FORMAT(DistPoorHH, "#,##0") & " hộ nghèo (cần " & FORMAT(DistLivelihoodBudget, "#,##0.00") & " tỷ đồng hỗ trợ sinh kế) và " & FORMAT(DistDoubleHardship, "0") & " xã 'Khó khăn kép' (xa >20km & nghèo >30%)." & UNICHAR(10) &
+    "4. Dự án 5 & Dự án 7 (Đào tạo nghề & Y tế): Còn " & FORMAT([Untrained Labor Force], "#,##0") & " lao động chưa qua đào tạo CMKT (" & FORMAT(UntrainedRate, "0.0%") & " -> dự toán " & FORMAT(VocationalBudget, "#,##0.00") & " tỷ đồng) và " & FORMAT(HomeBirths, "#,##0") & " ca sinh tại nhà (dự toán " & FORMAT([Recommended Healthcare Budget (Billion VND)], "#,##0.00") & " tỷ đồng)."
+)
+
+
+// =========================================================================
+// 10. NAVIGATION & DYNAMIC ACTION WEB LINKS
+// =========================================================================
+
+Policy Assistant Dynamic URL = 
+VAR _BaseUrl = "http://localhost:8501"
+VAR _Period = SELECTEDVALUE('dim_ky_baocao'[ma_ky], "KY_2026")
+VAR _District = SELECTEDVALUE('dim_diaban'[huyen], "")
+VAR _Ethnic = SELECTEDVALUE('dim_dantoc'[ten_dantoc], "")
+VAR _Url = 
+    _BaseUrl & "?period=" & _Period
+    & IF(_District <> "", "&district=" & _District, "")
+    & IF(_Ethnic <> "", "&ethnic=" & _Ethnic, "")
+RETURN
+    _Url
+
+Policy Assistant Base URL = "http://localhost:8501"
+
+Policy Assistant Button Tooltip = 
+VAR _Period = SELECTEDVALUE('dim_ky_baocao'[ten_ky], "Kỳ 2026 [GĐ 2026-2030]")
+VAR _District = SELECTEDVALUE('dim_diaban'[huyen], "Toàn tỉnh")
+VAR _Ethnic = SELECTEDVALUE('dim_dantoc'[ten_dantoc], "53 Dân tộc")
+RETURN
+    "🏛️ Mở Bàn Thẩm Định KTXH: " & _District & " | " & _Ethnic & " (" & _Period & ")"

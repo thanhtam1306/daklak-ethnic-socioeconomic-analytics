@@ -1,0 +1,72 @@
+table dim_chinhsach_canthiep
+	lineageTag: c29007c8-da36-4521-8e33-e7c6803adac0
+
+	column ma_chinh_sach
+		dataType: string
+		lineageTag: ca5d3c80-5d65-4d61-817a-d5ac23fc3b1a
+		summarizeBy: none
+		sourceColumn: ma_chinh_sach
+
+		annotation SummarizationSetBy = Automatic
+
+	column ten_chinh_sach
+		dataType: string
+		lineageTag: 07f7419e-de09-488f-b07b-89304919e04d
+		summarizeBy: none
+		sourceColumn: ten_chinh_sach
+
+		annotation SummarizationSetBy = Automatic
+
+	column can_cu_phap_ly
+		dataType: string
+		lineageTag: 6e77bfed-2c99-4b00-a3b2-dcd2932ee6bc
+		summarizeBy: none
+		sourceColumn: can_cu_phap_ly
+
+		annotation SummarizationSetBy = Automatic
+
+	column nhom_linh_vuc
+		dataType: string
+		lineageTag: 232ee33f-a0d7-4f0f-abc8-b48344690f79
+		summarizeBy: none
+		sourceColumn: nhom_linh_vuc
+
+		annotation SummarizationSetBy = Automatic
+
+	column doi_tuong_thu_huong
+		dataType: string
+		lineageTag: 9b61487b-4dc2-4f58-a373-36131ca34c7e
+		summarizeBy: none
+		sourceColumn: doi_tuong_thu_huong
+
+		annotation SummarizationSetBy = Automatic
+
+	column nguon_von_thuc_hien
+		dataType: string
+		lineageTag: 90f50531-fd17-4b64-a7a6-74026e29e018
+		summarizeBy: none
+		sourceColumn: nguon_von_thuc_hien
+
+		annotation SummarizationSetBy = Automatic
+
+	column muc_tieu_dinh_luong
+		dataType: string
+		lineageTag: 98848f87-364b-4ea1-b2f0-bdc46d86d2cb
+		summarizeBy: none
+		sourceColumn: muc_tieu_dinh_luong
+
+		annotation SummarizationSetBy = Automatic
+
+	partition dim_chinhsach_canthiep = m
+		mode: import
+		source =
+				let
+				    Source = PostgreSQL.Database("localhost:5432", "daklak_socioeconomic"),
+				    daklak_analytics_dim_chinhsach_canthiep = Source{[Schema="daklak_analytics",Item="dim_chinhsach_canthiep"]}[Data]
+				in
+				    daklak_analytics_dim_chinhsach_canthiep
+
+	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Navigation
+

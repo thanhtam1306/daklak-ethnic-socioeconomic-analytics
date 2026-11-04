@@ -1,0 +1,155 @@
+relationship a489c5c9-409e-4bab-b0a8-7f3b52008a84
+	fromColumn: fact_danso_huyen_dantoc.ma_dantoc
+	toColumn: dim_dantoc.ma_dantoc
+
+	annotation PBI_IsFromSource = FS
+
+relationship a85f6f77-cf37-4fd5-91da-d33e7dbb8812
+	fromColumn: fact_dantocthiet_yeu_huyen.ma_dantoc
+	toColumn: dim_dantoc.ma_dantoc
+
+	annotation PBI_IsFromSource = FS
+
+relationship 988c0ee9-2fd0-4f0f-b87f-aa27a0ed0b65
+	fromColumn: fact_datsanxuat_dantoc.ma_dantoc
+	toColumn: dim_dantoc.ma_dantoc
+
+	annotation PBI_IsFromSource = FS
+
+relationship cdbbb1a2-c2e9-410a-b575-28ea27bcf367
+	fromColumn: fact_giaoduc_dantoc.ma_dantoc
+	toColumn: dim_dantoc.ma_dantoc
+
+	annotation PBI_IsFromSource = FS
+
+relationship 234325a3-1786-426d-a8f3-eeb786e5909e
+	fromColumn: fact_laodong_dantoc.ma_dantoc
+	toColumn: dim_dantoc.ma_dantoc
+
+	annotation PBI_IsFromSource = FS
+
+relationship 4301567c-cec3-4f4e-bd92-ab62fa7a1f12
+	fromColumn: fact_hatang_xa.ma_xa
+	toColumn: dim_diaban.ma_xa
+
+	annotation PBI_IsFromSource = FS
+
+relationship 00fa195a-142c-4332-99b5-18444535b550
+	fromColumn: fact_matuy_hiv_xa.ma_xa
+	toColumn: dim_diaban.ma_xa
+
+	annotation PBI_IsFromSource = FS
+
+relationship afa789e1-9a1d-4be1-b370-4e4ff2e1900f
+	fromColumn: fact_mucsinh_dantoc.ma_dantoc
+	toColumn: dim_dantoc.ma_dantoc
+
+	annotation PBI_IsFromSource = FS
+
+relationship 31a2feec-8648-450c-a45b-49fa0aea3169
+	fromColumn: fact_nhankhau_dantoc.ma_dantoc
+	toColumn: dim_dantoc.ma_dantoc
+
+	annotation PBI_IsFromSource = FS
+
+relationship d94012a9-6fd4-41a0-8cdc-600728b80254
+	fromColumn: fact_nhao_dantoc.ma_dantoc
+	toColumn: dim_dantoc.ma_dantoc
+
+	annotation PBI_IsFromSource = FS
+
+relationship ffd03bac-9c53-4b85-8831-7a39ee04d451
+	fromColumn: fact_tindung_dantoc.ma_dantoc
+	toColumn: dim_dantoc.ma_dantoc
+
+	annotation PBI_IsFromSource = FS
+
+relationship 4e742df2-4017-48b2-956e-7b24bb4c2be5
+	fromColumn: fact_trinhdo_cmkt_dantoc.ma_dantoc
+	toColumn: dim_dantoc.ma_dantoc
+
+	annotation PBI_IsFromSource = FS
+
+relationship 00e38891-d499-5802-86df-5a86c680dbab
+	fromColumn: fact_hatang_xa.ma_ky
+	toColumn: dim_ky_baocao.ma_ky
+
+	annotation PBI_IsFromSource = FS
+
+relationship 14aea034-6595-58b3-87b5-b0f78a5db788
+	fromColumn: fact_danso_huyen_dantoc.ma_ky
+	toColumn: dim_ky_baocao.ma_ky
+
+	annotation PBI_IsFromSource = FS
+
+relationship 1b59d498-ab39-5f50-86e1-9419ba2a8d6f
+	fromColumn: fact_giaoduc_dantoc.ma_ky
+	toColumn: dim_ky_baocao.ma_ky
+
+	annotation PBI_IsFromSource = FS
+
+relationship f67e9cd4-ff8f-510a-965a-2eb34f1214b9
+	fromColumn: fact_laodong_dantoc.ma_ky
+	toColumn: dim_ky_baocao.ma_ky
+
+	annotation PBI_IsFromSource = FS
+
+relationship 74c107b2-e263-5264-b2d4-e5cb19b5c508
+	fromColumn: fact_dantocthiet_yeu_huyen.ma_ky
+	toColumn: dim_ky_baocao.ma_ky
+
+	annotation PBI_IsFromSource = FS
+
+relationship 0e8b6813-5f82-5a53-91f7-d8671b51e037
+	fromColumn: fact_nhao_dantoc.ma_ky
+	toColumn: dim_ky_baocao.ma_ky
+
+	annotation PBI_IsFromSource = FS
+
+relationship 80465498-7d12-57a2-8284-a21b1ac60317
+	fromColumn: fact_mucsinh_dantoc.ma_ky
+	toColumn: dim_ky_baocao.ma_ky
+
+	annotation PBI_IsFromSource = FS
+
+relationship 2b334dd3-a866-58d5-a64e-86cb58720e45
+	fromColumn: fact_nhankhau_dantoc.ma_ky
+	toColumn: dim_ky_baocao.ma_ky
+
+	annotation PBI_IsFromSource = FS
+
+relationship 5b1c0d30-a12e-521f-a592-358ada311589
+	fromColumn: fact_matuy_hiv_xa.ma_ky
+	toColumn: dim_ky_baocao.ma_ky
+
+	annotation PBI_IsFromSource = FS
+
+relationship feaf75db-f0f2-56dd-bc1b-1e3cc1f74690
+	fromColumn: fact_trinhdo_cmkt_dantoc.ma_ky
+	toColumn: dim_ky_baocao.ma_ky
+
+	annotation PBI_IsFromSource = FS
+
+relationship ba07f039-ff7e-5b82-93af-c73a6bc84b44
+	fromColumn: fact_datsanxuat_dantoc.ma_ky
+	toColumn: dim_ky_baocao.ma_ky
+
+	annotation PBI_IsFromSource = FS
+
+relationship af1a27f4-e163-5892-99bf-33c64e47111c
+	fromColumn: fact_tindung_dantoc.ma_ky
+	toColumn: dim_ky_baocao.ma_ky
+
+	annotation PBI_IsFromSource = FS
+
+relationship ab35b27f-74ab-535d-9c1a-14e321cd0233
+	fromColumn: v_dtts_tong_hop_dantoc.ma_ky
+	toColumn: dim_ky_baocao.ma_ky
+
+	annotation PBI_IsFromSource = FS
+
+relationship bfbf0357-c32e-5c75-ba89-41b4787c6564
+	fromColumn: dim_chitieu_kehoach_ngansach.ma_chinh_sach
+	toColumn: dim_chinhsach_canthiep.ma_chinh_sach
+
+	annotation PBI_IsFromSource = FS

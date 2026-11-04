@@ -1,0 +1,96 @@
+table fact_matuy_hiv_xa
+	lineageTag: 149c9475-aa18-4d70-8457-166cbdc9f07e
+
+	column ma_xa
+		dataType: string
+		lineageTag: 30928fff-4d06-4eaa-b677-ef6decdfdb22
+		summarizeBy: none
+		sourceColumn: ma_xa
+
+		annotation SummarizationSetBy = Automatic
+
+	column ten_xa
+		dataType: string
+		lineageTag: ba4c61e8-6248-4b1e-9186-68b2b070e7c8
+		summarizeBy: none
+		sourceColumn: ten_xa
+
+		annotation SummarizationSetBy = Automatic
+
+	column ma_huyen
+		dataType: string
+		lineageTag: cf8650c1-dcb4-453a-bb35-8a1471edf6a2
+		summarizeBy: none
+		sourceColumn: ma_huyen
+
+		annotation SummarizationSetBy = Automatic
+
+	column ten_huyen
+		dataType: string
+		lineageTag: b67848c4-762d-41cd-bde6-e19ca7ce0023
+		summarizeBy: none
+		sourceColumn: ten_huyen
+
+		annotation SummarizationSetBy = Automatic
+
+	column nguoi_nghien_ma_tuy_tong
+		dataType: double
+		lineageTag: b8ed50bf-9930-4b55-8008-f2975bd14aac
+		summarizeBy: sum
+		sourceColumn: nguoi_nghien_ma_tuy_tong
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column nguoi_dtts_nghien_ma_tuy
+		dataType: double
+		lineageTag: 64882cc2-1662-4fd8-ac34-38c2ad835bf0
+		summarizeBy: sum
+		sourceColumn: nguoi_dtts_nghien_ma_tuy
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column nguoi_nhiem_hiv_tong
+		dataType: double
+		lineageTag: 0c8aec0a-1e07-4f3f-85ca-c8d29604885f
+		summarizeBy: sum
+		sourceColumn: nguoi_nhiem_hiv_tong
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column nguoi_dtts_nhiem_hiv
+		dataType: double
+		lineageTag: 0b4d2a7e-ae7a-4178-b5f8-5ded6df3cafa
+		summarizeBy: sum
+		sourceColumn: nguoi_dtts_nhiem_hiv
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column ma_ky
+		dataType: string
+		lineageTag: a7f12f8e-ca60-4172-b2f9-4064887697b2
+		summarizeBy: none
+		sourceColumn: ma_ky
+
+		annotation SummarizationSetBy = Automatic
+
+	partition fact_matuy_hiv_xa = m
+		mode: import
+		source =
+				let
+				    Source = PostgreSQL.Database("localhost:5432", "daklak_socioeconomic"),
+				    daklak_analytics_fact_matuy_hiv_xa = Source{[Schema="daklak_analytics",Item="fact_matuy_hiv_xa"]}[Data]
+				in
+				    daklak_analytics_fact_matuy_hiv_xa
+
+	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Navigation
+

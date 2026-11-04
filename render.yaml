@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: daklak-socioeconomic
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn policy_assistant.app:app --bind 0.0.0.0:$PORT --workers 2 --threads 4 --timeout 120
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.9
+      - key: DB_BACKEND
+        value: duckdb
+      - key: DUCKDB_PATH
+        value: warehouse/daklak_socioeconomic.duckdb

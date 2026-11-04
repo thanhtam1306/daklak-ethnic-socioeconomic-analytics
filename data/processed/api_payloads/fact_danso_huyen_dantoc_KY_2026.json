@@ -1,0 +1,1775 @@
+[
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_01",
+    "ma_dantoc":"DT_01",
+    "so_ho":779,
+    "ten_huyen":"Thành phố Buôn Ma Thuột",
+    "ten_dantoc":"Tày",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_01",
+    "ma_dantoc":"DT_02",
+    "so_ho":237,
+    "ten_huyen":"Thành phố Buôn Ma Thuột",
+    "ten_dantoc":"Thái",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_01",
+    "ma_dantoc":"DT_03",
+    "so_ho":359,
+    "ten_huyen":"Thành phố Buôn Ma Thuột",
+    "ten_dantoc":"Hoa",
+    "nhom_nguon_goc":"Nam Bộ & Duyên hải"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_01",
+    "ma_dantoc":"DT_05",
+    "so_ho":1654,
+    "ten_huyen":"Thành phố Buôn Ma Thuột",
+    "ten_dantoc":"Mường",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_01",
+    "ma_dantoc":"DT_06",
+    "so_ho":602,
+    "ten_huyen":"Thành phố Buôn Ma Thuột",
+    "ten_dantoc":"Nùng",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_01",
+    "ma_dantoc":"DT_08",
+    "so_ho":655,
+    "ten_huyen":"Thành phố Buôn Ma Thuột",
+    "ten_dantoc":"Dao",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_01",
+    "ma_dantoc":"DT_09",
+    "so_ho":127,
+    "ten_huyen":"Thành phố Buôn Ma Thuột",
+    "ten_dantoc":"Gia Rai",
+    "nhom_nguon_goc":"Bản địa Tây Nguyên"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_01",
+    "ma_dantoc":"DT_11",
+    "so_ho":8046,
+    "ten_huyen":"Thành phố Buôn Ma Thuột",
+    "ten_dantoc":"Ê đê",
+    "nhom_nguon_goc":"Bản địa Tây Nguyên"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_01",
+    "ma_dantoc":"DT_13",
+    "so_ho":2,
+    "ten_huyen":"Thành phố Buôn Ma Thuột",
+    "ten_dantoc":"Xơ Đăng",
+    "nhom_nguon_goc":"Bản địa Tây Nguyên"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_01",
+    "ma_dantoc":"DT_14",
+    "so_ho":2,
+    "ten_huyen":"Thành phố Buôn Ma Thuột",
+    "ten_dantoc":"Sán Chay",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_01",
+    "ma_dantoc":"DT_15",
+    "so_ho":31,
+    "ten_huyen":"Thành phố Buôn Ma Thuột",
+    "ten_dantoc":"Cơ Ho",
+    "nhom_nguon_goc":"Bản địa Tây Nguyên"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_01",
+    "ma_dantoc":"DT_16",
+    "so_ho":2,
+    "ten_huyen":"Thành phố Buôn Ma Thuột",
+    "ten_dantoc":"Chăm",
+    "nhom_nguon_goc":"Nam Bộ & Duyên hải"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_01",
+    "ma_dantoc":"DT_19",
+    "so_ho":50,
+    "ten_huyen":"Thành phố Buôn Ma Thuột",
+    "ten_dantoc":"Mnông",
+    "nhom_nguon_goc":"Bản địa Tây Nguyên"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_01",
+    "ma_dantoc":"DT_22",
+    "so_ho":102,
+    "ten_huyen":"Thành phố Buôn Ma Thuột",
+    "ten_dantoc":"Bru Vân Kiều",
+    "nhom_nguon_goc":"Khác"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_01",
+    "ma_dantoc":"DT_23",
+    "so_ho":3,
+    "ten_huyen":"Thành phố Buôn Ma Thuột",
+    "ten_dantoc":"Thổ",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_01",
+    "ma_dantoc":"DT_24",
+    "so_ho":1,
+    "ten_huyen":"Thành phố Buôn Ma Thuột",
+    "ten_dantoc":"Cơ Tu",
+    "nhom_nguon_goc":"Khác"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_02",
+    "ma_dantoc":"DT_01",
+    "so_ho":772,
+    "ten_huyen":"Thị Xã Buôn Hồ",
+    "ten_dantoc":"Tày",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_02",
+    "ma_dantoc":"DT_02",
+    "so_ho":120,
+    "ten_huyen":"Thị Xã Buôn Hồ",
+    "ten_dantoc":"Thái",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_02",
+    "ma_dantoc":"DT_04",
+    "so_ho":5,
+    "ten_huyen":"Thị Xã Buôn Hồ",
+    "ten_dantoc":"Khmer",
+    "nhom_nguon_goc":"Nam Bộ & Duyên hải"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_02",
+    "ma_dantoc":"DT_06",
+    "so_ho":2476,
+    "ten_huyen":"Thị Xã Buôn Hồ",
+    "ten_dantoc":"Nùng",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_02",
+    "ma_dantoc":"DT_08",
+    "so_ho":6,
+    "ten_huyen":"Thị Xã Buôn Hồ",
+    "ten_dantoc":"Dao",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_02",
+    "ma_dantoc":"DT_09",
+    "so_ho":13,
+    "ten_huyen":"Thị Xã Buôn Hồ",
+    "ten_dantoc":"Gia Rai",
+    "nhom_nguon_goc":"Bản địa Tây Nguyên"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_02",
+    "ma_dantoc":"DT_11",
+    "so_ho":5499,
+    "ten_huyen":"Thị Xã Buôn Hồ",
+    "ten_dantoc":"Ê đê",
+    "nhom_nguon_goc":"Bản địa Tây Nguyên"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_02",
+    "ma_dantoc":"DT_13",
+    "so_ho":95,
+    "ten_huyen":"Thị Xã Buôn Hồ",
+    "ten_dantoc":"Xơ Đăng",
+    "nhom_nguon_goc":"Bản địa Tây Nguyên"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_02",
+    "ma_dantoc":"DT_26",
+    "so_ho":7,
+    "ten_huyen":"Thị Xã Buôn Hồ",
+    "ten_dantoc":"Co",
+    "nhom_nguon_goc":"Khác"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_03",
+    "ma_dantoc":"DT_01",
+    "so_ho":2022,
+    "ten_huyen":"Huyện Ea H'leo",
+    "ten_dantoc":"Tày",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_03",
+    "ma_dantoc":"DT_02",
+    "so_ho":706,
+    "ten_huyen":"Huyện Ea H'leo",
+    "ten_dantoc":"Thái",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_03",
+    "ma_dantoc":"DT_05",
+    "so_ho":547,
+    "ten_huyen":"Huyện Ea H'leo",
+    "ten_dantoc":"Mường",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_03",
+    "ma_dantoc":"DT_06",
+    "so_ho":2623,
+    "ten_huyen":"Huyện Ea H'leo",
+    "ten_dantoc":"Nùng",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_03",
+    "ma_dantoc":"DT_08",
+    "so_ho":81,
+    "ten_huyen":"Huyện Ea H'leo",
+    "ten_dantoc":"Dao",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_03",
+    "ma_dantoc":"DT_09",
+    "so_ho":2422,
+    "ten_huyen":"Huyện Ea H'leo",
+    "ten_dantoc":"Gia Rai",
+    "nhom_nguon_goc":"Bản địa Tây Nguyên"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_03",
+    "ma_dantoc":"DT_11",
+    "so_ho":4903,
+    "ten_huyen":"Huyện Ea H'leo",
+    "ten_dantoc":"Ê đê",
+    "nhom_nguon_goc":"Bản địa Tây Nguyên"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_03",
+    "ma_dantoc":"DT_12",
+    "so_ho":4,
+    "ten_huyen":"Huyện Ea H'leo",
+    "ten_dantoc":"Ba Na",
+    "nhom_nguon_goc":"Bản địa Tây Nguyên"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_03",
+    "ma_dantoc":"DT_14",
+    "so_ho":6,
+    "ten_huyen":"Huyện Ea H'leo",
+    "ten_dantoc":"Sán Chay",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_03",
+    "ma_dantoc":"DT_18",
+    "so_ho":122,
+    "ten_huyen":"Huyện Ea H'leo",
+    "ten_dantoc":"Hrê",
+    "nhom_nguon_goc":"Khác"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_03",
+    "ma_dantoc":"DT_19",
+    "so_ho":7,
+    "ten_huyen":"Huyện Ea H'leo",
+    "ten_dantoc":"Mnông",
+    "nhom_nguon_goc":"Bản địa Tây Nguyên"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_03",
+    "ma_dantoc":"DT_23",
+    "so_ho":8,
+    "ten_huyen":"Huyện Ea H'leo",
+    "ten_dantoc":"Thổ",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_04",
+    "ma_dantoc":"DT_01",
+    "so_ho":1536,
+    "ten_huyen":"Huyện Ea Súp",
+    "ten_dantoc":"Tày",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_04",
+    "ma_dantoc":"DT_02",
+    "so_ho":1014,
+    "ten_huyen":"Huyện Ea Súp",
+    "ten_dantoc":"Thái",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_04",
+    "ma_dantoc":"DT_03",
+    "so_ho":60,
+    "ten_huyen":"Huyện Ea Súp",
+    "ten_dantoc":"Hoa",
+    "nhom_nguon_goc":"Nam Bộ & Duyên hải"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_04",
+    "ma_dantoc":"DT_04",
+    "so_ho":34,
+    "ten_huyen":"Huyện Ea Súp",
+    "ten_dantoc":"Khmer",
+    "nhom_nguon_goc":"Nam Bộ & Duyên hải"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_04",
+    "ma_dantoc":"DT_05",
+    "so_ho":87,
+    "ten_huyen":"Huyện Ea Súp",
+    "ten_dantoc":"Mường",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_04",
+    "ma_dantoc":"DT_06",
+    "so_ho":2538,
+    "ten_huyen":"Huyện Ea Súp",
+    "ten_dantoc":"Nùng",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_04",
+    "ma_dantoc":"DT_07",
+    "so_ho":1354,
+    "ten_huyen":"Huyện Ea Súp",
+    "ten_dantoc":"Mông",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_04",
+    "ma_dantoc":"DT_08",
+    "so_ho":594,
+    "ten_huyen":"Huyện Ea Súp",
+    "ten_dantoc":"Dao",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_04",
+    "ma_dantoc":"DT_09",
+    "so_ho":1223,
+    "ten_huyen":"Huyện Ea Súp",
+    "ten_dantoc":"Gia Rai",
+    "nhom_nguon_goc":"Bản địa Tây Nguyên"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_04",
+    "ma_dantoc":"DT_10",
+    "so_ho":2,
+    "ten_huyen":"Huyện Ea Súp",
+    "ten_dantoc":"Ngái",
+    "nhom_nguon_goc":"Khác"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_04",
+    "ma_dantoc":"DT_11",
+    "so_ho":74,
+    "ten_huyen":"Huyện Ea Súp",
+    "ten_dantoc":"Ê đê",
+    "nhom_nguon_goc":"Bản địa Tây Nguyên"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_04",
+    "ma_dantoc":"DT_12",
+    "so_ho":74,
+    "ten_huyen":"Huyện Ea Súp",
+    "ten_dantoc":"Ba Na",
+    "nhom_nguon_goc":"Bản địa Tây Nguyên"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_04",
+    "ma_dantoc":"DT_14",
+    "so_ho":66,
+    "ten_huyen":"Huyện Ea Súp",
+    "ten_dantoc":"Sán Chay",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_04",
+    "ma_dantoc":"DT_19",
+    "so_ho":16,
+    "ten_huyen":"Huyện Ea Súp",
+    "ten_dantoc":"Mnông",
+    "nhom_nguon_goc":"Bản địa Tây Nguyên"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_04",
+    "ma_dantoc":"DT_28",
+    "so_ho":4,
+    "ten_huyen":"Huyện Ea Súp",
+    "ten_dantoc":"Chu Ru",
+    "nhom_nguon_goc":"Bản địa Tây Nguyên"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_04",
+    "ma_dantoc":"DT_31",
+    "so_ho":4,
+    "ten_huyen":"Huyện Ea Súp",
+    "ten_dantoc":"Chứt",
+    "nhom_nguon_goc":"Khác"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_05",
+    "ma_dantoc":"DT_01",
+    "so_ho":1291,
+    "ten_huyen":"Huyện Buôn Đôn",
+    "ten_dantoc":"Tày",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_05",
+    "ma_dantoc":"DT_02",
+    "so_ho":3,
+    "ten_huyen":"Huyện Buôn Đôn",
+    "ten_dantoc":"Thái",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_05",
+    "ma_dantoc":"DT_03",
+    "so_ho":22,
+    "ten_huyen":"Huyện Buôn Đôn",
+    "ten_dantoc":"Hoa",
+    "nhom_nguon_goc":"Nam Bộ & Duyên hải"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_05",
+    "ma_dantoc":"DT_05",
+    "so_ho":168,
+    "ten_huyen":"Huyện Buôn Đôn",
+    "ten_dantoc":"Mường",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_05",
+    "ma_dantoc":"DT_06",
+    "so_ho":1100,
+    "ten_huyen":"Huyện Buôn Đôn",
+    "ten_dantoc":"Nùng",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_05",
+    "ma_dantoc":"DT_08",
+    "so_ho":117,
+    "ten_huyen":"Huyện Buôn Đôn",
+    "ten_dantoc":"Dao",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_05",
+    "ma_dantoc":"DT_09",
+    "so_ho":82,
+    "ten_huyen":"Huyện Buôn Đôn",
+    "ten_dantoc":"Gia Rai",
+    "nhom_nguon_goc":"Bản địa Tây Nguyên"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_05",
+    "ma_dantoc":"DT_11",
+    "so_ho":4345,
+    "ten_huyen":"Huyện Buôn Đôn",
+    "ten_dantoc":"Ê đê",
+    "nhom_nguon_goc":"Bản địa Tây Nguyên"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_05",
+    "ma_dantoc":"DT_12",
+    "so_ho":1,
+    "ten_huyen":"Huyện Buôn Đôn",
+    "ten_dantoc":"Ba Na",
+    "nhom_nguon_goc":"Bản địa Tây Nguyên"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_05",
+    "ma_dantoc":"DT_14",
+    "so_ho":8,
+    "ten_huyen":"Huyện Buôn Đôn",
+    "ten_dantoc":"Sán Chay",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_05",
+    "ma_dantoc":"DT_16",
+    "so_ho":2,
+    "ten_huyen":"Huyện Buôn Đôn",
+    "ten_dantoc":"Chăm",
+    "nhom_nguon_goc":"Nam Bộ & Duyên hải"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_05",
+    "ma_dantoc":"DT_17",
+    "so_ho":1,
+    "ten_huyen":"Huyện Buôn Đôn",
+    "ten_dantoc":"Sán Dìu",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_05",
+    "ma_dantoc":"DT_19",
+    "so_ho":1127,
+    "ten_huyen":"Huyện Buôn Đôn",
+    "ten_dantoc":"Mnông",
+    "nhom_nguon_goc":"Bản địa Tây Nguyên"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_05",
+    "ma_dantoc":"DT_29",
+    "so_ho":93,
+    "ten_huyen":"Huyện Buôn Đôn",
+    "ten_dantoc":"Lào",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_06",
+    "ma_dantoc":"DT_01",
+    "so_ho":604,
+    "ten_huyen":"Huyện Cư M'gar",
+    "ten_dantoc":"Tày",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_06",
+    "ma_dantoc":"DT_02",
+    "so_ho":36,
+    "ten_huyen":"Huyện Cư M'gar",
+    "ten_dantoc":"Thái",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_06",
+    "ma_dantoc":"DT_03",
+    "so_ho":1,
+    "ten_huyen":"Huyện Cư M'gar",
+    "ten_dantoc":"Hoa",
+    "nhom_nguon_goc":"Nam Bộ & Duyên hải"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_06",
+    "ma_dantoc":"DT_05",
+    "so_ho":58,
+    "ten_huyen":"Huyện Cư M'gar",
+    "ten_dantoc":"Mường",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_06",
+    "ma_dantoc":"DT_06",
+    "so_ho":170,
+    "ten_huyen":"Huyện Cư M'gar",
+    "ten_dantoc":"Nùng",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_06",
+    "ma_dantoc":"DT_07",
+    "so_ho":136,
+    "ten_huyen":"Huyện Cư M'gar",
+    "ten_dantoc":"Mông",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_06",
+    "ma_dantoc":"DT_08",
+    "so_ho":975,
+    "ten_huyen":"Huyện Cư M'gar",
+    "ten_dantoc":"Dao",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_06",
+    "ma_dantoc":"DT_09",
+    "so_ho":73,
+    "ten_huyen":"Huyện Cư M'gar",
+    "ten_dantoc":"Gia Rai",
+    "nhom_nguon_goc":"Bản địa Tây Nguyên"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_06",
+    "ma_dantoc":"DT_10",
+    "so_ho":1,
+    "ten_huyen":"Huyện Cư M'gar",
+    "ten_dantoc":"Ngái",
+    "nhom_nguon_goc":"Khác"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_06",
+    "ma_dantoc":"DT_11",
+    "so_ho":20880,
+    "ten_huyen":"Huyện Cư M'gar",
+    "ten_dantoc":"Ê đê",
+    "nhom_nguon_goc":"Bản địa Tây Nguyên"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_06",
+    "ma_dantoc":"DT_13",
+    "so_ho":41,
+    "ten_huyen":"Huyện Cư M'gar",
+    "ten_dantoc":"Xơ Đăng",
+    "nhom_nguon_goc":"Bản địa Tây Nguyên"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_06",
+    "ma_dantoc":"DT_14",
+    "so_ho":6,
+    "ten_huyen":"Huyện Cư M'gar",
+    "ten_dantoc":"Sán Chay",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_06",
+    "ma_dantoc":"DT_17",
+    "so_ho":20,
+    "ten_huyen":"Huyện Cư M'gar",
+    "ten_dantoc":"Sán Dìu",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_06",
+    "ma_dantoc":"DT_18",
+    "so_ho":18,
+    "ten_huyen":"Huyện Cư M'gar",
+    "ten_dantoc":"Hrê",
+    "nhom_nguon_goc":"Khác"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_06",
+    "ma_dantoc":"DT_19",
+    "so_ho":18,
+    "ten_huyen":"Huyện Cư M'gar",
+    "ten_dantoc":"Mnông",
+    "nhom_nguon_goc":"Bản địa Tây Nguyên"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_06",
+    "ma_dantoc":"DT_23",
+    "so_ho":176,
+    "ten_huyen":"Huyện Cư M'gar",
+    "ten_dantoc":"Thổ",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_07",
+    "ma_dantoc":"DT_01",
+    "so_ho":50,
+    "ten_huyen":"Huyện Krông Búk",
+    "ten_dantoc":"Tày",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_07",
+    "ma_dantoc":"DT_02",
+    "so_ho":138,
+    "ten_huyen":"Huyện Krông Búk",
+    "ten_dantoc":"Thái",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_07",
+    "ma_dantoc":"DT_05",
+    "so_ho":25,
+    "ten_huyen":"Huyện Krông Búk",
+    "ten_dantoc":"Mường",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_07",
+    "ma_dantoc":"DT_06",
+    "so_ho":22,
+    "ten_huyen":"Huyện Krông Búk",
+    "ten_dantoc":"Nùng",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_07",
+    "ma_dantoc":"DT_08",
+    "so_ho":3,
+    "ten_huyen":"Huyện Krông Búk",
+    "ten_dantoc":"Dao",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_07",
+    "ma_dantoc":"DT_09",
+    "so_ho":62,
+    "ten_huyen":"Huyện Krông Búk",
+    "ten_dantoc":"Gia Rai",
+    "nhom_nguon_goc":"Bản địa Tây Nguyên"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_07",
+    "ma_dantoc":"DT_11",
+    "so_ho":4781,
+    "ten_huyen":"Huyện Krông Búk",
+    "ten_dantoc":"Ê đê",
+    "nhom_nguon_goc":"Bản địa Tây Nguyên"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_07",
+    "ma_dantoc":"DT_12",
+    "so_ho":47,
+    "ten_huyen":"Huyện Krông Búk",
+    "ten_dantoc":"Ba Na",
+    "nhom_nguon_goc":"Bản địa Tây Nguyên"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_07",
+    "ma_dantoc":"DT_13",
+    "so_ho":6,
+    "ten_huyen":"Huyện Krông Búk",
+    "ten_dantoc":"Xơ Đăng",
+    "nhom_nguon_goc":"Bản địa Tây Nguyên"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_07",
+    "ma_dantoc":"DT_17",
+    "so_ho":1,
+    "ten_huyen":"Huyện Krông Búk",
+    "ten_dantoc":"Sán Dìu",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_07",
+    "ma_dantoc":"DT_18",
+    "so_ho":34,
+    "ten_huyen":"Huyện Krông Búk",
+    "ten_dantoc":"Hrê",
+    "nhom_nguon_goc":"Khác"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_07",
+    "ma_dantoc":"DT_19",
+    "so_ho":2,
+    "ten_huyen":"Huyện Krông Búk",
+    "ten_dantoc":"Mnông",
+    "nhom_nguon_goc":"Bản địa Tây Nguyên"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_08",
+    "ma_dantoc":"DT_01",
+    "so_ho":1809,
+    "ten_huyen":"Huyện Krông Năng",
+    "ten_dantoc":"Tày",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_08",
+    "ma_dantoc":"DT_02",
+    "so_ho":1047,
+    "ten_huyen":"Huyện Krông Năng",
+    "ten_dantoc":"Thái",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_08",
+    "ma_dantoc":"DT_03",
+    "so_ho":8,
+    "ten_huyen":"Huyện Krông Năng",
+    "ten_dantoc":"Hoa",
+    "nhom_nguon_goc":"Nam Bộ & Duyên hải"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_08",
+    "ma_dantoc":"DT_05",
+    "so_ho":1529,
+    "ten_huyen":"Huyện Krông Năng",
+    "ten_dantoc":"Mường",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_08",
+    "ma_dantoc":"DT_06",
+    "so_ho":1279,
+    "ten_huyen":"Huyện Krông Năng",
+    "ten_dantoc":"Nùng",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_08",
+    "ma_dantoc":"DT_07",
+    "so_ho":905,
+    "ten_huyen":"Huyện Krông Năng",
+    "ten_dantoc":"Mông",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_08",
+    "ma_dantoc":"DT_08",
+    "so_ho":6,
+    "ten_huyen":"Huyện Krông Năng",
+    "ten_dantoc":"Dao",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_08",
+    "ma_dantoc":"DT_09",
+    "so_ho":139,
+    "ten_huyen":"Huyện Krông Năng",
+    "ten_dantoc":"Gia Rai",
+    "nhom_nguon_goc":"Bản địa Tây Nguyên"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_08",
+    "ma_dantoc":"DT_11",
+    "so_ho":5291,
+    "ten_huyen":"Huyện Krông Năng",
+    "ten_dantoc":"Ê đê",
+    "nhom_nguon_goc":"Bản địa Tây Nguyên"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_08",
+    "ma_dantoc":"DT_12",
+    "so_ho":6,
+    "ten_huyen":"Huyện Krông Năng",
+    "ten_dantoc":"Ba Na",
+    "nhom_nguon_goc":"Bản địa Tây Nguyên"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_08",
+    "ma_dantoc":"DT_14",
+    "so_ho":24,
+    "ten_huyen":"Huyện Krông Năng",
+    "ten_dantoc":"Sán Chay",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_08",
+    "ma_dantoc":"DT_16",
+    "so_ho":5,
+    "ten_huyen":"Huyện Krông Năng",
+    "ten_dantoc":"Chăm",
+    "nhom_nguon_goc":"Nam Bộ & Duyên hải"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_08",
+    "ma_dantoc":"DT_20",
+    "so_ho":1,
+    "ten_huyen":"Huyện Krông Năng",
+    "ten_dantoc":"Raglay",
+    "nhom_nguon_goc":"Khác"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_08",
+    "ma_dantoc":"DT_22",
+    "so_ho":31,
+    "ten_huyen":"Huyện Krông Năng",
+    "ten_dantoc":"Bru Vân Kiều",
+    "nhom_nguon_goc":"Khác"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_08",
+    "ma_dantoc":"DT_30",
+    "so_ho":3,
+    "ten_huyen":"Huyện Krông Năng",
+    "ten_dantoc":"Phù Lá",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_08",
+    "ma_dantoc":"DT_31",
+    "so_ho":56,
+    "ten_huyen":"Huyện Krông Năng",
+    "ten_dantoc":"Chứt",
+    "nhom_nguon_goc":"Khác"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_09",
+    "ma_dantoc":"DT_01",
+    "so_ho":1206,
+    "ten_huyen":"Huyện Ea Kar",
+    "ten_dantoc":"Tày",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_09",
+    "ma_dantoc":"DT_02",
+    "so_ho":1614,
+    "ten_huyen":"Huyện Ea Kar",
+    "ten_dantoc":"Thái",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_09",
+    "ma_dantoc":"DT_03",
+    "so_ho":5,
+    "ten_huyen":"Huyện Ea Kar",
+    "ten_dantoc":"Hoa",
+    "nhom_nguon_goc":"Nam Bộ & Duyên hải"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_09",
+    "ma_dantoc":"DT_05",
+    "so_ho":466,
+    "ten_huyen":"Huyện Ea Kar",
+    "ten_dantoc":"Mường",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_09",
+    "ma_dantoc":"DT_06",
+    "so_ho":2662,
+    "ten_huyen":"Huyện Ea Kar",
+    "ten_dantoc":"Nùng",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_09",
+    "ma_dantoc":"DT_07",
+    "so_ho":287,
+    "ten_huyen":"Huyện Ea Kar",
+    "ten_dantoc":"Mông",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_09",
+    "ma_dantoc":"DT_08",
+    "so_ho":235,
+    "ten_huyen":"Huyện Ea Kar",
+    "ten_dantoc":"Dao",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_09",
+    "ma_dantoc":"DT_09",
+    "so_ho":24,
+    "ten_huyen":"Huyện Ea Kar",
+    "ten_dantoc":"Gia Rai",
+    "nhom_nguon_goc":"Bản địa Tây Nguyên"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_09",
+    "ma_dantoc":"DT_11",
+    "so_ho":4807,
+    "ten_huyen":"Huyện Ea Kar",
+    "ten_dantoc":"Ê đê",
+    "nhom_nguon_goc":"Bản địa Tây Nguyên"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_09",
+    "ma_dantoc":"DT_13",
+    "so_ho":159,
+    "ten_huyen":"Huyện Ea Kar",
+    "ten_dantoc":"Xơ Đăng",
+    "nhom_nguon_goc":"Bản địa Tây Nguyên"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_09",
+    "ma_dantoc":"DT_14",
+    "so_ho":51,
+    "ten_huyen":"Huyện Ea Kar",
+    "ten_dantoc":"Sán Chay",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_09",
+    "ma_dantoc":"DT_15",
+    "so_ho":5,
+    "ten_huyen":"Huyện Ea Kar",
+    "ten_dantoc":"Cơ Ho",
+    "nhom_nguon_goc":"Bản địa Tây Nguyên"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_09",
+    "ma_dantoc":"DT_22",
+    "so_ho":28,
+    "ten_huyen":"Huyện Ea Kar",
+    "ten_dantoc":"Bru Vân Kiều",
+    "nhom_nguon_goc":"Khác"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_10",
+    "ma_dantoc":"DT_01",
+    "so_ho":292,
+    "ten_huyen":"Huyện M'Đrắk",
+    "ten_dantoc":"Tày",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_10",
+    "ma_dantoc":"DT_02",
+    "so_ho":35,
+    "ten_huyen":"Huyện M'Đrắk",
+    "ten_dantoc":"Thái",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_10",
+    "ma_dantoc":"DT_03",
+    "so_ho":1,
+    "ten_huyen":"Huyện M'Đrắk",
+    "ten_dantoc":"Hoa",
+    "nhom_nguon_goc":"Nam Bộ & Duyên hải"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_10",
+    "ma_dantoc":"DT_04",
+    "so_ho":2,
+    "ten_huyen":"Huyện M'Đrắk",
+    "ten_dantoc":"Khmer",
+    "nhom_nguon_goc":"Nam Bộ & Duyên hải"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_10",
+    "ma_dantoc":"DT_05",
+    "so_ho":28,
+    "ten_huyen":"Huyện M'Đrắk",
+    "ten_dantoc":"Mường",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_10",
+    "ma_dantoc":"DT_06",
+    "so_ho":779,
+    "ten_huyen":"Huyện M'Đrắk",
+    "ten_dantoc":"Nùng",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_10",
+    "ma_dantoc":"DT_07",
+    "so_ho":1058,
+    "ten_huyen":"Huyện M'Đrắk",
+    "ten_dantoc":"Mông",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_10",
+    "ma_dantoc":"DT_08",
+    "so_ho":1600,
+    "ten_huyen":"Huyện M'Đrắk",
+    "ten_dantoc":"Dao",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_10",
+    "ma_dantoc":"DT_09",
+    "so_ho":10,
+    "ten_huyen":"Huyện M'Đrắk",
+    "ten_dantoc":"Gia Rai",
+    "nhom_nguon_goc":"Bản địa Tây Nguyên"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_10",
+    "ma_dantoc":"DT_11",
+    "so_ho":5186,
+    "ten_huyen":"Huyện M'Đrắk",
+    "ten_dantoc":"Ê đê",
+    "nhom_nguon_goc":"Bản địa Tây Nguyên"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_10",
+    "ma_dantoc":"DT_16",
+    "so_ho":7,
+    "ten_huyen":"Huyện M'Đrắk",
+    "ten_dantoc":"Chăm",
+    "nhom_nguon_goc":"Nam Bộ & Duyên hải"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_10",
+    "ma_dantoc":"DT_23",
+    "so_ho":11,
+    "ten_huyen":"Huyện M'Đrắk",
+    "ten_dantoc":"Thổ",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_10",
+    "ma_dantoc":"DT_27",
+    "so_ho":4,
+    "ten_huyen":"Huyện M'Đrắk",
+    "ten_dantoc":"Chơ Ro",
+    "nhom_nguon_goc":"Khác"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_11",
+    "ma_dantoc":"DT_01",
+    "so_ho":35,
+    "ten_huyen":"Huyện Krông Bông",
+    "ten_dantoc":"Tày",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_11",
+    "ma_dantoc":"DT_02",
+    "so_ho":27,
+    "ten_huyen":"Huyện Krông Bông",
+    "ten_dantoc":"Thái",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_11",
+    "ma_dantoc":"DT_05",
+    "so_ho":367,
+    "ten_huyen":"Huyện Krông Bông",
+    "ten_dantoc":"Mường",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_11",
+    "ma_dantoc":"DT_06",
+    "so_ho":84,
+    "ten_huyen":"Huyện Krông Bông",
+    "ten_dantoc":"Nùng",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_11",
+    "ma_dantoc":"DT_07",
+    "so_ho":4700,
+    "ten_huyen":"Huyện Krông Bông",
+    "ten_dantoc":"Mông",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_11",
+    "ma_dantoc":"DT_09",
+    "so_ho":13,
+    "ten_huyen":"Huyện Krông Bông",
+    "ten_dantoc":"Gia Rai",
+    "nhom_nguon_goc":"Bản địa Tây Nguyên"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_11",
+    "ma_dantoc":"DT_11",
+    "so_ho":2822,
+    "ten_huyen":"Huyện Krông Bông",
+    "ten_dantoc":"Ê đê",
+    "nhom_nguon_goc":"Bản địa Tây Nguyên"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_11",
+    "ma_dantoc":"DT_15",
+    "so_ho":5,
+    "ten_huyen":"Huyện Krông Bông",
+    "ten_dantoc":"Cơ Ho",
+    "nhom_nguon_goc":"Bản địa Tây Nguyên"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_11",
+    "ma_dantoc":"DT_19",
+    "so_ho":1622,
+    "ten_huyen":"Huyện Krông Bông",
+    "ten_dantoc":"Mnông",
+    "nhom_nguon_goc":"Bản địa Tây Nguyên"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_11",
+    "ma_dantoc":"DT_22",
+    "so_ho":10,
+    "ten_huyen":"Huyện Krông Bông",
+    "ten_dantoc":"Bru Vân Kiều",
+    "nhom_nguon_goc":"Khác"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_11",
+    "ma_dantoc":"DT_25",
+    "so_ho":19,
+    "ten_huyen":"Huyện Krông Bông",
+    "ten_dantoc":"Mạ",
+    "nhom_nguon_goc":"Bản địa Tây Nguyên"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_12",
+    "ma_dantoc":"DT_01",
+    "so_ho":683,
+    "ten_huyen":"Huyện Krông Pắc",
+    "ten_dantoc":"Tày",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_12",
+    "ma_dantoc":"DT_02",
+    "so_ho":1002,
+    "ten_huyen":"Huyện Krông Pắc",
+    "ten_dantoc":"Thái",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_12",
+    "ma_dantoc":"DT_03",
+    "so_ho":16,
+    "ten_huyen":"Huyện Krông Pắc",
+    "ten_dantoc":"Hoa",
+    "nhom_nguon_goc":"Nam Bộ & Duyên hải"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_12",
+    "ma_dantoc":"DT_05",
+    "so_ho":28,
+    "ten_huyen":"Huyện Krông Pắc",
+    "ten_dantoc":"Mường",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_12",
+    "ma_dantoc":"DT_06",
+    "so_ho":824,
+    "ten_huyen":"Huyện Krông Pắc",
+    "ten_dantoc":"Nùng",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_12",
+    "ma_dantoc":"DT_07",
+    "so_ho":350,
+    "ten_huyen":"Huyện Krông Pắc",
+    "ten_dantoc":"Mông",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_12",
+    "ma_dantoc":"DT_08",
+    "so_ho":67,
+    "ten_huyen":"Huyện Krông Pắc",
+    "ten_dantoc":"Dao",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_12",
+    "ma_dantoc":"DT_09",
+    "so_ho":50,
+    "ten_huyen":"Huyện Krông Pắc",
+    "ten_dantoc":"Gia Rai",
+    "nhom_nguon_goc":"Bản địa Tây Nguyên"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_12",
+    "ma_dantoc":"DT_11",
+    "so_ho":8018,
+    "ten_huyen":"Huyện Krông Pắc",
+    "ten_dantoc":"Ê đê",
+    "nhom_nguon_goc":"Bản địa Tây Nguyên"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_12",
+    "ma_dantoc":"DT_13",
+    "so_ho":1225,
+    "ten_huyen":"Huyện Krông Pắc",
+    "ten_dantoc":"Xơ Đăng",
+    "nhom_nguon_goc":"Bản địa Tây Nguyên"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_12",
+    "ma_dantoc":"DT_14",
+    "so_ho":650,
+    "ten_huyen":"Huyện Krông Pắc",
+    "ten_dantoc":"Sán Chay",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_12",
+    "ma_dantoc":"DT_22",
+    "so_ho":1347,
+    "ten_huyen":"Huyện Krông Pắc",
+    "ten_dantoc":"Bru Vân Kiều",
+    "nhom_nguon_goc":"Khác"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_12",
+    "ma_dantoc":"DT_23",
+    "so_ho":10,
+    "ten_huyen":"Huyện Krông Pắc",
+    "ten_dantoc":"Thổ",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_12",
+    "ma_dantoc":"DT_32",
+    "so_ho":1,
+    "ten_huyen":"Huyện Krông Pắc",
+    "ten_dantoc":"Mảng",
+    "nhom_nguon_goc":"Khác"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_13",
+    "ma_dantoc":"DT_01",
+    "so_ho":199,
+    "ten_huyen":"Huyện Krông A Na",
+    "ten_dantoc":"Tày",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_13",
+    "ma_dantoc":"DT_02",
+    "so_ho":67,
+    "ten_huyen":"Huyện Krông A Na",
+    "ten_dantoc":"Thái",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_13",
+    "ma_dantoc":"DT_05",
+    "so_ho":83,
+    "ten_huyen":"Huyện Krông A Na",
+    "ten_dantoc":"Mường",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_13",
+    "ma_dantoc":"DT_06",
+    "so_ho":167,
+    "ten_huyen":"Huyện Krông A Na",
+    "ten_dantoc":"Nùng",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_13",
+    "ma_dantoc":"DT_07",
+    "so_ho":4,
+    "ten_huyen":"Huyện Krông A Na",
+    "ten_dantoc":"Mông",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_13",
+    "ma_dantoc":"DT_09",
+    "so_ho":22,
+    "ten_huyen":"Huyện Krông A Na",
+    "ten_dantoc":"Gia Rai",
+    "nhom_nguon_goc":"Bản địa Tây Nguyên"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_13",
+    "ma_dantoc":"DT_11",
+    "so_ho":4258,
+    "ten_huyen":"Huyện Krông A Na",
+    "ten_dantoc":"Ê đê",
+    "nhom_nguon_goc":"Bản địa Tây Nguyên"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_13",
+    "ma_dantoc":"DT_12",
+    "so_ho":3,
+    "ten_huyen":"Huyện Krông A Na",
+    "ten_dantoc":"Ba Na",
+    "nhom_nguon_goc":"Bản địa Tây Nguyên"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_13",
+    "ma_dantoc":"DT_14",
+    "so_ho":2,
+    "ten_huyen":"Huyện Krông A Na",
+    "ten_dantoc":"Sán Chay",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_13",
+    "ma_dantoc":"DT_15",
+    "so_ho":17,
+    "ten_huyen":"Huyện Krông A Na",
+    "ten_dantoc":"Cơ Ho",
+    "nhom_nguon_goc":"Bản địa Tây Nguyên"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_13",
+    "ma_dantoc":"DT_18",
+    "so_ho":17,
+    "ten_huyen":"Huyện Krông A Na",
+    "ten_dantoc":"Hrê",
+    "nhom_nguon_goc":"Khác"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_13",
+    "ma_dantoc":"DT_19",
+    "so_ho":355,
+    "ten_huyen":"Huyện Krông A Na",
+    "ten_dantoc":"Mnông",
+    "nhom_nguon_goc":"Bản địa Tây Nguyên"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_14",
+    "ma_dantoc":"DT_01",
+    "so_ho":763,
+    "ten_huyen":"Huyện Lắk",
+    "ten_dantoc":"Tày",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_14",
+    "ma_dantoc":"DT_02",
+    "so_ho":232,
+    "ten_huyen":"Huyện Lắk",
+    "ten_dantoc":"Thái",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_14",
+    "ma_dantoc":"DT_03",
+    "so_ho":1,
+    "ten_huyen":"Huyện Lắk",
+    "ten_dantoc":"Hoa",
+    "nhom_nguon_goc":"Nam Bộ & Duyên hải"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_14",
+    "ma_dantoc":"DT_05",
+    "so_ho":56,
+    "ten_huyen":"Huyện Lắk",
+    "ten_dantoc":"Mường",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_14",
+    "ma_dantoc":"DT_06",
+    "so_ho":169,
+    "ten_huyen":"Huyện Lắk",
+    "ten_dantoc":"Nùng",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_14",
+    "ma_dantoc":"DT_07",
+    "so_ho":1288,
+    "ten_huyen":"Huyện Lắk",
+    "ten_dantoc":"Mông",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_14",
+    "ma_dantoc":"DT_08",
+    "so_ho":5,
+    "ten_huyen":"Huyện Lắk",
+    "ten_dantoc":"Dao",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_14",
+    "ma_dantoc":"DT_09",
+    "so_ho":8,
+    "ten_huyen":"Huyện Lắk",
+    "ten_dantoc":"Gia Rai",
+    "nhom_nguon_goc":"Bản địa Tây Nguyên"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_14",
+    "ma_dantoc":"DT_11",
+    "so_ho":1109,
+    "ten_huyen":"Huyện Lắk",
+    "ten_dantoc":"Ê đê",
+    "nhom_nguon_goc":"Bản địa Tây Nguyên"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_14",
+    "ma_dantoc":"DT_15",
+    "so_ho":16,
+    "ten_huyen":"Huyện Lắk",
+    "ten_dantoc":"Cơ Ho",
+    "nhom_nguon_goc":"Bản địa Tây Nguyên"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_14",
+    "ma_dantoc":"DT_19",
+    "so_ho":8037,
+    "ten_huyen":"Huyện Lắk",
+    "ten_dantoc":"Mnông",
+    "nhom_nguon_goc":"Bản địa Tây Nguyên"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_14",
+    "ma_dantoc":"DT_25",
+    "so_ho":15,
+    "ten_huyen":"Huyện Lắk",
+    "ten_dantoc":"Mạ",
+    "nhom_nguon_goc":"Bản địa Tây Nguyên"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_14",
+    "ma_dantoc":"DT_26",
+    "so_ho":13,
+    "ten_huyen":"Huyện Lắk",
+    "ten_dantoc":"Co",
+    "nhom_nguon_goc":"Khác"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_14",
+    "ma_dantoc":"DT_31",
+    "so_ho":4,
+    "ten_huyen":"Huyện Lắk",
+    "ten_dantoc":"Chứt",
+    "nhom_nguon_goc":"Khác"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_15",
+    "ma_dantoc":"DT_01",
+    "so_ho":1721,
+    "ten_huyen":"Huyện Cư Kuin",
+    "ten_dantoc":"Tày",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_15",
+    "ma_dantoc":"DT_03",
+    "so_ho":5,
+    "ten_huyen":"Huyện Cư Kuin",
+    "ten_dantoc":"Hoa",
+    "nhom_nguon_goc":"Nam Bộ & Duyên hải"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_15",
+    "ma_dantoc":"DT_05",
+    "so_ho":61,
+    "ten_huyen":"Huyện Cư Kuin",
+    "ten_dantoc":"Mường",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_15",
+    "ma_dantoc":"DT_06",
+    "so_ho":457,
+    "ten_huyen":"Huyện Cư Kuin",
+    "ten_dantoc":"Nùng",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_15",
+    "ma_dantoc":"DT_09",
+    "so_ho":4,
+    "ten_huyen":"Huyện Cư Kuin",
+    "ten_dantoc":"Gia Rai",
+    "nhom_nguon_goc":"Bản địa Tây Nguyên"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_15",
+    "ma_dantoc":"DT_11",
+    "so_ho":7480,
+    "ten_huyen":"Huyện Cư Kuin",
+    "ten_dantoc":"Ê đê",
+    "nhom_nguon_goc":"Bản địa Tây Nguyên"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_15",
+    "ma_dantoc":"DT_14",
+    "so_ho":34,
+    "ten_huyen":"Huyện Cư Kuin",
+    "ten_dantoc":"Sán Chay",
+    "nhom_nguon_goc":"Di cư miền núi phía Bắc"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_15",
+    "ma_dantoc":"DT_19",
+    "so_ho":14,
+    "ten_huyen":"Huyện Cư Kuin",
+    "ten_dantoc":"Mnông",
+    "nhom_nguon_goc":"Bản địa Tây Nguyên"
+  },
+  {
+    "ma_ky":"KY_2026",
+    "ma_huyen":"DL_DIST_15",
+    "ma_dantoc":"DT_31",
+    "so_ho":6,
+    "ten_huyen":"Huyện Cư Kuin",
+    "ten_dantoc":"Chứt",
+    "nhom_nguon_goc":"Khác"
+  }
+]

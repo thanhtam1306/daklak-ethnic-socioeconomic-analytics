@@ -1,0 +1,108 @@
+table fact_nhankhau_dantoc
+	lineageTag: b54ab137-c72e-4686-b95e-fa4665c58711
+
+	column ma_dantoc
+		dataType: string
+		lineageTag: 6f9210e1-0d3e-4b7b-a3f6-12364f2c4c03
+		summarizeBy: none
+		sourceColumn: ma_dantoc
+
+		annotation SummarizationSetBy = Automatic
+
+	column ten_dantoc
+		dataType: string
+		lineageTag: 678d72df-58e9-4adc-85ca-e9f8b1c621ce
+		summarizeBy: none
+		sourceColumn: ten_dantoc
+
+		annotation SummarizationSetBy = Automatic
+
+	column nhom_nguon_goc
+		dataType: string
+		lineageTag: 80f22495-96d0-46ab-ab47-97fd1ae9ab7a
+		summarizeBy: none
+		sourceColumn: nhom_nguon_goc
+
+		annotation SummarizationSetBy = Automatic
+
+	column tong_dan_so
+		dataType: double
+		lineageTag: 94bd4209-c184-433e-a65b-ef0027d33536
+		summarizeBy: sum
+		sourceColumn: tong_dan_so
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column dan_so_nam
+		dataType: double
+		lineageTag: 2860335b-0cbe-4f38-854b-d6221951161b
+		summarizeBy: sum
+		sourceColumn: dan_so_nam
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column dan_so_nu
+		dataType: double
+		lineageTag: 97d33d47-0aa2-46eb-b81e-0695cf67fd38
+		summarizeBy: sum
+		sourceColumn: dan_so_nu
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column dan_so_0_14
+		dataType: double
+		lineageTag: 49809a88-7d44-4177-a156-ee42689d7864
+		summarizeBy: sum
+		sourceColumn: dan_so_0_14
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column dan_so_15_59
+		dataType: double
+		lineageTag: 8397ec0e-be13-4795-b6e2-df2b5c0547cf
+		summarizeBy: sum
+		sourceColumn: dan_so_15_59
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column dan_so_60_plus
+		dataType: double
+		lineageTag: 239b6ce0-b566-4a1b-9ff7-5c95ca122115
+		summarizeBy: sum
+		sourceColumn: dan_so_60_plus
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column ma_ky
+		dataType: string
+		lineageTag: 4a0cb5df-99db-4367-b570-c5623dfead11
+		summarizeBy: none
+		sourceColumn: ma_ky
+
+		annotation SummarizationSetBy = Automatic
+
+	partition fact_nhankhau_dantoc = m
+		mode: import
+		source =
+				let
+				    Source = PostgreSQL.Database("localhost:5432", "daklak_socioeconomic"),
+				    daklak_analytics_fact_nhankhau_dantoc = Source{[Schema="daklak_analytics",Item="fact_nhankhau_dantoc"]}[Data]
+				in
+				    daklak_analytics_fact_nhankhau_dantoc
+
+	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Navigation
+

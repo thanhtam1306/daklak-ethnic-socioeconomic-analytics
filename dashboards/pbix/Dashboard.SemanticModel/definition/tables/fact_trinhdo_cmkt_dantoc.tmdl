@@ -1,0 +1,118 @@
+table fact_trinhdo_cmkt_dantoc
+	lineageTag: ab05d7d0-f9a6-4e8a-b217-b5b4f1daf9d0
+
+	column ma_dantoc
+		dataType: string
+		lineageTag: 8ab739a6-24d4-4a40-972b-73dc83147338
+		summarizeBy: none
+		sourceColumn: ma_dantoc
+
+		annotation SummarizationSetBy = Automatic
+
+	column ten_dantoc
+		dataType: string
+		lineageTag: a03f4b74-3dce-453c-8db6-ec5984db2e15
+		summarizeBy: none
+		sourceColumn: ten_dantoc
+
+		annotation SummarizationSetBy = Automatic
+
+	column nhom_nguon_goc
+		dataType: string
+		lineageTag: d291037a-dccf-4971-a38f-19674754665f
+		summarizeBy: none
+		sourceColumn: nhom_nguon_goc
+
+		annotation SummarizationSetBy = Automatic
+
+	column tong_lao_dong
+		dataType: double
+		lineageTag: db3373f9-eb01-47ea-aa51-6d9860794d91
+		summarizeBy: sum
+		sourceColumn: tong_lao_dong
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column khong_co_cmkt
+		dataType: double
+		lineageTag: 0c028b4c-700f-433a-b192-e7f600ec3d50
+		summarizeBy: sum
+		sourceColumn: khong_co_cmkt
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column ty_le_khong_cmkt_pct
+		dataType: double
+		lineageTag: e89c259d-a403-4c47-b3d9-868783548a7c
+		summarizeBy: sum
+		sourceColumn: ty_le_khong_cmkt_pct
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column cnkt_khong_bang
+		dataType: double
+		lineageTag: db88a32d-ddd7-4d68-b373-f37fb85b9e3a
+		summarizeBy: sum
+		sourceColumn: cnkt_khong_bang
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column so_cap
+		dataType: double
+		lineageTag: 30de75c3-b0be-413b-bfe9-0f7247fa9b71
+		summarizeBy: sum
+		sourceColumn: so_cap
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column trung_cap
+		dataType: double
+		lineageTag: 97d5de9e-44a4-489c-94a9-a69a9a163d0e
+		summarizeBy: sum
+		sourceColumn: trung_cap
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column cao_dang_dai_hoc
+		dataType: double
+		lineageTag: 37b4e2ff-0ae4-4656-b1ed-08465f20a29b
+		summarizeBy: sum
+		sourceColumn: cao_dang_dai_hoc
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column ma_ky
+		dataType: string
+		lineageTag: 10c6b343-ad35-491f-a75b-eae5051c43aa
+		summarizeBy: none
+		sourceColumn: ma_ky
+
+		annotation SummarizationSetBy = Automatic
+
+	partition fact_trinhdo_cmkt_dantoc = m
+		mode: import
+		source =
+				let
+				    Source = PostgreSQL.Database("localhost:5432", "daklak_socioeconomic"),
+				    daklak_analytics_fact_trinhdo_cmkt_dantoc = Source{[Schema="daklak_analytics",Item="fact_trinhdo_cmkt_dantoc"]}[Data]
+				in
+				    daklak_analytics_fact_trinhdo_cmkt_dantoc
+
+	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Navigation
+

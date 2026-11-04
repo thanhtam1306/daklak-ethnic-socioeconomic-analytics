@@ -1,0 +1,796 @@
+﻿ma_huyen,ma_dantoc,ty_le_nuoc_hop_ve_sinh_pct,ty_le_nuoc_hop_ve_sinh_pct_flag,ty_le_ho_xi_hop_ve_sinh_pct,ty_le_ho_xi_hop_ve_sinh_pct_flag,so_ho_co_internet,so_ho_co_internet_flag,so_ho_co_dien_luoi,so_ho_co_dien_luoi_flag,ten_huyen,ten_dantoc,nhom_nguon_goc
+DL_DIST_01,DT_01,100.0,,81.4,,761.0,,762.0,,Thành phố Buôn Ma Thuột,Tày,Di cư miền núi phía Bắc
+DL_DIST_01,DT_02,100.0,,94.0,,228.0,,232.0,,Thành phố Buôn Ma Thuột,Thái,Di cư miền núi phía Bắc
+DL_DIST_01,DT_03,100.0,,100.0,,238.0,,351.0,,Thành phố Buôn Ma Thuột,Hoa,Nam Bộ & Duyên hải
+DL_DIST_01,DT_04,0.0,,0.0,,0.0,,0.0,,Thành phố Buôn Ma Thuột,Khmer,Nam Bộ & Duyên hải
+DL_DIST_01,DT_05,100.0,,99.9,,1579.0,,1618.0,,Thành phố Buôn Ma Thuột,Mường,Di cư miền núi phía Bắc
+DL_DIST_01,DT_06,100.0,,99.5,,572.0,,589.0,,Thành phố Buôn Ma Thuột,Nùng,Di cư miền núi phía Bắc
+DL_DIST_01,DT_07,0.0,,0.0,,0.0,,0.0,,Thành phố Buôn Ma Thuột,Mông,Di cư miền núi phía Bắc
+DL_DIST_01,DT_08,100.0,,100.0,,641.0,,641.0,,Thành phố Buôn Ma Thuột,Dao,Di cư miền núi phía Bắc
+DL_DIST_01,DT_09,100.0,,91.1,,124.0,,124.0,,Thành phố Buôn Ma Thuột,Gia Rai,Bản địa Tây Nguyên
+DL_DIST_01,DT_10,0.0,,0.0,,0.0,,0.0,,Thành phố Buôn Ma Thuột,Ngái,Khác
+DL_DIST_01,DT_11,99.9,,93.2,,6728.0,,7873.0,,Thành phố Buôn Ma Thuột,Ê đê,Bản địa Tây Nguyên
+DL_DIST_01,DT_12,0.0,,0.0,,0.0,,0.0,,Thành phố Buôn Ma Thuột,Ba Na,Bản địa Tây Nguyên
+DL_DIST_01,DT_13,100.0,VERY_SMALL_SAMPLE,100.0,VERY_SMALL_SAMPLE,2.0,VERY_SMALL_SAMPLE,2.0,VERY_SMALL_SAMPLE,Thành phố Buôn Ma Thuột,Xơ Đăng,Bản địa Tây Nguyên
+DL_DIST_01,DT_14,100.0,VERY_SMALL_SAMPLE,100.0,VERY_SMALL_SAMPLE,0.0,,2.0,VERY_SMALL_SAMPLE,Thành phố Buôn Ma Thuột,Sán Chay,Di cư miền núi phía Bắc
+DL_DIST_01,DT_15,100.0,SMALL_SAMPLE,100.0,SMALL_SAMPLE,30.0,SMALL_SAMPLE,30.0,SMALL_SAMPLE,Thành phố Buôn Ma Thuột,Cơ Ho,Bản địa Tây Nguyên
+DL_DIST_01,DT_16,100.0,VERY_SMALL_SAMPLE,100.0,VERY_SMALL_SAMPLE,2.0,VERY_SMALL_SAMPLE,2.0,VERY_SMALL_SAMPLE,Thành phố Buôn Ma Thuột,Chăm,Nam Bộ & Duyên hải
+DL_DIST_01,DT_17,0.0,,0.0,,0.0,,0.0,,Thành phố Buôn Ma Thuột,Sán Dìu,Di cư miền núi phía Bắc
+DL_DIST_01,DT_18,0.0,,0.0,,0.0,,0.0,,Thành phố Buôn Ma Thuột,Hrê,Khác
+DL_DIST_01,DT_19,100.0,SMALL_SAMPLE,100.0,SMALL_SAMPLE,49.0,SMALL_SAMPLE,49.0,SMALL_SAMPLE,Thành phố Buôn Ma Thuột,Mnông,Bản địa Tây Nguyên
+DL_DIST_01,DT_20,0.0,,0.0,,0.0,,0.0,,Thành phố Buôn Ma Thuột,Raglay,Khác
+DL_DIST_01,DT_21,0.0,,0.0,,0.0,,0.0,,Thành phố Buôn Ma Thuột,Xtiêng,Khác
+DL_DIST_01,DT_22,100.0,,100.0,,100.0,,100.0,,Thành phố Buôn Ma Thuột,Bru Vân Kiều,Khác
+DL_DIST_01,DT_23,100.0,VERY_SMALL_SAMPLE,100.0,VERY_SMALL_SAMPLE,3.0,VERY_SMALL_SAMPLE,3.0,VERY_SMALL_SAMPLE,Thành phố Buôn Ma Thuột,Thổ,Di cư miền núi phía Bắc
+DL_DIST_01,DT_24,100.0,VERY_SMALL_SAMPLE,100.0,VERY_SMALL_SAMPLE,1.0,VERY_SMALL_SAMPLE,1.0,VERY_SMALL_SAMPLE,Thành phố Buôn Ma Thuột,Cơ Tu,Khác
+DL_DIST_01,DT_25,0.0,,0.0,,0.0,,0.0,,Thành phố Buôn Ma Thuột,Mạ,Bản địa Tây Nguyên
+DL_DIST_01,DT_26,0.0,,0.0,,0.0,,0.0,,Thành phố Buôn Ma Thuột,Co,Khác
+DL_DIST_01,DT_27,0.0,,0.0,,0.0,,0.0,,Thành phố Buôn Ma Thuột,Chơ Ro,Khác
+DL_DIST_01,DT_28,0.0,,0.0,,0.0,,0.0,,Thành phố Buôn Ma Thuột,Chu Ru,Bản địa Tây Nguyên
+DL_DIST_01,DT_29,0.0,,0.0,,0.0,,0.0,,Thành phố Buôn Ma Thuột,Lào,Di cư miền núi phía Bắc
+DL_DIST_01,DT_30,0.0,,0.0,,0.0,,0.0,,Thành phố Buôn Ma Thuột,Phù Lá,Di cư miền núi phía Bắc
+DL_DIST_01,DT_31,0.0,,0.0,,0.0,,0.0,,Thành phố Buôn Ma Thuột,Chứt,Khác
+DL_DIST_01,DT_32,0.0,,0.0,,0.0,,0.0,,Thành phố Buôn Ma Thuột,Mảng,Khác
+DL_DIST_01,DT_33,0.0,,0.0,,0.0,,0.0,,Thành phố Buôn Ma Thuột,Giáy,Di cư miền núi phía Bắc
+DL_DIST_01,DT_34,0.0,,0.0,,0.0,,0.0,,Thành phố Buôn Ma Thuột,Gié Triêng,Bản địa Tây Nguyên
+DL_DIST_01,DT_35,0.0,,0.0,,0.0,,0.0,,Thành phố Buôn Ma Thuột,Khơ mú,Di cư miền núi phía Bắc
+DL_DIST_01,DT_36,0.0,,0.0,,0.0,,0.0,,Thành phố Buôn Ma Thuột,Tà Ôi,Khác
+DL_DIST_01,DT_37,0.0,,0.0,,0.0,,0.0,,Thành phố Buôn Ma Thuột,Kháng,Khác
+DL_DIST_01,DT_38,0.0,,0.0,,0.0,,0.0,,Thành phố Buôn Ma Thuột,Xinh Mun,Khác
+DL_DIST_01,DT_39,0.0,,0.0,,0.0,,0.0,,Thành phố Buôn Ma Thuột,Hà Nhì,Di cư miền núi phía Bắc
+DL_DIST_01,DT_40,0.0,,0.0,,0.0,,0.0,,Thành phố Buôn Ma Thuột,La Chí,Di cư miền núi phía Bắc
+DL_DIST_01,DT_41,0.0,,0.0,,0.0,,0.0,,Thành phố Buôn Ma Thuột,La Ha,Di cư miền núi phía Bắc
+DL_DIST_01,DT_42,0.0,,0.0,,0.0,,0.0,,Thành phố Buôn Ma Thuột,La Hủ,Di cư miền núi phía Bắc
+DL_DIST_01,DT_43,0.0,,0.0,,0.0,,0.0,,Thành phố Buôn Ma Thuột,Lự,Di cư miền núi phía Bắc
+DL_DIST_01,DT_44,0.0,,0.0,,0.0,,0.0,,Thành phố Buôn Ma Thuột,Lô Lô,Di cư miền núi phía Bắc
+DL_DIST_01,DT_45,0.0,,0.0,,0.0,,0.0,,Thành phố Buôn Ma Thuột,Pà Thẻn,Di cư miền núi phía Bắc
+DL_DIST_01,DT_46,0.0,,0.0,,0.0,,0.0,,Thành phố Buôn Ma Thuột,Cơ Lao,Di cư miền núi phía Bắc
+DL_DIST_01,DT_47,0.0,,0.0,,0.0,,0.0,,Thành phố Buôn Ma Thuột,Cống,Di cư miền núi phía Bắc
+DL_DIST_01,DT_48,0.0,,0.0,,0.0,,0.0,,Thành phố Buôn Ma Thuột,Bố Y,Di cư miền núi phía Bắc
+DL_DIST_01,DT_49,0.0,,0.0,,0.0,,0.0,,Thành phố Buôn Ma Thuột,Si La,Di cư miền núi phía Bắc
+DL_DIST_01,DT_50,0.0,,0.0,,0.0,,0.0,,Thành phố Buôn Ma Thuột,Pu Péo,Di cư miền núi phía Bắc
+DL_DIST_01,DT_51,0.0,,0.0,,0.0,,0.0,,Thành phố Buôn Ma Thuột,Brâu,Bản địa Tây Nguyên
+DL_DIST_01,DT_52,0.0,,0.0,,0.0,,0.0,,Thành phố Buôn Ma Thuột,Ơ Đu,Khác
+DL_DIST_01,DT_53,0.0,,0.0,,0.0,,0.0,,Thành phố Buôn Ma Thuột,Rơ Măm,Bản địa Tây Nguyên
+DL_DIST_02,DT_01,97.2,,91.3,,755.0,,755.0,,Thị Xã Buôn Hồ,Tày,Di cư miền núi phía Bắc
+DL_DIST_02,DT_02,100.0,,65.8,,117.0,,117.0,,Thị Xã Buôn Hồ,Thái,Di cư miền núi phía Bắc
+DL_DIST_02,DT_03,0.0,,0.0,,0.0,,0.0,,Thị Xã Buôn Hồ,Hoa,Nam Bộ & Duyên hải
+DL_DIST_02,DT_04,100.0,VERY_SMALL_SAMPLE,100.0,VERY_SMALL_SAMPLE,5.0,VERY_SMALL_SAMPLE,5.0,VERY_SMALL_SAMPLE,Thị Xã Buôn Hồ,Khmer,Nam Bộ & Duyên hải
+DL_DIST_02,DT_05,0.0,,0.0,,0.0,,0.0,,Thị Xã Buôn Hồ,Mường,Di cư miền núi phía Bắc
+DL_DIST_02,DT_06,99.4,,90.1,,2383.0,,2423.0,,Thị Xã Buôn Hồ,Nùng,Di cư miền núi phía Bắc
+DL_DIST_02,DT_07,0.0,,0.0,,0.0,,0.0,,Thị Xã Buôn Hồ,Mông,Di cư miền núi phía Bắc
+DL_DIST_02,DT_08,100.0,VERY_SMALL_SAMPLE,33.3,VERY_SMALL_SAMPLE,6.0,VERY_SMALL_SAMPLE,6.0,VERY_SMALL_SAMPLE,Thị Xã Buôn Hồ,Dao,Di cư miền núi phía Bắc
+DL_DIST_02,DT_09,100.0,VERY_SMALL_SAMPLE,100.0,VERY_SMALL_SAMPLE,13.0,VERY_SMALL_SAMPLE,13.0,VERY_SMALL_SAMPLE,Thị Xã Buôn Hồ,Gia Rai,Bản địa Tây Nguyên
+DL_DIST_02,DT_10,0.0,,0.0,,0.0,,0.0,,Thị Xã Buôn Hồ,Ngái,Khác
+DL_DIST_02,DT_11,99.3,,92.8,,4371.0,,5381.0,,Thị Xã Buôn Hồ,Ê đê,Bản địa Tây Nguyên
+DL_DIST_02,DT_12,0.0,,0.0,,0.0,,0.0,,Thị Xã Buôn Hồ,Ba Na,Bản địa Tây Nguyên
+DL_DIST_02,DT_13,100.0,,62.4,,90.0,,93.0,,Thị Xã Buôn Hồ,Xơ Đăng,Bản địa Tây Nguyên
+DL_DIST_02,DT_14,0.0,,0.0,,0.0,,0.0,,Thị Xã Buôn Hồ,Sán Chay,Di cư miền núi phía Bắc
+DL_DIST_02,DT_15,0.0,,0.0,,0.0,,0.0,,Thị Xã Buôn Hồ,Cơ Ho,Bản địa Tây Nguyên
+DL_DIST_02,DT_16,0.0,,0.0,,0.0,,0.0,,Thị Xã Buôn Hồ,Chăm,Nam Bộ & Duyên hải
+DL_DIST_02,DT_17,0.0,,0.0,,0.0,,0.0,,Thị Xã Buôn Hồ,Sán Dìu,Di cư miền núi phía Bắc
+DL_DIST_02,DT_18,0.0,,0.0,,0.0,,0.0,,Thị Xã Buôn Hồ,Hrê,Khác
+DL_DIST_02,DT_19,0.0,,0.0,,0.0,,0.0,,Thị Xã Buôn Hồ,Mnông,Bản địa Tây Nguyên
+DL_DIST_02,DT_20,0.0,,0.0,,0.0,,0.0,,Thị Xã Buôn Hồ,Raglay,Khác
+DL_DIST_02,DT_21,0.0,,0.0,,0.0,,0.0,,Thị Xã Buôn Hồ,Xtiêng,Khác
+DL_DIST_02,DT_22,0.0,,0.0,,0.0,,0.0,,Thị Xã Buôn Hồ,Bru Vân Kiều,Khác
+DL_DIST_02,DT_23,0.0,,0.0,,0.0,,0.0,,Thị Xã Buôn Hồ,Thổ,Di cư miền núi phía Bắc
+DL_DIST_02,DT_24,0.0,,0.0,,0.0,,0.0,,Thị Xã Buôn Hồ,Cơ Tu,Khác
+DL_DIST_02,DT_25,0.0,,0.0,,0.0,,0.0,,Thị Xã Buôn Hồ,Mạ,Bản địa Tây Nguyên
+DL_DIST_02,DT_26,100.0,VERY_SMALL_SAMPLE,100.0,VERY_SMALL_SAMPLE,7.0,VERY_SMALL_SAMPLE,7.0,VERY_SMALL_SAMPLE,Thị Xã Buôn Hồ,Co,Khác
+DL_DIST_02,DT_27,0.0,,0.0,,0.0,,0.0,,Thị Xã Buôn Hồ,Chơ Ro,Khác
+DL_DIST_02,DT_28,0.0,,0.0,,0.0,,0.0,,Thị Xã Buôn Hồ,Chu Ru,Bản địa Tây Nguyên
+DL_DIST_02,DT_29,0.0,,0.0,,0.0,,0.0,,Thị Xã Buôn Hồ,Lào,Di cư miền núi phía Bắc
+DL_DIST_02,DT_30,0.0,,0.0,,0.0,,0.0,,Thị Xã Buôn Hồ,Phù Lá,Di cư miền núi phía Bắc
+DL_DIST_02,DT_31,0.0,,0.0,,0.0,,0.0,,Thị Xã Buôn Hồ,Chứt,Khác
+DL_DIST_02,DT_32,0.0,,0.0,,0.0,,0.0,,Thị Xã Buôn Hồ,Mảng,Khác
+DL_DIST_02,DT_33,0.0,,0.0,,0.0,,0.0,,Thị Xã Buôn Hồ,Giáy,Di cư miền núi phía Bắc
+DL_DIST_02,DT_34,0.0,,0.0,,0.0,,0.0,,Thị Xã Buôn Hồ,Gié Triêng,Bản địa Tây Nguyên
+DL_DIST_02,DT_35,0.0,,0.0,,0.0,,0.0,,Thị Xã Buôn Hồ,Khơ mú,Di cư miền núi phía Bắc
+DL_DIST_02,DT_36,0.0,,0.0,,0.0,,0.0,,Thị Xã Buôn Hồ,Tà Ôi,Khác
+DL_DIST_02,DT_37,0.0,,0.0,,0.0,,0.0,,Thị Xã Buôn Hồ,Kháng,Khác
+DL_DIST_02,DT_38,0.0,,0.0,,0.0,,0.0,,Thị Xã Buôn Hồ,Xinh Mun,Khác
+DL_DIST_02,DT_39,0.0,,0.0,,0.0,,0.0,,Thị Xã Buôn Hồ,Hà Nhì,Di cư miền núi phía Bắc
+DL_DIST_02,DT_40,0.0,,0.0,,0.0,,0.0,,Thị Xã Buôn Hồ,La Chí,Di cư miền núi phía Bắc
+DL_DIST_02,DT_41,0.0,,0.0,,0.0,,0.0,,Thị Xã Buôn Hồ,La Ha,Di cư miền núi phía Bắc
+DL_DIST_02,DT_42,0.0,,0.0,,0.0,,0.0,,Thị Xã Buôn Hồ,La Hủ,Di cư miền núi phía Bắc
+DL_DIST_02,DT_43,0.0,,0.0,,0.0,,0.0,,Thị Xã Buôn Hồ,Lự,Di cư miền núi phía Bắc
+DL_DIST_02,DT_44,0.0,,0.0,,0.0,,0.0,,Thị Xã Buôn Hồ,Lô Lô,Di cư miền núi phía Bắc
+DL_DIST_02,DT_45,0.0,,0.0,,0.0,,0.0,,Thị Xã Buôn Hồ,Pà Thẻn,Di cư miền núi phía Bắc
+DL_DIST_02,DT_46,0.0,,0.0,,0.0,,0.0,,Thị Xã Buôn Hồ,Cơ Lao,Di cư miền núi phía Bắc
+DL_DIST_02,DT_47,0.0,,0.0,,0.0,,0.0,,Thị Xã Buôn Hồ,Cống,Di cư miền núi phía Bắc
+DL_DIST_02,DT_48,0.0,,0.0,,0.0,,0.0,,Thị Xã Buôn Hồ,Bố Y,Di cư miền núi phía Bắc
+DL_DIST_02,DT_49,0.0,,0.0,,0.0,,0.0,,Thị Xã Buôn Hồ,Si La,Di cư miền núi phía Bắc
+DL_DIST_02,DT_50,0.0,,0.0,,0.0,,0.0,,Thị Xã Buôn Hồ,Pu Péo,Di cư miền núi phía Bắc
+DL_DIST_02,DT_51,0.0,,0.0,,0.0,,0.0,,Thị Xã Buôn Hồ,Brâu,Bản địa Tây Nguyên
+DL_DIST_02,DT_52,0.0,,0.0,,0.0,,0.0,,Thị Xã Buôn Hồ,Ơ Đu,Khác
+DL_DIST_02,DT_53,0.0,,0.0,,0.0,,0.0,,Thị Xã Buôn Hồ,Rơ Măm,Bản địa Tây Nguyên
+DL_DIST_03,DT_01,99.6,,72.4,,1694.0,,1973.0,,Huyện Ea H'leo,Tày,Di cư miền núi phía Bắc
+DL_DIST_03,DT_02,100.0,,100.0,,691.0,,691.0,,Huyện Ea H'leo,Thái,Di cư miền núi phía Bắc
+DL_DIST_03,DT_03,0.0,,0.0,,0.0,,0.0,,Huyện Ea H'leo,Hoa,Nam Bộ & Duyên hải
+DL_DIST_03,DT_04,0.0,,0.0,,0.0,,0.0,,Huyện Ea H'leo,Khmer,Nam Bộ & Duyên hải
+DL_DIST_03,DT_05,100.0,,82.6,,533.0,,535.0,,Huyện Ea H'leo,Mường,Di cư miền núi phía Bắc
+DL_DIST_03,DT_06,98.8,,68.8,,1950.0,,2555.0,,Huyện Ea H'leo,Nùng,Di cư miền núi phía Bắc
+DL_DIST_03,DT_07,0.0,,0.0,,0.0,,0.0,,Huyện Ea H'leo,Mông,Di cư miền núi phía Bắc
+DL_DIST_03,DT_08,98.7,,60.8,SMALL_SAMPLE,79.0,,75.0,,Huyện Ea H'leo,Dao,Di cư miền núi phía Bắc
+DL_DIST_03,DT_09,91.2,,52.2,,1651.0,,2370.0,,Huyện Ea H'leo,Gia Rai,Bản địa Tây Nguyên
+DL_DIST_03,DT_10,0.0,,0.0,,0.0,,0.0,,Huyện Ea H'leo,Ngái,Khác
+DL_DIST_03,DT_11,99.6,,76.8,,4089.0,,4785.0,,Huyện Ea H'leo,Ê đê,Bản địa Tây Nguyên
+DL_DIST_03,DT_12,100.0,VERY_SMALL_SAMPLE,100.0,VERY_SMALL_SAMPLE,4.0,VERY_SMALL_SAMPLE,4.0,VERY_SMALL_SAMPLE,Huyện Ea H'leo,Ba Na,Bản địa Tây Nguyên
+DL_DIST_03,DT_13,0.0,,0.0,,0.0,,0.0,,Huyện Ea H'leo,Xơ Đăng,Bản địa Tây Nguyên
+DL_DIST_03,DT_14,100.0,VERY_SMALL_SAMPLE,50.0,VERY_SMALL_SAMPLE,6.0,VERY_SMALL_SAMPLE,6.0,VERY_SMALL_SAMPLE,Huyện Ea H'leo,Sán Chay,Di cư miền núi phía Bắc
+DL_DIST_03,DT_15,0.0,,0.0,,0.0,,0.0,,Huyện Ea H'leo,Cơ Ho,Bản địa Tây Nguyên
+DL_DIST_03,DT_16,0.0,,0.0,,0.0,,0.0,,Huyện Ea H'leo,Chăm,Nam Bộ & Duyên hải
+DL_DIST_03,DT_17,0.0,,0.0,,0.0,,0.0,,Huyện Ea H'leo,Sán Dìu,Di cư miền núi phía Bắc
+DL_DIST_03,DT_18,100.0,,73.1,,119.0,,119.0,,Huyện Ea H'leo,Hrê,Khác
+DL_DIST_03,DT_19,100.0,VERY_SMALL_SAMPLE,100.0,VERY_SMALL_SAMPLE,0.0,,7.0,VERY_SMALL_SAMPLE,Huyện Ea H'leo,Mnông,Bản địa Tây Nguyên
+DL_DIST_03,DT_20,0.0,,0.0,,0.0,,0.0,,Huyện Ea H'leo,Raglay,Khác
+DL_DIST_03,DT_21,0.0,,0.0,,0.0,,0.0,,Huyện Ea H'leo,Xtiêng,Khác
+DL_DIST_03,DT_22,0.0,,0.0,,0.0,,0.0,,Huyện Ea H'leo,Bru Vân Kiều,Khác
+DL_DIST_03,DT_23,100.0,VERY_SMALL_SAMPLE,87.5,VERY_SMALL_SAMPLE,8.0,VERY_SMALL_SAMPLE,8.0,VERY_SMALL_SAMPLE,Huyện Ea H'leo,Thổ,Di cư miền núi phía Bắc
+DL_DIST_03,DT_24,0.0,,0.0,,0.0,,0.0,,Huyện Ea H'leo,Cơ Tu,Khác
+DL_DIST_03,DT_25,0.0,,0.0,,0.0,,0.0,,Huyện Ea H'leo,Mạ,Bản địa Tây Nguyên
+DL_DIST_03,DT_26,0.0,,0.0,,0.0,,0.0,,Huyện Ea H'leo,Co,Khác
+DL_DIST_03,DT_27,0.0,,0.0,,0.0,,0.0,,Huyện Ea H'leo,Chơ Ro,Khác
+DL_DIST_03,DT_28,0.0,,0.0,,0.0,,0.0,,Huyện Ea H'leo,Chu Ru,Bản địa Tây Nguyên
+DL_DIST_03,DT_29,0.0,,0.0,,0.0,,0.0,,Huyện Ea H'leo,Lào,Di cư miền núi phía Bắc
+DL_DIST_03,DT_30,0.0,,0.0,,0.0,,0.0,,Huyện Ea H'leo,Phù Lá,Di cư miền núi phía Bắc
+DL_DIST_03,DT_31,0.0,,0.0,,0.0,,0.0,,Huyện Ea H'leo,Chứt,Khác
+DL_DIST_03,DT_32,0.0,,0.0,,0.0,,0.0,,Huyện Ea H'leo,Mảng,Khác
+DL_DIST_03,DT_33,0.0,,0.0,,0.0,,0.0,,Huyện Ea H'leo,Giáy,Di cư miền núi phía Bắc
+DL_DIST_03,DT_34,0.0,,0.0,,0.0,,0.0,,Huyện Ea H'leo,Gié Triêng,Bản địa Tây Nguyên
+DL_DIST_03,DT_35,0.0,,0.0,,0.0,,0.0,,Huyện Ea H'leo,Khơ mú,Di cư miền núi phía Bắc
+DL_DIST_03,DT_36,0.0,,0.0,,0.0,,0.0,,Huyện Ea H'leo,Tà Ôi,Khác
+DL_DIST_03,DT_37,0.0,,0.0,,0.0,,0.0,,Huyện Ea H'leo,Kháng,Khác
+DL_DIST_03,DT_38,0.0,,0.0,,0.0,,0.0,,Huyện Ea H'leo,Xinh Mun,Khác
+DL_DIST_03,DT_39,0.0,,0.0,,0.0,,0.0,,Huyện Ea H'leo,Hà Nhì,Di cư miền núi phía Bắc
+DL_DIST_03,DT_40,0.0,,0.0,,0.0,,0.0,,Huyện Ea H'leo,La Chí,Di cư miền núi phía Bắc
+DL_DIST_03,DT_41,0.0,,0.0,,0.0,,0.0,,Huyện Ea H'leo,La Ha,Di cư miền núi phía Bắc
+DL_DIST_03,DT_42,0.0,,0.0,,0.0,,0.0,,Huyện Ea H'leo,La Hủ,Di cư miền núi phía Bắc
+DL_DIST_03,DT_43,0.0,,0.0,,0.0,,0.0,,Huyện Ea H'leo,Lự,Di cư miền núi phía Bắc
+DL_DIST_03,DT_44,0.0,,0.0,,0.0,,0.0,,Huyện Ea H'leo,Lô Lô,Di cư miền núi phía Bắc
+DL_DIST_03,DT_45,0.0,,0.0,,0.0,,0.0,,Huyện Ea H'leo,Pà Thẻn,Di cư miền núi phía Bắc
+DL_DIST_03,DT_46,0.0,,0.0,,0.0,,0.0,,Huyện Ea H'leo,Cơ Lao,Di cư miền núi phía Bắc
+DL_DIST_03,DT_47,0.0,,0.0,,0.0,,0.0,,Huyện Ea H'leo,Cống,Di cư miền núi phía Bắc
+DL_DIST_03,DT_48,0.0,,0.0,,0.0,,0.0,,Huyện Ea H'leo,Bố Y,Di cư miền núi phía Bắc
+DL_DIST_03,DT_49,0.0,,0.0,,0.0,,0.0,,Huyện Ea H'leo,Si La,Di cư miền núi phía Bắc
+DL_DIST_03,DT_50,0.0,,0.0,,0.0,,0.0,,Huyện Ea H'leo,Pu Péo,Di cư miền núi phía Bắc
+DL_DIST_03,DT_51,0.0,,0.0,,0.0,,0.0,,Huyện Ea H'leo,Brâu,Bản địa Tây Nguyên
+DL_DIST_03,DT_52,0.0,,0.0,,0.0,,0.0,,Huyện Ea H'leo,Ơ Đu,Khác
+DL_DIST_03,DT_53,0.0,,0.0,,0.0,,0.0,,Huyện Ea H'leo,Rơ Măm,Bản địa Tây Nguyên
+DL_DIST_04,DT_01,99.3,,68.9,,1446.0,,1501.0,,Huyện Ea Súp,Tày,Di cư miền núi phía Bắc
+DL_DIST_04,DT_02,99.9,,58.1,,884.0,,991.0,,Huyện Ea Súp,Thái,Di cư miền núi phía Bắc
+DL_DIST_04,DT_03,100.0,,0.0,,59.0,,59.0,,Huyện Ea Súp,Hoa,Nam Bộ & Duyên hải
+DL_DIST_04,DT_04,100.0,SMALL_SAMPLE,100.0,SMALL_SAMPLE,33.0,SMALL_SAMPLE,33.0,SMALL_SAMPLE,Huyện Ea Súp,Khmer,Nam Bộ & Duyên hải
+DL_DIST_04,DT_05,100.0,,49.4,SMALL_SAMPLE,58.0,,85.0,,Huyện Ea Súp,Mường,Di cư miền núi phía Bắc
+DL_DIST_04,DT_06,99.4,,55.4,,2450.0,,2478.0,,Huyện Ea Súp,Nùng,Di cư miền núi phía Bắc
+DL_DIST_04,DT_07,98.3,,78.6,,1154.0,,1262.0,,Huyện Ea Súp,Mông,Di cư miền núi phía Bắc
+DL_DIST_04,DT_08,92.3,,31.7,,574.0,,259.0,,Huyện Ea Súp,Dao,Di cư miền núi phía Bắc
+DL_DIST_04,DT_09,100.0,,79.9,,1080.0,,1197.0,,Huyện Ea Súp,Gia Rai,Bản địa Tây Nguyên
+DL_DIST_04,DT_10,100.0,VERY_SMALL_SAMPLE,0.0,,2.0,VERY_SMALL_SAMPLE,2.0,VERY_SMALL_SAMPLE,Huyện Ea Súp,Ngái,Khác
+DL_DIST_04,DT_11,100.0,,81.9,,72.0,,72.0,,Huyện Ea Súp,Ê đê,Bản địa Tây Nguyên
+DL_DIST_04,DT_12,100.0,,9.7,VERY_SMALL_SAMPLE,62.0,,72.0,,Huyện Ea Súp,Ba Na,Bản địa Tây Nguyên
+DL_DIST_04,DT_13,0.0,,0.0,,0.0,,0.0,,Huyện Ea Súp,Xơ Đăng,Bản địa Tây Nguyên
+DL_DIST_04,DT_14,100.0,,70.8,SMALL_SAMPLE,65.0,,65.0,,Huyện Ea Súp,Sán Chay,Di cư miền núi phía Bắc
+DL_DIST_04,DT_15,0.0,,0.0,,0.0,,0.0,,Huyện Ea Súp,Cơ Ho,Bản địa Tây Nguyên
+DL_DIST_04,DT_16,0.0,,0.0,,0.0,,0.0,,Huyện Ea Súp,Chăm,Nam Bộ & Duyên hải
+DL_DIST_04,DT_17,0.0,,0.0,,0.0,,0.0,,Huyện Ea Súp,Sán Dìu,Di cư miền núi phía Bắc
+DL_DIST_04,DT_18,0.0,,0.0,,0.0,,0.0,,Huyện Ea Súp,Hrê,Khác
+DL_DIST_04,DT_19,100.0,VERY_SMALL_SAMPLE,100.0,VERY_SMALL_SAMPLE,16.0,VERY_SMALL_SAMPLE,16.0,VERY_SMALL_SAMPLE,Huyện Ea Súp,Mnông,Bản địa Tây Nguyên
+DL_DIST_04,DT_20,0.0,,0.0,,0.0,,0.0,,Huyện Ea Súp,Raglay,Khác
+DL_DIST_04,DT_21,0.0,,0.0,,0.0,,0.0,,Huyện Ea Súp,Xtiêng,Khác
+DL_DIST_04,DT_22,0.0,,0.0,,0.0,,0.0,,Huyện Ea Súp,Bru Vân Kiều,Khác
+DL_DIST_04,DT_23,0.0,,0.0,,0.0,,0.0,,Huyện Ea Súp,Thổ,Di cư miền núi phía Bắc
+DL_DIST_04,DT_24,0.0,,0.0,,0.0,,0.0,,Huyện Ea Súp,Cơ Tu,Khác
+DL_DIST_04,DT_25,0.0,,0.0,,0.0,,0.0,,Huyện Ea Súp,Mạ,Bản địa Tây Nguyên
+DL_DIST_04,DT_26,0.0,,0.0,,0.0,,0.0,,Huyện Ea Súp,Co,Khác
+DL_DIST_04,DT_27,0.0,,0.0,,0.0,,0.0,,Huyện Ea Súp,Chơ Ro,Khác
+DL_DIST_04,DT_28,100.0,VERY_SMALL_SAMPLE,100.0,VERY_SMALL_SAMPLE,4.0,VERY_SMALL_SAMPLE,4.0,VERY_SMALL_SAMPLE,Huyện Ea Súp,Chu Ru,Bản địa Tây Nguyên
+DL_DIST_04,DT_29,0.0,,0.0,,0.0,,0.0,,Huyện Ea Súp,Lào,Di cư miền núi phía Bắc
+DL_DIST_04,DT_30,0.0,,0.0,,0.0,,0.0,,Huyện Ea Súp,Phù Lá,Di cư miền núi phía Bắc
+DL_DIST_04,DT_31,100.0,VERY_SMALL_SAMPLE,25.0,VERY_SMALL_SAMPLE,3.0,VERY_SMALL_SAMPLE,4.0,VERY_SMALL_SAMPLE,Huyện Ea Súp,Chứt,Khác
+DL_DIST_04,DT_32,0.0,,0.0,,0.0,,0.0,,Huyện Ea Súp,Mảng,Khác
+DL_DIST_04,DT_33,0.0,,0.0,,0.0,,0.0,,Huyện Ea Súp,Giáy,Di cư miền núi phía Bắc
+DL_DIST_04,DT_34,0.0,,0.0,,0.0,,0.0,,Huyện Ea Súp,Gié Triêng,Bản địa Tây Nguyên
+DL_DIST_04,DT_35,0.0,,0.0,,0.0,,0.0,,Huyện Ea Súp,Khơ mú,Di cư miền núi phía Bắc
+DL_DIST_04,DT_36,0.0,,0.0,,0.0,,0.0,,Huyện Ea Súp,Tà Ôi,Khác
+DL_DIST_04,DT_37,0.0,,0.0,,0.0,,0.0,,Huyện Ea Súp,Kháng,Khác
+DL_DIST_04,DT_38,0.0,,0.0,,0.0,,0.0,,Huyện Ea Súp,Xinh Mun,Khác
+DL_DIST_04,DT_39,0.0,,0.0,,0.0,,0.0,,Huyện Ea Súp,Hà Nhì,Di cư miền núi phía Bắc
+DL_DIST_04,DT_40,0.0,,0.0,,0.0,,0.0,,Huyện Ea Súp,La Chí,Di cư miền núi phía Bắc
+DL_DIST_04,DT_41,0.0,,0.0,,0.0,,0.0,,Huyện Ea Súp,La Ha,Di cư miền núi phía Bắc
+DL_DIST_04,DT_42,0.0,,0.0,,0.0,,0.0,,Huyện Ea Súp,La Hủ,Di cư miền núi phía Bắc
+DL_DIST_04,DT_43,0.0,,0.0,,0.0,,0.0,,Huyện Ea Súp,Lự,Di cư miền núi phía Bắc
+DL_DIST_04,DT_44,0.0,,0.0,,0.0,,0.0,,Huyện Ea Súp,Lô Lô,Di cư miền núi phía Bắc
+DL_DIST_04,DT_45,0.0,,0.0,,0.0,,0.0,,Huyện Ea Súp,Pà Thẻn,Di cư miền núi phía Bắc
+DL_DIST_04,DT_46,0.0,,0.0,,0.0,,0.0,,Huyện Ea Súp,Cơ Lao,Di cư miền núi phía Bắc
+DL_DIST_04,DT_47,0.0,,0.0,,0.0,,0.0,,Huyện Ea Súp,Cống,Di cư miền núi phía Bắc
+DL_DIST_04,DT_48,0.0,,0.0,,0.0,,0.0,,Huyện Ea Súp,Bố Y,Di cư miền núi phía Bắc
+DL_DIST_04,DT_49,0.0,,0.0,,0.0,,0.0,,Huyện Ea Súp,Si La,Di cư miền núi phía Bắc
+DL_DIST_04,DT_50,0.0,,0.0,,0.0,,0.0,,Huyện Ea Súp,Pu Péo,Di cư miền núi phía Bắc
+DL_DIST_04,DT_51,0.0,,0.0,,0.0,,0.0,,Huyện Ea Súp,Brâu,Bản địa Tây Nguyên
+DL_DIST_04,DT_52,0.0,,0.0,,0.0,,0.0,,Huyện Ea Súp,Ơ Đu,Khác
+DL_DIST_04,DT_53,0.0,,0.0,,0.0,,0.0,,Huyện Ea Súp,Rơ Măm,Bản địa Tây Nguyên
+DL_DIST_05,DT_01,99.4,,87.8,,1208.0,,1263.0,,Huyện Buôn Đôn,Tày,Di cư miền núi phía Bắc
+DL_DIST_05,DT_02,100.0,VERY_SMALL_SAMPLE,100.0,VERY_SMALL_SAMPLE,3.0,VERY_SMALL_SAMPLE,3.0,VERY_SMALL_SAMPLE,Huyện Buôn Đôn,Thái,Di cư miền núi phía Bắc
+DL_DIST_05,DT_03,100.0,VERY_SMALL_SAMPLE,100.0,VERY_SMALL_SAMPLE,22.0,VERY_SMALL_SAMPLE,22.0,VERY_SMALL_SAMPLE,Huyện Buôn Đôn,Hoa,Nam Bộ & Duyên hải
+DL_DIST_05,DT_04,0.0,,0.0,,0.0,,0.0,,Huyện Buôn Đôn,Khmer,Nam Bộ & Duyên hải
+DL_DIST_05,DT_05,100.0,,99.4,,158.0,,164.0,,Huyện Buôn Đôn,Mường,Di cư miền núi phía Bắc
+DL_DIST_05,DT_06,99.9,,86.7,,1010.0,,1076.0,,Huyện Buôn Đôn,Nùng,Di cư miền núi phía Bắc
+DL_DIST_05,DT_07,0.0,,0.0,,0.0,,0.0,,Huyện Buôn Đôn,Mông,Di cư miền núi phía Bắc
+DL_DIST_05,DT_08,99.1,,100.0,,114.0,,114.0,,Huyện Buôn Đôn,Dao,Di cư miền núi phía Bắc
+DL_DIST_05,DT_09,100.0,,90.0,,75.0,,80.0,,Huyện Buôn Đôn,Gia Rai,Bản địa Tây Nguyên
+DL_DIST_05,DT_10,0.0,,0.0,,0.0,,0.0,,Huyện Buôn Đôn,Ngái,Khác
+DL_DIST_05,DT_11,96.6,,70.3,,3471.0,,4251.0,,Huyện Buôn Đôn,Ê đê,Bản địa Tây Nguyên
+DL_DIST_05,DT_12,100.0,VERY_SMALL_SAMPLE,100.0,VERY_SMALL_SAMPLE,0.0,,1.0,VERY_SMALL_SAMPLE,Huyện Buôn Đôn,Ba Na,Bản địa Tây Nguyên
+DL_DIST_05,DT_13,0.0,,0.0,,0.0,,0.0,,Huyện Buôn Đôn,Xơ Đăng,Bản địa Tây Nguyên
+DL_DIST_05,DT_14,100.0,VERY_SMALL_SAMPLE,100.0,VERY_SMALL_SAMPLE,8.0,VERY_SMALL_SAMPLE,8.0,VERY_SMALL_SAMPLE,Huyện Buôn Đôn,Sán Chay,Di cư miền núi phía Bắc
+DL_DIST_05,DT_15,0.0,,0.0,,0.0,,0.0,,Huyện Buôn Đôn,Cơ Ho,Bản địa Tây Nguyên
+DL_DIST_05,DT_16,100.0,VERY_SMALL_SAMPLE,100.0,VERY_SMALL_SAMPLE,2.0,VERY_SMALL_SAMPLE,2.0,VERY_SMALL_SAMPLE,Huyện Buôn Đôn,Chăm,Nam Bộ & Duyên hải
+DL_DIST_05,DT_17,100.0,VERY_SMALL_SAMPLE,100.0,VERY_SMALL_SAMPLE,1.0,VERY_SMALL_SAMPLE,1.0,VERY_SMALL_SAMPLE,Huyện Buôn Đôn,Sán Dìu,Di cư miền núi phía Bắc
+DL_DIST_05,DT_18,0.0,,0.0,,0.0,,0.0,,Huyện Buôn Đôn,Hrê,Khác
+DL_DIST_05,DT_19,100.0,,67.8,,894.0,,1103.0,,Huyện Buôn Đôn,Mnông,Bản địa Tây Nguyên
+DL_DIST_05,DT_20,0.0,,0.0,,0.0,,0.0,,Huyện Buôn Đôn,Raglay,Khác
+DL_DIST_05,DT_21,0.0,,0.0,,0.0,,0.0,,Huyện Buôn Đôn,Xtiêng,Khác
+DL_DIST_05,DT_22,0.0,,0.0,,0.0,,0.0,,Huyện Buôn Đôn,Bru Vân Kiều,Khác
+DL_DIST_05,DT_23,0.0,,0.0,,0.0,,0.0,,Huyện Buôn Đôn,Thổ,Di cư miền núi phía Bắc
+DL_DIST_05,DT_24,0.0,,0.0,,0.0,,0.0,,Huyện Buôn Đôn,Cơ Tu,Khác
+DL_DIST_05,DT_25,0.0,,0.0,,0.0,,0.0,,Huyện Buôn Đôn,Mạ,Bản địa Tây Nguyên
+DL_DIST_05,DT_26,0.0,,0.0,,0.0,,0.0,,Huyện Buôn Đôn,Co,Khác
+DL_DIST_05,DT_27,0.0,,0.0,,0.0,,0.0,,Huyện Buôn Đôn,Chơ Ro,Khác
+DL_DIST_05,DT_28,0.0,,0.0,,0.0,,0.0,,Huyện Buôn Đôn,Chu Ru,Bản địa Tây Nguyên
+DL_DIST_05,DT_29,100.0,,54.9,,83.0,,91.0,,Huyện Buôn Đôn,Lào,Di cư miền núi phía Bắc
+DL_DIST_05,DT_30,0.0,,0.0,,0.0,,0.0,,Huyện Buôn Đôn,Phù Lá,Di cư miền núi phía Bắc
+DL_DIST_05,DT_31,0.0,,0.0,,0.0,,0.0,,Huyện Buôn Đôn,Chứt,Khác
+DL_DIST_05,DT_32,0.0,,0.0,,0.0,,0.0,,Huyện Buôn Đôn,Mảng,Khác
+DL_DIST_05,DT_33,0.0,,0.0,,0.0,,0.0,,Huyện Buôn Đôn,Giáy,Di cư miền núi phía Bắc
+DL_DIST_05,DT_34,0.0,,0.0,,0.0,,0.0,,Huyện Buôn Đôn,Gié Triêng,Bản địa Tây Nguyên
+DL_DIST_05,DT_35,0.0,,0.0,,0.0,,0.0,,Huyện Buôn Đôn,Khơ mú,Di cư miền núi phía Bắc
+DL_DIST_05,DT_36,0.0,,0.0,,0.0,,0.0,,Huyện Buôn Đôn,Tà Ôi,Khác
+DL_DIST_05,DT_37,0.0,,0.0,,0.0,,0.0,,Huyện Buôn Đôn,Kháng,Khác
+DL_DIST_05,DT_38,0.0,,0.0,,0.0,,0.0,,Huyện Buôn Đôn,Xinh Mun,Khác
+DL_DIST_05,DT_39,0.0,,0.0,,0.0,,0.0,,Huyện Buôn Đôn,Hà Nhì,Di cư miền núi phía Bắc
+DL_DIST_05,DT_40,0.0,,0.0,,0.0,,0.0,,Huyện Buôn Đôn,La Chí,Di cư miền núi phía Bắc
+DL_DIST_05,DT_41,0.0,,0.0,,0.0,,0.0,,Huyện Buôn Đôn,La Ha,Di cư miền núi phía Bắc
+DL_DIST_05,DT_42,0.0,,0.0,,0.0,,0.0,,Huyện Buôn Đôn,La Hủ,Di cư miền núi phía Bắc
+DL_DIST_05,DT_43,0.0,,0.0,,0.0,,0.0,,Huyện Buôn Đôn,Lự,Di cư miền núi phía Bắc
+DL_DIST_05,DT_44,0.0,,0.0,,0.0,,0.0,,Huyện Buôn Đôn,Lô Lô,Di cư miền núi phía Bắc
+DL_DIST_05,DT_45,0.0,,0.0,,0.0,,0.0,,Huyện Buôn Đôn,Pà Thẻn,Di cư miền núi phía Bắc
+DL_DIST_05,DT_46,0.0,,0.0,,0.0,,0.0,,Huyện Buôn Đôn,Cơ Lao,Di cư miền núi phía Bắc
+DL_DIST_05,DT_47,0.0,,0.0,,0.0,,0.0,,Huyện Buôn Đôn,Cống,Di cư miền núi phía Bắc
+DL_DIST_05,DT_48,0.0,,0.0,,0.0,,0.0,,Huyện Buôn Đôn,Bố Y,Di cư miền núi phía Bắc
+DL_DIST_05,DT_49,0.0,,0.0,,0.0,,0.0,,Huyện Buôn Đôn,Si La,Di cư miền núi phía Bắc
+DL_DIST_05,DT_50,0.0,,0.0,,0.0,,0.0,,Huyện Buôn Đôn,Pu Péo,Di cư miền núi phía Bắc
+DL_DIST_05,DT_51,0.0,,0.0,,0.0,,0.0,,Huyện Buôn Đôn,Brâu,Bản địa Tây Nguyên
+DL_DIST_05,DT_52,0.0,,0.0,,0.0,,0.0,,Huyện Buôn Đôn,Ơ Đu,Khác
+DL_DIST_05,DT_53,0.0,,0.0,,0.0,,0.0,,Huyện Buôn Đôn,Rơ Măm,Bản địa Tây Nguyên
+DL_DIST_06,DT_01,100.0,,59.1,,587.0,,591.0,,Huyện Cư M'gar,Tày,Di cư miền núi phía Bắc
+DL_DIST_06,DT_02,100.0,SMALL_SAMPLE,91.4,SMALL_SAMPLE,34.0,SMALL_SAMPLE,35.0,SMALL_SAMPLE,Huyện Cư M'gar,Thái,Di cư miền núi phía Bắc
+DL_DIST_06,DT_03,100.0,VERY_SMALL_SAMPLE,0.0,,1.0,VERY_SMALL_SAMPLE,1.0,VERY_SMALL_SAMPLE,Huyện Cư M'gar,Hoa,Nam Bộ & Duyên hải
+DL_DIST_06,DT_04,0.0,,0.0,,0.0,,0.0,,Huyện Cư M'gar,Khmer,Nam Bộ & Duyên hải
+DL_DIST_06,DT_05,100.0,,94.7,,57.0,,33.0,SMALL_SAMPLE,Huyện Cư M'gar,Mường,Di cư miền núi phía Bắc
+DL_DIST_06,DT_06,100.0,,38.6,,160.0,,166.0,,Huyện Cư M'gar,Nùng,Di cư miền núi phía Bắc
+DL_DIST_06,DT_07,100.0,,6.8,VERY_SMALL_SAMPLE,119.0,,133.0,,Huyện Cư M'gar,Mông,Di cư miền núi phía Bắc
+DL_DIST_06,DT_08,99.8,,67.9,,931.0,,953.0,,Huyện Cư M'gar,Dao,Di cư miền núi phía Bắc
+DL_DIST_06,DT_09,100.0,,73.2,,29.0,SMALL_SAMPLE,71.0,,Huyện Cư M'gar,Gia Rai,Bản địa Tây Nguyên
+DL_DIST_06,DT_10,100.0,VERY_SMALL_SAMPLE,0.0,,1.0,VERY_SMALL_SAMPLE,1.0,VERY_SMALL_SAMPLE,Huyện Cư M'gar,Ngái,Khác
+DL_DIST_06,DT_11,99.5,,77.3,,17527.0,,20431.0,,Huyện Cư M'gar,Ê đê,Bản địa Tây Nguyên
+DL_DIST_06,DT_12,0.0,,0.0,,0.0,,0.0,,Huyện Cư M'gar,Ba Na,Bản địa Tây Nguyên
+DL_DIST_06,DT_13,97.5,SMALL_SAMPLE,80.0,SMALL_SAMPLE,30.0,SMALL_SAMPLE,40.0,SMALL_SAMPLE,Huyện Cư M'gar,Xơ Đăng,Bản địa Tây Nguyên
+DL_DIST_06,DT_14,100.0,VERY_SMALL_SAMPLE,100.0,VERY_SMALL_SAMPLE,6.0,VERY_SMALL_SAMPLE,6.0,VERY_SMALL_SAMPLE,Huyện Cư M'gar,Sán Chay,Di cư miền núi phía Bắc
+DL_DIST_06,DT_15,0.0,,0.0,,0.0,,0.0,,Huyện Cư M'gar,Cơ Ho,Bản địa Tây Nguyên
+DL_DIST_06,DT_16,0.0,,0.0,,0.0,,0.0,,Huyện Cư M'gar,Chăm,Nam Bộ & Duyên hải
+DL_DIST_06,DT_17,100.0,VERY_SMALL_SAMPLE,100.0,VERY_SMALL_SAMPLE,0.0,,20.0,VERY_SMALL_SAMPLE,Huyện Cư M'gar,Sán Dìu,Di cư miền núi phía Bắc
+DL_DIST_06,DT_18,100.0,VERY_SMALL_SAMPLE,100.0,VERY_SMALL_SAMPLE,18.0,VERY_SMALL_SAMPLE,18.0,VERY_SMALL_SAMPLE,Huyện Cư M'gar,Hrê,Khác
+DL_DIST_06,DT_19,100.0,VERY_SMALL_SAMPLE,100.0,VERY_SMALL_SAMPLE,18.0,VERY_SMALL_SAMPLE,18.0,VERY_SMALL_SAMPLE,Huyện Cư M'gar,Mnông,Bản địa Tây Nguyên
+DL_DIST_06,DT_20,0.0,,0.0,,0.0,,0.0,,Huyện Cư M'gar,Raglay,Khác
+DL_DIST_06,DT_21,0.0,,0.0,,0.0,,0.0,,Huyện Cư M'gar,Xtiêng,Khác
+DL_DIST_06,DT_22,0.0,,0.0,,0.0,,0.0,,Huyện Cư M'gar,Bru Vân Kiều,Khác
+DL_DIST_06,DT_23,100.0,,100.0,,172.0,,172.0,,Huyện Cư M'gar,Thổ,Di cư miền núi phía Bắc
+DL_DIST_06,DT_24,0.0,,0.0,,0.0,,0.0,,Huyện Cư M'gar,Cơ Tu,Khác
+DL_DIST_06,DT_25,0.0,,0.0,,0.0,,0.0,,Huyện Cư M'gar,Mạ,Bản địa Tây Nguyên
+DL_DIST_06,DT_26,0.0,,0.0,,0.0,,0.0,,Huyện Cư M'gar,Co,Khác
+DL_DIST_06,DT_27,0.0,,0.0,,0.0,,0.0,,Huyện Cư M'gar,Chơ Ro,Khác
+DL_DIST_06,DT_28,0.0,,0.0,,0.0,,0.0,,Huyện Cư M'gar,Chu Ru,Bản địa Tây Nguyên
+DL_DIST_06,DT_29,0.0,,0.0,,0.0,,0.0,,Huyện Cư M'gar,Lào,Di cư miền núi phía Bắc
+DL_DIST_06,DT_30,0.0,,0.0,,0.0,,0.0,,Huyện Cư M'gar,Phù Lá,Di cư miền núi phía Bắc
+DL_DIST_06,DT_31,0.0,,0.0,,0.0,,0.0,,Huyện Cư M'gar,Chứt,Khác
+DL_DIST_06,DT_32,0.0,,0.0,,0.0,,0.0,,Huyện Cư M'gar,Mảng,Khác
+DL_DIST_06,DT_33,0.0,,0.0,,0.0,,0.0,,Huyện Cư M'gar,Giáy,Di cư miền núi phía Bắc
+DL_DIST_06,DT_34,0.0,,0.0,,0.0,,0.0,,Huyện Cư M'gar,Gié Triêng,Bản địa Tây Nguyên
+DL_DIST_06,DT_35,0.0,,0.0,,0.0,,0.0,,Huyện Cư M'gar,Khơ mú,Di cư miền núi phía Bắc
+DL_DIST_06,DT_36,0.0,,0.0,,0.0,,0.0,,Huyện Cư M'gar,Tà Ôi,Khác
+DL_DIST_06,DT_37,0.0,,0.0,,0.0,,0.0,,Huyện Cư M'gar,Kháng,Khác
+DL_DIST_06,DT_38,0.0,,0.0,,0.0,,0.0,,Huyện Cư M'gar,Xinh Mun,Khác
+DL_DIST_06,DT_39,0.0,,0.0,,0.0,,0.0,,Huyện Cư M'gar,Hà Nhì,Di cư miền núi phía Bắc
+DL_DIST_06,DT_40,0.0,,0.0,,0.0,,0.0,,Huyện Cư M'gar,La Chí,Di cư miền núi phía Bắc
+DL_DIST_06,DT_41,0.0,,0.0,,0.0,,0.0,,Huyện Cư M'gar,La Ha,Di cư miền núi phía Bắc
+DL_DIST_06,DT_42,0.0,,0.0,,0.0,,0.0,,Huyện Cư M'gar,La Hủ,Di cư miền núi phía Bắc
+DL_DIST_06,DT_43,0.0,,0.0,,0.0,,0.0,,Huyện Cư M'gar,Lự,Di cư miền núi phía Bắc
+DL_DIST_06,DT_44,0.0,,0.0,,0.0,,0.0,,Huyện Cư M'gar,Lô Lô,Di cư miền núi phía Bắc
+DL_DIST_06,DT_45,0.0,,0.0,,0.0,,0.0,,Huyện Cư M'gar,Pà Thẻn,Di cư miền núi phía Bắc
+DL_DIST_06,DT_46,0.0,,0.0,,0.0,,0.0,,Huyện Cư M'gar,Cơ Lao,Di cư miền núi phía Bắc
+DL_DIST_06,DT_47,0.0,,0.0,,0.0,,0.0,,Huyện Cư M'gar,Cống,Di cư miền núi phía Bắc
+DL_DIST_06,DT_48,0.0,,0.0,,0.0,,0.0,,Huyện Cư M'gar,Bố Y,Di cư miền núi phía Bắc
+DL_DIST_06,DT_49,0.0,,0.0,,0.0,,0.0,,Huyện Cư M'gar,Si La,Di cư miền núi phía Bắc
+DL_DIST_06,DT_50,0.0,,0.0,,0.0,,0.0,,Huyện Cư M'gar,Pu Péo,Di cư miền núi phía Bắc
+DL_DIST_06,DT_51,0.0,,0.0,,0.0,,0.0,,Huyện Cư M'gar,Brâu,Bản địa Tây Nguyên
+DL_DIST_06,DT_52,0.0,,0.0,,0.0,,0.0,,Huyện Cư M'gar,Ơ Đu,Khác
+DL_DIST_06,DT_53,0.0,,0.0,,0.0,,0.0,,Huyện Cư M'gar,Rơ Măm,Bản địa Tây Nguyên
+DL_DIST_07,DT_01,100.0,SMALL_SAMPLE,81.6,SMALL_SAMPLE,49.0,SMALL_SAMPLE,49.0,SMALL_SAMPLE,Huyện Krông Búk,Tày,Di cư miền núi phía Bắc
+DL_DIST_07,DT_02,100.0,,16.3,VERY_SMALL_SAMPLE,123.0,,135.0,,Huyện Krông Búk,Thái,Di cư miền núi phía Bắc
+DL_DIST_07,DT_03,0.0,,0.0,,0.0,,0.0,,Huyện Krông Búk,Hoa,Nam Bộ & Duyên hải
+DL_DIST_07,DT_04,0.0,,0.0,,0.0,,0.0,,Huyện Krông Búk,Khmer,Nam Bộ & Duyên hải
+DL_DIST_07,DT_05,100.0,VERY_SMALL_SAMPLE,29.2,VERY_SMALL_SAMPLE,24.0,VERY_SMALL_SAMPLE,24.0,VERY_SMALL_SAMPLE,Huyện Krông Búk,Mường,Di cư miền núi phía Bắc
+DL_DIST_07,DT_06,100.0,VERY_SMALL_SAMPLE,100.0,VERY_SMALL_SAMPLE,22.0,VERY_SMALL_SAMPLE,22.0,VERY_SMALL_SAMPLE,Huyện Krông Búk,Nùng,Di cư miền núi phía Bắc
+DL_DIST_07,DT_07,0.0,,0.0,,0.0,,0.0,,Huyện Krông Búk,Mông,Di cư miền núi phía Bắc
+DL_DIST_07,DT_08,100.0,VERY_SMALL_SAMPLE,100.0,VERY_SMALL_SAMPLE,2.0,VERY_SMALL_SAMPLE,3.0,VERY_SMALL_SAMPLE,Huyện Krông Búk,Dao,Di cư miền núi phía Bắc
+DL_DIST_07,DT_09,100.0,,21.3,VERY_SMALL_SAMPLE,59.0,,61.0,,Huyện Krông Búk,Gia Rai,Bản địa Tây Nguyên
+DL_DIST_07,DT_10,0.0,,0.0,,0.0,,0.0,,Huyện Krông Búk,Ngái,Khác
+DL_DIST_07,DT_11,99.7,,40.6,,4500.0,,4671.0,,Huyện Krông Búk,Ê đê,Bản địa Tây Nguyên
+DL_DIST_07,DT_12,100.0,SMALL_SAMPLE,8.7,VERY_SMALL_SAMPLE,46.0,SMALL_SAMPLE,46.0,SMALL_SAMPLE,Huyện Krông Búk,Ba Na,Bản địa Tây Nguyên
+DL_DIST_07,DT_13,100.0,VERY_SMALL_SAMPLE,83.3,VERY_SMALL_SAMPLE,1.0,VERY_SMALL_SAMPLE,6.0,VERY_SMALL_SAMPLE,Huyện Krông Búk,Xơ Đăng,Bản địa Tây Nguyên
+DL_DIST_07,DT_14,0.0,,0.0,,0.0,,0.0,,Huyện Krông Búk,Sán Chay,Di cư miền núi phía Bắc
+DL_DIST_07,DT_15,0.0,,0.0,,0.0,,0.0,,Huyện Krông Búk,Cơ Ho,Bản địa Tây Nguyên
+DL_DIST_07,DT_16,0.0,,0.0,,0.0,,0.0,,Huyện Krông Búk,Chăm,Nam Bộ & Duyên hải
+DL_DIST_07,DT_17,100.0,VERY_SMALL_SAMPLE,100.0,VERY_SMALL_SAMPLE,1.0,VERY_SMALL_SAMPLE,1.0,VERY_SMALL_SAMPLE,Huyện Krông Búk,Sán Dìu,Di cư miền núi phía Bắc
+DL_DIST_07,DT_18,100.0,SMALL_SAMPLE,81.8,SMALL_SAMPLE,33.0,SMALL_SAMPLE,33.0,SMALL_SAMPLE,Huyện Krông Búk,Hrê,Khác
+DL_DIST_07,DT_19,100.0,VERY_SMALL_SAMPLE,100.0,VERY_SMALL_SAMPLE,2.0,VERY_SMALL_SAMPLE,2.0,VERY_SMALL_SAMPLE,Huyện Krông Búk,Mnông,Bản địa Tây Nguyên
+DL_DIST_07,DT_20,0.0,,0.0,,0.0,,0.0,,Huyện Krông Búk,Raglay,Khác
+DL_DIST_07,DT_21,0.0,,0.0,,0.0,,0.0,,Huyện Krông Búk,Xtiêng,Khác
+DL_DIST_07,DT_22,0.0,,0.0,,0.0,,0.0,,Huyện Krông Búk,Bru Vân Kiều,Khác
+DL_DIST_07,DT_23,0.0,,0.0,,0.0,,0.0,,Huyện Krông Búk,Thổ,Di cư miền núi phía Bắc
+DL_DIST_07,DT_24,0.0,,0.0,,0.0,,0.0,,Huyện Krông Búk,Cơ Tu,Khác
+DL_DIST_07,DT_25,0.0,,0.0,,0.0,,0.0,,Huyện Krông Búk,Mạ,Bản địa Tây Nguyên
+DL_DIST_07,DT_26,0.0,,0.0,,0.0,,0.0,,Huyện Krông Búk,Co,Khác
+DL_DIST_07,DT_27,0.0,,0.0,,0.0,,0.0,,Huyện Krông Búk,Chơ Ro,Khác
+DL_DIST_07,DT_28,0.0,,0.0,,0.0,,0.0,,Huyện Krông Búk,Chu Ru,Bản địa Tây Nguyên
+DL_DIST_07,DT_29,0.0,,0.0,,0.0,,0.0,,Huyện Krông Búk,Lào,Di cư miền núi phía Bắc
+DL_DIST_07,DT_30,0.0,,0.0,,0.0,,0.0,,Huyện Krông Búk,Phù Lá,Di cư miền núi phía Bắc
+DL_DIST_07,DT_31,0.0,,0.0,,0.0,,0.0,,Huyện Krông Búk,Chứt,Khác
+DL_DIST_07,DT_32,0.0,,0.0,,0.0,,0.0,,Huyện Krông Búk,Mảng,Khác
+DL_DIST_07,DT_33,0.0,,0.0,,0.0,,0.0,,Huyện Krông Búk,Giáy,Di cư miền núi phía Bắc
+DL_DIST_07,DT_34,0.0,,0.0,,0.0,,0.0,,Huyện Krông Búk,Gié Triêng,Bản địa Tây Nguyên
+DL_DIST_07,DT_35,0.0,,0.0,,0.0,,0.0,,Huyện Krông Búk,Khơ mú,Di cư miền núi phía Bắc
+DL_DIST_07,DT_36,0.0,,0.0,,0.0,,0.0,,Huyện Krông Búk,Tà Ôi,Khác
+DL_DIST_07,DT_37,0.0,,0.0,,0.0,,0.0,,Huyện Krông Búk,Kháng,Khác
+DL_DIST_07,DT_38,0.0,,0.0,,0.0,,0.0,,Huyện Krông Búk,Xinh Mun,Khác
+DL_DIST_07,DT_39,0.0,,0.0,,0.0,,0.0,,Huyện Krông Búk,Hà Nhì,Di cư miền núi phía Bắc
+DL_DIST_07,DT_40,0.0,,0.0,,0.0,,0.0,,Huyện Krông Búk,La Chí,Di cư miền núi phía Bắc
+DL_DIST_07,DT_41,0.0,,0.0,,0.0,,0.0,,Huyện Krông Búk,La Ha,Di cư miền núi phía Bắc
+DL_DIST_07,DT_42,0.0,,0.0,,0.0,,0.0,,Huyện Krông Búk,La Hủ,Di cư miền núi phía Bắc
+DL_DIST_07,DT_43,0.0,,0.0,,0.0,,0.0,,Huyện Krông Búk,Lự,Di cư miền núi phía Bắc
+DL_DIST_07,DT_44,0.0,,0.0,,0.0,,0.0,,Huyện Krông Búk,Lô Lô,Di cư miền núi phía Bắc
+DL_DIST_07,DT_45,0.0,,0.0,,0.0,,0.0,,Huyện Krông Búk,Pà Thẻn,Di cư miền núi phía Bắc
+DL_DIST_07,DT_46,0.0,,0.0,,0.0,,0.0,,Huyện Krông Búk,Cơ Lao,Di cư miền núi phía Bắc
+DL_DIST_07,DT_47,0.0,,0.0,,0.0,,0.0,,Huyện Krông Búk,Cống,Di cư miền núi phía Bắc
+DL_DIST_07,DT_48,0.0,,0.0,,0.0,,0.0,,Huyện Krông Búk,Bố Y,Di cư miền núi phía Bắc
+DL_DIST_07,DT_49,0.0,,0.0,,0.0,,0.0,,Huyện Krông Búk,Si La,Di cư miền núi phía Bắc
+DL_DIST_07,DT_50,0.0,,0.0,,0.0,,0.0,,Huyện Krông Búk,Pu Péo,Di cư miền núi phía Bắc
+DL_DIST_07,DT_51,0.0,,0.0,,0.0,,0.0,,Huyện Krông Búk,Brâu,Bản địa Tây Nguyên
+DL_DIST_07,DT_52,0.0,,0.0,,0.0,,0.0,,Huyện Krông Búk,Ơ Đu,Khác
+DL_DIST_07,DT_53,0.0,,0.0,,0.0,,0.0,,Huyện Krông Búk,Rơ Măm,Bản địa Tây Nguyên
+DL_DIST_08,DT_01,99.2,,87.3,,1729.0,,1766.0,,Huyện Krông Năng,Tày,Di cư miền núi phía Bắc
+DL_DIST_08,DT_02,95.1,,87.4,,1024.0,,1024.0,,Huyện Krông Năng,Thái,Di cư miền núi phía Bắc
+DL_DIST_08,DT_03,100.0,VERY_SMALL_SAMPLE,100.0,VERY_SMALL_SAMPLE,8.0,VERY_SMALL_SAMPLE,8.0,VERY_SMALL_SAMPLE,Huyện Krông Năng,Hoa,Nam Bộ & Duyên hải
+DL_DIST_08,DT_04,0.0,,0.0,,0.0,,0.0,,Huyện Krông Năng,Khmer,Nam Bộ & Duyên hải
+DL_DIST_08,DT_05,100.0,,86.4,,1496.0,,1496.0,,Huyện Krông Năng,Mường,Di cư miền núi phía Bắc
+DL_DIST_08,DT_06,99.8,,90.2,,1236.0,,1251.0,,Huyện Krông Năng,Nùng,Di cư miền núi phía Bắc
+DL_DIST_08,DT_07,100.0,,23.5,,886.0,,886.0,,Huyện Krông Năng,Mông,Di cư miền núi phía Bắc
+DL_DIST_08,DT_08,100.0,VERY_SMALL_SAMPLE,33.3,VERY_SMALL_SAMPLE,6.0,VERY_SMALL_SAMPLE,6.0,VERY_SMALL_SAMPLE,Huyện Krông Năng,Dao,Di cư miền núi phía Bắc
+DL_DIST_08,DT_09,83.1,,33.1,SMALL_SAMPLE,113.0,,136.0,,Huyện Krông Năng,Gia Rai,Bản địa Tây Nguyên
+DL_DIST_08,DT_10,0.0,,0.0,,0.0,,0.0,,Huyện Krông Năng,Ngái,Khác
+DL_DIST_08,DT_11,85.6,,59.5,,4684.0,,5177.0,,Huyện Krông Năng,Ê đê,Bản địa Tây Nguyên
+DL_DIST_08,DT_12,100.0,VERY_SMALL_SAMPLE,0.0,,0.0,,6.0,VERY_SMALL_SAMPLE,Huyện Krông Năng,Ba Na,Bản địa Tây Nguyên
+DL_DIST_08,DT_13,0.0,,0.0,,0.0,,0.0,,Huyện Krông Năng,Xơ Đăng,Bản địa Tây Nguyên
+DL_DIST_08,DT_14,100.0,VERY_SMALL_SAMPLE,100.0,VERY_SMALL_SAMPLE,23.0,VERY_SMALL_SAMPLE,23.0,VERY_SMALL_SAMPLE,Huyện Krông Năng,Sán Chay,Di cư miền núi phía Bắc
+DL_DIST_08,DT_15,0.0,,0.0,,0.0,,0.0,,Huyện Krông Năng,Cơ Ho,Bản địa Tây Nguyên
+DL_DIST_08,DT_16,0.0,,100.0,VERY_SMALL_SAMPLE,4.0,VERY_SMALL_SAMPLE,5.0,VERY_SMALL_SAMPLE,Huyện Krông Năng,Chăm,Nam Bộ & Duyên hải
+DL_DIST_08,DT_17,0.0,,0.0,,0.0,,0.0,,Huyện Krông Năng,Sán Dìu,Di cư miền núi phía Bắc
+DL_DIST_08,DT_18,0.0,,0.0,,0.0,,0.0,,Huyện Krông Năng,Hrê,Khác
+DL_DIST_08,DT_19,0.0,,0.0,,0.0,,0.0,,Huyện Krông Năng,Mnông,Bản địa Tây Nguyên
+DL_DIST_08,DT_20,100.0,VERY_SMALL_SAMPLE,0.0,,1.0,VERY_SMALL_SAMPLE,1.0,VERY_SMALL_SAMPLE,Huyện Krông Năng,Raglay,Khác
+DL_DIST_08,DT_21,0.0,,0.0,,0.0,,0.0,,Huyện Krông Năng,Xtiêng,Khác
+DL_DIST_08,DT_22,100.0,SMALL_SAMPLE,0.0,,0.0,,30.0,SMALL_SAMPLE,Huyện Krông Năng,Bru Vân Kiều,Khác
+DL_DIST_08,DT_23,0.0,,0.0,,0.0,,0.0,,Huyện Krông Năng,Thổ,Di cư miền núi phía Bắc
+DL_DIST_08,DT_24,0.0,,0.0,,0.0,,0.0,,Huyện Krông Năng,Cơ Tu,Khác
+DL_DIST_08,DT_25,0.0,,0.0,,0.0,,0.0,,Huyện Krông Năng,Mạ,Bản địa Tây Nguyên
+DL_DIST_08,DT_26,0.0,,0.0,,0.0,,0.0,,Huyện Krông Năng,Co,Khác
+DL_DIST_08,DT_27,0.0,,0.0,,0.0,,0.0,,Huyện Krông Năng,Chơ Ro,Khác
+DL_DIST_08,DT_28,0.0,,0.0,,0.0,,0.0,,Huyện Krông Năng,Chu Ru,Bản địa Tây Nguyên
+DL_DIST_08,DT_29,0.0,,0.0,,0.0,,0.0,,Huyện Krông Năng,Lào,Di cư miền núi phía Bắc
+DL_DIST_08,DT_30,100.0,VERY_SMALL_SAMPLE,100.0,VERY_SMALL_SAMPLE,3.0,VERY_SMALL_SAMPLE,3.0,VERY_SMALL_SAMPLE,Huyện Krông Năng,Phù Lá,Di cư miền núi phía Bắc
+DL_DIST_08,DT_31,100.0,,67.3,SMALL_SAMPLE,55.0,,55.0,,Huyện Krông Năng,Chứt,Khác
+DL_DIST_08,DT_32,0.0,,0.0,,0.0,,0.0,,Huyện Krông Năng,Mảng,Khác
+DL_DIST_08,DT_33,0.0,,0.0,,0.0,,0.0,,Huyện Krông Năng,Giáy,Di cư miền núi phía Bắc
+DL_DIST_08,DT_34,0.0,,0.0,,0.0,,0.0,,Huyện Krông Năng,Gié Triêng,Bản địa Tây Nguyên
+DL_DIST_08,DT_35,0.0,,0.0,,0.0,,0.0,,Huyện Krông Năng,Khơ mú,Di cư miền núi phía Bắc
+DL_DIST_08,DT_36,0.0,,0.0,,0.0,,0.0,,Huyện Krông Năng,Tà Ôi,Khác
+DL_DIST_08,DT_37,0.0,,0.0,,0.0,,0.0,,Huyện Krông Năng,Kháng,Khác
+DL_DIST_08,DT_38,0.0,,0.0,,0.0,,0.0,,Huyện Krông Năng,Xinh Mun,Khác
+DL_DIST_08,DT_39,0.0,,0.0,,0.0,,0.0,,Huyện Krông Năng,Hà Nhì,Di cư miền núi phía Bắc
+DL_DIST_08,DT_40,0.0,,0.0,,0.0,,0.0,,Huyện Krông Năng,La Chí,Di cư miền núi phía Bắc
+DL_DIST_08,DT_41,0.0,,0.0,,0.0,,0.0,,Huyện Krông Năng,La Ha,Di cư miền núi phía Bắc
+DL_DIST_08,DT_42,0.0,,0.0,,0.0,,0.0,,Huyện Krông Năng,La Hủ,Di cư miền núi phía Bắc
+DL_DIST_08,DT_43,0.0,,0.0,,0.0,,0.0,,Huyện Krông Năng,Lự,Di cư miền núi phía Bắc
+DL_DIST_08,DT_44,0.0,,0.0,,0.0,,0.0,,Huyện Krông Năng,Lô Lô,Di cư miền núi phía Bắc
+DL_DIST_08,DT_45,0.0,,0.0,,0.0,,0.0,,Huyện Krông Năng,Pà Thẻn,Di cư miền núi phía Bắc
+DL_DIST_08,DT_46,0.0,,0.0,,0.0,,0.0,,Huyện Krông Năng,Cơ Lao,Di cư miền núi phía Bắc
+DL_DIST_08,DT_47,0.0,,0.0,,0.0,,0.0,,Huyện Krông Năng,Cống,Di cư miền núi phía Bắc
+DL_DIST_08,DT_48,0.0,,0.0,,0.0,,0.0,,Huyện Krông Năng,Bố Y,Di cư miền núi phía Bắc
+DL_DIST_08,DT_49,0.0,,0.0,,0.0,,0.0,,Huyện Krông Năng,Si La,Di cư miền núi phía Bắc
+DL_DIST_08,DT_50,0.0,,0.0,,0.0,,0.0,,Huyện Krông Năng,Pu Péo,Di cư miền núi phía Bắc
+DL_DIST_08,DT_51,0.0,,0.0,,0.0,,0.0,,Huyện Krông Năng,Brâu,Bản địa Tây Nguyên
+DL_DIST_08,DT_52,0.0,,0.0,,0.0,,0.0,,Huyện Krông Năng,Ơ Đu,Khác
+DL_DIST_08,DT_53,0.0,,0.0,,0.0,,0.0,,Huyện Krông Năng,Rơ Măm,Bản địa Tây Nguyên
+DL_DIST_09,DT_01,98.2,,78.2,,1115.0,,1180.0,,Huyện Ea Kar,Tày,Di cư miền núi phía Bắc
+DL_DIST_09,DT_02,94.7,,92.5,,604.0,,1579.0,,Huyện Ea Kar,Thái,Di cư miền núi phía Bắc
+DL_DIST_09,DT_03,100.0,VERY_SMALL_SAMPLE,40.0,VERY_SMALL_SAMPLE,4.0,VERY_SMALL_SAMPLE,5.0,VERY_SMALL_SAMPLE,Huyện Ea Kar,Hoa,Nam Bộ & Duyên hải
+DL_DIST_09,DT_04,0.0,,0.0,,0.0,,0.0,,Huyện Ea Kar,Khmer,Nam Bộ & Duyên hải
+DL_DIST_09,DT_05,98.5,,89.9,,381.0,,456.0,,Huyện Ea Kar,Mường,Di cư miền núi phía Bắc
+DL_DIST_09,DT_06,93.4,,78.0,,2430.0,,2598.0,,Huyện Ea Kar,Nùng,Di cư miền núi phía Bắc
+DL_DIST_09,DT_07,100.0,,100.0,,281.0,,281.0,,Huyện Ea Kar,Mông,Di cư miền núi phía Bắc
+DL_DIST_09,DT_08,100.0,,61.7,,196.0,,228.0,,Huyện Ea Kar,Dao,Di cư miền núi phía Bắc
+DL_DIST_09,DT_09,100.0,VERY_SMALL_SAMPLE,100.0,VERY_SMALL_SAMPLE,23.0,VERY_SMALL_SAMPLE,23.0,VERY_SMALL_SAMPLE,Huyện Ea Kar,Gia Rai,Bản địa Tây Nguyên
+DL_DIST_09,DT_10,0.0,,0.0,,0.0,,0.0,,Huyện Ea Kar,Ngái,Khác
+DL_DIST_09,DT_11,93.8,,68.9,,3445.0,,4693.0,,Huyện Ea Kar,Ê đê,Bản địa Tây Nguyên
+DL_DIST_09,DT_12,0.0,,0.0,,0.0,,0.0,,Huyện Ea Kar,Ba Na,Bản địa Tây Nguyên
+DL_DIST_09,DT_13,91.0,,27.6,SMALL_SAMPLE,156.0,,156.0,,Huyện Ea Kar,Xơ Đăng,Bản địa Tây Nguyên
+DL_DIST_09,DT_14,92.0,SMALL_SAMPLE,86.0,SMALL_SAMPLE,32.0,SMALL_SAMPLE,50.0,,Huyện Ea Kar,Sán Chay,Di cư miền núi phía Bắc
+DL_DIST_09,DT_15,100.0,VERY_SMALL_SAMPLE,100.0,VERY_SMALL_SAMPLE,5.0,VERY_SMALL_SAMPLE,5.0,VERY_SMALL_SAMPLE,Huyện Ea Kar,Cơ Ho,Bản địa Tây Nguyên
+DL_DIST_09,DT_16,0.0,,0.0,,0.0,,0.0,,Huyện Ea Kar,Chăm,Nam Bộ & Duyên hải
+DL_DIST_09,DT_17,0.0,,0.0,,0.0,,0.0,,Huyện Ea Kar,Sán Dìu,Di cư miền núi phía Bắc
+DL_DIST_09,DT_18,0.0,,0.0,,0.0,,0.0,,Huyện Ea Kar,Hrê,Khác
+DL_DIST_09,DT_19,0.0,,0.0,,0.0,,0.0,,Huyện Ea Kar,Mnông,Bản địa Tây Nguyên
+DL_DIST_09,DT_20,0.0,,0.0,,0.0,,0.0,,Huyện Ea Kar,Raglay,Khác
+DL_DIST_09,DT_21,0.0,,0.0,,0.0,,0.0,,Huyện Ea Kar,Xtiêng,Khác
+DL_DIST_09,DT_22,100.0,SMALL_SAMPLE,48.1,VERY_SMALL_SAMPLE,26.0,SMALL_SAMPLE,27.0,SMALL_SAMPLE,Huyện Ea Kar,Bru Vân Kiều,Khác
+DL_DIST_09,DT_23,0.0,,0.0,,0.0,,0.0,,Huyện Ea Kar,Thổ,Di cư miền núi phía Bắc
+DL_DIST_09,DT_24,0.0,,0.0,,0.0,,0.0,,Huyện Ea Kar,Cơ Tu,Khác
+DL_DIST_09,DT_25,0.0,,0.0,,0.0,,0.0,,Huyện Ea Kar,Mạ,Bản địa Tây Nguyên
+DL_DIST_09,DT_26,0.0,,0.0,,0.0,,0.0,,Huyện Ea Kar,Co,Khác
+DL_DIST_09,DT_27,0.0,,0.0,,0.0,,0.0,,Huyện Ea Kar,Chơ Ro,Khác
+DL_DIST_09,DT_28,0.0,,0.0,,0.0,,0.0,,Huyện Ea Kar,Chu Ru,Bản địa Tây Nguyên
+DL_DIST_09,DT_29,0.0,,0.0,,0.0,,0.0,,Huyện Ea Kar,Lào,Di cư miền núi phía Bắc
+DL_DIST_09,DT_30,0.0,,0.0,,0.0,,0.0,,Huyện Ea Kar,Phù Lá,Di cư miền núi phía Bắc
+DL_DIST_09,DT_31,0.0,,0.0,,0.0,,0.0,,Huyện Ea Kar,Chứt,Khác
+DL_DIST_09,DT_32,0.0,,0.0,,0.0,,0.0,,Huyện Ea Kar,Mảng,Khác
+DL_DIST_09,DT_33,0.0,,0.0,,0.0,,0.0,,Huyện Ea Kar,Giáy,Di cư miền núi phía Bắc
+DL_DIST_09,DT_34,0.0,,0.0,,0.0,,0.0,,Huyện Ea Kar,Gié Triêng,Bản địa Tây Nguyên
+DL_DIST_09,DT_35,0.0,,0.0,,0.0,,0.0,,Huyện Ea Kar,Khơ mú,Di cư miền núi phía Bắc
+DL_DIST_09,DT_36,0.0,,0.0,,0.0,,0.0,,Huyện Ea Kar,Tà Ôi,Khác
+DL_DIST_09,DT_37,0.0,,0.0,,0.0,,0.0,,Huyện Ea Kar,Kháng,Khác
+DL_DIST_09,DT_38,0.0,,0.0,,0.0,,0.0,,Huyện Ea Kar,Xinh Mun,Khác
+DL_DIST_09,DT_39,0.0,,0.0,,0.0,,0.0,,Huyện Ea Kar,Hà Nhì,Di cư miền núi phía Bắc
+DL_DIST_09,DT_40,0.0,,0.0,,0.0,,0.0,,Huyện Ea Kar,La Chí,Di cư miền núi phía Bắc
+DL_DIST_09,DT_41,0.0,,0.0,,0.0,,0.0,,Huyện Ea Kar,La Ha,Di cư miền núi phía Bắc
+DL_DIST_09,DT_42,0.0,,0.0,,0.0,,0.0,,Huyện Ea Kar,La Hủ,Di cư miền núi phía Bắc
+DL_DIST_09,DT_43,0.0,,0.0,,0.0,,0.0,,Huyện Ea Kar,Lự,Di cư miền núi phía Bắc
+DL_DIST_09,DT_44,0.0,,0.0,,0.0,,0.0,,Huyện Ea Kar,Lô Lô,Di cư miền núi phía Bắc
+DL_DIST_09,DT_45,0.0,,0.0,,0.0,,0.0,,Huyện Ea Kar,Pà Thẻn,Di cư miền núi phía Bắc
+DL_DIST_09,DT_46,0.0,,0.0,,0.0,,0.0,,Huyện Ea Kar,Cơ Lao,Di cư miền núi phía Bắc
+DL_DIST_09,DT_47,0.0,,0.0,,0.0,,0.0,,Huyện Ea Kar,Cống,Di cư miền núi phía Bắc
+DL_DIST_09,DT_48,0.0,,0.0,,0.0,,0.0,,Huyện Ea Kar,Bố Y,Di cư miền núi phía Bắc
+DL_DIST_09,DT_49,0.0,,0.0,,0.0,,0.0,,Huyện Ea Kar,Si La,Di cư miền núi phía Bắc
+DL_DIST_09,DT_50,0.0,,0.0,,0.0,,0.0,,Huyện Ea Kar,Pu Péo,Di cư miền núi phía Bắc
+DL_DIST_09,DT_51,0.0,,0.0,,0.0,,0.0,,Huyện Ea Kar,Brâu,Bản địa Tây Nguyên
+DL_DIST_09,DT_52,0.0,,0.0,,0.0,,0.0,,Huyện Ea Kar,Ơ Đu,Khác
+DL_DIST_09,DT_53,0.0,,0.0,,0.0,,0.0,,Huyện Ea Kar,Rơ Măm,Bản địa Tây Nguyên
+DL_DIST_10,DT_01,96.2,,65.4,,211.0,,286.0,,Huyện M'Đrắk,Tày,Di cư miền núi phía Bắc
+DL_DIST_10,DT_02,97.1,SMALL_SAMPLE,97.1,SMALL_SAMPLE,33.0,SMALL_SAMPLE,34.0,SMALL_SAMPLE,Huyện M'Đrắk,Thái,Di cư miền núi phía Bắc
+DL_DIST_10,DT_03,100.0,VERY_SMALL_SAMPLE,100.0,VERY_SMALL_SAMPLE,1.0,VERY_SMALL_SAMPLE,1.0,VERY_SMALL_SAMPLE,Huyện M'Đrắk,Hoa,Nam Bộ & Duyên hải
+DL_DIST_10,DT_04,100.0,VERY_SMALL_SAMPLE,0.0,,1.0,VERY_SMALL_SAMPLE,2.0,VERY_SMALL_SAMPLE,Huyện M'Đrắk,Khmer,Nam Bộ & Duyên hải
+DL_DIST_10,DT_05,100.0,SMALL_SAMPLE,92.6,SMALL_SAMPLE,27.0,SMALL_SAMPLE,27.0,SMALL_SAMPLE,Huyện M'Đrắk,Mường,Di cư miền núi phía Bắc
+DL_DIST_10,DT_06,98.0,,65.2,,463.0,,754.0,,Huyện M'Đrắk,Nùng,Di cư miền núi phía Bắc
+DL_DIST_10,DT_07,91.4,,51.4,,808.0,,1027.0,,Huyện M'Đrắk,Mông,Di cư miền núi phía Bắc
+DL_DIST_10,DT_08,93.0,,63.4,,1467.0,,1566.0,,Huyện M'Đrắk,Dao,Di cư miền núi phía Bắc
+DL_DIST_10,DT_09,100.0,VERY_SMALL_SAMPLE,100.0,VERY_SMALL_SAMPLE,0.0,,10.0,VERY_SMALL_SAMPLE,Huyện M'Đrắk,Gia Rai,Bản địa Tây Nguyên
+DL_DIST_10,DT_10,0.0,,0.0,,0.0,,0.0,,Huyện M'Đrắk,Ngái,Khác
+DL_DIST_10,DT_11,99.5,,48.3,,4413.0,,5064.0,,Huyện M'Đrắk,Ê đê,Bản địa Tây Nguyên
+DL_DIST_10,DT_12,0.0,,0.0,,0.0,,0.0,,Huyện M'Đrắk,Ba Na,Bản địa Tây Nguyên
+DL_DIST_10,DT_13,0.0,,0.0,,0.0,,0.0,,Huyện M'Đrắk,Xơ Đăng,Bản địa Tây Nguyên
+DL_DIST_10,DT_14,0.0,,0.0,,0.0,,0.0,,Huyện M'Đrắk,Sán Chay,Di cư miền núi phía Bắc
+DL_DIST_10,DT_15,0.0,,0.0,,0.0,,0.0,,Huyện M'Đrắk,Cơ Ho,Bản địa Tây Nguyên
+DL_DIST_10,DT_16,100.0,VERY_SMALL_SAMPLE,100.0,VERY_SMALL_SAMPLE,7.0,VERY_SMALL_SAMPLE,7.0,VERY_SMALL_SAMPLE,Huyện M'Đrắk,Chăm,Nam Bộ & Duyên hải
+DL_DIST_10,DT_17,0.0,,0.0,,0.0,,0.0,,Huyện M'Đrắk,Sán Dìu,Di cư miền núi phía Bắc
+DL_DIST_10,DT_18,0.0,,0.0,,0.0,,0.0,,Huyện M'Đrắk,Hrê,Khác
+DL_DIST_10,DT_19,0.0,,0.0,,0.0,,0.0,,Huyện M'Đrắk,Mnông,Bản địa Tây Nguyên
+DL_DIST_10,DT_20,0.0,,0.0,,0.0,,0.0,,Huyện M'Đrắk,Raglay,Khác
+DL_DIST_10,DT_21,0.0,,0.0,,0.0,,0.0,,Huyện M'Đrắk,Xtiêng,Khác
+DL_DIST_10,DT_22,0.0,,0.0,,0.0,,0.0,,Huyện M'Đrắk,Bru Vân Kiều,Khác
+DL_DIST_10,DT_23,90.9,VERY_SMALL_SAMPLE,100.0,VERY_SMALL_SAMPLE,11.0,VERY_SMALL_SAMPLE,11.0,VERY_SMALL_SAMPLE,Huyện M'Đrắk,Thổ,Di cư miền núi phía Bắc
+DL_DIST_10,DT_24,0.0,,0.0,,0.0,,0.0,,Huyện M'Đrắk,Cơ Tu,Khác
+DL_DIST_10,DT_25,0.0,,0.0,,0.0,,0.0,,Huyện M'Đrắk,Mạ,Bản địa Tây Nguyên
+DL_DIST_10,DT_26,0.0,,0.0,,0.0,,0.0,,Huyện M'Đrắk,Co,Khác
+DL_DIST_10,DT_27,100.0,VERY_SMALL_SAMPLE,0.0,,4.0,VERY_SMALL_SAMPLE,4.0,VERY_SMALL_SAMPLE,Huyện M'Đrắk,Chơ Ro,Khác
+DL_DIST_10,DT_28,0.0,,0.0,,0.0,,0.0,,Huyện M'Đrắk,Chu Ru,Bản địa Tây Nguyên
+DL_DIST_10,DT_29,0.0,,0.0,,0.0,,0.0,,Huyện M'Đrắk,Lào,Di cư miền núi phía Bắc
+DL_DIST_10,DT_30,0.0,,0.0,,0.0,,0.0,,Huyện M'Đrắk,Phù Lá,Di cư miền núi phía Bắc
+DL_DIST_10,DT_31,0.0,,0.0,,0.0,,0.0,,Huyện M'Đrắk,Chứt,Khác
+DL_DIST_10,DT_32,0.0,,0.0,,0.0,,0.0,,Huyện M'Đrắk,Mảng,Khác
+DL_DIST_10,DT_33,0.0,,0.0,,0.0,,0.0,,Huyện M'Đrắk,Giáy,Di cư miền núi phía Bắc
+DL_DIST_10,DT_34,0.0,,0.0,,0.0,,0.0,,Huyện M'Đrắk,Gié Triêng,Bản địa Tây Nguyên
+DL_DIST_10,DT_35,0.0,,0.0,,0.0,,0.0,,Huyện M'Đrắk,Khơ mú,Di cư miền núi phía Bắc
+DL_DIST_10,DT_36,0.0,,0.0,,0.0,,0.0,,Huyện M'Đrắk,Tà Ôi,Khác
+DL_DIST_10,DT_37,0.0,,0.0,,0.0,,0.0,,Huyện M'Đrắk,Kháng,Khác
+DL_DIST_10,DT_38,0.0,,0.0,,0.0,,0.0,,Huyện M'Đrắk,Xinh Mun,Khác
+DL_DIST_10,DT_39,0.0,,0.0,,0.0,,0.0,,Huyện M'Đrắk,Hà Nhì,Di cư miền núi phía Bắc
+DL_DIST_10,DT_40,0.0,,0.0,,0.0,,0.0,,Huyện M'Đrắk,La Chí,Di cư miền núi phía Bắc
+DL_DIST_10,DT_41,0.0,,0.0,,0.0,,0.0,,Huyện M'Đrắk,La Ha,Di cư miền núi phía Bắc
+DL_DIST_10,DT_42,0.0,,0.0,,0.0,,0.0,,Huyện M'Đrắk,La Hủ,Di cư miền núi phía Bắc
+DL_DIST_10,DT_43,0.0,,0.0,,0.0,,0.0,,Huyện M'Đrắk,Lự,Di cư miền núi phía Bắc
+DL_DIST_10,DT_44,0.0,,0.0,,0.0,,0.0,,Huyện M'Đrắk,Lô Lô,Di cư miền núi phía Bắc
+DL_DIST_10,DT_45,0.0,,0.0,,0.0,,0.0,,Huyện M'Đrắk,Pà Thẻn,Di cư miền núi phía Bắc
+DL_DIST_10,DT_46,0.0,,0.0,,0.0,,0.0,,Huyện M'Đrắk,Cơ Lao,Di cư miền núi phía Bắc
+DL_DIST_10,DT_47,0.0,,0.0,,0.0,,0.0,,Huyện M'Đrắk,Cống,Di cư miền núi phía Bắc
+DL_DIST_10,DT_48,0.0,,0.0,,0.0,,0.0,,Huyện M'Đrắk,Bố Y,Di cư miền núi phía Bắc
+DL_DIST_10,DT_49,0.0,,0.0,,0.0,,0.0,,Huyện M'Đrắk,Si La,Di cư miền núi phía Bắc
+DL_DIST_10,DT_50,0.0,,0.0,,0.0,,0.0,,Huyện M'Đrắk,Pu Péo,Di cư miền núi phía Bắc
+DL_DIST_10,DT_51,0.0,,0.0,,0.0,,0.0,,Huyện M'Đrắk,Brâu,Bản địa Tây Nguyên
+DL_DIST_10,DT_52,0.0,,0.0,,0.0,,0.0,,Huyện M'Đrắk,Ơ Đu,Khác
+DL_DIST_10,DT_53,0.0,,0.0,,0.0,,0.0,,Huyện M'Đrắk,Rơ Măm,Bản địa Tây Nguyên
+DL_DIST_11,DT_01,91.2,SMALL_SAMPLE,100.0,SMALL_SAMPLE,34.0,SMALL_SAMPLE,34.0,SMALL_SAMPLE,Huyện Krông Bông,Tày,Di cư miền núi phía Bắc
+DL_DIST_11,DT_02,100.0,SMALL_SAMPLE,46.2,VERY_SMALL_SAMPLE,25.0,SMALL_SAMPLE,26.0,SMALL_SAMPLE,Huyện Krông Bông,Thái,Di cư miền núi phía Bắc
+DL_DIST_11,DT_03,0.0,,0.0,,0.0,,0.0,,Huyện Krông Bông,Hoa,Nam Bộ & Duyên hải
+DL_DIST_11,DT_04,0.0,,0.0,,0.0,,0.0,,Huyện Krông Bông,Khmer,Nam Bộ & Duyên hải
+DL_DIST_11,DT_05,100.0,,58.5,,356.0,,359.0,,Huyện Krông Bông,Mường,Di cư miền núi phía Bắc
+DL_DIST_11,DT_06,100.0,,0.0,,82.0,,82.0,,Huyện Krông Bông,Nùng,Di cư miền núi phía Bắc
+DL_DIST_11,DT_07,84.8,,70.9,,4389.0,,4599.0,,Huyện Krông Bông,Mông,Di cư miền núi phía Bắc
+DL_DIST_11,DT_08,0.0,,0.0,,0.0,,0.0,,Huyện Krông Bông,Dao,Di cư miền núi phía Bắc
+DL_DIST_11,DT_09,100.0,VERY_SMALL_SAMPLE,0.0,,0.0,,13.0,VERY_SMALL_SAMPLE,Huyện Krông Bông,Gia Rai,Bản địa Tây Nguyên
+DL_DIST_11,DT_10,0.0,,0.0,,0.0,,0.0,,Huyện Krông Bông,Ngái,Khác
+DL_DIST_11,DT_11,94.4,,59.5,,2485.0,,2754.0,,Huyện Krông Bông,Ê đê,Bản địa Tây Nguyên
+DL_DIST_11,DT_12,0.0,,0.0,,0.0,,0.0,,Huyện Krông Bông,Ba Na,Bản địa Tây Nguyên
+DL_DIST_11,DT_13,0.0,,0.0,,0.0,,0.0,,Huyện Krông Bông,Xơ Đăng,Bản địa Tây Nguyên
+DL_DIST_11,DT_14,0.0,,0.0,,0.0,,0.0,,Huyện Krông Bông,Sán Chay,Di cư miền núi phía Bắc
+DL_DIST_11,DT_15,100.0,VERY_SMALL_SAMPLE,100.0,VERY_SMALL_SAMPLE,5.0,VERY_SMALL_SAMPLE,5.0,VERY_SMALL_SAMPLE,Huyện Krông Bông,Cơ Ho,Bản địa Tây Nguyên
+DL_DIST_11,DT_16,0.0,,0.0,,0.0,,0.0,,Huyện Krông Bông,Chăm,Nam Bộ & Duyên hải
+DL_DIST_11,DT_17,0.0,,0.0,,0.0,,0.0,,Huyện Krông Bông,Sán Dìu,Di cư miền núi phía Bắc
+DL_DIST_11,DT_18,0.0,,0.0,,0.0,,0.0,,Huyện Krông Bông,Hrê,Khác
+DL_DIST_11,DT_19,95.8,,43.9,,1496.0,,1587.0,,Huyện Krông Bông,Mnông,Bản địa Tây Nguyên
+DL_DIST_11,DT_20,0.0,,0.0,,0.0,,0.0,,Huyện Krông Bông,Raglay,Khác
+DL_DIST_11,DT_21,0.0,,0.0,,0.0,,0.0,,Huyện Krông Bông,Xtiêng,Khác
+DL_DIST_11,DT_22,100.0,VERY_SMALL_SAMPLE,0.0,,10.0,VERY_SMALL_SAMPLE,10.0,VERY_SMALL_SAMPLE,Huyện Krông Bông,Bru Vân Kiều,Khác
+DL_DIST_11,DT_23,0.0,,0.0,,0.0,,0.0,,Huyện Krông Bông,Thổ,Di cư miền núi phía Bắc
+DL_DIST_11,DT_24,0.0,,0.0,,0.0,,0.0,,Huyện Krông Bông,Cơ Tu,Khác
+DL_DIST_11,DT_25,100.0,VERY_SMALL_SAMPLE,100.0,VERY_SMALL_SAMPLE,19.0,VERY_SMALL_SAMPLE,19.0,VERY_SMALL_SAMPLE,Huyện Krông Bông,Mạ,Bản địa Tây Nguyên
+DL_DIST_11,DT_26,0.0,,0.0,,0.0,,0.0,,Huyện Krông Bông,Co,Khác
+DL_DIST_11,DT_27,0.0,,0.0,,0.0,,0.0,,Huyện Krông Bông,Chơ Ro,Khác
+DL_DIST_11,DT_28,0.0,,0.0,,0.0,,0.0,,Huyện Krông Bông,Chu Ru,Bản địa Tây Nguyên
+DL_DIST_11,DT_29,0.0,,0.0,,0.0,,0.0,,Huyện Krông Bông,Lào,Di cư miền núi phía Bắc
+DL_DIST_11,DT_30,0.0,,0.0,,0.0,,0.0,,Huyện Krông Bông,Phù Lá,Di cư miền núi phía Bắc
+DL_DIST_11,DT_31,0.0,,0.0,,0.0,,0.0,,Huyện Krông Bông,Chứt,Khác
+DL_DIST_11,DT_32,0.0,,0.0,,0.0,,0.0,,Huyện Krông Bông,Mảng,Khác
+DL_DIST_11,DT_33,0.0,,0.0,,0.0,,0.0,,Huyện Krông Bông,Giáy,Di cư miền núi phía Bắc
+DL_DIST_11,DT_34,0.0,,0.0,,0.0,,0.0,,Huyện Krông Bông,Gié Triêng,Bản địa Tây Nguyên
+DL_DIST_11,DT_35,0.0,,0.0,,0.0,,0.0,,Huyện Krông Bông,Khơ mú,Di cư miền núi phía Bắc
+DL_DIST_11,DT_36,0.0,,0.0,,0.0,,0.0,,Huyện Krông Bông,Tà Ôi,Khác
+DL_DIST_11,DT_37,0.0,,0.0,,0.0,,0.0,,Huyện Krông Bông,Kháng,Khác
+DL_DIST_11,DT_38,0.0,,0.0,,0.0,,0.0,,Huyện Krông Bông,Xinh Mun,Khác
+DL_DIST_11,DT_39,0.0,,0.0,,0.0,,0.0,,Huyện Krông Bông,Hà Nhì,Di cư miền núi phía Bắc
+DL_DIST_11,DT_40,0.0,,0.0,,0.0,,0.0,,Huyện Krông Bông,La Chí,Di cư miền núi phía Bắc
+DL_DIST_11,DT_41,0.0,,0.0,,0.0,,0.0,,Huyện Krông Bông,La Ha,Di cư miền núi phía Bắc
+DL_DIST_11,DT_42,0.0,,0.0,,0.0,,0.0,,Huyện Krông Bông,La Hủ,Di cư miền núi phía Bắc
+DL_DIST_11,DT_43,0.0,,0.0,,0.0,,0.0,,Huyện Krông Bông,Lự,Di cư miền núi phía Bắc
+DL_DIST_11,DT_44,0.0,,0.0,,0.0,,0.0,,Huyện Krông Bông,Lô Lô,Di cư miền núi phía Bắc
+DL_DIST_11,DT_45,0.0,,0.0,,0.0,,0.0,,Huyện Krông Bông,Pà Thẻn,Di cư miền núi phía Bắc
+DL_DIST_11,DT_46,0.0,,0.0,,0.0,,0.0,,Huyện Krông Bông,Cơ Lao,Di cư miền núi phía Bắc
+DL_DIST_11,DT_47,0.0,,0.0,,0.0,,0.0,,Huyện Krông Bông,Cống,Di cư miền núi phía Bắc
+DL_DIST_11,DT_48,0.0,,0.0,,0.0,,0.0,,Huyện Krông Bông,Bố Y,Di cư miền núi phía Bắc
+DL_DIST_11,DT_49,0.0,,0.0,,0.0,,0.0,,Huyện Krông Bông,Si La,Di cư miền núi phía Bắc
+DL_DIST_11,DT_50,0.0,,0.0,,0.0,,0.0,,Huyện Krông Bông,Pu Péo,Di cư miền núi phía Bắc
+DL_DIST_11,DT_51,0.0,,0.0,,0.0,,0.0,,Huyện Krông Bông,Brâu,Bản địa Tây Nguyên
+DL_DIST_11,DT_52,0.0,,0.0,,0.0,,0.0,,Huyện Krông Bông,Ơ Đu,Khác
+DL_DIST_11,DT_53,0.0,,0.0,,0.0,,0.0,,Huyện Krông Bông,Rơ Măm,Bản địa Tây Nguyên
+DL_DIST_12,DT_01,100.0,,92.8,,645.0,,668.0,,Huyện Krông Pắc,Tày,Di cư miền núi phía Bắc
+DL_DIST_12,DT_02,100.0,,82.4,,979.0,,980.0,,Huyện Krông Pắc,Thái,Di cư miền núi phía Bắc
+DL_DIST_12,DT_03,93.8,VERY_SMALL_SAMPLE,93.8,VERY_SMALL_SAMPLE,13.0,VERY_SMALL_SAMPLE,16.0,VERY_SMALL_SAMPLE,Huyện Krông Pắc,Hoa,Nam Bộ & Duyên hải
+DL_DIST_12,DT_04,0.0,,0.0,,0.0,,0.0,,Huyện Krông Pắc,Khmer,Nam Bộ & Duyên hải
+DL_DIST_12,DT_05,100.0,SMALL_SAMPLE,92.6,SMALL_SAMPLE,27.0,SMALL_SAMPLE,27.0,SMALL_SAMPLE,Huyện Krông Pắc,Mường,Di cư miền núi phía Bắc
+DL_DIST_12,DT_06,100.0,,90.7,,772.0,,806.0,,Huyện Krông Pắc,Nùng,Di cư miền núi phía Bắc
+DL_DIST_12,DT_07,100.0,,48.2,,296.0,,190.0,,Huyện Krông Pắc,Mông,Di cư miền núi phía Bắc
+DL_DIST_12,DT_08,100.0,,53.0,SMALL_SAMPLE,66.0,,66.0,,Huyện Krông Pắc,Dao,Di cư miền núi phía Bắc
+DL_DIST_12,DT_09,100.0,SMALL_SAMPLE,14.3,VERY_SMALL_SAMPLE,49.0,SMALL_SAMPLE,49.0,SMALL_SAMPLE,Huyện Krông Pắc,Gia Rai,Bản địa Tây Nguyên
+DL_DIST_12,DT_10,0.0,,0.0,,0.0,,0.0,,Huyện Krông Pắc,Ngái,Khác
+DL_DIST_12,DT_11,100.0,,67.3,,6768.0,,7845.0,,Huyện Krông Pắc,Ê đê,Bản địa Tây Nguyên
+DL_DIST_12,DT_12,0.0,,0.0,,0.0,,0.0,,Huyện Krông Pắc,Ba Na,Bản địa Tây Nguyên
+DL_DIST_12,DT_13,100.0,,36.9,,893.0,,1199.0,,Huyện Krông Pắc,Xơ Đăng,Bản địa Tây Nguyên
+DL_DIST_12,DT_14,100.0,,89.6,,636.0,,636.0,,Huyện Krông Pắc,Sán Chay,Di cư miền núi phía Bắc
+DL_DIST_12,DT_15,0.0,,0.0,,0.0,,0.0,,Huyện Krông Pắc,Cơ Ho,Bản địa Tây Nguyên
+DL_DIST_12,DT_16,0.0,,0.0,,0.0,,0.0,,Huyện Krông Pắc,Chăm,Nam Bộ & Duyên hải
+DL_DIST_12,DT_17,0.0,,0.0,,0.0,,0.0,,Huyện Krông Pắc,Sán Dìu,Di cư miền núi phía Bắc
+DL_DIST_12,DT_18,0.0,,0.0,,0.0,,0.0,,Huyện Krông Pắc,Hrê,Khác
+DL_DIST_12,DT_19,0.0,,0.0,,0.0,,0.0,,Huyện Krông Pắc,Mnông,Bản địa Tây Nguyên
+DL_DIST_12,DT_20,0.0,,0.0,,0.0,,0.0,,Huyện Krông Pắc,Raglay,Khác
+DL_DIST_12,DT_21,0.0,,0.0,,0.0,,0.0,,Huyện Krông Pắc,Xtiêng,Khác
+DL_DIST_12,DT_22,100.0,,43.4,,1298.0,,1318.0,,Huyện Krông Pắc,Bru Vân Kiều,Khác
+DL_DIST_12,DT_23,100.0,VERY_SMALL_SAMPLE,100.0,VERY_SMALL_SAMPLE,9.0,VERY_SMALL_SAMPLE,10.0,VERY_SMALL_SAMPLE,Huyện Krông Pắc,Thổ,Di cư miền núi phía Bắc
+DL_DIST_12,DT_24,0.0,,0.0,,0.0,,0.0,,Huyện Krông Pắc,Cơ Tu,Khác
+DL_DIST_12,DT_25,0.0,,0.0,,0.0,,0.0,,Huyện Krông Pắc,Mạ,Bản địa Tây Nguyên
+DL_DIST_12,DT_26,0.0,,0.0,,0.0,,0.0,,Huyện Krông Pắc,Co,Khác
+DL_DIST_12,DT_27,0.0,,0.0,,0.0,,0.0,,Huyện Krông Pắc,Chơ Ro,Khác
+DL_DIST_12,DT_28,0.0,,0.0,,0.0,,0.0,,Huyện Krông Pắc,Chu Ru,Bản địa Tây Nguyên
+DL_DIST_12,DT_29,0.0,,0.0,,0.0,,0.0,,Huyện Krông Pắc,Lào,Di cư miền núi phía Bắc
+DL_DIST_12,DT_30,0.0,,0.0,,0.0,,0.0,,Huyện Krông Pắc,Phù Lá,Di cư miền núi phía Bắc
+DL_DIST_12,DT_31,0.0,,0.0,,0.0,,0.0,,Huyện Krông Pắc,Chứt,Khác
+DL_DIST_12,DT_32,100.0,VERY_SMALL_SAMPLE,100.0,VERY_SMALL_SAMPLE,1.0,VERY_SMALL_SAMPLE,1.0,VERY_SMALL_SAMPLE,Huyện Krông Pắc,Mảng,Khác
+DL_DIST_12,DT_33,0.0,,0.0,,0.0,,0.0,,Huyện Krông Pắc,Giáy,Di cư miền núi phía Bắc
+DL_DIST_12,DT_34,0.0,,0.0,,0.0,,0.0,,Huyện Krông Pắc,Gié Triêng,Bản địa Tây Nguyên
+DL_DIST_12,DT_35,0.0,,0.0,,0.0,,0.0,,Huyện Krông Pắc,Khơ mú,Di cư miền núi phía Bắc
+DL_DIST_12,DT_36,0.0,,0.0,,0.0,,0.0,,Huyện Krông Pắc,Tà Ôi,Khác
+DL_DIST_12,DT_37,0.0,,0.0,,0.0,,0.0,,Huyện Krông Pắc,Kháng,Khác
+DL_DIST_12,DT_38,0.0,,0.0,,0.0,,0.0,,Huyện Krông Pắc,Xinh Mun,Khác
+DL_DIST_12,DT_39,0.0,,0.0,,0.0,,0.0,,Huyện Krông Pắc,Hà Nhì,Di cư miền núi phía Bắc
+DL_DIST_12,DT_40,0.0,,0.0,,0.0,,0.0,,Huyện Krông Pắc,La Chí,Di cư miền núi phía Bắc
+DL_DIST_12,DT_41,0.0,,0.0,,0.0,,0.0,,Huyện Krông Pắc,La Ha,Di cư miền núi phía Bắc
+DL_DIST_12,DT_42,0.0,,0.0,,0.0,,0.0,,Huyện Krông Pắc,La Hủ,Di cư miền núi phía Bắc
+DL_DIST_12,DT_43,0.0,,0.0,,0.0,,0.0,,Huyện Krông Pắc,Lự,Di cư miền núi phía Bắc
+DL_DIST_12,DT_44,0.0,,0.0,,0.0,,0.0,,Huyện Krông Pắc,Lô Lô,Di cư miền núi phía Bắc
+DL_DIST_12,DT_45,0.0,,0.0,,0.0,,0.0,,Huyện Krông Pắc,Pà Thẻn,Di cư miền núi phía Bắc
+DL_DIST_12,DT_46,0.0,,0.0,,0.0,,0.0,,Huyện Krông Pắc,Cơ Lao,Di cư miền núi phía Bắc
+DL_DIST_12,DT_47,0.0,,0.0,,0.0,,0.0,,Huyện Krông Pắc,Cống,Di cư miền núi phía Bắc
+DL_DIST_12,DT_48,0.0,,0.0,,0.0,,0.0,,Huyện Krông Pắc,Bố Y,Di cư miền núi phía Bắc
+DL_DIST_12,DT_49,0.0,,0.0,,0.0,,0.0,,Huyện Krông Pắc,Si La,Di cư miền núi phía Bắc
+DL_DIST_12,DT_50,0.0,,0.0,,0.0,,0.0,,Huyện Krông Pắc,Pu Péo,Di cư miền núi phía Bắc
+DL_DIST_12,DT_51,0.0,,0.0,,0.0,,0.0,,Huyện Krông Pắc,Brâu,Bản địa Tây Nguyên
+DL_DIST_12,DT_52,0.0,,0.0,,0.0,,0.0,,Huyện Krông Pắc,Ơ Đu,Khác
+DL_DIST_12,DT_53,0.0,,0.0,,0.0,,0.0,,Huyện Krông Pắc,Rơ Măm,Bản địa Tây Nguyên
+DL_DIST_13,DT_01,100.0,,83.1,,173.0,,195.0,,Huyện Krông A Na,Tày,Di cư miền núi phía Bắc
+DL_DIST_13,DT_02,100.0,,100.0,,52.0,,66.0,,Huyện Krông A Na,Thái,Di cư miền núi phía Bắc
+DL_DIST_13,DT_03,0.0,,0.0,,0.0,,0.0,,Huyện Krông A Na,Hoa,Nam Bộ & Duyên hải
+DL_DIST_13,DT_04,0.0,,0.0,,0.0,,0.0,,Huyện Krông A Na,Khmer,Nam Bộ & Duyên hải
+DL_DIST_13,DT_05,100.0,,80.2,,71.0,,81.0,,Huyện Krông A Na,Mường,Di cư miền núi phía Bắc
+DL_DIST_13,DT_06,100.0,,76.1,,135.0,,163.0,,Huyện Krông A Na,Nùng,Di cư miền núi phía Bắc
+DL_DIST_13,DT_07,100.0,VERY_SMALL_SAMPLE,100.0,VERY_SMALL_SAMPLE,4.0,VERY_SMALL_SAMPLE,4.0,VERY_SMALL_SAMPLE,Huyện Krông A Na,Mông,Di cư miền núi phía Bắc
+DL_DIST_13,DT_08,0.0,,0.0,,0.0,,0.0,,Huyện Krông A Na,Dao,Di cư miền núi phía Bắc
+DL_DIST_13,DT_09,100.0,VERY_SMALL_SAMPLE,100.0,VERY_SMALL_SAMPLE,12.0,VERY_SMALL_SAMPLE,22.0,VERY_SMALL_SAMPLE,Huyện Krông A Na,Gia Rai,Bản địa Tây Nguyên
+DL_DIST_13,DT_10,0.0,,0.0,,0.0,,0.0,,Huyện Krông A Na,Ngái,Khác
+DL_DIST_13,DT_11,99.8,,70.5,,3256.0,,4166.0,,Huyện Krông A Na,Ê đê,Bản địa Tây Nguyên
+DL_DIST_13,DT_12,100.0,VERY_SMALL_SAMPLE,100.0,VERY_SMALL_SAMPLE,3.0,VERY_SMALL_SAMPLE,3.0,VERY_SMALL_SAMPLE,Huyện Krông A Na,Ba Na,Bản địa Tây Nguyên
+DL_DIST_13,DT_13,0.0,,0.0,,0.0,,0.0,,Huyện Krông A Na,Xơ Đăng,Bản địa Tây Nguyên
+DL_DIST_13,DT_14,100.0,VERY_SMALL_SAMPLE,100.0,VERY_SMALL_SAMPLE,0.0,,2.0,VERY_SMALL_SAMPLE,Huyện Krông A Na,Sán Chay,Di cư miền núi phía Bắc
+DL_DIST_13,DT_15,100.0,VERY_SMALL_SAMPLE,0.0,,0.0,,17.0,VERY_SMALL_SAMPLE,Huyện Krông A Na,Cơ Ho,Bản địa Tây Nguyên
+DL_DIST_13,DT_16,0.0,,0.0,,0.0,,0.0,,Huyện Krông A Na,Chăm,Nam Bộ & Duyên hải
+DL_DIST_13,DT_17,0.0,,0.0,,0.0,,0.0,,Huyện Krông A Na,Sán Dìu,Di cư miền núi phía Bắc
+DL_DIST_13,DT_18,100.0,VERY_SMALL_SAMPLE,100.0,VERY_SMALL_SAMPLE,17.0,VERY_SMALL_SAMPLE,17.0,VERY_SMALL_SAMPLE,Huyện Krông A Na,Hrê,Khác
+DL_DIST_13,DT_19,100.0,,87.3,,300.0,,347.0,,Huyện Krông A Na,Mnông,Bản địa Tây Nguyên
+DL_DIST_13,DT_20,0.0,,0.0,,0.0,,0.0,,Huyện Krông A Na,Raglay,Khác
+DL_DIST_13,DT_21,0.0,,0.0,,0.0,,0.0,,Huyện Krông A Na,Xtiêng,Khác
+DL_DIST_13,DT_22,0.0,,0.0,,0.0,,0.0,,Huyện Krông A Na,Bru Vân Kiều,Khác
+DL_DIST_13,DT_23,0.0,,0.0,,0.0,,0.0,,Huyện Krông A Na,Thổ,Di cư miền núi phía Bắc
+DL_DIST_13,DT_24,0.0,,0.0,,0.0,,0.0,,Huyện Krông A Na,Cơ Tu,Khác
+DL_DIST_13,DT_25,0.0,,0.0,,0.0,,0.0,,Huyện Krông A Na,Mạ,Bản địa Tây Nguyên
+DL_DIST_13,DT_26,0.0,,0.0,,0.0,,0.0,,Huyện Krông A Na,Co,Khác
+DL_DIST_13,DT_27,0.0,,0.0,,0.0,,0.0,,Huyện Krông A Na,Chơ Ro,Khác
+DL_DIST_13,DT_28,0.0,,0.0,,0.0,,0.0,,Huyện Krông A Na,Chu Ru,Bản địa Tây Nguyên
+DL_DIST_13,DT_29,0.0,,0.0,,0.0,,0.0,,Huyện Krông A Na,Lào,Di cư miền núi phía Bắc
+DL_DIST_13,DT_30,0.0,,0.0,,0.0,,0.0,,Huyện Krông A Na,Phù Lá,Di cư miền núi phía Bắc
+DL_DIST_13,DT_31,0.0,,0.0,,0.0,,0.0,,Huyện Krông A Na,Chứt,Khác
+DL_DIST_13,DT_32,0.0,,0.0,,0.0,,0.0,,Huyện Krông A Na,Mảng,Khác
+DL_DIST_13,DT_33,0.0,,0.0,,0.0,,0.0,,Huyện Krông A Na,Giáy,Di cư miền núi phía Bắc
+DL_DIST_13,DT_34,0.0,,0.0,,0.0,,0.0,,Huyện Krông A Na,Gié Triêng,Bản địa Tây Nguyên
+DL_DIST_13,DT_35,0.0,,0.0,,0.0,,0.0,,Huyện Krông A Na,Khơ mú,Di cư miền núi phía Bắc
+DL_DIST_13,DT_36,0.0,,0.0,,0.0,,0.0,,Huyện Krông A Na,Tà Ôi,Khác
+DL_DIST_13,DT_37,0.0,,0.0,,0.0,,0.0,,Huyện Krông A Na,Kháng,Khác
+DL_DIST_13,DT_38,0.0,,0.0,,0.0,,0.0,,Huyện Krông A Na,Xinh Mun,Khác
+DL_DIST_13,DT_39,0.0,,0.0,,0.0,,0.0,,Huyện Krông A Na,Hà Nhì,Di cư miền núi phía Bắc
+DL_DIST_13,DT_40,0.0,,0.0,,0.0,,0.0,,Huyện Krông A Na,La Chí,Di cư miền núi phía Bắc
+DL_DIST_13,DT_41,0.0,,0.0,,0.0,,0.0,,Huyện Krông A Na,La Ha,Di cư miền núi phía Bắc
+DL_DIST_13,DT_42,0.0,,0.0,,0.0,,0.0,,Huyện Krông A Na,La Hủ,Di cư miền núi phía Bắc
+DL_DIST_13,DT_43,0.0,,0.0,,0.0,,0.0,,Huyện Krông A Na,Lự,Di cư miền núi phía Bắc
+DL_DIST_13,DT_44,0.0,,0.0,,0.0,,0.0,,Huyện Krông A Na,Lô Lô,Di cư miền núi phía Bắc
+DL_DIST_13,DT_45,0.0,,0.0,,0.0,,0.0,,Huyện Krông A Na,Pà Thẻn,Di cư miền núi phía Bắc
+DL_DIST_13,DT_46,0.0,,0.0,,0.0,,0.0,,Huyện Krông A Na,Cơ Lao,Di cư miền núi phía Bắc
+DL_DIST_13,DT_47,0.0,,0.0,,0.0,,0.0,,Huyện Krông A Na,Cống,Di cư miền núi phía Bắc
+DL_DIST_13,DT_48,0.0,,0.0,,0.0,,0.0,,Huyện Krông A Na,Bố Y,Di cư miền núi phía Bắc
+DL_DIST_13,DT_49,0.0,,0.0,,0.0,,0.0,,Huyện Krông A Na,Si La,Di cư miền núi phía Bắc
+DL_DIST_13,DT_50,0.0,,0.0,,0.0,,0.0,,Huyện Krông A Na,Pu Péo,Di cư miền núi phía Bắc
+DL_DIST_13,DT_51,0.0,,0.0,,0.0,,0.0,,Huyện Krông A Na,Brâu,Bản địa Tây Nguyên
+DL_DIST_13,DT_52,0.0,,0.0,,0.0,,0.0,,Huyện Krông A Na,Ơ Đu,Khác
+DL_DIST_13,DT_53,0.0,,0.0,,0.0,,0.0,,Huyện Krông A Na,Rơ Măm,Bản địa Tây Nguyên
+DL_DIST_14,DT_01,90.1,,82.1,,647.0,,641.0,,Huyện Lắk,Tày,Di cư miền núi phía Bắc
+DL_DIST_14,DT_02,100.0,,97.8,,227.0,,227.0,,Huyện Lắk,Thái,Di cư miền núi phía Bắc
+DL_DIST_14,DT_03,100.0,VERY_SMALL_SAMPLE,0.0,,1.0,VERY_SMALL_SAMPLE,1.0,VERY_SMALL_SAMPLE,Huyện Lắk,Hoa,Nam Bộ & Duyên hải
+DL_DIST_14,DT_04,0.0,,0.0,,0.0,,0.0,,Huyện Lắk,Khmer,Nam Bộ & Duyên hải
+DL_DIST_14,DT_05,100.0,,80.0,SMALL_SAMPLE,49.0,SMALL_SAMPLE,55.0,,Huyện Lắk,Mường,Di cư miền núi phía Bắc
+DL_DIST_14,DT_06,92.7,,72.7,,150.0,,149.0,,Huyện Lắk,Nùng,Di cư miền núi phía Bắc
+DL_DIST_14,DT_07,82.1,,11.9,,220.0,,150.0,,Huyện Lắk,Mông,Di cư miền núi phía Bắc
+DL_DIST_14,DT_08,100.0,VERY_SMALL_SAMPLE,40.0,VERY_SMALL_SAMPLE,3.0,VERY_SMALL_SAMPLE,3.0,VERY_SMALL_SAMPLE,Huyện Lắk,Dao,Di cư miền núi phía Bắc
+DL_DIST_14,DT_09,100.0,VERY_SMALL_SAMPLE,62.5,VERY_SMALL_SAMPLE,8.0,VERY_SMALL_SAMPLE,8.0,VERY_SMALL_SAMPLE,Huyện Lắk,Gia Rai,Bản địa Tây Nguyên
+DL_DIST_14,DT_10,0.0,,0.0,,0.0,,0.0,,Huyện Lắk,Ngái,Khác
+DL_DIST_14,DT_11,99.3,,53.7,,790.0,,1085.0,,Huyện Lắk,Ê đê,Bản địa Tây Nguyên
+DL_DIST_14,DT_12,0.0,,0.0,,0.0,,0.0,,Huyện Lắk,Ba Na,Bản địa Tây Nguyên
+DL_DIST_14,DT_13,0.0,,0.0,,0.0,,0.0,,Huyện Lắk,Xơ Đăng,Bản địa Tây Nguyên
+DL_DIST_14,DT_14,0.0,,0.0,,0.0,,0.0,,Huyện Lắk,Sán Chay,Di cư miền núi phía Bắc
+DL_DIST_14,DT_15,100.0,VERY_SMALL_SAMPLE,0.0,,16.0,VERY_SMALL_SAMPLE,16.0,VERY_SMALL_SAMPLE,Huyện Lắk,Cơ Ho,Bản địa Tây Nguyên
+DL_DIST_14,DT_16,0.0,,0.0,,0.0,,0.0,,Huyện Lắk,Chăm,Nam Bộ & Duyên hải
+DL_DIST_14,DT_17,0.0,,0.0,,0.0,,0.0,,Huyện Lắk,Sán Dìu,Di cư miền núi phía Bắc
+DL_DIST_14,DT_18,0.0,,0.0,,0.0,,0.0,,Huyện Lắk,Hrê,Khác
+DL_DIST_14,DT_19,95.5,,69.4,,6625.0,,7834.0,,Huyện Lắk,Mnông,Bản địa Tây Nguyên
+DL_DIST_14,DT_20,0.0,,0.0,,0.0,,0.0,,Huyện Lắk,Raglay,Khác
+DL_DIST_14,DT_21,0.0,,0.0,,0.0,,0.0,,Huyện Lắk,Xtiêng,Khác
+DL_DIST_14,DT_22,0.0,,0.0,,0.0,,0.0,,Huyện Lắk,Bru Vân Kiều,Khác
+DL_DIST_14,DT_23,0.0,,0.0,,0.0,,0.0,,Huyện Lắk,Thổ,Di cư miền núi phía Bắc
+DL_DIST_14,DT_24,0.0,,0.0,,0.0,,0.0,,Huyện Lắk,Cơ Tu,Khác
+DL_DIST_14,DT_25,100.0,VERY_SMALL_SAMPLE,0.0,,15.0,VERY_SMALL_SAMPLE,15.0,VERY_SMALL_SAMPLE,Huyện Lắk,Mạ,Bản địa Tây Nguyên
+DL_DIST_14,DT_26,100.0,VERY_SMALL_SAMPLE,100.0,VERY_SMALL_SAMPLE,13.0,VERY_SMALL_SAMPLE,13.0,VERY_SMALL_SAMPLE,Huyện Lắk,Co,Khác
+DL_DIST_14,DT_27,0.0,,0.0,,0.0,,0.0,,Huyện Lắk,Chơ Ro,Khác
+DL_DIST_14,DT_28,0.0,,0.0,,0.0,,0.0,,Huyện Lắk,Chu Ru,Bản địa Tây Nguyên
+DL_DIST_14,DT_29,0.0,,0.0,,0.0,,0.0,,Huyện Lắk,Lào,Di cư miền núi phía Bắc
+DL_DIST_14,DT_30,0.0,,0.0,,0.0,,0.0,,Huyện Lắk,Phù Lá,Di cư miền núi phía Bắc
+DL_DIST_14,DT_31,100.0,VERY_SMALL_SAMPLE,0.0,,4.0,VERY_SMALL_SAMPLE,4.0,VERY_SMALL_SAMPLE,Huyện Lắk,Chứt,Khác
+DL_DIST_14,DT_32,0.0,,0.0,,0.0,,0.0,,Huyện Lắk,Mảng,Khác
+DL_DIST_14,DT_33,0.0,,0.0,,0.0,,0.0,,Huyện Lắk,Giáy,Di cư miền núi phía Bắc
+DL_DIST_14,DT_34,0.0,,0.0,,0.0,,0.0,,Huyện Lắk,Gié Triêng,Bản địa Tây Nguyên
+DL_DIST_14,DT_35,0.0,,0.0,,0.0,,0.0,,Huyện Lắk,Khơ mú,Di cư miền núi phía Bắc
+DL_DIST_14,DT_36,0.0,,0.0,,0.0,,0.0,,Huyện Lắk,Tà Ôi,Khác
+DL_DIST_14,DT_37,0.0,,0.0,,0.0,,0.0,,Huyện Lắk,Kháng,Khác
+DL_DIST_14,DT_38,0.0,,0.0,,0.0,,0.0,,Huyện Lắk,Xinh Mun,Khác
+DL_DIST_14,DT_39,0.0,,0.0,,0.0,,0.0,,Huyện Lắk,Hà Nhì,Di cư miền núi phía Bắc
+DL_DIST_14,DT_40,0.0,,0.0,,0.0,,0.0,,Huyện Lắk,La Chí,Di cư miền núi phía Bắc
+DL_DIST_14,DT_41,0.0,,0.0,,0.0,,0.0,,Huyện Lắk,La Ha,Di cư miền núi phía Bắc
+DL_DIST_14,DT_42,0.0,,0.0,,0.0,,0.0,,Huyện Lắk,La Hủ,Di cư miền núi phía Bắc
+DL_DIST_14,DT_43,0.0,,0.0,,0.0,,0.0,,Huyện Lắk,Lự,Di cư miền núi phía Bắc
+DL_DIST_14,DT_44,0.0,,0.0,,0.0,,0.0,,Huyện Lắk,Lô Lô,Di cư miền núi phía Bắc
+DL_DIST_14,DT_45,0.0,,0.0,,0.0,,0.0,,Huyện Lắk,Pà Thẻn,Di cư miền núi phía Bắc
+DL_DIST_14,DT_46,0.0,,0.0,,0.0,,0.0,,Huyện Lắk,Cơ Lao,Di cư miền núi phía Bắc
+DL_DIST_14,DT_47,0.0,,0.0,,0.0,,0.0,,Huyện Lắk,Cống,Di cư miền núi phía Bắc
+DL_DIST_14,DT_48,0.0,,0.0,,0.0,,0.0,,Huyện Lắk,Bố Y,Di cư miền núi phía Bắc
+DL_DIST_14,DT_49,0.0,,0.0,,0.0,,0.0,,Huyện Lắk,Si La,Di cư miền núi phía Bắc
+DL_DIST_14,DT_50,0.0,,0.0,,0.0,,0.0,,Huyện Lắk,Pu Péo,Di cư miền núi phía Bắc
+DL_DIST_14,DT_51,0.0,,0.0,,0.0,,0.0,,Huyện Lắk,Brâu,Bản địa Tây Nguyên
+DL_DIST_14,DT_52,0.0,,0.0,,0.0,,0.0,,Huyện Lắk,Ơ Đu,Khác
+DL_DIST_14,DT_53,0.0,,0.0,,0.0,,0.0,,Huyện Lắk,Rơ Măm,Bản địa Tây Nguyên
+DL_DIST_15,DT_01,92.6,,100.0,,1121.0,,1684.0,,Huyện Cư Kuin,Tày,Di cư miền núi phía Bắc
+DL_DIST_15,DT_02,0.0,,0.0,,0.0,,0.0,,Huyện Cư Kuin,Thái,Di cư miền núi phía Bắc
+DL_DIST_15,DT_03,100.0,VERY_SMALL_SAMPLE,100.0,VERY_SMALL_SAMPLE,5.0,VERY_SMALL_SAMPLE,5.0,VERY_SMALL_SAMPLE,Huyện Cư Kuin,Hoa,Nam Bộ & Duyên hải
+DL_DIST_15,DT_04,0.0,,0.0,,0.0,,0.0,,Huyện Cư Kuin,Khmer,Nam Bộ & Duyên hải
+DL_DIST_15,DT_05,100.0,,100.0,,60.0,,60.0,,Huyện Cư Kuin,Mường,Di cư miền núi phía Bắc
+DL_DIST_15,DT_06,98.2,,100.0,,316.0,,447.0,,Huyện Cư Kuin,Nùng,Di cư miền núi phía Bắc
+DL_DIST_15,DT_07,0.0,,0.0,,0.0,,0.0,,Huyện Cư Kuin,Mông,Di cư miền núi phía Bắc
+DL_DIST_15,DT_08,0.0,,0.0,,0.0,,0.0,,Huyện Cư Kuin,Dao,Di cư miền núi phía Bắc
+DL_DIST_15,DT_09,100.0,VERY_SMALL_SAMPLE,0.0,,4.0,VERY_SMALL_SAMPLE,4.0,VERY_SMALL_SAMPLE,Huyện Cư Kuin,Gia Rai,Bản địa Tây Nguyên
+DL_DIST_15,DT_10,0.0,,0.0,,0.0,,0.0,,Huyện Cư Kuin,Ngái,Khác
+DL_DIST_15,DT_11,99.9,,82.1,,6154.0,,7310.0,,Huyện Cư Kuin,Ê đê,Bản địa Tây Nguyên
+DL_DIST_15,DT_12,0.0,,0.0,,0.0,,0.0,,Huyện Cư Kuin,Ba Na,Bản địa Tây Nguyên
+DL_DIST_15,DT_13,0.0,,0.0,,0.0,,0.0,,Huyện Cư Kuin,Xơ Đăng,Bản địa Tây Nguyên
+DL_DIST_15,DT_14,100.0,SMALL_SAMPLE,100.0,SMALL_SAMPLE,32.0,SMALL_SAMPLE,33.0,SMALL_SAMPLE,Huyện Cư Kuin,Sán Chay,Di cư miền núi phía Bắc
+DL_DIST_15,DT_15,0.0,,0.0,,0.0,,0.0,,Huyện Cư Kuin,Cơ Ho,Bản địa Tây Nguyên
+DL_DIST_15,DT_16,0.0,,0.0,,0.0,,0.0,,Huyện Cư Kuin,Chăm,Nam Bộ & Duyên hải
+DL_DIST_15,DT_17,0.0,,0.0,,0.0,,0.0,,Huyện Cư Kuin,Sán Dìu,Di cư miền núi phía Bắc
+DL_DIST_15,DT_18,0.0,,0.0,,0.0,,0.0,,Huyện Cư Kuin,Hrê,Khác
+DL_DIST_15,DT_19,100.0,VERY_SMALL_SAMPLE,85.7,VERY_SMALL_SAMPLE,14.0,VERY_SMALL_SAMPLE,14.0,VERY_SMALL_SAMPLE,Huyện Cư Kuin,Mnông,Bản địa Tây Nguyên
+DL_DIST_15,DT_20,0.0,,0.0,,0.0,,0.0,,Huyện Cư Kuin,Raglay,Khác
+DL_DIST_15,DT_21,0.0,,0.0,,0.0,,0.0,,Huyện Cư Kuin,Xtiêng,Khác
+DL_DIST_15,DT_22,0.0,,0.0,,0.0,,0.0,,Huyện Cư Kuin,Bru Vân Kiều,Khác
+DL_DIST_15,DT_23,0.0,,0.0,,0.0,,0.0,,Huyện Cư Kuin,Thổ,Di cư miền núi phía Bắc
+DL_DIST_15,DT_24,0.0,,0.0,,0.0,,0.0,,Huyện Cư Kuin,Cơ Tu,Khác
+DL_DIST_15,DT_25,0.0,,0.0,,0.0,,0.0,,Huyện Cư Kuin,Mạ,Bản địa Tây Nguyên
+DL_DIST_15,DT_26,0.0,,0.0,,0.0,,0.0,,Huyện Cư Kuin,Co,Khác
+DL_DIST_15,DT_27,0.0,,0.0,,0.0,,0.0,,Huyện Cư Kuin,Chơ Ro,Khác
+DL_DIST_15,DT_28,0.0,,0.0,,0.0,,0.0,,Huyện Cư Kuin,Chu Ru,Bản địa Tây Nguyên
+DL_DIST_15,DT_29,0.0,,0.0,,0.0,,0.0,,Huyện Cư Kuin,Lào,Di cư miền núi phía Bắc
+DL_DIST_15,DT_30,0.0,,0.0,,0.0,,0.0,,Huyện Cư Kuin,Phù Lá,Di cư miền núi phía Bắc
+DL_DIST_15,DT_31,100.0,VERY_SMALL_SAMPLE,100.0,VERY_SMALL_SAMPLE,6.0,VERY_SMALL_SAMPLE,6.0,VERY_SMALL_SAMPLE,Huyện Cư Kuin,Chứt,Khác
+DL_DIST_15,DT_32,0.0,,0.0,,0.0,,0.0,,Huyện Cư Kuin,Mảng,Khác
+DL_DIST_15,DT_33,0.0,,0.0,,0.0,,0.0,,Huyện Cư Kuin,Giáy,Di cư miền núi phía Bắc
+DL_DIST_15,DT_34,0.0,,0.0,,0.0,,0.0,,Huyện Cư Kuin,Gié Triêng,Bản địa Tây Nguyên
+DL_DIST_15,DT_35,0.0,,0.0,,0.0,,0.0,,Huyện Cư Kuin,Khơ mú,Di cư miền núi phía Bắc
+DL_DIST_15,DT_36,0.0,,0.0,,0.0,,0.0,,Huyện Cư Kuin,Tà Ôi,Khác
+DL_DIST_15,DT_37,0.0,,0.0,,0.0,,0.0,,Huyện Cư Kuin,Kháng,Khác
+DL_DIST_15,DT_38,0.0,,0.0,,0.0,,0.0,,Huyện Cư Kuin,Xinh Mun,Khác
+DL_DIST_15,DT_39,0.0,,0.0,,0.0,,0.0,,Huyện Cư Kuin,Hà Nhì,Di cư miền núi phía Bắc
+DL_DIST_15,DT_40,0.0,,0.0,,0.0,,0.0,,Huyện Cư Kuin,La Chí,Di cư miền núi phía Bắc
+DL_DIST_15,DT_41,0.0,,0.0,,0.0,,0.0,,Huyện Cư Kuin,La Ha,Di cư miền núi phía Bắc
+DL_DIST_15,DT_42,0.0,,0.0,,0.0,,0.0,,Huyện Cư Kuin,La Hủ,Di cư miền núi phía Bắc
+DL_DIST_15,DT_43,0.0,,0.0,,0.0,,0.0,,Huyện Cư Kuin,Lự,Di cư miền núi phía Bắc
+DL_DIST_15,DT_44,0.0,,0.0,,0.0,,0.0,,Huyện Cư Kuin,Lô Lô,Di cư miền núi phía Bắc
+DL_DIST_15,DT_45,0.0,,0.0,,0.0,,0.0,,Huyện Cư Kuin,Pà Thẻn,Di cư miền núi phía Bắc
+DL_DIST_15,DT_46,0.0,,0.0,,0.0,,0.0,,Huyện Cư Kuin,Cơ Lao,Di cư miền núi phía Bắc
+DL_DIST_15,DT_47,0.0,,0.0,,0.0,,0.0,,Huyện Cư Kuin,Cống,Di cư miền núi phía Bắc
+DL_DIST_15,DT_48,0.0,,0.0,,0.0,,0.0,,Huyện Cư Kuin,Bố Y,Di cư miền núi phía Bắc
+DL_DIST_15,DT_49,0.0,,0.0,,0.0,,0.0,,Huyện Cư Kuin,Si La,Di cư miền núi phía Bắc
+DL_DIST_15,DT_50,0.0,,0.0,,0.0,,0.0,,Huyện Cư Kuin,Pu Péo,Di cư miền núi phía Bắc
+DL_DIST_15,DT_51,0.0,,0.0,,0.0,,0.0,,Huyện Cư Kuin,Brâu,Bản địa Tây Nguyên
+DL_DIST_15,DT_52,0.0,,0.0,,0.0,,0.0,,Huyện Cư Kuin,Ơ Đu,Khác
+DL_DIST_15,DT_53,0.0,,0.0,,0.0,,0.0,,Huyện Cư Kuin,Rơ Măm,Bản địa Tây Nguyên

@@ -1,0 +1,62 @@
+{
+  "name": "Dak Lak Socioeconomic Enterprise Theme",
+  "dataColors": [
+    "#1A365D",
+    "#8B4513",
+    "#2E7D32",
+    "#C62828",
+    "#F57F17",
+    "#2B6CB0",
+    "#9C4221",
+    "#38A169"
+  ],
+  "background": "#F8F9FA",
+  "foreground": "#1A365D",
+  "tableAccent": "#1A365D",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "visualContainer": [
+          {
+            "backgroundColor": { "solid": { "color": "#FFFFFF" } }
+          }
+        ],
+        "visualBorder": [
+          {
+            "show": true,
+            "color": { "solid": { "color": "#E2E8F0" } },
+            "radius": 8
+          }
+        ],
+        "dropShadow": [
+          {
+            "show": true,
+            "color": { "solid": { "color": "#000000" } },
+            "transparency": 95,
+            "position": "Outer",
+            "preset": "BottomRight"
+          }
+        ],
+        "title": [
+          {
+            "show": true,
+            "fontColor": { "solid": { "color": "#1A365D" } },
+            "fontFamily": "Segoe UI",
+            "fontSize": 12,
+            "bold": true
+          }
+        ]
+      }
+    },
+    "page": {
+      "*": {
+        "background": [
+          {
+            "color": { "solid": { "color": "#F8F9FA" } },
+            "transparency": 0
+          }
+        ]
+      }
+    }
+  }
+}

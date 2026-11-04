@@ -1,0 +1,73 @@
+table dim_diaban
+	lineageTag: 7dd19cfd-ae0f-4bb3-b1bc-7a0001f4ae91
+
+	column ma_xa
+		dataType: string
+		lineageTag: 0edd08f4-b0e8-4c37-83ec-faa3db4e9943
+		summarizeBy: none
+		sourceColumn: ma_xa
+
+		annotation SummarizationSetBy = Automatic
+
+	column ten_xa
+		dataType: string
+		lineageTag: fc90a240-a069-4983-81b5-bf38df7234b1
+		summarizeBy: none
+		sourceColumn: ten_xa
+
+		annotation SummarizationSetBy = Automatic
+
+	column loai_hinh
+		dataType: string
+		lineageTag: fa72d29a-eda7-4d19-abaf-9e32dca5b747
+		summarizeBy: none
+		sourceColumn: loai_hinh
+
+		annotation SummarizationSetBy = Automatic
+
+	column ma_huyen
+		dataType: string
+		lineageTag: 5749f30b-4ef0-4138-95e8-af183db3f743
+		summarizeBy: none
+		sourceColumn: ma_huyen
+
+		annotation SummarizationSetBy = Automatic
+
+	column ten_huyen
+		dataType: string
+		lineageTag: 35234b91-c6ee-4b38-8174-df50ed872a22
+		summarizeBy: none
+		sourceColumn: ten_huyen
+
+		annotation SummarizationSetBy = Automatic
+
+	column so_thon
+		dataType: int64
+		formatString: 0
+		lineageTag: 015239b5-6ad9-499a-a833-bcef5ee0c205
+		summarizeBy: sum
+		sourceColumn: so_thon
+
+		annotation SummarizationSetBy = Automatic
+
+	column tinh
+		dataType: string
+		lineageTag: 5262a83c-1cad-4e73-bf70-3995de268244
+		summarizeBy: none
+		sourceColumn: tinh
+
+		annotation SummarizationSetBy = Automatic
+
+	partition dim_diaban = m
+		mode: import
+		source =
+				let
+				    Source = PostgreSQL.Database("localhost:5432", "daklak_socioeconomic"),
+				    daklak_analytics_dim_diaban = Source{[Schema="daklak_analytics",Item="dim_diaban"]}[Data]
+				in
+				    daklak_analytics_dim_diaban
+
+	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Navigation
+

@@ -1,0 +1,211 @@
+table v_tong_hop_ngan_sach_chinh_sach_ky
+	lineageTag: c1b93f40-9f5c-52d5-be8d-5d251ce49c10
+
+	column ma_ky
+		dataType: string
+		lineageTag: 6a52a64b-b6ea-52fe-8cfc-d5ec0148bc3f
+		summarizeBy: none
+		sourceColumn: ma_ky
+
+		annotation SummarizationSetBy = Automatic
+
+	column thu_tu_ky
+		dataType: int64
+		formatString: 0
+		lineageTag: 5e6f9d83-86a8-507d-9b62-f8ae5238a02a
+		summarizeBy: none
+		sourceColumn: thu_tu_ky
+
+		annotation SummarizationSetBy = Automatic
+
+	column ten_ky
+		dataType: string
+		lineageTag: 98b134a2-313e-57b3-879b-34900f213d78
+		summarizeBy: none
+		sourceColumn: ten_ky
+
+		annotation SummarizationSetBy = Automatic
+
+	column nam_moc
+		dataType: int64
+		formatString: 0
+		lineageTag: 1a796098-461a-559d-a54b-9e34b702b5ae
+		summarizeBy: none
+		sourceColumn: nam_moc
+
+		annotation SummarizationSetBy = Automatic
+
+	column giai_doan_chinh_sach
+		dataType: string
+		lineageTag: 4e6fb77a-ba9d-57a3-8686-acb25509c5f1
+		summarizeBy: none
+		sourceColumn: giai_doan_chinh_sach
+
+		annotation SummarizationSetBy = Automatic
+
+	column is_latest
+		dataType: boolean
+		lineageTag: fd76e7fd-59fa-5250-a0aa-8fe3ac374c57
+		summarizeBy: none
+		sourceColumn: is_latest
+
+		annotation SummarizationSetBy = Automatic
+
+	column ma_chitieu
+		dataType: string
+		lineageTag: 550997a5-5549-553e-91e1-b58ecb79256e
+		summarizeBy: none
+		sourceColumn: ma_chitieu
+
+		annotation SummarizationSetBy = Automatic
+
+	column ten_chitieu
+		dataType: string
+		lineageTag: d5ba0aa4-bb80-5c77-bdd8-91f7072e0fa5
+		summarizeBy: none
+		sourceColumn: ten_chitieu
+
+		annotation SummarizationSetBy = Automatic
+
+	column ma_chinh_sach
+		dataType: string
+		lineageTag: 3211bd92-f90f-58f4-ba3b-215a24e0f888
+		summarizeBy: none
+		sourceColumn: ma_chinh_sach
+
+		annotation SummarizationSetBy = Automatic
+
+	column ten_chinh_sach
+		dataType: string
+		lineageTag: 6e375103-1405-555e-bf2d-2ca17fe788da
+		summarizeBy: none
+		sourceColumn: ten_chinh_sach
+
+		annotation SummarizationSetBy = Automatic
+
+	column don_vi_tinh
+		dataType: string
+		lineageTag: 3c46b86c-8a94-5e2d-ada5-8884dd4f3ae7
+		summarizeBy: none
+		sourceColumn: don_vi_tinh
+
+		annotation SummarizationSetBy = Automatic
+
+	column huong_tot
+		dataType: string
+		lineageTag: a1ff473e-7d01-5aa0-bf39-37ad4b6dffe2
+		summarizeBy: none
+		sourceColumn: huong_tot
+
+		annotation SummarizationSetBy = Automatic
+
+	column chi_tieu_muc_tieu
+		dataType: double
+		lineageTag: 35126a5d-c674-5f6f-91e2-1bbf8fc6db78
+		summarizeBy: sum
+		sourceColumn: chi_tieu_muc_tieu
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column gia_tri_thuc_te_hien_tai
+		dataType: double
+		lineageTag: db395b9c-c9a4-549a-a304-e10403ffa4a0
+		summarizeBy: sum
+		sourceColumn: gia_tri_thuc_te_hien_tai
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column so_luong_doi_tuong_can_ho_tro
+		dataType: double
+		lineageTag: 39f934f7-259e-5ac6-972f-b873dcc5b7e5
+		summarizeBy: sum
+		sourceColumn: so_luong_doi_tuong_can_ho_tro
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column don_gia_trieu_vnd
+		dataType: double
+		lineageTag: 23ba16e9-1c0b-5778-9581-3d13c390d25e
+		summarizeBy: sum
+		sourceColumn: don_gia_trieu_vnd
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column tong_kinh_phi_can_phan_bo_ty_vnd
+		dataType: double
+		lineageTag: 97fa7e6f-3051-5942-9193-48b5c0b0ad63
+		summarizeBy: sum
+		sourceColumn: tong_kinh_phi_can_phan_bo_ty_vnd
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column can_cu_phap_ly_dinh_muc
+		dataType: string
+		lineageTag: 20b0c67e-020a-5480-affc-55bbd6fa5fe6
+		summarizeBy: none
+		sourceColumn: can_cu_phap_ly_dinh_muc
+
+		annotation SummarizationSetBy = Automatic
+
+	column doi_tuong_ky_truoc
+		dataType: double
+		lineageTag: 99914fff-7729-55a0-b9a3-0e6a10bdb886
+		summarizeBy: sum
+		sourceColumn: doi_tuong_ky_truoc
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column bien_dong_so_luong_doi_tuong
+		dataType: double
+		lineageTag: 1716ae24-05b1-5787-a658-dd13c8066f77
+		summarizeBy: sum
+		sourceColumn: bien_dong_so_luong_doi_tuong
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column kinh_phi_ky_truoc_ty_vnd
+		dataType: double
+		lineageTag: 5a9cd013-7984-5224-ad11-379c355f2a82
+		summarizeBy: sum
+		sourceColumn: kinh_phi_ky_truoc_ty_vnd
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column bien_dong_kinh_phi_ty_vnd
+		dataType: double
+		lineageTag: dd34815c-8370-58e0-8071-6d3d89266ce8
+		summarizeBy: sum
+		sourceColumn: bien_dong_kinh_phi_ty_vnd
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	partition v_tong_hop_ngan_sach_chinh_sach_ky = m
+		mode: import
+		source =
+				let
+				    Source = PostgreSQL.Database("localhost:5432", "daklak_socioeconomic"),
+				    daklak_analytics_v_tong_hop_ngan_sach_chinh_sach_ky = Source{[Schema="daklak_analytics",Item="v_tong_hop_ngan_sach_chinh_sach_ky"]}[Data]
+				in
+				    daklak_analytics_v_tong_hop_ngan_sach_chinh_sach_ky
+
+	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Navigation

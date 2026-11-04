@@ -1,0 +1,57 @@
+table dim_dantoc
+	lineageTag: 78f37b2f-c8b8-4362-91ac-bea1fbc5056d
+
+	column ma_dantoc
+		dataType: string
+		lineageTag: 53993ac4-3a88-4d9e-807e-9bf0d254cda4
+		summarizeBy: none
+		sourceColumn: ma_dantoc
+
+		annotation SummarizationSetBy = Automatic
+
+	column ten_dantoc
+		dataType: string
+		lineageTag: e3795c18-1657-4d33-9dac-55b6cdad8cff
+		summarizeBy: none
+		sourceColumn: ten_dantoc
+
+		annotation SummarizationSetBy = Automatic
+
+	column ten_goc_bieu_mau
+		dataType: string
+		lineageTag: d42f0b5a-f7d6-4f89-8b12-908a58bb1223
+		summarizeBy: none
+		sourceColumn: ten_goc_bieu_mau
+
+		annotation SummarizationSetBy = Automatic
+
+	column nhom_nguon_goc
+		dataType: string
+		lineageTag: 6dc6add0-e103-4b8a-af9d-37aa1e9cc1ca
+		summarizeBy: none
+		sourceColumn: nhom_nguon_goc
+
+		annotation SummarizationSetBy = Automatic
+
+	column la_dtts_it_nguoi
+		dataType: int64
+		formatString: 0
+		lineageTag: 91819df2-6a48-4a1c-b93a-4d67193d2ced
+		summarizeBy: sum
+		sourceColumn: la_dtts_it_nguoi
+
+		annotation SummarizationSetBy = Automatic
+
+	partition dim_dantoc = m
+		mode: import
+		source =
+				let
+				    Source = PostgreSQL.Database("localhost:5432", "daklak_socioeconomic"),
+				    daklak_analytics_dim_dantoc = Source{[Schema="daklak_analytics",Item="dim_dantoc"]}[Data]
+				in
+				    daklak_analytics_dim_dantoc
+
+	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Navigation
+

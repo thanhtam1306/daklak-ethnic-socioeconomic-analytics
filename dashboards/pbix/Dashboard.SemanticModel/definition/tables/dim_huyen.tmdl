@@ -1,0 +1,40 @@
+table dim_huyen
+	lineageTag: aecf3082-fc47-4cba-a68b-c8e13c31665c
+
+	column ma_huyen
+		lineageTag: 85a031bd-3721-48ba-aae8-d6d0b982e9f9
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: dim_diaban[ma_huyen]
+
+		annotation SummarizationSetBy = Automatic
+
+	column ten_huyen
+		lineageTag: cccaa630-21b9-4d6b-99c1-155c99d19730
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: dim_diaban[ten_huyen]
+
+		annotation SummarizationSetBy = Automatic
+
+	column tinh
+		lineageTag: f7c99ef3-1e79-486b-bdd2-d9e06c89e326
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: dim_diaban[tinh]
+
+		annotation SummarizationSetBy = Automatic
+
+	partition dim_huyen = calculated
+		mode: import
+		source =
+				
+				SUMMARIZE(
+				    dim_diaban,
+				    dim_diaban[ma_huyen],
+				    dim_diaban[ten_huyen],
+				    dim_diaban[tinh]
+				)
+
+	annotation PBI_Id = 6566ff1fd2eb4610805de63a86765529
+

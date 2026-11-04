@@ -1,0 +1,41 @@
+model Model
+	culture: en-US
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: en-US
+	valueFilterBehavior: independent
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBI_QueryOrder = ["dim_ky_baocao","dim_chitieu_kehoach_ngansach","dim_chinhsach_canthiep","dim_dantoc","dim_diaban","fact_danso_huyen_dantoc","fact_dantocthiet_yeu_huyen","fact_datsanxuat_dantoc","fact_giaoduc_dantoc","fact_laodong_dantoc","fact_hatang_xa","fact_matuy_hiv_xa","fact_mucsinh_dantoc","fact_nhankhau_dantoc","fact_nhao_dantoc","fact_tindung_dantoc","fact_trinhdo_cmkt_dantoc","v_dtts_tong_hop_dantoc","v_xa_biendong_ngheo_da_ky","v_dantoc_chuyen_dich_da_ky","v_huyen_vesinh_chuyendoiso_da_ky","v_diemnong_anninh_yte_da_ky","v_tong_hop_ngan_sach_chinh_sach_ky"]
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table dim_ky_baocao
+ref table dim_chitieu_kehoach_ngansach
+ref table dim_chinhsach_canthiep
+ref table dim_dantoc
+ref table dim_diaban
+ref table fact_danso_huyen_dantoc
+ref table fact_dantocthiet_yeu_huyen
+ref table fact_datsanxuat_dantoc
+ref table fact_giaoduc_dantoc
+ref table fact_laodong_dantoc
+ref table fact_hatang_xa
+ref table fact_matuy_hiv_xa
+ref table fact_mucsinh_dantoc
+ref table fact_nhankhau_dantoc
+ref table fact_nhao_dantoc
+ref table fact_tindung_dantoc
+ref table fact_trinhdo_cmkt_dantoc
+ref table v_dtts_tong_hop_dantoc
+ref table v_xa_biendong_ngheo_da_ky
+ref table v_dantoc_chuyen_dich_da_ky
+ref table v_huyen_vesinh_chuyendoiso_da_ky
+ref table v_diemnong_anninh_yte_da_ky
+ref table v_tong_hop_ngan_sach_chinh_sach_ky
+ref table _Measures
+
+ref cultureInfo en-US

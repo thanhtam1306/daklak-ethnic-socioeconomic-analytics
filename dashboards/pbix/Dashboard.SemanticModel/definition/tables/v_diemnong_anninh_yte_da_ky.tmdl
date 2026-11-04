@@ -1,0 +1,177 @@
+table v_diemnong_anninh_yte_da_ky
+	lineageTag: 8dbb98cf-0032-57f9-880f-a7f35134b4a0
+
+	column ma_ky
+		dataType: string
+		lineageTag: c4241e7c-3492-55a9-a3a9-3a128cbd82cf
+		summarizeBy: none
+		sourceColumn: ma_ky
+
+		annotation SummarizationSetBy = Automatic
+
+	column thu_tu_ky
+		dataType: int64
+		formatString: 0
+		lineageTag: b959438e-900a-5db4-a10b-c454f22e1e90
+		summarizeBy: none
+		sourceColumn: thu_tu_ky
+
+		annotation SummarizationSetBy = Automatic
+
+	column ten_ky
+		dataType: string
+		lineageTag: 63894f9b-fd01-57b9-bf51-b9e659146fd4
+		summarizeBy: none
+		sourceColumn: ten_ky
+
+		annotation SummarizationSetBy = Automatic
+
+	column giai_doan_chinh_sach
+		dataType: string
+		lineageTag: 866706fe-a6aa-561a-b458-e3cfc5db2a43
+		summarizeBy: none
+		sourceColumn: giai_doan_chinh_sach
+
+		annotation SummarizationSetBy = Automatic
+
+	column is_latest
+		dataType: boolean
+		lineageTag: e9330e71-8767-5a09-8e35-1722e8d3b1a1
+		summarizeBy: none
+		sourceColumn: is_latest
+
+		annotation SummarizationSetBy = Automatic
+
+	column phan_nhom_rui_ro
+		dataType: string
+		lineageTag: 8cdd2cf9-fc22-5c80-ab24-0be098d07cd4
+		summarizeBy: none
+		sourceColumn: phan_nhom_rui_ro
+
+		annotation SummarizationSetBy = Automatic
+
+	column ma_doi_tuong
+		dataType: string
+		lineageTag: 47895ac5-81e0-59fc-af70-a7488886bc3d
+		summarizeBy: none
+		sourceColumn: ma_doi_tuong
+
+		annotation SummarizationSetBy = Automatic
+
+	column ten_doi_tuong
+		dataType: string
+		lineageTag: a49a8023-ee71-50dc-b366-29a2dc7cf826
+		summarizeBy: none
+		sourceColumn: ten_doi_tuong
+
+		annotation SummarizationSetBy = Automatic
+
+	column pham_vi_nhom
+		dataType: string
+		lineageTag: 728b2bc4-be16-55c2-8755-abde41820f81
+		summarizeBy: none
+		sourceColumn: pham_vi_nhom
+
+		annotation SummarizationSetBy = Automatic
+
+	column chi_so_rui_ro_chinh
+		dataType: double
+		lineageTag: 54db23c3-1054-5544-a19d-026e2f13959e
+		summarizeBy: sum
+		sourceColumn: chi_so_rui_ro_chinh
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column chi_so_rui_ro_phu
+		dataType: double
+		lineageTag: 21aa2f87-bbdd-59c3-980f-948221711965
+		summarizeBy: sum
+		sourceColumn: chi_so_rui_ro_phu
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column tong_muc_do_rui_ro
+		dataType: double
+		lineageTag: 91115ee6-a106-57f8-b917-cdae77ebac2d
+		summarizeBy: sum
+		sourceColumn: tong_muc_do_rui_ro
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column chi_so_chinh_ky_truoc
+		dataType: double
+		lineageTag: 2d84ea08-60a8-59dc-9b3c-63c27db4cccc
+		summarizeBy: sum
+		sourceColumn: chi_so_chinh_ky_truoc
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column chi_so_phu_ky_truoc
+		dataType: double
+		lineageTag: 63a9d331-72e5-5877-aa16-c3e103a36020
+		summarizeBy: sum
+		sourceColumn: chi_so_phu_ky_truoc
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column bien_dong_rui_ro_chinh
+		dataType: double
+		lineageTag: 8403b6b0-7177-54a9-b0dc-9170effa51f9
+		summarizeBy: sum
+		sourceColumn: bien_dong_rui_ro_chinh
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column bien_dong_rui_ro_phu
+		dataType: double
+		lineageTag: 99e66e5d-d222-5962-87cf-858d8629c85b
+		summarizeBy: sum
+		sourceColumn: bien_dong_rui_ro_phu
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column ty_le_giam_rui_ro_pct
+		dataType: double
+		lineageTag: 48fd47e9-9806-5868-8333-4c6f906b52b0
+		summarizeBy: sum
+		sourceColumn: ty_le_giam_rui_ro_pct
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column xep_hang_diem_nong_ky
+		dataType: int64
+		formatString: 0
+		lineageTag: 2f267f79-9be5-57f9-ab40-a22f64f5ced3
+		summarizeBy: sum
+		sourceColumn: xep_hang_diem_nong_ky
+
+		annotation SummarizationSetBy = Automatic
+
+	partition v_diemnong_anninh_yte_da_ky = m
+		mode: import
+		source =
+				let
+				    Source = PostgreSQL.Database("localhost:5432", "daklak_socioeconomic"),
+				    daklak_analytics_v_diemnong_anninh_yte_da_ky = Source{[Schema="daklak_analytics",Item="v_diemnong_anninh_yte_da_ky"]}[Data]
+				in
+				    daklak_analytics_v_diemnong_anninh_yte_da_ky
+
+	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Navigation

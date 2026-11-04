@@ -1,0 +1,1626 @@
+[
+  {
+    "file_name": "Dak Lak_0. Phiếu xã.xlsx",
+    "description": "Phân hệ 0: Phiếu Xã (Hạ tầng 146 xã)",
+    "total_sheets": 23,
+    "sheets": [
+      {
+        "sheet_index": 1,
+        "sheet_name": "TH_BIEU0_1",
+        "max_row": 203,
+        "max_column": 4,
+        "unit": "N/A",
+        "title": "BIỂU 1: DANH SÁCH CÁC XÃ/PHƯỜNG/THỊ TRẤN VÀ SỐ THÔN (ẤP, BẢN, TỔ DÂN PHỐ…) VÙNG DÂN TỘC THIỂU SỐ TRONG ĐIỀU TRA, THU THẬP THÔNG TIN VỀ THỰC TRẠNG KINH TẾ - XÃ HỘI  CỦA 53 DÂN TỘC THIỂU SỐ NĂM 2024",
+        "columns_sample": [
+          "STT",
+          "Địa phương",
+          "Xã/ phường/ thị trấn",
+          "Số thôn (ấp, bản, tổ dân phố…)"
+        ]
+      },
+      {
+        "sheet_index": 2,
+        "sheet_name": "TH_BIEU0_2",
+        "max_row": 202,
+        "max_column": 13,
+        "unit": "Đơn vị: Ha",
+        "title": "BIỂU 2: DIỆN TÍCH ĐẤT CANH TÁC CỦA CÁC XÃ/PHƯỜNG/THỊ TRẤN VÙNG DÂN TỘC THIỂU SỐ, 01/7/2024",
+        "columns_sample": [
+          "STT",
+          "Địa phương",
+          "Tổng số",
+          "Đất hàng năm",
+          "Đất lâu năm",
+          "Đất rừng sản xuất",
+          "Đất rừng phòng hộ",
+          "Đất rừng đặc dụng"
+        ]
+      },
+      {
+        "sheet_index": 3,
+        "sheet_name": "TH_BIEU0_3",
+        "max_row": 202,
+        "max_column": 56,
+        "unit": "Đơn vị: Hộ",
+        "title": "BIỂU 3: SỐ HỘ DÂN TỘC THIỂU SỐ CỦA CÁC XÃ/PHƯỜNG/THỊ TRẤN VÙNG DÂN TỘC THIỂU SỐ  CHIA THEO DÂN TỘC NĂM 2023",
+        "columns_sample": [
+          "STT",
+          "Địa phương",
+          "Tống số",
+          "Tày",
+          "Thái",
+          "Hoa",
+          "Khmer",
+          "Mường"
+        ]
+      },
+      {
+        "sheet_index": 4,
+        "sheet_name": "TH_BIEU0_4",
+        "max_row": 202,
+        "max_column": 5,
+        "unit": "N/A",
+        "title": "BIỂU 4: SỐ LƯỢNG VÀ TỶ LỆ HỘ DÂN TỘC THIỂU SỐ XẾP LOẠI NGHÈO  CỦA CÁC XÃ/PHƯỜNG/THỊ TRẤN VÙNG DÂN TỘC THIỂU SỐ NĂM 2023  THEO CHUẨN NGHÈO QUỐC GIA",
+        "columns_sample": [
+          "STT",
+          "Địa phương",
+          "Tổng số hộ dân tộc thiểu số (hộ)",
+          "Số hộ dân tộc thiểu số nghèo (hộ)",
+          "Tỷ lệ (%)"
+        ]
+      },
+      {
+        "sheet_index": 5,
+        "sheet_name": "TH_BIEU0_5",
+        "max_row": 202,
+        "max_column": 5,
+        "unit": "N/A",
+        "title": "BIỂU 5: SỐ LƯỢNG VÀ TỶ LỆ HỘ DÂN TỘC THIỂU SỐ  XẾP LOẠI CẬN NGHÈO CỦA CÁC XÃ/PHƯỜNG/THỊ TRẤN  VÙNG DÂN TỘC THIỂU SỐ NĂM 2023",
+        "columns_sample": [
+          "STT",
+          "Địa phương",
+          "Tổng số hộ dân tộc thiểu số (hộ)",
+          "Số hộ dân tộc thiểu số cận nghèo (hộ)",
+          "Tỷ lệ (%)"
+        ]
+      },
+      {
+        "sheet_index": 6,
+        "sheet_name": "TH_BIEU0_6",
+        "max_row": 203,
+        "max_column": 4,
+        "unit": "N/A",
+        "title": "BIỂU 6: SỐ HỘ VÀ SỐ NGƯỜI DÂN TỘC THIỂU SỐ  CỦA CÁC XÃ/PHƯỜNG/THỊ TRẤN VÙNG DÂN TỘC THIỂU SỐ  DU CANH, DU CƯ TỪ NGÀY 01/01/2023 ĐẾN 01/7/2024",
+        "columns_sample": [
+          "STT",
+          "Địa phương",
+          "Số hộ, số người dân tộc thiểu số du canh, du cư từ ngày 01/01/2023 đến 01/7/2024",
+          "Số người"
+        ]
+      },
+      {
+        "sheet_index": 7,
+        "sheet_name": "TH_BIEU0_7",
+        "max_row": 203,
+        "max_column": 15,
+        "unit": "N/A",
+        "title": "BIỂU 7: TỔNG SỐ KM ĐƯỜNG GIAO THÔNG TỪ TRUNG TÂM XÃ/PHƯỜNG/THỊ TRẤN  ĐẾN TRUNG TÂM HUYỆN/QUẬN/THỊ XÃ/THÀNH PHỐ THUỘC TỈNH CỦA CÁC XÃ/PHƯỜNG/THỊ TRẤN  VÙNG DÂN TỘC THIỂU SỐ CHIA THEO MỨC ĐỘ CỨNG HÓA TÍNH ĐẾN NGÀY 01/7/2024",
+        "columns_sample": [
+          "Đường Nhựa (Bê tông nhựa, láng nhựa)",
+          "Tỷ lệ",
+          "Bê tông xi măng",
+          "Tỷ lệ",
+          "Rải sỏi, đá",
+          "Tỷ lệ",
+          "Lát gạch",
+          "Tỷ lệ"
+        ]
+      },
+      {
+        "sheet_index": 8,
+        "sheet_name": "TH_BIEU0_8",
+        "max_row": 203,
+        "max_column": 10,
+        "unit": "Đơn vị: Thôn",
+        "title": "BIỂU 8: SỐ THÔN CÓ ĐƯỜNG GIAO THÔNG CỨNG HÓA ĐẾN TRUNG TÂM XÃ/PHƯỜNG/THỊ TRẤN  CỦA CÁC XÃ/PHƯỜNG/THỊ TRẤN VÙNG DÂN TỘC THIỂU SỐ, 01/7/2024",
+        "columns_sample": [
+          "STT",
+          "Địa phương",
+          "Tổng số thôn",
+          "Tổng số thôn có đường giao thông cứng hóa",
+          "Tỷ lệ thôn có đường giao thông cứng hóa",
+          "Trong đó số thôn có đường giao thông chia theo:",
+          "Bê tông xi măng",
+          "Rải sỏi, đá"
+        ]
+      },
+      {
+        "sheet_index": 9,
+        "sheet_name": "TH_BIEU0_9",
+        "max_row": 204,
+        "max_column": 10,
+        "unit": "N/A",
+        "title": "BIỂU 9: SỐ XÃ/PHƯỜNG/THỊ TRẤN VÙNG DÂN TỘC THIỂU SỐ  CÓ NHÀ VĂN HÓA VÀ SỐ LƯỢNG THÔN CÓ NHÀ VĂN HÓA/NHÀ SINH HOẠT  CỘNG ĐỒNG TÍNH ĐẾN NGÀY 01/7/2024",
+        "columns_sample": [
+          "STT",
+          "Địa phương",
+          "Số xã/phường/thị trấn vùng dân tộc thiểu số có nhà văn hóa",
+          "Số xã vùng DTTS  theo tình trạng nhà văn hóa thôn (xã)",
+          "Tỷ lệ xã có nhà văn hóa (%)",
+          "Số lượng và tỷ lệ thôn có nhà văn hóa/nhà sinh hoạt cộng đồng",
+          "Số thôn có nhà văn hóa (thôn)",
+          "Tỷ lệ thôn có nhà văn hóa (%)"
+        ]
+      },
+      {
+        "sheet_index": 10,
+        "sheet_name": "TH_BIEU0_10",
+        "max_row": 203,
+        "max_column": 11,
+        "unit": "Đơn vị: Thôn",
+        "title": "BIỂU 10: SỐ THÔN CỦA CÁC XÃ/PHƯỜNG/THỊ TRẤN VÙNG DÂN TỘC THIỂU SỐ  CHIA THEO TÌNH TRẠNG CÓ ĐIỆN, 01/7/2024",
+        "columns_sample": [
+          "STT",
+          "Địa phương",
+          "Tổng số thôn",
+          "Số thôn có điện",
+          "Tỷ lệ thôn có điện",
+          "Số thôn có điện lưới quốc gia",
+          "Tỷ lệ thôn có điện lưới quốc gia",
+          "Số thôn có điện khác"
+        ]
+      },
+      {
+        "sheet_index": 11,
+        "sheet_name": "TH_BIEU0_11",
+        "max_row": 202,
+        "max_column": 7,
+        "unit": "N/A",
+        "title": "BIỂU 11: SỐ LƯỢNG VÀ TỶ LỆ THÔN CỦA CÁC XÃ/PHƯỜNG/THỊ TRẤN  VÙNG DÂN TỘC THIỂU SỐ PHỦ SÓNG ĐIỆN THOẠI DI ĐỘNG  VÀ INTERNET TÍNH ĐẾN NGÀY 01/7/2024",
+        "columns_sample": [
+          "STT",
+          "Địa phương",
+          "Tổng số thôn",
+          "Số thôn phủ sóng điện thoại di động (thôn)",
+          "Tỷ lệ thôn phủ sóng điện thoại di động (%)",
+          "Số thônphủ sóng Internet (thôn)",
+          "Tỷ lệ thôn phủ sóng Internet (%)"
+        ]
+      },
+      {
+        "sheet_index": 12,
+        "sheet_name": "TH_BIEU0_12",
+        "max_row": 202,
+        "max_column": 8,
+        "unit": "N/A",
+        "title": "BIỂU 12: TỔNG SỐ TRƯỜNG HỌC ĐANG HOẠT ĐỘNG CỦA CÁC XÃ/PHƯỜNG/ THỊ TRẤN VÙNG DÂN TỘC THIỂU SỐ CHIA THEO CƠ SỞ VẬT CHẤT ĐẠT CHUẨN,  TỔNG SỐ PHÒNG HỌC, TỔNG SỐ PHÒNG HỌC KIÊN CỐ VÀ TỶ LỆ  SỐ PHÒNG HỌC KIÊN CỐ, 01/7/2024",
+        "columns_sample": [
+          "STT",
+          "Địa phương",
+          "Tổng số trường",
+          "Số trường đủ cơ sở vật chất đạt chuẩn",
+          "Tỷ lệ trường đủ cơ sở vật chất đạt chuẩn (%)",
+          "Tổng số phòng học của trường",
+          "Tổng số phòng học kiên cố của trường",
+          "Tỷ lệ phòng học kiên cố (%)"
+        ]
+      },
+      {
+        "sheet_index": 13,
+        "sheet_name": "TH_BIEU0_13",
+        "max_row": 202,
+        "max_column": 8,
+        "unit": "N/A",
+        "title": "BIỂU 13: SỐ TRƯỜNG PHỔ THÔNG DÂN TỘC NỘI TRÚ ĐANG HOẠT ĐỘNG  CỦA CÁC XÃ/PHƯỜNG/THỊ TRẤN VÙNG DÂN TỘC THIỂU SỐ CHIA THEO  CƠ SỞ VẬT CHẤT ĐẠT CHUẨN, TỔNG SỐ PHÒNG HỌC, TỔNG SỐ PHÒNG HỌC  KIÊN CỐ VÀ TỶ LỆ SỐ PHÒNG HỌC KIÊN CỐ, 01/7/2024",
+        "columns_sample": [
+          "STT",
+          "Địa phương",
+          "Tổng số trường",
+          "Số trường đủ cơ sở vật chất đạt chuẩn",
+          "Tỷ lệ trường đủ cơ sở vật chất đạt chuẩn (%)",
+          "Tổng số phòng học",
+          "Tổng số phòng học kiên cố",
+          "Tỷ lệ phòng học kiên cố (%)"
+        ]
+      },
+      {
+        "sheet_index": 14,
+        "sheet_name": "TH_BIEU0_14",
+        "max_row": 202,
+        "max_column": 8,
+        "unit": "N/A",
+        "title": "BIỂU 14: SỐ TRƯỜNG PHỔ THÔNG DÂN TỘC BÁN TRÚ ĐANG HOẠT ĐỘNG  CỦA CÁC XÃ/PHƯỜNG/THỊ TRẤN VÙNG DÂN TỘC THIỂU SỐ CHIA THEO  CƠ SỞ VẬT CHẤT ĐẠT CHUẨN, TỔNG SỐ PHÒNG HỌC, TỔNG SỐ PHÒNG HỌC  KIÊN CỐ VÀ TỶ LỆ SỐ PHÒNG HỌC KIÊN CỐ, 01/7/2024",
+        "columns_sample": [
+          "STT",
+          "Địa phương",
+          "Tổng số trường",
+          "Số trường đủ cơ sở vật chất đạt chuẩn",
+          "Tỷ lệ trường đủ cơ sở vật chất đạt chuẩn (%)",
+          "Tổng số phòng học",
+          "Tổng số phòng học kiên cố",
+          "Tỷ lệ phòng học kiên cố (%)"
+        ]
+      },
+      {
+        "sheet_index": 15,
+        "sheet_name": "TH_BIEU0_15",
+        "max_row": 202,
+        "max_column": 8,
+        "unit": "N/A",
+        "title": "BIỂU 15: SỐ TRƯỜNG TRUNG TÂM GIÁO DỤC THƯỜNG XUYÊN ĐANG  HOẠT ĐỘNG CỦA CÁC XÃ/PHƯỜNG/THỊ TRẤN VÙNG DÂN TỘC THIỂU SỐ  CHIA THEO CƠ SỞ VẬT CHẤT ĐẠT CHUẨN, TỔNG SỐ PHÒNG HỌC,  TỔNG SỐ PHÒNG HỌC KIÊN CỐ VÀ TỶ LỆ SỐ PHÒNG HỌC KIÊN CỐ, 01/7/2024",
+        "columns_sample": [
+          "STT",
+          "Địa phương",
+          "Tổng số trường",
+          "Số trường đủ cơ sở vật chất đạt chuẩn",
+          "Tỷ lệ trường đủ cơ sở vật chất đạt chuẩn (%)",
+          "Tổng số phòng học",
+          "Tổng số phòng học kiên cố",
+          "Tỷ lệ phòng học kiên cố (%)"
+        ]
+      },
+      {
+        "sheet_index": 16,
+        "sheet_name": "TH_BIEU0_16",
+        "max_row": 202,
+        "max_column": 8,
+        "unit": "N/A",
+        "title": "BIỂU 16: SỐ TRƯỜNG TRUNG TÂM HỌC TẬP CỘNG ĐỒNG ĐANG HOẠT ĐỘNG  CỦA CÁC XÃ/PHƯỜNG/THỊ TRẤN VÙNG DÂN TỘC THIỂU SỐ CHIA THEO CƠ SỞ VẬT CHẤT ĐẠT CHUẨN, TỔNG SỐ PHÒNG HỌC, TỔNG SỐ PHÒNG HỌC KIÊN CỐ,  VÀ TỶ LỆ SỐ PHÒNG HỌC KIÊN CỐ, 01/7/2024",
+        "columns_sample": [
+          "STT",
+          "Địa phương",
+          "Tổng số trường",
+          "Số trường đủ cơ sở vật chất đạt chuẩn",
+          "Tỷ lệ trường đủ cơ sở vật chất đạt chuẩn (%)",
+          "Tổng số phòng học",
+          "Tổng số phòng học kiên cố",
+          "Tỷ lệ phòng học kiên cố (%)"
+        ]
+      },
+      {
+        "sheet_index": 17,
+        "sheet_name": "TH_BIEU0_17",
+        "max_row": 202,
+        "max_column": 6,
+        "unit": "N/A",
+        "title": "BIỂU 17: TỔNG SỐ ĐIỂM TRƯỜNG ĐANG HOẠT ĐỘNG CỦA CÁC XÃ/PHƯỜNG/THỊ TRẤN VÙNG DÂN TỘC THIỂU SỐ CHIA THEO TỔNG SỐ PHÒNG HỌC, TỔNG SỐ PHÒNG HỌC KIÊN CỐ  VÀ TỶ LỆ SỐ PHÒNG HỌC KIÊN CỐ, 01/7/2024",
+        "columns_sample": [
+          "STT",
+          "Địa phương",
+          "Tổng số điểm trường",
+          "Tổng số phòng học",
+          "Tổng số phòng học kiên cố",
+          "Tỷ lệ phòng học kiên cố (%)"
+        ]
+      },
+      {
+        "sheet_index": 18,
+        "sheet_name": "TH_BIEU0_18",
+        "max_row": 203,
+        "max_column": 7,
+        "unit": "N/A",
+        "title": "BIỂU 18: SỐ LƯỢNG GIÁO VIÊN, GIÁO VIÊN NGƯỜI DÂN TỘC, GIÁO VIÊN NỮ NGƯỜI DÂN TỘC VÀ TỶ LỆ GIÁO VIÊN NGƯỜI DÂN TỘC, TỶ LỆ GIÁO VIÊN NỮ NGƯỜI DÂN TỘC CỦA  CÁC XÃ/PHƯỜNG/THỊ TRẤN VÙNG DÂN TỘC THIỂU SỐ, 01/7/2024",
+        "columns_sample": [
+          "STT",
+          "Địa phương",
+          "Tổng số giáo viên",
+          "Số giáo viên người DTTS",
+          "Số giáo viên nữ người DTTS",
+          "Tỷ lệ giáo viên người DTTS (%)",
+          "Tỷ lệ giáo viên nữ người DTTS (%)"
+        ]
+      },
+      {
+        "sheet_index": 19,
+        "sheet_name": "TH_BIEU0_19",
+        "max_row": 203,
+        "max_column": 13,
+        "unit": "N/A",
+        "title": "BIỂU 19: SỐ XÃ/PHƯỜNG/THỊ TRẤN VÙNG DÂN TỘC THIỂU SỐ CÓ TRẠM Y TẾ  VÀ CÓ TRẠM Y TẾ ĐẠT CHUẨN QUỐC GIA TÍNH ĐẾN NGÀY 01/7/2024",
+        "columns_sample": [
+          "STT",
+          "Địa phương",
+          "Tổng số xã",
+          "Số xã có trạm y tế chia theo mức độ kiên cố (xã)",
+          "Tỷ lệ xã có trạm y tế",
+          "Kiên cố",
+          "Tỷ lệ xã có trạm y tế kiên cố",
+          "Bán kiên cố"
+        ]
+      },
+      {
+        "sheet_index": 20,
+        "sheet_name": "TH_BIEU0_20",
+        "max_row": 203,
+        "max_column": 8,
+        "unit": "N/A",
+        "title": "BIỂU 20: TÌNH TRẠNG NGHIỆN MA TÚY VÀ NHIỄM HIV/AIDS CỦA CÁC XÃ/PHƯỜNG/THỊ TRẤN  VÙNG DÂN TỘC THIỂU SỐ CHIA THEO VÙNG KINH TẾ - XÃ HỘI  VÀ ĐƠN VỊ HÀNH CHÍNH CẤP TỈNH, 01/7/2024",
+        "columns_sample": [
+          "STT",
+          "Địa phương",
+          "Số người nghiện ma túy",
+          "Số người DTTS nghiện ma túy",
+          "Số người nhiễm HIV/AIDS",
+          "Số người DTTS nhiễm HIV/AIDS",
+          "Tỷ lệ người nghiện ma túy là người DTTS",
+          "Tỷ lệ người nhiễm HIV/AIDS là người DTTS"
+        ]
+      },
+      {
+        "sheet_index": 21,
+        "sheet_name": "TH_BIEU0_21",
+        "max_row": 203,
+        "max_column": 11,
+        "unit": "N/A",
+        "title": "BIỂU 21: SỐ XÃ CÓ CHỢ, SỐ CHỢ CỦA CÁC XÃ/PHƯỜNG/THỊ TRẤN  VÙNG DÂN TỘC THIỂU SỐ, 01/7/2024",
+        "columns_sample": [
+          "STT",
+          "Địa phương",
+          "Tổng số xã",
+          "Số xã có chợ (xã)",
+          "Chợ hạng 1",
+          "Chợ hạng 2",
+          "Chợ hạng 3",
+          "Số chợ (chợ)"
+        ]
+      },
+      {
+        "sheet_index": 22,
+        "sheet_name": "TH_BIEU0_22",
+        "max_row": 203,
+        "max_column": 20,
+        "unit": "Đơn vị: Cơ sở",
+        "title": "BIỂU 22: SỐ CƠ SỞ SINH HOẠT TÔN GIÁO TẠI CÁC XÃ/PHƯỜNG/THỊ TRẤN VÙNG DÂN TỘC THIỂU SỐ TÍNH ĐẾN NGÀY 01/7/2024",
+        "columns_sample": [
+          "STT",
+          "Địa phương",
+          "Tổng số",
+          "Phật giáo",
+          "Công giáo",
+          "Tin lành",
+          "Cao Đài",
+          "Phật giáo Hòa Hảo"
+        ]
+      },
+      {
+        "sheet_index": 23,
+        "sheet_name": "TH_BIEU0_23",
+        "max_row": 203,
+        "max_column": 56,
+        "unit": "Đơn vị: Người",
+        "title": "BIỂU 23: SỐ NGƯỜI CÓ CHỨC SẮC, CHỨC VIỆC TÔN GIÁO TẠI CÁC XÃ/PHƯỜNG/THỊ TRẤN  VÙNG DÂN TỘC THIỂU SỐ TÍNH ĐẾN NGÀY 01/7/2024",
+        "columns_sample": [
+          "STT",
+          "Địa phương",
+          "Tống số",
+          "Người DTTS",
+          "Nữ DTTS",
+          "Phật giáo",
+          "Người DTTS",
+          "Nữ DTTS"
+        ]
+      }
+    ]
+  },
+  {
+    "file_name": "Dak Lak_1. Dân số.xlsx",
+    "description": "Phân hệ 1: Dân số (Nhân khẩu & Quy mô hộ)",
+    "total_sheets": 17,
+    "sheets": [
+      {
+        "sheet_index": 1,
+        "sheet_name": "TH_BIEU1_1",
+        "max_row": 25,
+        "max_column": 40,
+        "unit": "N/A",
+        "title": "BIỂU 1.1. SỐ HỘ DÂN TỘC THIỂU SỐ CHIA THEO DÂN TỘC THIỂU SỐ, THÀNH THỊ, NÔNG THÔN, VÙNG BIÊN GIỚI, VÙNG KINH TẾ - XÃ HỘI VÀ ĐƠN VỊ HÀNH CHÍNH CẤP TỈNH, 01/7/2024",
+        "columns_sample": [
+          "STT",
+          "ĐỊA PHƯƠNG",
+          "Tổng số",
+          "Tày",
+          "Thái",
+          "Hoa",
+          "Khmer",
+          "Mường"
+        ]
+      },
+      {
+        "sheet_index": 2,
+        "sheet_name": "TH_BIEU1_2",
+        "max_row": 28,
+        "max_column": 56,
+        "unit": "Đơn vị: Hộ",
+        "title": "BIỂU 1.2. SỐ HỘ DÂN TỘC THIỂU SỐ CHIA THEO DÂN TỘC THIỂU SỐ  VÀ ĐƠN VỊ HÀNH CHÍNH CẤP HUYỆN, 01/7/2024",
+        "columns_sample": [
+          "STT",
+          "ĐỊA PHƯƠNG",
+          "Tổng số",
+          "Tày",
+          "Thái",
+          "Hoa",
+          "Khmer",
+          "Mường"
+        ]
+      },
+      {
+        "sheet_index": 3,
+        "sheet_name": "TH_BIEU1_3a",
+        "max_row": 41,
+        "max_column": 56,
+        "unit": "Đơn vị: Hộ",
+        "title": "BIỂU 1.3A. SỐ HỘ DÂN TỘC THIỂU SỐ CHIA THEO DÂN TỘC THIỂU SỐ, QUY MÔ SỐ NGƯỜI TRONG HỘ, THÀNH THỊ, NÔNG THÔN,  VÙNG BIÊN GIỚI, VÙNG KINH TẾ - XÃ HỘI VÀ ĐƠN VỊ HÀNH CHÍNH CẤP TỈNH, 01/7/2024",
+        "columns_sample": [
+          "STT",
+          "ĐỊA PHƯƠNG",
+          "Tổng số",
+          "Tày",
+          "Thái",
+          "Hoa",
+          "Khmer",
+          "Mường"
+        ]
+      },
+      {
+        "sheet_index": 4,
+        "sheet_name": "TH_BIEU1_3b",
+        "max_row": 44,
+        "max_column": 55,
+        "unit": "N/A",
+        "title": "BIỂU 1.3B. CƠ CẤU NGƯỜI TRONG HỘ DÂN TỘC THIỂU SỐ CHIA THEO DÂN TỘC THIỂU SỐ,  QUY MÔ SỐ NGƯỜI TRONG HỘ, THÀNH THỊ, NÔNG THÔN, VÙNG BIÊN GIỚI, VÙNG KINH TẾ - XÃ HỘI  VÀ ĐƠN VỊ HÀNH CHÍNH CẤP TỈNH, 01/7/2025",
+        "columns_sample": [
+          "STT",
+          "ĐỊA PHƯƠNG",
+          "Tổng số",
+          "Tày",
+          "Thái",
+          "Hoa",
+          "Khmer",
+          "Mường"
+        ]
+      },
+      {
+        "sheet_index": 5,
+        "sheet_name": "TH_BIEU1_4",
+        "max_row": 227,
+        "max_column": 56,
+        "unit": "Đơn vị: Hộ",
+        "title": "BIỂU 1.4. SỐ HỘ DÂN TỘC THIỂU SỐ CHIA THEO DÂN TỘC THIỂU SỐ, QUY MÔ SỐ NGƯỜI TRONG HỘ  VÀ ĐƠN VỊ HÀNH CHÍNH CẤP HUYỆN, 01/7/2024",
+        "columns_sample": [
+          "STT",
+          "ĐỊA PHƯƠNG",
+          "Tổng số",
+          "Tày",
+          "Thái",
+          "Hoa",
+          "Khmer",
+          "Mường"
+        ]
+      },
+      {
+        "sheet_index": 6,
+        "sheet_name": "TH_BIEU1_5",
+        "max_row": 23,
+        "max_column": 56,
+        "unit": "Đơn vị: Người/Hộ",
+        "title": "BIỂU 1.5. SỐ NGƯỜI BÌNH QUÂN MỘT HỘ DÂN TỘC THIỂU SỐ CHIA THEO DÂN TỘC THIỂU SỐ, THÀNH THỊ, NÔNG THÔN,  VÙNG BIÊN GIỚI, VÙNG KINH TẾ - XÃ HỘI VÀ ĐƠN VỊ HÀNH CHÍNH CẤP TỈNH, 01/7/2024",
+        "columns_sample": [
+          "STT",
+          "ĐỊA PHƯƠNG",
+          "Tổng số",
+          "Tày",
+          "Thái",
+          "Hoa",
+          "Khmer",
+          "Mường"
+        ]
+      },
+      {
+        "sheet_index": 7,
+        "sheet_name": "TH_BIEU1_6",
+        "max_row": 35,
+        "max_column": 56,
+        "unit": "Đơn vị: Người",
+        "title": "BIỂU 1.6. DÂN SỐ CHIA THEO DÂN TỘC, GIỚI TÍNH, THÀNH THỊ, NÔNG THÔN, VÙNG KINH TẾ - XÃ HỘI VÀ ĐƠN VỊ HÀNH CHÍNH CẤP TỈNH, 01/7/2024",
+        "columns_sample": [
+          "STT",
+          "ĐỊA PHƯƠNG",
+          "Tổng số",
+          "Tày",
+          "Thái",
+          "Hoa",
+          "Khmer",
+          "Mường"
+        ]
+      },
+      {
+        "sheet_index": 8,
+        "sheet_name": "TH_BIEU1_7",
+        "max_row": 73,
+        "max_column": 56,
+        "unit": "Đơn vị: Người",
+        "title": "BIỂU 1.7. DÂN SỐ CHIA THEO DÂN TỘC, GIỚI TÍNH VÀ ĐƠN VỊ HÀNH CHÍNH CẤP HUYỆN, 01/7/2024",
+        "columns_sample": [
+          "STT",
+          "ĐỊA PHƯƠNG",
+          "Tổng số",
+          "Tày",
+          "Thái",
+          "Hoa",
+          "Khmer",
+          "Mường"
+        ]
+      },
+      {
+        "sheet_index": 9,
+        "sheet_name": "TH_BIEU1_8",
+        "max_row": 61,
+        "max_column": 164,
+        "unit": "Đơn vị: Người",
+        "title": "BIỂU 1.8: SỐ NGƯỜI DÂN TỘC THIỂU SỐ CHIA THEO DÂN TỘC THIỂU SỐ, GIỚI TÍNH, NHÓM TUỔI, THÀNH THỊ, NÔNG THÔN,  VÙNG KINH TẾ -  XÃ HỘI VÀ ĐƠN VỊ HÀNH CHÍNH CẤP TỈNH, 1/7/2024",
+        "columns_sample": [
+          "STT",
+          "ĐỊA PHƯƠNG",
+          "Tống số",
+          "Nam",
+          "Nữ",
+          "Tày",
+          "Nam",
+          "Nữ"
+        ]
+      },
+      {
+        "sheet_index": 10,
+        "sheet_name": "TH_BIEU1_9",
+        "max_row": 58,
+        "max_column": 164,
+        "unit": "Đơn vị: Người",
+        "title": "BIỂU 1.9: SỐ NGƯỜI DÂN TỘC THIỂU SỐ CHIA THEO DÂN TỘC THIỂU SỐ, GIỚI TÍNH, TÔN GIÁO, THÀNH THỊ, NÔNG THÔN, VÙNG KINH TẾ -  XÃ HỘI VÀ ĐƠN VỊ HÀNH CHÍNH CẤP TỈNH, 1/7/2024",
+        "columns_sample": [
+          "STT",
+          "ĐỊA PHƯƠNG",
+          "Tống số",
+          "Nam",
+          "Nữ",
+          "Tày",
+          "Nam",
+          "Nữ"
+        ]
+      },
+      {
+        "sheet_index": 11,
+        "sheet_name": "TH_BIEU1_10",
+        "max_row": 79,
+        "max_column": 164,
+        "unit": "Đơn vị: Người",
+        "title": "BIỂU 1.10. DÂN SỐ DÂN TỘC THIỂU SỐ THEO TÌNH TRẠNG CÓ THẺ BẢO HIỂM Y TẾ (BHYT) NĂM 2024, GIỚI TÍNH, THÀNH THỊ, NÔNG THÔN,  VÙNG BIÊN GIỚI, VÙNG KINH TẾ-XÃ HỘI VÀ ĐƠN VỊ HÀNH CHÍNH CẤP TỈNH",
+        "columns_sample": [
+          "STT",
+          "ĐỊA PHƯƠNG",
+          "Tống số",
+          "Nam",
+          "Nữ",
+          "Tày",
+          "Nam",
+          "Nữ"
+        ]
+      },
+      {
+        "sheet_index": 12,
+        "sheet_name": "TH_BIEU1_11",
+        "max_row": 46,
+        "max_column": 164,
+        "unit": "Đơn vị: Hộ",
+        "title": "BIỂU 1.11A. DÂN SỐ DÂN TỘC THIỂU SỐ THEO TÌNH TRẠNG CÓ SỬ DỤNG THẺ BẢO HIỂM Y TẾ (BHYT)  ĐỂ ĐI KHÁM/CHỮA BỆNH NĂM 2024, GIỚI TÍNH, THÀNH THỊ, NÔNG THÔN, VÙNG BIÊN GIỚI, VÙNG KINH TẾ-XÃ HỘI  VÀ ĐƠN VỊ HÀNH CHÍNH CẤP TỈNH",
+        "columns_sample": [
+          "STT",
+          "ĐỊA PHƯƠNG",
+          "Tống số",
+          "Nam",
+          "Nữ",
+          "Tày",
+          "Nam",
+          "Nữ"
+        ]
+      },
+      {
+        "sheet_index": 13,
+        "sheet_name": "TH_BIEU1_12",
+        "max_row": 46,
+        "max_column": 164,
+        "unit": "Đơn vị: Người",
+        "title": "BIỂU 1.12. DÂN SỐ DÂN TỘC THIỂU SỐ DƯỚI 5 TUỔI CHIA THEO TÌNH TRẠNG ĐĂNG KÝ KHAI SINH, GIỚI TÍNH, THÀNH THỊ,  NÔNG THÔN, VÙNG BIÊN GIỚI, VÙNG KINH TẾ-XÃ HỘI VÀ ĐƠN VỊ HÀNH CHÍNH CẤP TỈNH, 01/7/2024",
+        "columns_sample": [
+          "STT",
+          "ĐỊA PHƯƠNG",
+          "Tống số",
+          "Nam",
+          "Nữ",
+          "Tày",
+          "Nam",
+          "Nữ"
+        ]
+      },
+      {
+        "sheet_index": 14,
+        "sheet_name": "TH_BIEU1_13",
+        "max_row": 35,
+        "max_column": 164,
+        "unit": "Đơn vị: Người",
+        "title": "BIỂU 1.13. DÂN SỐ DÂN TỘC THIỂU SỐ TỪ 5 TUỔI TRỞ LÊN KHUYẾT TẬT CHIA THEO  GIỚI TÍNH, THÀNH THỊ, NÔNG THÔN,  VÙNG BIÊN GIỚI, VÙNG KINH TẾ-XÃ HỘI VÀ ĐƠN VỊ HÀNH CHÍNH CẤP TỈNH, 01/7/2024",
+        "columns_sample": [
+          "STT",
+          "ĐỊA PHƯƠNG",
+          "Tống số",
+          "Nam",
+          "Nữ",
+          "Tày",
+          "Nam",
+          "Nữ"
+        ]
+      },
+      {
+        "sheet_index": 15,
+        "sheet_name": "TH_BIEU1_14",
+        "max_row": 104,
+        "max_column": 273,
+        "unit": "Đơn vị: Người",
+        "title": "BIỂU 1.14. DÂN SỐ DÂN TỘC THIỂU SỐ TỪ 15 TUỔI TRỞ LÊN THEO TÌNH TRẠNG HÔN NHÂN, NHÓM TUỔI,  VÙNG BIÊN GIỚI, VÙNG KINH TẾ - XÃ HỘI VÀ ĐƠN VỊ HÀNH CHÍNH CẤP TỈNH, 01/7/2024",
+        "columns_sample": [
+          "STT",
+          "ĐỊA PHƯƠNG",
+          "Tổng số",
+          "Tình trạng hôn nhân",
+          "Có vợ/chồng",
+          "Góa vợ/chồng",
+          "Ly hôn",
+          "Ly thân"
+        ]
+      },
+      {
+        "sheet_index": 16,
+        "sheet_name": "TH_BIEU1_15",
+        "max_row": 13,
+        "max_column": 164,
+        "unit": "Đơn vị: Người",
+        "title": "BBIỂU 1.15. SỐ NGƯỜI DÂN TỘC THIỂU SỐ KẾT HÔN CẬN HUYẾT THỐNG TRONG NĂM 2023 CHIA THEO GIỚI TÍNH, THÀNH THỊ,  NÔNG THÔN, VÙNG BIÊN GIỚI, VÙNG KINH TẾ  XÃ HỘI VÀ ĐƠN VỊ HÀNH CHÍNH CẤP TỈNH",
+        "columns_sample": [
+          "STT",
+          "ĐỊA PHƯƠNG",
+          "Tống số",
+          "Nam",
+          "Nữ",
+          "Mông",
+          "Nam",
+          "Nữ"
+        ]
+      },
+      {
+        "sheet_index": 17,
+        "sheet_name": "TH_BIEU1_16",
+        "max_row": 24,
+        "max_column": 143,
+        "unit": "Đơn vị: Hộ",
+        "title": "BIỂU 1.16. SỐ NGƯỜI DÂN TỘC THIỂU SỐ TẢO HÔN NĂM 2023 CHIA THEO GIỚI TÍNH, THÀNH THỊ, NÔNG THÔN,  VÙNG BIÊN GIỚI, VÙNG KINH TẾ - XÃ HỘI VÀ ĐƠN VỊ HÀNH CHÍNH",
+        "columns_sample": [
+          "STT",
+          "ĐỊA PHƯƠNG",
+          "Tống số",
+          "Nam",
+          "Nữ",
+          "Tày",
+          "Nam",
+          "Nữ"
+        ]
+      }
+    ]
+  },
+  {
+    "file_name": "Dak Lak_2. Giáo dục.xlsx",
+    "description": "Phân hệ 2: Giáo dục (Học vấn & Ngôn ngữ)",
+    "total_sheets": 5,
+    "sheets": [
+      {
+        "sheet_index": 1,
+        "sheet_name": "Kangatang",
+        "max_row": 1,
+        "max_column": 1,
+        "unit": "N/A",
+        "title": "N/A",
+        "columns_sample": []
+      },
+      {
+        "sheet_index": 2,
+        "sheet_name": "TH_BIEU2_1a",
+        "max_row": 36,
+        "max_column": 56,
+        "unit": "Đơn vị: Người",
+        "title": "BIỂU 2.1A. SỐ NGƯỜI DÂN TỘC THIỂU SỐ TỪ 10 TUỔI TRỞ LÊN CÓ THỂ NGHE, NÓI, HIỂU TIẾNG PHỔ THÔNG  THEO GIỚI TÍNH,  THÀNH THỊ, NÔNG THÔN, VÙNG KINH TẾ-XÃ HỘI VÀ ĐƠN VỊ HÀNH CHÍNH CẤP TỈNH, 01/7/2024",
+        "columns_sample": [
+          "STT",
+          "ĐỊA PHƯƠNG",
+          "Tổng số",
+          "Tày",
+          "Thái",
+          "Hoa",
+          "Khmer",
+          "Mường"
+        ]
+      },
+      {
+        "sheet_index": 3,
+        "sheet_name": "TH_BIEU2_1b",
+        "max_row": 35,
+        "max_column": 56,
+        "unit": "Đơn vị: Người",
+        "title": "BIỂU 2.1B. SỐ NGƯỜI DÂN TỘC THIỂU SỐ TỪ 15 TUỔI TRỞ LÊN BIẾT ĐỌC, BIẾT VIẾT CHỮ PHỔ THÔNG  THEO GIỚI TÍNH,  THÀNH THỊ, NÔNG THÔN, VÙNG KINH TẾ-XÃ HỘI VÀ ĐƠN VỊ HÀNH CHÍNH CẤP TỈNH, 01/7/2024",
+        "columns_sample": [
+          "STT",
+          "ĐỊA PHƯƠNG",
+          "Tổng số",
+          "Tày",
+          "Thái",
+          "Hoa",
+          "Khmer",
+          "Mường"
+        ]
+      },
+      {
+        "sheet_index": 4,
+        "sheet_name": "TH_BIEU2_2a",
+        "max_row": 36,
+        "max_column": 56,
+        "unit": "Đơn vị: Người",
+        "title": "BIỂU 2.2A. SỐ NGƯỜI DÂN TỘC THIỂU SỐ TỪ 5 TUỔI TRỞ LÊN CÓ THỂ NGHE, NÓI, HIỂU TIẾNG DÂN TỘC MÌNH  THEO GIỚI TÍNH, THÀNH THỊ, NÔNG THÔN,  VÙNG KINH TẾ-XÃ HỘI VÀ ĐƠN VỊ HÀNH CHÍNH CẤP TỈNH, 01/7/2024",
+        "columns_sample": [
+          "STT",
+          "ĐỊA PHƯƠNG",
+          "Tổng số",
+          "Tày",
+          "Thái",
+          "Hoa",
+          "Khmer",
+          "Mường"
+        ]
+      },
+      {
+        "sheet_index": 5,
+        "sheet_name": "TH_BIEU2_2b",
+        "max_row": 38,
+        "max_column": 56,
+        "unit": "Đơn vị: Người",
+        "title": "BIỂU 2.2B. SỐ NGƯỜI DÂN TỘC THIỂU SỐ TỪ 5 TUỔI TRỞ LÊN BIẾT ĐỌC, BIẾT VIẾT CHỮ DÂN TỘC MÌNH  THEO GIỚI TÍNH, THÀNH THỊ, NÔNG THÔN,  VÙNG BIÊN GIỚI, VÙNG KINH TẾ-XÃ HỘI VÀ ĐƠN VỊ HÀNH CHÍNH CẤP TỈNH, 01/7/2024",
+        "columns_sample": [
+          "STT",
+          "ĐỊA PHƯƠNG",
+          "Tổng số",
+          "Tày",
+          "Thái",
+          "Hoa",
+          "Khmer",
+          "Mường"
+        ]
+      }
+    ]
+  },
+  {
+    "file_name": "Dak Lak_3. Mức sinh.xlsx",
+    "description": "Phân hệ 3: Mức sinh (Y tế sinh sản)",
+    "total_sheets": 7,
+    "sheets": [
+      {
+        "sheet_index": 1,
+        "sheet_name": "Kangatang",
+        "max_row": 1,
+        "max_column": 1,
+        "unit": "N/A",
+        "title": "N/A",
+        "columns_sample": []
+      },
+      {
+        "sheet_index": 2,
+        "sheet_name": "TH_BIEU3_1",
+        "max_row": 24,
+        "max_column": 15,
+        "unit": "Đơn vị: Người",
+        "title": "BIỂU 3.1. SỐ LƯỢNG PHỤ NỮ DTTS 15-49 TUỔI ĐƯỢC KHÁM THAI  LẦN SINH GẦN NHẤT THEO THÀNH THỊ, NÔNG THÔN,  VÙNG BIÊN GIỚI, VÙNG KINH TẾ-XÃ HỘI VÀ ĐƠN VỊ HÀNH CHÍNH, 01/7/2024",
+        "columns_sample": [
+          "STT",
+          "ĐỊA PHƯƠNG",
+          "Tổng số",
+          "Tày",
+          "Thái",
+          "Hoa",
+          "Khmer",
+          "Mường"
+        ]
+      },
+      {
+        "sheet_index": 3,
+        "sheet_name": "TH_BIEU3_2",
+        "max_row": 35,
+        "max_column": 56,
+        "unit": "Đơn vị: Người",
+        "title": "BIỂU 3.2. SỐ PHỤ NỮ DTTS 15-49 TUỔI CÓ NHU CẦU TRÁNH THAI VÀ ĐANG SỬ DỤNG BIỆN PHÁP TRÁNH THAI HIỆN ĐẠI THEO  THÀNH THỊ, NÔNG THÔN, VÙNG BIÊN GIỚI, VÙNG KINH TẾ-XÃ HỘI VÀ ĐƠN VỊ HÀNH CHÍNH, 01/7/2024",
+        "columns_sample": [
+          "STT",
+          "ĐỊA PHƯƠNG",
+          "Tổng số",
+          "Tày",
+          "Thái",
+          "Hoa",
+          "Khmer",
+          "Mường"
+        ]
+      },
+      {
+        "sheet_index": 4,
+        "sheet_name": "TH_BIEU3_3",
+        "max_row": 23,
+        "max_column": 68,
+        "unit": "Đơn vị: Người",
+        "title": "BIỂU 3.3. SỐ LƯỢNG PHỤ NỮ DTTS 10-49 TUỔI SINH CON TẠI CƠ SỞ Y TẾ TRONG LẦN SINH GẦN NHẤT THEO THÀNH THỊ,  NÔNG THÔN, VÙNG BIÊN GIỚI, VÙNG KINH TẾ-XÃ HỘI VÀ ĐƠN VỊ HÀNH CHÍNH, 01/7/2024",
+        "columns_sample": [
+          "STT",
+          "ĐỊA PHƯƠNG",
+          "Tổng số",
+          "Tày",
+          "Thái",
+          "Hoa",
+          "Khmer",
+          "Mường"
+        ]
+      },
+      {
+        "sheet_index": 5,
+        "sheet_name": "TH_BIEU3_4",
+        "max_row": 23,
+        "max_column": 56,
+        "unit": "Đơn vị: Người",
+        "title": "BIỂU 3.4. SỐ LƯỢNG PHỤ NỮ DTTS 10-49 TUỔI SINH CON TẠI NHÀ TRONG LẦN SINH GẦN NHẤT THEO THÀNH THỊ, NÔNG THÔN,  VÙNG BIÊN GIỚI, VÙNG KINH TẾ-XÃ HỘI VÀ ĐƠN VỊ HÀNH CHÍNH, 01/7/2024",
+        "columns_sample": [
+          "STT",
+          "ĐỊA PHƯƠNG",
+          "Tổng số",
+          "Mường",
+          "Nùng",
+          "Mông",
+          "Dao",
+          "Gia Rai"
+        ]
+      },
+      {
+        "sheet_index": 6,
+        "sheet_name": "TH_BIEU3_5",
+        "max_row": 23,
+        "max_column": 56,
+        "unit": "Đơn vị: Người",
+        "title": "BIỂU 3.5. SỐ LƯỢNG PHỤ NỮ DTTS 10-49 TUỔI SINH CON ĐƯỢC NHÂN VIÊN Y TẾ CÓ KỸ NĂNG ĐỠ TRONG LẦN SINH GẦN NHẤT  THEO THÀNH THỊ, NÔNG THÔN, VÙNG BIÊN GIỚI, VÙNG KINH TẾ-XÃ HỘI VÀ ĐƠN VỊ HÀNH CHÍNH, 01/7/2024",
+        "columns_sample": [
+          "STT",
+          "ĐỊA PHƯƠNG",
+          "Tổng số",
+          "Tày",
+          "Thái",
+          "Hoa",
+          "Khmer",
+          "Mường"
+        ]
+      },
+      {
+        "sheet_index": 7,
+        "sheet_name": "TH_BIEU3_6",
+        "max_row": 23,
+        "max_column": 56,
+        "unit": "Đơn vị: Người",
+        "title": "BIỂU 3.6. SỐ LƯỢNG PHỤ NỮ DTTS 10-49 TUỔI SINH CON THỨ 3 TRỞ LÊN THEO THÀNH THỊ, NÔNG THÔN,   VÙNG BIÊN GIỚI, VÙNG KINH TẾ - XÃ HỘI VÀ ĐƠN VỊ HÀNH CHÍNH, 01/7/2024",
+        "columns_sample": [
+          "STT",
+          "ĐỊA PHƯƠNG",
+          "Tổng số",
+          "Tày",
+          "Thái",
+          "Hoa",
+          "Khmer",
+          "Mường"
+        ]
+      }
+    ]
+  },
+  {
+    "file_name": "Dak Lak_4. Lao động.xlsx",
+    "description": "Phân hệ 4: Lao động (Việc làm & Ngành nghề)",
+    "total_sheets": 7,
+    "sheets": [
+      {
+        "sheet_index": 1,
+        "sheet_name": "Kangatang",
+        "max_row": 1,
+        "max_column": 1,
+        "unit": "N/A",
+        "title": "N/A",
+        "columns_sample": []
+      },
+      {
+        "sheet_index": 2,
+        "sheet_name": "TH_BIEU4_1",
+        "max_row": 28,
+        "max_column": 56,
+        "unit": "Đơn vị: Người",
+        "title": "BIỂU 4.1. SỐ NGƯỜI DTTS TỪ 15 TUỔI TRỞ LÊN THAM GIA LỰC LƯỢNG LAO ĐỘNG THEO GIỚI TÍNH, NHÓM TUỔI  VÙNG KINH TẾ-XÃ HỘI VÀ ĐƠN VỊ HÀNH CHÍNH CẤP TỈNH, 01/7/2024",
+        "columns_sample": [
+          "STT",
+          "ĐỊA PHƯƠNG",
+          "Tổng số",
+          "Tày",
+          "Thái",
+          "Hoa",
+          "Khmer",
+          "Mường"
+        ]
+      },
+      {
+        "sheet_index": 3,
+        "sheet_name": "TH_BIEU4_2",
+        "max_row": 74,
+        "max_column": 56,
+        "unit": "Đơn vị: Người",
+        "title": "BIỂU 4.2. SỐ NGƯỜI TỪ 15 TUỔI TRỞ LÊN CÓ VIỆC LÀM THEO NGHỀ NGHIỆP, GIỚI TÍNH, THÀNH THỊ, NÔNG THÔN,  VÙNG KINH TẾ-XÃ HỘI VÀ ĐƠN VỊ HÀNH CHÍNH CẤP TỈNH, 01/7/2025",
+        "columns_sample": [
+          "STT",
+          "ĐỊA PHƯƠNG",
+          "Tổng số",
+          "Tày",
+          "Thái",
+          "Hoa",
+          "Khmer",
+          "Mường"
+        ]
+      },
+      {
+        "sheet_index": 4,
+        "sheet_name": "TH_BIEU4_3",
+        "max_row": 31,
+        "max_column": 56,
+        "unit": "Đơn vị: Người",
+        "title": "BIỂU 4.3. SỐ NGƯỜI DÂN TỘC THIỂU SỐ TỪ 15 TUỔI TRỞ LÊN CÓ VIỆC LÀM THEO KHU VỰC NGÀNH KINH TẾ, THÀNH THỊ,  NÔNG THÔN,  GIỚI TÍNH VÙNG KINH TẾ-XÃ HỘI VÀ ĐƠN VỊ HÀNH CHÍNH CẤP TỈNH, 01/7/2024",
+        "columns_sample": [
+          "STT",
+          "ĐỊA PHƯƠNG",
+          "Tổng số",
+          "Tày",
+          "Thái",
+          "Hoa",
+          "Khmer",
+          "Mường"
+        ]
+      },
+      {
+        "sheet_index": 5,
+        "sheet_name": "TH_BIEU4_4",
+        "max_row": 61,
+        "max_column": 56,
+        "unit": "Đơn vị: Người",
+        "title": "BIỂU 4.4. SỐ NGƯỜI DÂN TỘC THIỂU SỐ CÓ VIỆC LÀM TỪ 15 TUỔI TRỞ LÊN THEO TRÌNH ĐỘ HỌC VẤN, TRÌNH ĐỘ CHUYÊN MÔN KỸ THUẬT ĐẠT ĐƯỢC (CMKT), THÀNH THỊ, NÔNG THÔN, GIỚI TÍNH, VÙNG KINH TẾ-XÃ HỘI VÀ ĐƠN VỊ HÀNH CHÍNH CẤP TỈNH, 01/7/2024",
+        "columns_sample": [
+          "STT",
+          "ĐỊA PHƯƠNG",
+          "Tổng số",
+          "Tày",
+          "Thái",
+          "Hoa",
+          "Khmer",
+          "Mường"
+        ]
+      },
+      {
+        "sheet_index": 6,
+        "sheet_name": "TH_BIEU4_5",
+        "max_row": 49,
+        "max_column": 56,
+        "unit": "Đơn vị: Hộ",
+        "title": "BIỂU 4.5: SỐ HỘ DÂN TỘC THIỂU SỐ CÓ LÀM DỊCH VỤ DU LỊCH, NGHỀ THỦ CÔNG TRUYỀN THỐNG VÀ SẢN XUẤT KINH DOANH PHÂN THEO THÀNH THỊ/NÔNG THÔN, VÙNG BIÊN GIỚI, VÙNG KINH TẾ-XÃ HỘI VÀ ĐƠN VỊ HÀNH CHÍNH, 01/7/2024",
+        "columns_sample": [
+          "STT",
+          "ĐỊA PHƯƠNG",
+          "Tổng số",
+          "Tày",
+          "Thái",
+          "Hoa",
+          "Khmer",
+          "Mường"
+        ]
+      },
+      {
+        "sheet_index": 7,
+        "sheet_name": "TH_BIEU4_6",
+        "max_row": 31,
+        "max_column": 56,
+        "unit": "Đơn vị: Hộ",
+        "title": "Biểu 4.6: SỐ HỘ, SỐ NGƯỜI DÂN TỘC THIỂU SỐ PHÂN THEO LOẠI HỘ LÀM NGHỀ THỦ CÔNG TRUYỀN THỐNG, THÀNH THỊ/ NÔNG THÔN,  VÙNG BIÊN GIỚI, VÙNG KINH TẾ-XÃ HỘI VÀ ĐƠN VỊ HÀNH CHÍNH, 01/7/2024",
+        "columns_sample": [
+          "STT",
+          "ĐỊA PHƯƠNG",
+          "Tổng số",
+          "Tày",
+          "Nùng",
+          "Mông",
+          "Gia Rai",
+          "Ê đê"
+        ]
+      }
+    ]
+  },
+  {
+    "file_name": "Dak Lak_5. Nhà ở.xlsx",
+    "description": "Phân hệ 5: Nhà ở (Chất lượng an cư)",
+    "total_sheets": 8,
+    "sheets": [
+      {
+        "sheet_index": 1,
+        "sheet_name": "Kangatang",
+        "max_row": 1,
+        "max_column": 1,
+        "unit": "N/A",
+        "title": "N/A",
+        "columns_sample": []
+      },
+      {
+        "sheet_index": 2,
+        "sheet_name": "TH_BIEU5_1",
+        "max_row": 22,
+        "max_column": 56,
+        "unit": "Đơn vị: Hộ",
+        "title": "BIỂU 1. SỐ HỘ DÂN TỘC THIỂU SỐ CÓ NHÀ Ở THEO QUYỀN SỞ HỮU NGÔI NHÀ/CĂN HỘ, THÀNH THỊ, NÔNG THÔN,  VÙNG BIÊN GIỚI, VÙNG KINH TẾ-XÃ HỘI VÀ ĐƠN VỊ HÀNH CHÍNH, 01/07/2024",
+        "columns_sample": [
+          "STT",
+          "Địa phương",
+          "Tổng số",
+          "Tày",
+          "Thái",
+          "Hoa",
+          "Khmer",
+          "Mường"
+        ]
+      },
+      {
+        "sheet_index": 3,
+        "sheet_name": "TH_BIEU5_2",
+        "max_row": 27,
+        "max_column": 56,
+        "unit": "Đơn vị: Hộ",
+        "title": "BIỂU 2. SỐ HỘ DÂN TỘC THIỂU SỐ ĐANG Ở NHÀ TRUYỀN THỐNG CỦA DÂN TỘC MÌNH THEO THÀNH THỊ, NÔNG THÔN, VÙNG BIÊN GIỚI, VÙNG KINH TẾ-XÃ HỘI VÀ ĐƠN VỊ HÀNH CHÍNH, 01/07/2024",
+        "columns_sample": [
+          "STT",
+          "Địa phương",
+          "Tổng số",
+          "Tày",
+          "Thái",
+          "Mường",
+          "Nùng",
+          "Mông"
+        ]
+      },
+      {
+        "sheet_index": 4,
+        "sheet_name": "TH_BIEU5_3",
+        "max_row": 30,
+        "max_column": 54,
+        "unit": "Đơn vị: Hộ",
+        "title": "BIỂU 3. SỐ HỘ DÂN TỘC THIỂU SỐ CÓ NHÀ Ở THEO MỨC ĐỘ KIÊN CỐ CỦA NGÔI NHÀ/CĂN HỘ, THÀNH THỊ, NÔNG THÔN,  VÙNG BIÊN GIỚI, VÙNG KINH TẾ-XÃ HỘI VÀ ĐƠN VỊ HÀNH CHÍNH, 01/07/2024",
+        "columns_sample": [
+          "STT",
+          "Địa phương",
+          "Tổng số",
+          "Tày",
+          "Thái",
+          "Hoa",
+          "Khmer",
+          "Mường"
+        ]
+      },
+      {
+        "sheet_index": 5,
+        "sheet_name": "TH_BIEU5_4",
+        "max_row": 29,
+        "max_column": 40,
+        "unit": "Đơn vị: Hộ",
+        "title": "BIỂU 4. SỐ HỘ DÂN TỘC THIỂU SỐ CÓ NHÀ Ở THEO LOẠI NHÀ RIÊNG LẺ/CHUNG CƯ, THÀNH THỊ, NÔNG THÔN,  VÙNG BIÊN GIỚI, VÙNG KINH TẾ-XÃ HỘI VÀ ĐƠN VỊ HÀNH CHÍNH, 01/07/2024",
+        "columns_sample": [
+          "STT",
+          "Địa phương",
+          "Tổng số",
+          "Tày",
+          "Thái",
+          "Hoa",
+          "Khmer",
+          "Mường"
+        ]
+      },
+      {
+        "sheet_index": 6,
+        "sheet_name": "TH_BIEU5_5",
+        "max_row": 41,
+        "max_column": 56,
+        "unit": "Đơn vị: Hộ",
+        "title": "BIỂU 5. SỐ HỘ DÂN TỘC THIỂU SỐ CÓ NHÀ Ở THEO SỐ PHÒNG NGỦ RIÊNG BIỆT, THÀNH THỊ, NÔNG THÔN,  VÙNG BIÊN GIỚI, VÙNG KINH TẾ-XÃ HỘI VÀ ĐƠN VỊ HÀNH CHÍNH, 01/07/2024",
+        "columns_sample": [
+          "STT",
+          "Địa phương",
+          "Tổng số",
+          "Tày",
+          "Thái",
+          "Hoa",
+          "Khmer",
+          "Mường"
+        ]
+      },
+      {
+        "sheet_index": 7,
+        "sheet_name": "TH_BIEU5_6",
+        "max_row": 26,
+        "max_column": 56,
+        "unit": "Đơn vị: m2",
+        "title": "BIỂU 6. DIỆN TÍCH NHÀ Ở BÌNH QUÂN ĐẦU NGƯỜI CỦA HỘ DÂN TỘC THIỂU SỐ, THÀNH THỊ, NÔNG THÔN,  VÙNG BIÊN GIỚI, VÙNG KINH TẾ-XÃ HỘI VÀ ĐƠN VỊ HÀNH CHÍNH, 01/07/2024",
+        "columns_sample": [
+          "STT",
+          "Địa phương",
+          "Tổng số",
+          "Tày",
+          "Thái",
+          "Hoa",
+          "Khmer",
+          "Mường"
+        ]
+      },
+      {
+        "sheet_index": 8,
+        "sheet_name": "TH_BIEU5_7",
+        "max_row": 25,
+        "max_column": 56,
+        "unit": "Đơn vị: Hộ",
+        "title": "BIỂU 7. SỐ HỘ DÂN TỘC THIỂU SỐ CÓ NHÀ Ở THEO THỜI GIAN SỬ DỤNG CỦA NGÔI NHÀ/CĂN HỘ, THÀNH THỊ, NÔNG THÔN,  VÙNG BIÊN GIỚI, VÙNG KINH TẾ-XÃ HỘI VÀ ĐƠN VỊ HÀNH CHÍNH, 01/07/2024",
+        "columns_sample": [
+          "STT",
+          "Địa phương",
+          "Tổng số",
+          "Tày",
+          "Thái",
+          "Hoa",
+          "Khmer",
+          "Mường"
+        ]
+      }
+    ]
+  },
+  {
+    "file_name": "Dak Lak_6. Điều kiện sinh hoạt.xlsx",
+    "description": "Phân hệ 6: Điều kiện sinh hoạt (Nước sạch, Vệ sinh, Đời sống)",
+    "total_sheets": 24,
+    "sheets": [
+      {
+        "sheet_index": 1,
+        "sheet_name": "Kangatang",
+        "max_row": 1,
+        "max_column": 1,
+        "unit": "N/A",
+        "title": "N/A",
+        "columns_sample": []
+      },
+      {
+        "sheet_index": 2,
+        "sheet_name": "TH_BIEU6_1a",
+        "max_row": 27,
+        "max_column": 56,
+        "unit": "Đơn vị: Hộ",
+        "title": "BIỂU 6.1A. SỐ HỘ DÂN TỘC THIỂU SỐ ĐƯỢC VAY VỐN ƯU ĐÃI TỪ NGÂN HÀNG CHÍNH SÁCH XÃ HỘI TRONG GIAI ĐOẠN TỪ NGÀY 01/01/2023 ĐẾN NGÀY 30/6/2024 CHIA THEO DÂN TỘC, THÀNH THỊ/NÔNG THÔN, VÙNG BIÊN GIỚI, VÙNG KINH TẾ-XÃ HỘI, VÀ ĐƠN VỊ HÀNH CHÍNH CẤP TỈNH/THÀNH PHỐ VÀ QUẬN/HUYỆN, 01/7/2024",
+        "columns_sample": [
+          "STT",
+          "Địa phương",
+          "Tổng số",
+          "Tày",
+          "Thái",
+          "Hoa",
+          "Khmer",
+          "Mường"
+        ]
+      },
+      {
+        "sheet_index": 3,
+        "sheet_name": "TH_BIEU6_1b",
+        "max_row": 27,
+        "max_column": 218,
+        "unit": "Đơn vị: Hộ",
+        "title": "BIỂU 6.1B. SỐ HỘ DÂN TỘC THIỂU SỐ ĐƯỢC VAY VỐN ƯU ĐÃI TỪ NGÂN HÀNG CHÍNH SÁCH XÃ HỘI  TRONG GIAI ĐOẠN TỪ NGÀY 01/01/2023 ĐẾN NGÀY 30/6/2024 CHIA THEO MỨC VỐN ĐƯỢC VAY,  DÂN TỘC, THÀNH THỊ/NÔNG THÔN, VÙNG BIÊN GIỚI, VÙNG KINH TẾ-XÃ HỘI,  VÀ ĐƠN VỊ HÀNH CHÍNH CẤP TỈNH/THÀNH PHỐ VÀ QUẬN/HUYỆN, 01/7/2024",
+        "columns_sample": [
+          "STT",
+          "Địa phương",
+          "53 DTTS",
+          "Đến 20 triệu",
+          "Thái",
+          ">50 triệu",
+          "Tày",
+          "Đến 20 triệu"
+        ]
+      },
+      {
+        "sheet_index": 4,
+        "sheet_name": "TH_BIEU6_2a",
+        "max_row": 27,
+        "max_column": 57,
+        "unit": "Đơn vị: Hộ",
+        "title": "BIỂU 6.2A. SỐ HỘ DÂN TỘC THIỂU SỐ CÓ NHU CẦU VAY VỐN ƯU ĐÃI TỪ NGÂN HÀNG CHÍNH SÁCH XÃ HỘI TRONG NĂM 2025 CHIA THEO DÂN TỘC,  THÀNH THỊ/NÔNG THÔN, VÙNG BIÊN GIỚI, VÙNG KINH TẾ-XÃ HỘI, VÀ ĐƠN VỊ HÀNH CHÍNH CẤP TỈNH/THÀNH PHỐ VÀ QUẬN/HUYỆN, 01/7/2024",
+        "columns_sample": [
+          "STT",
+          "Địa phương",
+          "Tổng số",
+          "Tày",
+          "Thái",
+          "Hoa",
+          "Mường",
+          "Nùng"
+        ]
+      },
+      {
+        "sheet_index": 5,
+        "sheet_name": "TH_BIEU6_2b",
+        "max_row": 27,
+        "max_column": 218,
+        "unit": "Đơn vị: Hộ",
+        "title": "BIỂU 6.2B. SỐ HỘ DÂN TỘC THIỂU SỐ CÓ NHU CẦU VAY VỐN ƯU ĐÃI TỪ NGÂN HÀNG CHÍNH SÁCH XÃ HỘI TRONG NĂM 2025 CHIA THEO MỨC VỐN MUỐN VAY, DÂN TỘC, THÀNH THỊ/NÔNG THÔN, VÙNG BIÊN GIỚI, VÙNG KINH TẾ-XÃ HỘI, VÀ ĐƠN VỊ HÀNH CHÍNH CẤP TỈNH/THÀNH PHỐ VÀ QUẬN/HUYỆN, 01/7/2024",
+        "columns_sample": [
+          "STT",
+          "Địa phương",
+          "53 DTTS",
+          "Đến 20 triệu",
+          "Thái",
+          ">50 triệu",
+          "Tày",
+          "Đến 20 triệu"
+        ]
+      },
+      {
+        "sheet_index": 6,
+        "sheet_name": "TH_BIEU6_3",
+        "max_row": 27,
+        "max_column": 56,
+        "unit": "Đơn vị: Hộ",
+        "title": "BIỂU 6.3. SỐ HỘ GIA ĐÌNH NGƯỜI DTTS TIẾP CẬN THÔNG TIN VĂN HÓA XÃ HỘI QUA ĐÀI TIẾNG NÓI VIỆT NAM/ĐÀI PHÁT THANH TỈNH/HUYỆN  HOẶC TRUYỀN HÌNH TRUNG ƯƠNG/ĐỊA PHƯƠNG CHIA THEO DÂN TỘC, THÀNH THỊ/NÔNG THÔN, VÙNG BIÊN GIỚI,  VÙNG KINH TẾ-XÃ HỘI VÀ ĐƠN VỊ HÀNH CHÍNH CẤP TỈNH/THÀNH PHỐ VÀ CẤP QUẬN/HUYỆN, 01/7/2024",
+        "columns_sample": [
+          "STT",
+          "Địa phương",
+          "Tổng số",
+          "Tày",
+          "Thái",
+          "Hoa",
+          "Khmer",
+          "Mường"
+        ]
+      },
+      {
+        "sheet_index": 7,
+        "sheet_name": "TH_BIEU6_4",
+        "max_row": 27,
+        "max_column": 56,
+        "unit": "Đơn vị: Hộ",
+        "title": "BIỂU 6.4. SỐ HỘ GIA ĐÌNH NGƯỜI DTTS ĐƯỢC NGHE ĐÀI TIẾNG NÓI VIỆT NAM/ĐÀI PHÁT THANH TỈNH/HUYỆN THEO DÂN TỘC, THÀNH THỊ/NÔNG THÔN, VÙNG BIÊN GIỚI, VÙNG KINH TẾ-XÃ HỘI VÀ ĐƠN VỊ HÀNH CHÍNH CẤP TỈNH/THÀNH PHỐ VÀ CẤP QUẬN/HUYỆN, 01/7/2024",
+        "columns_sample": [
+          "STT",
+          "Địa phương",
+          "Tổng số",
+          "Tày",
+          "Thái",
+          "Hoa",
+          "Khmer",
+          "Mường"
+        ]
+      },
+      {
+        "sheet_index": 8,
+        "sheet_name": "TH_BIEU6_5",
+        "max_row": 27,
+        "max_column": 56,
+        "unit": "Đơn vị: Hộ",
+        "title": "BIỂU 6.5A. SỐ HỘ GIA ĐÌNH NGƯỜI DTTS ĐƯỢC XEM TRUYỀN HÌNH TRUNG ƯƠNG/ĐỊA PHƯƠNG CHIA THEO DÂN TỘC, THÀNH THỊ/NÔNG THÔN, VÙNG BIÊN GIỚI, VÙNG KINH TẾ-XÃ HỘI VÀ  ĐƠN VỊ HÀNH CHÍNH CẤP TỈNH/THÀNH PHỐ VÀ CẤP QUẬN/HUYỆN, 01/7/2024",
+        "columns_sample": [
+          "STT",
+          "Địa phương",
+          "Tổng số",
+          "Tày",
+          "Thái",
+          "Hoa",
+          "Khmer",
+          "Mường"
+        ]
+      },
+      {
+        "sheet_index": 9,
+        "sheet_name": "TH_BIEU6_6",
+        "max_row": 27,
+        "max_column": 56,
+        "unit": "Đơn vị: Hộ",
+        "title": "BIỂU 6.6A. SỐ HỘ NGƯỜI DÂN TỘC THIỂU SỐ DÙNG MÀN/MÙNG ĐỂ NGỦ CHIA THEO DÂN TỘC, THÀNH THỊ/NÔNG THÔN, VÙNG BIÊN GIỚI, VÙNG KINH TẾ-XÃ HỘI VÀ  ĐƠN VỊ HÀNH CHÍNH CẤP TỈNH/THÀNH PHỐ VÀ CẤP QUẬN/HUYỆN, 01/7/2024",
+        "columns_sample": [
+          "STT",
+          "Địa phương",
+          "Tổng số",
+          "Tày",
+          "Thái",
+          "Hoa",
+          "Khmer",
+          "Mường"
+        ]
+      },
+      {
+        "sheet_index": 10,
+        "sheet_name": "TH_BIEU6_7",
+        "max_row": 27,
+        "max_column": 56,
+        "unit": "Đơn vị: M2",
+        "title": "BIỂU 6.7. DIỆN TÍCH ĐẤT Ở BÌNH QUÂN CỦA HỘ DTTS THEO DÂN TỘC, THÀNH THỊ/NÔNG THÔN, VÙNG BIÊN GIỚI, VÙNG KINH TẾ-XÃ HỘI  VÀ  ĐƠN VỊ HÀNH CHÍNH CẤP TỈNH/THÀNH PHỐ VÀ CẤP QUẬN/HUYỆN, 01/7/2024",
+        "columns_sample": [
+          "STT",
+          "Địa phương",
+          "Tổng số",
+          "Tày",
+          "Thái",
+          "Hoa",
+          "Khmer",
+          "Mường"
+        ]
+      },
+      {
+        "sheet_index": 11,
+        "sheet_name": "TH_BIEU6_8",
+        "max_row": 27,
+        "max_column": 56,
+        "unit": "Đơn vị: M2",
+        "title": "BIỂU 6.8. DIỆN TÍCH ĐẤT SẢN XUẤT BÌNH QUÂN CỦA HỘ DTTS THEO DÂN TỘC, THÀNH THỊ/NÔNG THÔN,  VÙNG BIÊN GIỚI, VÙNG KINH TẾ-XÃ HỘI VÀ ĐƠN VỊ HÀNH CHÍNH CẤP TỈNH/THÀNH PHỐ VÀ CẤP QUẬN/HUYỆN, 01/7/2024",
+        "columns_sample": [
+          "STT",
+          "Địa phương",
+          "Tổng số",
+          "Tày",
+          "Thái",
+          "Hoa",
+          "Khmer",
+          "Mường"
+        ]
+      },
+      {
+        "sheet_index": 12,
+        "sheet_name": "TH_BIEU6_9",
+        "max_row": 27,
+        "max_column": 56,
+        "unit": "Đơn vị: Gia súc",
+        "title": "BIỂU 6.9. SỐ LƯỢNG GIA SÚC BÌNH QUÂN MỘT HỘ GIA ĐÌNH NGƯỜI DÂN TỘC THIỂU SỐ CHIA THEO DÂN TỘC, THÀNH THỊ/NÔNG THÔN,  VÙNG BIÊN GIỚI, VÙNG KINH TẾ-XÃ HỘI VÀ  ĐƠN VỊ HÀNH CHÍNH CẤP TỈNH/THÀNH PHỐ VÀ CẤP QUẬN/HUYỆN, 01/7/2024",
+        "columns_sample": [
+          "STT",
+          "Địa phương",
+          "Tổng số",
+          "Tày",
+          "Thái",
+          "Hoa",
+          "Khmer",
+          "Mường"
+        ]
+      },
+      {
+        "sheet_index": 13,
+        "sheet_name": "TH_BIEU6_10",
+        "max_row": 28,
+        "max_column": 56,
+        "unit": "Đơn vị: Hộ",
+        "title": "BIỂU 6.10. SỐ HỘ GIA ĐÌNH NGƯỜI DÂN TỘC THIỂU SỐ CÓ KẾT NỐI INTERNET TẠI NHÀ THEO DÂN TỘC,  THÀNH THỊ/NÔNG THÔN,  VÙNG BIÊN GIỚI, VÙNG KINH TẾ-XÃ HỘI VÀ ĐƠN VỊ HÀNH CHÍNH CẤP TỈNH/THÀNH PHỐ VÀ CẤP QUẬN/HUYỆN, 01/7/2024",
+        "columns_sample": [
+          "STT",
+          "Địa phương",
+          "Tổng",
+          "Tày",
+          "Thái",
+          "Hoa",
+          "Khmer",
+          "Mường"
+        ]
+      },
+      {
+        "sheet_index": 14,
+        "sheet_name": "TH_BIEU6_11",
+        "max_row": 27,
+        "max_column": 56,
+        "unit": "Đơn vị: Hộ",
+        "title": "BIỂU 6.11. SỐ HỘ GIA ĐÌNH NGƯỜI DÂN TỘC THIỂU SỐ SỬ DỤNG ĐIỆN LƯỚI QUỐC GIA THEO DÂN TỘC,  THÀNH THỊ/NÔNG THÔN,  VÙNG BIÊN GIỚI, VÙNG KINH TẾ-XÃ HỘI VÀ ĐƠN VỊ HÀNH CHÍNH CẤP TỈNH/THÀNH PHỐ VÀ CẤP QUẬN/HUYỆN, 01/7/2024",
+        "columns_sample": [
+          "STT",
+          "Địa phương",
+          "Tổng số",
+          "Tày",
+          "Thái",
+          "Hoa",
+          "Khmer",
+          "Mường"
+        ]
+      },
+      {
+        "sheet_index": 15,
+        "sheet_name": "TH_BIEU6_12",
+        "max_row": 27,
+        "max_column": 326,
+        "unit": "Đơn vị: Hộ",
+        "title": "BIỂU 6.12. SỐ HỘ GIA ĐÌNH NGƯỜI DÂN TỘC THIỂU SỐ CHIA THEO LOẠI NHIÊN LIỆU (NĂNG LƯỢNG) CHÍNH ĐỂ THẮP SÁNG,  DÂN TỘC, THÀNH THỊ/NÔNG THÔN, VÙNG BIÊN GIỚI, VÙNG KINH TẾ-XÃ HỘI VÀ ĐƠN VỊ HÀNH CHÍNH CẤP TỈNH/THÀNH PHỐ VÀ CẤP QUẬN/HUYỆN, 01/7/2024",
+        "columns_sample": [
+          "STT",
+          "Địa phương",
+          "53 DTTS",
+          "Điện lưới",
+          "Điện máy phát",
+          "Dầu lửa",
+          "Khí ga",
+          "Khác"
+        ]
+      },
+      {
+        "sheet_index": 16,
+        "sheet_name": "TH_BIEU6_13",
+        "max_row": 27,
+        "max_column": 380,
+        "unit": "Đơn vị: Hộ",
+        "title": "BIỂU 6.13. SỐ HỘ GIA ĐÌNH NGƯỜI DÂN TỘC THIỂU SỐ CHIA THEO LOẠI NHIÊN LIỆU CHÍNH ĐỂ NẤU ĂN, DÂN TỘC,  THÀNH THỊ/NÔNG THÔN,  VÙNG BIÊN GIỚI, VÙNG KINH TẾ-XÃ HỘI VÀ ĐƠN VỊ HÀNH CHÍNH CẤP TỈNH/THÀNH PHỐ VÀ CẤP QUẬN/HUYỆN, 01/7/2024",
+        "columns_sample": [
+          "STT",
+          "Địa phương",
+          "53 DTTS",
+          "Điện",
+          "Gas/Bioga",
+          "Than",
+          "Củi",
+          "Khác"
+        ]
+      },
+      {
+        "sheet_index": 17,
+        "sheet_name": "TH_BIEU6_14a",
+        "max_row": 27,
+        "max_column": 56,
+        "unit": "Đơn vị: Người",
+        "title": "BIỂU 6.14A. SỐ NGƯỜI DÂN TỘC THIỂU SỐ ĐƯỢC SỬ DỤNG NGUỒN NƯỚC HỢP VỆ SINH THEO DÂN TỘC,  THÀNH THỊ/NÔNG THÔN,  VÙNG BIÊN GIỚI, VÙNG KINH TẾ-XÃ HỘI VÀ ĐƠN VỊ HÀNH CHÍNH CẤP TỈNH/THÀNH PHỐ VÀ CẤP QUẬN/HUYỆN, 01/7/2024",
+        "columns_sample": [
+          "STT",
+          "Địa phương",
+          "Tổng số",
+          "Tày",
+          "Thái",
+          "Hoa",
+          "Khmer",
+          "Mường"
+        ]
+      },
+      {
+        "sheet_index": 18,
+        "sheet_name": "TH_BIEU6_14b",
+        "max_row": 27,
+        "max_column": 56,
+        "unit": "Đơn vị: %",
+        "title": "BIỂU 6.14B. TỶ LỆ NGƯỜI DÂN TỘC THIỂU SỐ ĐƯỢC SỬ DỤNG NGUỒN NƯỚC HỢP VỆ SINH THEO DÂN TỘC,  THÀNH THỊ/NÔNG THÔN,  VÙNG BIÊN GIỚI, VÙNG KINH TẾ-XÃ HỘI VÀ ĐƠN VỊ HÀNH CHÍNH CẤP TỈNH/THÀNH PHỐ VÀ CẤP QUẬN/HUYỆN, 01/7/2024",
+        "columns_sample": [
+          "STT",
+          "Địa phương",
+          "Tổng số",
+          "Tày",
+          "Thái",
+          "Hoa",
+          "Khmer",
+          "Mường"
+        ]
+      },
+      {
+        "sheet_index": 19,
+        "sheet_name": "TH_BIEU6_14c",
+        "max_row": 27,
+        "max_column": 56,
+        "unit": "Đơn vị: Hộ",
+        "title": "BIỂU 6.14C. SỐ HỘ DÂN TỘC THIỂU SỐ ĐƯỢC SỬ DỤNG NGUỒN NƯỚC HỢP VỆ SINH THEO DÂN TỘC, THÀNH THỊ/NÔNG THÔN, VÙNG BIÊN GIỚI,  VÙNG KINH TẾ-XÃ HỘI VÀ ĐƠN VỊ HÀNH CHÍNH CẤP TỈNH/THÀNH PHỐ VÀ CẤP QUẬN/HUYỆN, 01/7/2024",
+        "columns_sample": [
+          "STT",
+          "Địa phương",
+          "Tổng số",
+          "Tày",
+          "Thái",
+          "Hoa",
+          "Khmer",
+          "Mường"
+        ]
+      },
+      {
+        "sheet_index": 20,
+        "sheet_name": "TH_BIEU6_14d",
+        "max_row": 27,
+        "max_column": 56,
+        "unit": "Đơn vị: %",
+        "title": "BIỂU 6.15D. TỶ LỆ HỘ DÂN TỘC THIỂU SỐ ĐƯỢC SỬ DỤNG NGUỒN NƯỚC HỢP VỆ SINH THEO DÂN TỘC, THÀNH THỊ/NÔNG THÔN,  VÙNG BIÊN GIỚI, VÙNG KINH TẾ-XÃ HỘI VÀ ĐƠN VỊ HÀNH CHÍNH CẤP TỈNH/THÀNH PHỐ VÀ CẤP QUẬN/HUYỆN, 01/7/2024",
+        "columns_sample": [
+          "STT",
+          "Địa phương",
+          "Tổng số",
+          "Tày",
+          "Thái",
+          "Hoa",
+          "Khmer",
+          "Mường"
+        ]
+      },
+      {
+        "sheet_index": 21,
+        "sheet_name": "TH_BIEU6_15a",
+        "max_row": 28,
+        "max_column": 56,
+        "unit": "Đơn vị: Hộ",
+        "title": "BIỂU 6.15A. SỐ HỘ GIA ĐÌNH NGƯỜI DÂN TỘC THIỂU SỐ CÓ SỬ DỤNG HỐ XÍ HỢP VỆ SINH THEO DÂN TỘC,  THÀNH THỊ/NÔNG THÔN,  VÙNG BIÊN GIỚI, VÙNG KINH TẾ-XÃ HỘI VÀ ĐƠN VỊ HÀNH CHÍNH CẤP TỈNH/THÀNH PHỐ VÀ CẤP QUẬN/HUYỆN, 01/7/2024",
+        "columns_sample": [
+          "STT",
+          "Địa phương",
+          "Tổng số",
+          "Tày",
+          "Thái",
+          "Hoa",
+          "Khmer",
+          "Mường"
+        ]
+      },
+      {
+        "sheet_index": 22,
+        "sheet_name": "TH_BIEU6_15b",
+        "max_row": 27,
+        "max_column": 56,
+        "unit": "Đơn vị: %",
+        "title": "BIỂU 6.15B. TỶ LỆ HỘ GIA ĐÌNH DÂN TỘC THIỂU SỐ CÓ SỬ DỤNG HỐ XÍ HỢP VỆ SINH THEO DÂN TỘC, THÀNH THỊ/NÔNG THÔN,  VÙNG BIÊN GIỚI, VÙNG KINH TẾ-XÃ HỘI VÀ ĐƠN VỊ HÀNH CHÍNH CẤP TỈNH/THÀNH PHỐ VÀ CẤP QUẬN/HUYỆN, 01/7/2024",
+        "columns_sample": [
+          "STT",
+          "Địa phương",
+          "Tổng số",
+          "Tày",
+          "Thái",
+          "Hoa",
+          "Khmer",
+          "Mường"
+        ]
+      },
+      {
+        "sheet_index": 23,
+        "sheet_name": "TH_BIEU6_16a",
+        "max_row": 27,
+        "max_column": 56,
+        "unit": "Đơn vị: Hộ",
+        "title": "BIỂU 6.16A. SỐ HỘ GIA ĐÌNH NGƯỜI DÂN TỘC THIỂU SỐ  NUÔI, NHỐT GIA SÚC, GIA CẦM DƯỚI GẦM NHÀ, CẠNH PHÒNG Ở THEO DÂN TỘC,   THÀNH THỊ/NÔNG THÔN, VÙNG BIÊN GIỚI, VÙNG KINH TẾ-XÃ HỘI VÀ ĐƠN VỊ HÀNH CHÍNH CẤP TỈNH/THÀNH PHỐ VÀ CẤP QUẬN/HUYỆN, 01/7/2024",
+        "columns_sample": [
+          "STT",
+          "Địa phương",
+          "Tổng số",
+          "Tày",
+          "Thái",
+          "Hoa",
+          "Khmer",
+          "Mường"
+        ]
+      },
+      {
+        "sheet_index": 24,
+        "sheet_name": "TH_BIEU6_16b",
+        "max_row": 27,
+        "max_column": 56,
+        "unit": "Đơn vị: %",
+        "title": "BIỂU 6.16B. TỶ LỆ HỘ GIA ĐÌNH DÂN TỘC THIỂU SỐ  NUÔI, NHỐT GIA SÚC, GIA CẦM DƯỚI GẦM NHÀ, CẠNH PHÒNG Ở THEO DÂN TỘC,  THÀNH THỊ/NÔNG THÔN, VÙNG BIÊN GIỚI, VÙNG KINH TẾ-XÃ HỘI VÀ ĐƠN VỊ HÀNH CHÍNH CẤP TỈNH/THÀNH PHỐ VÀ CẤP QUẬN/HUYỆN, 01/7/2024",
+        "columns_sample": [
+          "STT",
+          "Địa phương",
+          "Tổng số",
+          "Tày",
+          "Thái",
+          "Hoa",
+          "Khmer",
+          "Mường"
+        ]
+      }
+    ]
+  }
+]

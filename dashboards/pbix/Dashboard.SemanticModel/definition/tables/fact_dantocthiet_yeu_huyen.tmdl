@@ -1,0 +1,136 @@
+table fact_dantocthiet_yeu_huyen
+	lineageTag: a9c4a9bf-cdea-4a3e-b8c3-809723a55bf3
+
+	column ma_huyen
+		dataType: string
+		lineageTag: b1496664-c677-4c83-abe6-e622ed14b903
+		summarizeBy: none
+		sourceColumn: ma_huyen
+
+		annotation SummarizationSetBy = Automatic
+
+	column ma_dantoc
+		dataType: string
+		lineageTag: 9cc83193-c3b7-443b-9489-2858880dc890
+		summarizeBy: none
+		sourceColumn: ma_dantoc
+
+		annotation SummarizationSetBy = Automatic
+
+	column ty_le_nuoc_hop_ve_sinh_pct
+		dataType: double
+		lineageTag: 788cd93f-baa2-4e05-b270-e1a25bcac8b3
+		summarizeBy: sum
+		sourceColumn: ty_le_nuoc_hop_ve_sinh_pct
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column ty_le_nuoc_hop_ve_sinh_pct_flag
+		dataType: string
+		lineageTag: 27e622b6-a01b-4659-8d94-1040c79a28a3
+		summarizeBy: none
+		sourceColumn: ty_le_nuoc_hop_ve_sinh_pct_flag
+
+		annotation SummarizationSetBy = Automatic
+
+	column ty_le_ho_xi_hop_ve_sinh_pct
+		dataType: double
+		lineageTag: aac1190d-cea6-41c7-99f3-c4977fe0bec9
+		summarizeBy: sum
+		sourceColumn: ty_le_ho_xi_hop_ve_sinh_pct
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column ty_le_ho_xi_hop_ve_sinh_pct_flag
+		dataType: string
+		lineageTag: 46f17d95-b6d3-44d4-b280-44a4c97a7df6
+		summarizeBy: none
+		sourceColumn: ty_le_ho_xi_hop_ve_sinh_pct_flag
+
+		annotation SummarizationSetBy = Automatic
+
+	column so_ho_co_internet
+		dataType: double
+		lineageTag: e7234022-3f2c-4736-98f3-5e06c9e469dd
+		summarizeBy: sum
+		sourceColumn: so_ho_co_internet
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column so_ho_co_internet_flag
+		dataType: string
+		lineageTag: b535c78f-30ea-4084-be6a-9191f396c812
+		summarizeBy: none
+		sourceColumn: so_ho_co_internet_flag
+
+		annotation SummarizationSetBy = Automatic
+
+	column so_ho_co_dien_luoi
+		dataType: double
+		lineageTag: a7995cc3-4c7b-4b38-9284-0f9457b9a2c8
+		summarizeBy: sum
+		sourceColumn: so_ho_co_dien_luoi
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column so_ho_co_dien_luoi_flag
+		dataType: string
+		lineageTag: 97f234ad-723f-4358-803d-5bf7218853cf
+		summarizeBy: none
+		sourceColumn: so_ho_co_dien_luoi_flag
+
+		annotation SummarizationSetBy = Automatic
+
+	column ten_huyen
+		dataType: string
+		lineageTag: 869a58ad-fe7f-494a-abb9-509ccab3411c
+		summarizeBy: none
+		sourceColumn: ten_huyen
+
+		annotation SummarizationSetBy = Automatic
+
+	column ten_dantoc
+		dataType: string
+		lineageTag: 4bb02fc0-de32-46a4-a04f-40af13df2db6
+		summarizeBy: none
+		sourceColumn: ten_dantoc
+
+		annotation SummarizationSetBy = Automatic
+
+	column nhom_nguon_goc
+		dataType: string
+		lineageTag: c3548b1f-a1e8-4f9b-9ffd-768583f50da5
+		summarizeBy: none
+		sourceColumn: nhom_nguon_goc
+
+		annotation SummarizationSetBy = Automatic
+
+	column ma_ky
+		dataType: string
+		lineageTag: 28cc499b-bb6a-461e-8759-5e656e56e353
+		summarizeBy: none
+		sourceColumn: ma_ky
+
+		annotation SummarizationSetBy = Automatic
+
+	partition fact_dantocthiet_yeu_huyen = m
+		mode: import
+		source =
+				let
+				    Source = PostgreSQL.Database("localhost:5432", "daklak_socioeconomic"),
+				    daklak_analytics_fact_dantocthiet_yeu_huyen = Source{[Schema="daklak_analytics",Item="fact_dantocthiet_yeu_huyen"]}[Data]
+				in
+				    daklak_analytics_fact_dantocthiet_yeu_huyen
+
+	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Navigation
+

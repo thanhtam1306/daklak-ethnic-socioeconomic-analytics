@@ -1,0 +1,108 @@
+table dim_chitieu_kehoach_ngansach
+	lineageTag: af0c246d-0221-4356-b41b-e917dbf41afd
+
+	column ma_chitieu_kehoach
+		dataType: string
+		lineageTag: ec550695-a54a-4925-b3ab-eb64e4b3cf01
+		summarizeBy: none
+		sourceColumn: ma_chitieu_kehoach
+
+		annotation SummarizationSetBy = Automatic
+
+	column ma_chitieu
+		dataType: string
+		lineageTag: c23952ae-f0b0-4aa0-acc1-bc302465df08
+		summarizeBy: none
+		sourceColumn: ma_chitieu
+
+		annotation SummarizationSetBy = Automatic
+
+	column ten_chitieu
+		dataType: string
+		lineageTag: 57eea377-8e89-4d18-bb6b-656768ef6b19
+		summarizeBy: none
+		sourceColumn: ten_chitieu
+
+		annotation SummarizationSetBy = Automatic
+
+	column giai_doan_chinh_sach
+		dataType: string
+		lineageTag: cf00e532-79e9-4b9c-ab58-e64a0ccc2cb7
+		summarizeBy: none
+		sourceColumn: giai_doan_chinh_sach
+
+		annotation SummarizationSetBy = Automatic
+
+	column ma_chinh_sach
+		dataType: string
+		lineageTag: 087a14a2-765f-4f90-95b8-7780196aed82
+		summarizeBy: none
+		sourceColumn: ma_chinh_sach
+
+		annotation SummarizationSetBy = Automatic
+
+	column don_vi_tinh
+		dataType: string
+		lineageTag: 66be7d61-4f0d-420c-8952-ce6fc0975794
+		summarizeBy: none
+		sourceColumn: don_vi_tinh
+
+		annotation SummarizationSetBy = Automatic
+
+	column chi_tieu_muc_tieu
+		dataType: double
+		lineageTag: 42fc0bd9-f29d-455a-8ece-941bef77c40c
+		summarizeBy: sum
+		sourceColumn: chi_tieu_muc_tieu
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column huong_tot
+		dataType: string
+		lineageTag: 54134afd-0b3f-4f38-ab0c-ac7476f0ecc4
+		summarizeBy: none
+		sourceColumn: huong_tot
+
+		annotation SummarizationSetBy = Automatic
+
+	column don_gia_dinh_muc_vnd
+		dataType: int64
+		formatString: 0
+		lineageTag: 9449f1ae-47b7-476f-a321-3a0973fb247d
+		summarizeBy: sum
+		sourceColumn: don_gia_dinh_muc_vnd
+
+		annotation SummarizationSetBy = Automatic
+
+	column don_gia_trieu_vnd
+		dataType: double
+		lineageTag: 5e63a7cd-66d3-426b-be46-07988c0f5c26
+		summarizeBy: sum
+		sourceColumn: don_gia_trieu_vnd
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column can_cu_phap_ly_dinh_muc
+		dataType: string
+		lineageTag: 2b4c1019-9fa9-4182-8fe9-7e45d0f08bbf
+		summarizeBy: none
+		sourceColumn: can_cu_phap_ly_dinh_muc
+
+		annotation SummarizationSetBy = Automatic
+
+	partition dim_chitieu_kehoach_ngansach = m
+		mode: import
+		source =
+				let
+				    Source = PostgreSQL.Database("localhost:5432", "daklak_socioeconomic"),
+				    daklak_analytics_dim_chitieu_kehoach_ngansach = Source{[Schema="daklak_analytics",Item="dim_chitieu_kehoach_ngansach"]}[Data]
+				in
+				    daklak_analytics_dim_chitieu_kehoach_ngansach
+
+	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Navigation

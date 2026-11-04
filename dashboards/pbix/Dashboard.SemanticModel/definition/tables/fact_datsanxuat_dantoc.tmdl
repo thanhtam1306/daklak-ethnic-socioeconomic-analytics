@@ -1,0 +1,68 @@
+table fact_datsanxuat_dantoc
+	lineageTag: 7694b61d-b4c0-4d87-9738-aa89244e70b0
+
+	column ma_dantoc
+		dataType: string
+		lineageTag: 2cdafcb2-8d1b-4b64-992d-ba97de6fc8c0
+		summarizeBy: none
+		sourceColumn: ma_dantoc
+
+		annotation SummarizationSetBy = Automatic
+
+	column ten_dantoc
+		dataType: string
+		lineageTag: 8ec059af-9847-43fe-895b-30f29717c386
+		summarizeBy: none
+		sourceColumn: ten_dantoc
+
+		annotation SummarizationSetBy = Automatic
+
+	column nhom_nguon_goc
+		dataType: string
+		lineageTag: 9d32a33d-23b8-403c-bd9a-b5666ce0bb37
+		summarizeBy: none
+		sourceColumn: nhom_nguon_goc
+
+		annotation SummarizationSetBy = Automatic
+
+	column dien_tich_dat_sx_bq_m2
+		dataType: double
+		lineageTag: 2943739c-3ea4-40be-b044-62454eb11a05
+		summarizeBy: sum
+		sourceColumn: dien_tich_dat_sx_bq_m2
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column dien_tich_dat_sx_bq_ha
+		dataType: double
+		lineageTag: bcd347c9-3ab4-4b38-b59f-58b814721c70
+		summarizeBy: sum
+		sourceColumn: dien_tich_dat_sx_bq_ha
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column ma_ky
+		dataType: string
+		lineageTag: 5b54940a-5174-42cc-8393-0827af223771
+		summarizeBy: none
+		sourceColumn: ma_ky
+
+		annotation SummarizationSetBy = Automatic
+
+	partition fact_datsanxuat_dantoc = m
+		mode: import
+		source =
+				let
+				    Source = PostgreSQL.Database("localhost:5432", "daklak_socioeconomic"),
+				    daklak_analytics_fact_datsanxuat_dantoc = Source{[Schema="daklak_analytics",Item="fact_datsanxuat_dantoc"]}[Data]
+				in
+				    daklak_analytics_fact_datsanxuat_dantoc
+
+	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Navigation
+

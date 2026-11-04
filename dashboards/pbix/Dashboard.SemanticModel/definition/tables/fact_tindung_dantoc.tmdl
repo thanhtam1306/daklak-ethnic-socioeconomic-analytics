@@ -1,0 +1,98 @@
+table fact_tindung_dantoc
+	lineageTag: 2409dced-5870-48cf-941d-c935bbb6cfde
+
+	column ma_dantoc
+		dataType: string
+		lineageTag: 948d1b9b-1969-42e7-84b3-945bc6c4098c
+		summarizeBy: none
+		sourceColumn: ma_dantoc
+
+		annotation SummarizationSetBy = Automatic
+
+	column ten_dantoc
+		dataType: string
+		lineageTag: 2a1a23c3-344d-41a2-9c39-0e77070a1c7c
+		summarizeBy: none
+		sourceColumn: ten_dantoc
+
+		annotation SummarizationSetBy = Automatic
+
+	column nhom_nguon_goc
+		dataType: string
+		lineageTag: afce37e1-5965-4c0a-a710-41b44b993398
+		summarizeBy: none
+		sourceColumn: nhom_nguon_goc
+
+		annotation SummarizationSetBy = Automatic
+
+	column so_ho_da_vay_von
+		dataType: double
+		lineageTag: 5d824036-f558-4355-8952-4530ea525a98
+		summarizeBy: sum
+		sourceColumn: so_ho_da_vay_von
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column so_ho_co_nhu_cau_vay
+		dataType: double
+		lineageTag: dc2ef9a8-e69d-4c1f-bb2e-7c3ca540de0b
+		summarizeBy: sum
+		sourceColumn: so_ho_co_nhu_cau_vay
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column tong_nhu_cau_ho
+		dataType: double
+		lineageTag: 5d0af625-0ac8-4ac6-834c-64ed4ed50915
+		summarizeBy: sum
+		sourceColumn: tong_nhu_cau_ho
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column ty_le_dap_ung_von_pct
+		dataType: double
+		lineageTag: 83902825-e8b6-4d74-9eaf-3522ff0002a0
+		summarizeBy: sum
+		sourceColumn: ty_le_dap_ung_von_pct
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column khoang_trong_tin_dung_pct
+		dataType: double
+		lineageTag: d30bcfd3-84f3-4364-93e2-bf07e9cde68d
+		summarizeBy: sum
+		sourceColumn: khoang_trong_tin_dung_pct
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column ma_ky
+		dataType: string
+		lineageTag: a935572d-59fb-4c53-9702-9e17b3f44bb2
+		summarizeBy: none
+		sourceColumn: ma_ky
+
+		annotation SummarizationSetBy = Automatic
+
+	partition fact_tindung_dantoc = m
+		mode: import
+		source =
+				let
+				    Source = PostgreSQL.Database("localhost:5432", "daklak_socioeconomic"),
+				    daklak_analytics_fact_tindung_dantoc = Source{[Schema="daklak_analytics",Item="fact_tindung_dantoc"]}[Data]
+				in
+				    daklak_analytics_fact_tindung_dantoc
+
+	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Navigation
+

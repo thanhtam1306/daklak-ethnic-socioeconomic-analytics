@@ -1,0 +1,83 @@
+table dim_ky_baocao
+	lineageTag: af670cda-772a-4293-bb16-08f703e7be4b
+
+	column ma_ky
+		dataType: string
+		lineageTag: ef4a683c-4189-4771-9ce9-4f8826bed2c9
+		summarizeBy: none
+		sortByColumn: thu_tu_ky
+		sourceColumn: ma_ky
+
+		annotation SummarizationSetBy = Automatic
+
+	column thu_tu_ky
+		dataType: int64
+		formatString: 0
+		lineageTag: 0ac07712-84a1-4bd0-96c5-60a329367e1c
+		summarizeBy: none
+		sourceColumn: thu_tu_ky
+
+		annotation SummarizationSetBy = Automatic
+
+	column ten_ky
+		dataType: string
+		lineageTag: 3ef8783c-7156-4db2-b74d-5a41f35cc437
+		summarizeBy: none
+		sortByColumn: thu_tu_ky
+		sourceColumn: ten_ky
+
+		annotation SummarizationSetBy = Automatic
+
+	column nam_moc
+		dataType: int64
+		formatString: 0
+		lineageTag: 325c4b27-c5a8-4981-84d8-e57e9afa356b
+		summarizeBy: none
+		sourceColumn: nam_moc
+
+		annotation SummarizationSetBy = Automatic
+
+	column giai_doan_chinh_sach
+		dataType: string
+		lineageTag: adc1bd63-76d5-4f6e-8efb-ae4393d513de
+		summarizeBy: none
+		sourceColumn: giai_doan_chinh_sach
+
+		annotation SummarizationSetBy = Automatic
+
+	column loai_dieu_tra
+		dataType: string
+		lineageTag: 806592a9-72fc-4abd-b187-a0156b3ed536
+		summarizeBy: none
+		sourceColumn: loai_dieu_tra
+
+		annotation SummarizationSetBy = Automatic
+
+	column is_latest
+		dataType: boolean
+		lineageTag: f2569e00-7399-40a2-b682-7364cffdb529
+		summarizeBy: none
+		sourceColumn: is_latest
+
+		annotation SummarizationSetBy = Automatic
+
+	column ngay_dong_bo_api
+		dataType: dateTime
+		lineageTag: 79723980-93f5-491e-9e6b-4b588607d9e4
+		summarizeBy: none
+		sourceColumn: ngay_dong_bo_api
+
+		annotation SummarizationSetBy = Automatic
+
+	partition dim_ky_baocao = m
+		mode: import
+		source =
+				let
+				    Source = PostgreSQL.Database("localhost:5432", "daklak_socioeconomic"),
+				    daklak_analytics_dim_ky_baocao = Source{[Schema="daklak_analytics",Item="dim_ky_baocao"]}[Data]
+				in
+				    daklak_analytics_dim_ky_baocao
+
+	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Navigation
