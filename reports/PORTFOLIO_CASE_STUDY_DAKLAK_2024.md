@@ -96,9 +96,9 @@ Hệ thống được thiết kế theo chuẩn Star Schema với 3 Bảng Chi�
 
 ---
 
-## 3. Hệ Thống 14 Góc Nhìn Phân Tích KTXH Đột Phá (Core Analytical Insights)
+## 3. Các Phát Hiện Phân Tích KTXH Trọng Tâm (Core Analytical Insights)
 
-Mọi nhận định và phân tích trong dự án được tổ chức theo cấu trúc Kim tự tháp (The Pyramid Principle) và trình bày chuẩn **F-A-I-R (Fact - Analysis - Impact - Recommendation 4W1H)**:
+Mọi nhận định và phân tích trong dự án được tổ chức theo cấu trúc Kim tự tháp (The Pyramid Principle) và trình bày chuẩn **F-A-I-R (Fact - Analysis - Impact - Recommendation 4W1H)**. Lưu ý: Toàn bộ số liệu **Kỳ 2024** là dữ liệu khảo sát thực tế gốc (Ground-Truth); các mốc **Kỳ 2026** dưới đây là **kịch bản giả lập đa kỳ (Synthetic)** dùng để kiểm thử pipeline theo dõi tiến độ.
 
 ### 3.1. Trụ Cột 1: Nghịch Lý Nghèo Đa Chiều & Điểm Nghẽn Hạ Tầng Cứng
 * **Fact**: Huyện Ea Súp đạt 100% xã có đường bê tông đến trung tâm và 100% trạm y tế kiên cố, nhưng tỷ lệ hộ nghèo DTTS bình quân lên tới **96.67%**, cao gấp 4.7 lần mức bình quân toàn tỉnh (20.63%).
@@ -135,19 +135,19 @@ Mọi nhận định và phân tích trong dự án được tổ chức theo c�
 * **Recommendation**: Tỉnh ủy Đắk Lắk ban hành Nghị quyết chuyên đề ưu tiên kiên cố hóa các tuyến tỉnh lộ liên huyện kết nối 28 xã này vào trục Quốc lộ 14 và Quốc lộ 26.
 
 ### 3.6. Chuyên Đề 6: Bảo Tồn Khẩn Cấp Dân Tộc Rất Ít Người (Dân tộc Chơ Ro)
-* **Fact**: Tại kỳ 2024, toàn tỉnh ghi nhận duy nhất **4 hộ dân tộc Chơ Ro** (với 18 nhân khẩu sinh sống tại xã Krông Búk, huyện Krông Bách). 100% số hộ (4/4 hộ) sống trong nhà tạm dột nát, 0% phụ nữ biết chữ.
-* **Policy Impact & Multi-Period Progress**: Dưới sự can thiệp quyết liệt của chính quyền địa phương theo Dự án 9 CTMTQG 1719, sang **Kỳ 2026, 100% số nhà tạm của người Chơ Ro đã được xóa sổ hoàn toàn (về 0 căn)**, 4 hộ đã được cấp nhà đại đoàn kết và tỷ lệ nữ biết chữ tăng vọt lên **50.0%**. Đây là minh chứng thực tế sống động nhất cho hiệu quả can thiệp chính sách dựa trên dữ liệu.
+* **Fact (Thực tế Kỳ 2024)**: Tại kỳ 2024, toàn tỉnh ghi nhận duy nhất **4 hộ dân tộc Chơ Ro** (với 18 nhân khẩu sinh sống tại xã Krông Búk, huyện Krông Bách). 100% số hộ (4/4 hộ) sống trong nhà tạm dột nát, 0% phụ nữ biết chữ.
+* **Kịch bản Giả lập Đa kỳ (Synthetic 2026 - Dùng kiểm thử Pipeline)**: Để kiểm thử khả năng theo dõi tiến độ mục tiêu theo Dự án 9 CTMTQG 1719, dữ liệu giả lập `KY_2026` mô phỏng kịch bản xóa 100% nhà tạm của người Chơ Ro (về 0 căn) và nâng tỷ lệ nữ biết chữ lên **50.0%**. *(Đây là kịch bản kiểm thử mô hình đa kỳ, không phải số liệu điều tra thực tế).*
 
 ### 3.7. Chuyên Đề 7: Tâm Chấn Tệ Nạn Ma Túy & HIV/AIDS Cấp Xã
-* **Fact**: Huyện Ea H'leo chiếm **32.1%** số người nghiện DTTS toàn tỉnh; Huyện Krông Năng chiếm **20.2%** số người nhiễm HIV. Đặc biệt, **Xã Ea Wy** (Ea H'leo) là điểm nóng cực đoan nhất toàn tỉnh với 42 người DTTS nghiện ma túy và 13 người DTTS nhiễm HIV.
+* **Fact (Thực tế Kỳ 2024)**: Huyện Ea H'leo chiếm **32.1%** số người nghiện DTTS toàn tỉnh; Huyện Krông Năng chiếm **20.2%** số người nhiễm HIV. Đặc biệt, **Xã Ea Wy** (Ea H'leo) là điểm nóng cực đoan nhất toàn tỉnh với 42 người DTTS nghiện ma túy và 13 người DTTS nhiễm HIV.
 * **Analysis**: Tuyến đường giáp ranh vùng kinh tế mới và dòng di cư tự do không kiểm soát tạo điều kiện cho các tụ điểm buôn bán ma túy len lỏi vào các thôn buôn vùng sâu.
-* **Multi-period Trend (2024 $\rightarrow$ 2026)**: Tỷ lệ tội phạm và tệ nạn ma túy tại Ea Wy đã giảm được **-19.05%** sau khi tăng cường lực lượng công an chính quy về cắm chốt tại xã.
+* **Kịch bản Giả lập Đa kỳ (`2024 -> 2026`)**: Dữ liệu giả lập `KY_2026` mô phỏng mức giảm **-19.05%** tại Ea Wy nhằm kiểm thử truy vấn `LAG()` theo dõi điểm nóng an ninh xã hội.
 
 ### 3.8. Chuyên Đề 8: Mức Sinh Cực Đoan & Báo Động 1.023 Ca Sinh Con Tại Nhà
-* **Fact**: Kỳ 2024 ghi nhận **1.023 ca sinh con tại nhà** (không đến cơ sở y tế), trong đó người Mông chiếm tới 367 ca (và 131 ca hoàn toàn không có sự hỗ trợ của cán bộ y tế hay cô đỡ thôn bản). Toàn tỉnh có 46.044 phụ nữ DTTS sinh con thứ 3 trở lên.
+* **Fact (Thực tế Kỳ 2024)**: Kỳ 2024 ghi nhận **1.023 ca sinh con tại nhà** (không đến cơ sở y tế), trong đó người Mông chiếm tới 367 ca (và 131 ca hoàn toàn không có sự hỗ trợ của cán bộ y tế hay cô đỡ thôn bản). Toàn tỉnh có 46.044 phụ nữ DTTS sinh con thứ 3 trở lên.
 * **Analysis**: Rào cản phong tục, khoảng cách đường đồi núi xa xôi và thiếu hụt mạng lưới y tế thôn bản am hiểu tiếng dân tộc.
 * **Impact**: Nguy cơ tai biến sản khoa, tử vong mẹ và trẻ sơ sinh tăng cao tại các cụm dân cư vùng cao.
-* **Policy Action (2026)**: Đào tạo khẩn cấp 50 cô đỡ thôn bản người Mông tại chỗ, cấp gói đỡ đẻ sạch và trợ cấp dinh dưỡng 1,5 triệu đồng/ca khi đến trạm y tế sinh con, giúp giảm số ca sinh tại nhà ở người Mông từ 367 ca xuống còn 233 ca vào năm 2026.
+* **Recommendation & Kịch bản Giả lập (2026)**: Đề xuất đào tạo cô đỡ thôn bản người Mông tại chỗ, cấp gói đỡ đẻ sạch và trợ cấp dinh dưỡng 1,5 triệu đồng/ca khi đến trạm y tế sinh con. *(Trong kịch bản giả lập `KY_2026`, số ca sinh tại nhà ở người Mông được mô phỏng giảm từ 367 ca xuống 233 ca để kiểm thử chỉ báo mục tiêu trên Dashboard).*
 
 ---
 
